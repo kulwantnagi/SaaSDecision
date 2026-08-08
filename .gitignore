@@ -35,3 +35,6 @@ next-env.d.ts
 # Scraped data (large temp files)
 scripts/scraped-openalternative.json
 tmp_scraped/
+
+# Open-next build output
+.open-next/
