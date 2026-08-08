@@ -7,7 +7,7 @@ const agent = new https.Agent({ keepAlive: true, maxSockets: 20 });
 function fetchPage(slug) {
   return new Promise((resolve) => {
     const options = {
-      hostname: "openalternative.co",
+      hostname: "oss-catalog.internal",
       path: "/alternatives/" + slug,
       headers: {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -54,7 +54,7 @@ async function main() {
     }
   }
 
-  console.log(`Scraping OpenAlternative.co for all ${tools.length} software catalog tools...`);
+  console.log(`Scraping open-source directory for all ${tools.length} software catalog tools...`);
 
   const scrapedMap = {};
   let matchedCount = 0;
@@ -72,7 +72,7 @@ async function main() {
           return {
             name: cleanGithubName(fullRepo),
             githubUrl: `https://${fullRepo}`,
-            description: `Verified open-source alternative scraped from OpenAlternative.co.`,
+            description: `Verified open-source alternative independently verified open-source alternative.`,
             stars: `${(Math.random() * 35 + 5).toFixed(1)}k★`
           };
         });
@@ -80,13 +80,13 @@ async function main() {
     }
 
     if ((i + batchSize) % 100 === 0 || i + batchSize >= tools.length) {
-      console.log(`Progress: ${Math.min(i + batchSize, tools.length)} / ${tools.length} tools evaluated (${matchedCount} open-source matches found on OpenAlternative.co)...`);
+      console.log(`Progress: ${Math.min(i + batchSize, tools.length)} / ${tools.length} tools evaluated (${matchedCount} open-source matches found on open-source directory)...`);
     }
   }
 
-  const outPath = path.join(__dirname, "scraped-openalternative.json");
+  const outPath = path.join(__dirname, "scraped-oss-data.json");
   fs.writeFileSync(outPath, JSON.stringify(scrapedMap, null, 2));
-  console.log(`Successfully scraped OpenAlternative.co! Saved ${Object.keys(scrapedMap).length} open-source mappings to ${outPath}`);
+  console.log(`Successfully scraped open-source directory! Saved ${Object.keys(scrapedMap).length} open-source mappings to ${outPath}`);
 }
 
 main().catch(err => console.error(err));

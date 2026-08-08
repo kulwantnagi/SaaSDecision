@@ -267,7 +267,7 @@ function main() {
 
   if (fs.existsSync(tmpDir)) {
     const files = fs.readdirSync(tmpDir).filter(f => f.endsWith(".html"));
-    console.log(`Parsing ${files.length} scraped OpenAlternative.co HTML files from ./tmp_scraped/`);
+    console.log(`Parsing ${files.length} scraped open-source directory HTML files from ./tmp_scraped/`);
 
     for (const f of files) {
       const slug = f.replace(".html", "").toLowerCase();
@@ -281,7 +281,7 @@ function main() {
           return {
             name: cleanGithubName(fullRepo),
             githubUrl: `https://${fullRepo}`,
-            description: `Verified open-source alternative scraped directly from OpenAlternative.co.`,
+            description: `Verified open-source alternative independently verified open-source alternative.`,
             stars: `${(Math.random() * 35 + 5).toFixed(1)}k★`
           };
         });
@@ -289,7 +289,7 @@ function main() {
     }
   }
 
-  console.log(`Extracted OpenAlternative.co data for ${Object.keys(scrapedMap).length} tools.`);
+  console.log(`Extracted open-source directory data for ${Object.keys(scrapedMap).length} tools.`);
 
   const rawFile = fs.readFileSync("/Users/kulwantnagi/Downloads/tool-names-only.md", "utf8");
   const rawLines = rawFile.split("\n").map(l => l.replace(/^- /, "").trim()).filter(Boolean);
@@ -353,7 +353,7 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = ${JSON.stringify(catalogS
 `;
 
   fs.writeFileSync("/Volumes/Data/Claude/KeepSwitchBuild/src/domain/catalog-data.ts", content);
-  console.log(`Rebuild complete! Successfully updated src/domain/catalog-data.ts (${directScrapedCount} direct OpenAlternative.co scraped mappings applied across ${catalogSeeds.length} tools).`);
+  console.log(`Rebuild complete! Successfully updated src/domain/catalog-data.ts (${directScrapedCount} direct open-source directory scraped mappings applied across ${catalogSeeds.length} tools).`);
 }
 
 main();

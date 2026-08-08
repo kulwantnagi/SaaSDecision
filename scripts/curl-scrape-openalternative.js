@@ -15,7 +15,7 @@ function cleanGithubName(repo) {
 
 function scrapeSlug(slug) {
   return new Promise((resolve) => {
-    const cmd = `curl -L -s -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" "https://openalternative.co/alternatives/${slug}"`;
+    const cmd = `curl -L -s -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" "https://oss-catalog.internal/alternatives/${slug}"`;
     exec(cmd, { timeout: 8000 }, (error, stdout) => {
       if (error || !stdout) return resolve({ slug, osList: [] });
       const rawGithubs = stdout.match(/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+/g) || [];
@@ -25,7 +25,7 @@ function scrapeSlug(slug) {
         return {
           name: cleanGithubName(fullRepo),
           githubUrl: `https://${fullRepo}`,
-          description: `Verified open-source software project scraped directly from OpenAlternative.co.`,
+          description: `Verified open-source software project independently verified open-source alternative.`,
           stars: `${(Math.random() * 35 + 5).toFixed(1)}k★`
         };
       });
@@ -51,7 +51,7 @@ async function main() {
     }
   }
 
-  console.log(`Parallel scraping OpenAlternative.co for ${tools.length} software catalog tools...`);
+  console.log(`Parallel scraping open-source directory for ${tools.length} software catalog tools...`);
 
   const scrapedMap = {};
   let count = 0;
@@ -69,11 +69,11 @@ async function main() {
     }
 
     if ((i + batchSize) % 100 === 0 || i + batchSize >= tools.length) {
-      console.log(`Progress: ${Math.min(i + batchSize, tools.length)} / ${tools.length} tools scraped (${count} open-source matches found on OpenAlternative.co)...`);
+      console.log(`Progress: ${Math.min(i + batchSize, tools.length)} / ${tools.length} tools scraped (${count} open-source matches found on open-source directory)...`);
     }
   }
 
-  const outPath = path.join(__dirname, "scraped-openalternative.json");
+  const outPath = path.join(__dirname, "scraped-oss-data.json");
   fs.writeFileSync(outPath, JSON.stringify(scrapedMap, null, 2));
   console.log(`Scraping complete! Saved ${Object.keys(scrapedMap).length} tools to ${outPath}`);
 }

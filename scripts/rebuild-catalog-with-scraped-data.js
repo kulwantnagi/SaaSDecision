@@ -251,7 +251,7 @@ function getCategoryKey(name) {
 }
 
 function main() {
-  const scrapedJsonPath = path.join(__dirname, "scraped-openalternative.json");
+  const scrapedJsonPath = path.join(__dirname, "scraped-oss-data.json");
   let scrapedMap = {};
   if (fs.existsSync(scrapedJsonPath)) {
     scrapedMap = JSON.parse(fs.readFileSync(scrapedJsonPath, "utf8"));
@@ -320,7 +320,7 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = ${JSON.stringify(catalogS
 `;
 
   fs.writeFileSync("/Volumes/Data/Claude/KeepSwitchBuild/src/domain/catalog-data.ts", content);
-  console.log(`Rebuild complete! Successfully updated src/domain/catalog-data.ts (${scrapedAppliedCount} direct OpenAlternative.co scraped mappings applied across 980 catalog tools).`);
+  console.log(`Rebuild complete! Successfully updated src/domain/catalog-data.ts (${scrapedAppliedCount} direct open-source directory scraped mappings applied across 980 catalog tools).`);
 }
 
 main();

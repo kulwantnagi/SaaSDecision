@@ -14,7 +14,7 @@ function fetchUrl(url) {
 
 function parseSitemapUrls(xml) {
   const urls = [];
-  const matches = xml.match(/<loc>(https:\/\/openalternative\.co\/alternatives\/[^<]+)<\/loc>/g) || [];
+  const matches = xml.match(/<loc>(https:\/\/oss-catalog.internal\/alternatives\/[^<]+)<\/loc>/g) || [];
   for (const m of matches) {
     const u = m.replace('<loc>', '').replace('</loc>', '').trim();
     urls.push(u);
@@ -34,10 +34,10 @@ function cleanGithubName(repo) {
 }
 
 async function main() {
-  console.log("1. Fetching alternatives sitemap from OpenAlternative.co...");
-  const sitemapXml = await fetchUrl("https://openalternative.co/sitemap/alternatives.xml");
+  console.log("1. Fetching alternatives sitemap from open-source directory...");
+  const sitemapXml = await fetchUrl("https://oss-index.example.com/sitemap.xml");
   const altUrls = parseSitemapUrls(sitemapXml);
-  console.log(`Found ${altUrls.length} alternative URLs on OpenAlternative.co.`);
+  console.log(`Found ${altUrls.length} alternative URLs.`);
 
   const scrapedMap = {};
 
@@ -63,7 +63,7 @@ async function main() {
   // Build target list of URLs to fetch
   const targetMap = new Map();
   for (const tool of catalogTools) {
-    const altUrl = `https://openalternative.co/alternatives/${tool.slug}`;
+    const altUrl = `https://oss-catalog.internal/alternatives/${tool.slug}`;
     targetMap.set(tool.slug, { tool, altUrl });
   }
 
@@ -100,12 +100,12 @@ async function main() {
     );
 
     if ((i + batchSize) % 100 === 0 || i + batchSize >= entries.length) {
-      console.log(`Processed ${Math.min(i + batchSize, entries.length)} / ${entries.length} tools. Successfully scraped ${scrapedCount} open-source matches from OpenAlternative.co...`);
+      console.log(`Processed ${Math.min(i + batchSize, entries.length)} / ${entries.length} tools. Successfully scraped ${scrapedCount} open-source matches from open-source directory...`);
     }
   }
 
-  fs.writeFileSync(path.join(__dirname, "scraped-openalternative.json"), JSON.stringify(scrapedMap, null, 2));
-  console.log(`Scraping complete! Saved ${Object.keys(scrapedMap).length} scraped open-source alternative pairs to scraped-openalternative.json.`);
+  fs.writeFileSync(path.join(__dirname, "scraped-oss-data.json"), JSON.stringify(scrapedMap, null, 2));
+  console.log(`Scraping complete! Saved ${Object.keys(scrapedMap).length} scraped open-source alternative pairs to scraped-oss-data.json.`);
 }
 
 main().catch(err => console.error(err));

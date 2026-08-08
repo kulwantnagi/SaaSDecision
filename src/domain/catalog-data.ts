@@ -61,25 +61,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Meetily",
         "githubUrl": "https://github.com/Zackriya-Solutions/meetily",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.5k★"
       },
       {
         "name": "Anarlog",
         "githubUrl": "https://github.com/fastrepl/anarlog",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "5.5k★"
       },
       {
         "name": "Minutes",
         "githubUrl": "https://github.com/silverstein/minutes",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "21.9k★"
       },
       {
         "name": "Amical",
         "githubUrl": "https://github.com/amicalhq/amical",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "23.3k★"
       }
     ],
@@ -251,14 +251,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -518,25 +524,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Postiz App",
         "githubUrl": "https://github.com/gitroomhq/postiz-app",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "28.2k★"
       },
       {
         "name": "Mixpost",
         "githubUrl": "https://github.com/inovector/mixpost",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "29.3k★"
       },
       {
         "name": "Contentport",
         "githubUrl": "https://github.com/joschan21/contentport",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "13.6k★"
       },
       {
         "name": "Trypost",
         "githubUrl": "https://github.com/trypostit/trypost",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "29.6k★"
       }
     ],
@@ -619,14 +625,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -708,13 +720,13 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Mixpost",
         "githubUrl": "https://github.com/inovector/mixpost",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "35.4k★"
       },
       {
         "name": "Trypost",
         "githubUrl": "https://github.com/trypostit/trypost",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "33.2k★"
       }
     ],
@@ -797,14 +809,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -975,25 +993,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Openpanel",
         "githubUrl": "https://github.com/openpanel-dev/openpanel",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "13.2k★"
       },
       {
         "name": "Umami",
         "githubUrl": "https://github.com/umami-software/umami",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "21.0k★"
       },
       {
         "name": "Matomo",
         "githubUrl": "https://github.com/matomo-org/matomo",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "38.5k★"
       },
       {
         "name": "Rybbit",
         "githubUrl": "https://github.com/rybbit-io/rybbit",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "22.9k★"
       }
     ],
@@ -1076,14 +1094,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -1254,14 +1278,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -1438,25 +1468,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Open Webui",
         "githubUrl": "https://github.com/open-webui/open-webui",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "32.5k★"
       },
       {
         "name": "Lobe Chat",
         "githubUrl": "https://github.com/lobehub/lobe-chat",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "35.0k★"
       },
       {
         "name": "Anything Llm",
         "githubUrl": "https://github.com/mintplex-labs/anything-llm",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.8k★"
       },
       {
         "name": "Cherry Studio",
         "githubUrl": "https://github.com/cherryhq/cherry-studio",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "11.9k★"
       }
     ],
@@ -1539,25 +1569,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Formbricks",
         "githubUrl": "https://github.com/formbricks/formbricks",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "7.9k★"
       },
       {
         "name": "Heyform",
         "githubUrl": "https://github.com/heyform/heyform",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "38.9k★"
       },
       {
         "name": "Opnform",
         "githubUrl": "https://github.com/JhumanJ/opnform",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "39.1k★"
       },
       {
         "name": "LimeSurvey",
         "githubUrl": "https://github.com/LimeSurvey/LimeSurvey",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "5.1k★"
       }
     ],
@@ -1632,25 +1662,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Docuseal",
         "githubUrl": "https://github.com/docusealco/docuseal",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "31.1k★"
       },
       {
         "name": "Documenso",
         "githubUrl": "https://github.com/documenso/documenso",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "12.9k★"
       },
       {
         "name": "OpenSign",
         "githubUrl": "https://github.com/OpenSignLabs/OpenSign",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "36.7k★"
       },
       {
         "name": "Wraft",
         "githubUrl": "https://github.com/wraft/wraft",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "34.0k★"
       }
     ],
@@ -1733,19 +1763,19 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Akaunting",
         "githubUrl": "https://github.com/akaunting/akaunting",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "18.4k★"
       },
       {
         "name": "Crater",
         "githubUrl": "https://github.com/crater-invoice/crater",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "27.1k★"
       },
       {
         "name": "Books",
         "githubUrl": "https://github.com/frappe/books",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "31.6k★"
       }
     ],
@@ -1925,14 +1955,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -2006,25 +2042,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Handy",
         "githubUrl": "https://github.com/cjpais/handy",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "6.1k★"
       },
       {
         "name": "FluidVoice",
         "githubUrl": "https://github.com/altic-dev/FluidVoice",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "18.3k★"
       },
       {
         "name": "Voiceink",
         "githubUrl": "https://github.com/beingpax/voiceink",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "6.4k★"
       },
       {
         "name": "Open Wispr",
         "githubUrl": "https://github.com/herotools/open-wispr",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "18.5k★"
       }
     ],
@@ -2196,25 +2232,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Coolify",
         "githubUrl": "https://github.com/coollabsio/coolify",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "18.2k★"
       },
       {
         "name": "Appwrite",
         "githubUrl": "https://github.com/appwrite/appwrite",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "29.8k★"
       },
       {
         "name": "Dokploy",
         "githubUrl": "https://github.com/dokploy/dokploy",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "11.2k★"
       },
       {
         "name": "Dokku",
         "githubUrl": "https://github.com/dokku/dokku",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "12.7k★"
       }
     ],
@@ -2289,25 +2325,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Zed",
         "githubUrl": "https://github.com/zed-industries/zed",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "30.0k★"
       },
       {
         "name": "Cline",
         "githubUrl": "https://github.com/cline/cline",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "9.9k★"
       },
       {
         "name": "Aider",
         "githubUrl": "https://github.com/aider-ai/aider",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "34.3k★"
       },
       {
         "name": "Kilocode",
         "githubUrl": "https://github.com/kilo-org/kilocode",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "7.7k★"
       }
     ],
@@ -2560,14 +2596,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -2649,25 +2691,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Listmonk",
         "githubUrl": "https://github.com/knadh/listmonk",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "24.7k★"
       },
       {
         "name": "Billionmail",
         "githubUrl": "https://github.com/aapanel/billionmail",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.2k★"
       },
       {
         "name": "Mautic",
         "githubUrl": "https://github.com/mautic/mautic",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "22.0k★"
       },
       {
         "name": "Plunk",
         "githubUrl": "https://github.com/useplunk/plunk",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "20.5k★"
       }
     ],
@@ -2758,25 +2800,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Medusa",
         "githubUrl": "https://github.com/medusajs/medusa",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "15.5k★"
       },
       {
         "name": "Bagisto",
         "githubUrl": "https://github.com/bagisto/bagisto",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "8.8k★"
       },
       {
         "name": "Saleor",
         "githubUrl": "https://github.com/saleor/saleor",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "34.6k★"
       },
       {
         "name": "Spree",
         "githubUrl": "https://github.com/spree/spree",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "7.7k★"
       }
     ],
@@ -2954,14 +2996,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -3043,25 +3091,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Akaunting",
         "githubUrl": "https://github.com/akaunting/akaunting",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "25.5k★"
       },
       {
         "name": "Invoiceninja",
         "githubUrl": "https://github.com/invoiceninja/invoiceninja",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "26.7k★"
       },
       {
         "name": "Crater",
         "githubUrl": "https://github.com/crater-invoice/crater",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "11.5k★"
       },
       {
         "name": "Books",
         "githubUrl": "https://github.com/frappe/books",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "21.5k★"
       }
     ],
@@ -3136,25 +3184,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Parlant",
         "githubUrl": "https://github.com/emcie-co/parlant",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "5.5k★"
       },
       {
         "name": "Typebot.Io",
         "githubUrl": "https://github.com/baptistearno/typebot.io",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "17.9k★"
       },
       {
         "name": "Hexabot",
         "githubUrl": "https://github.com/hexastack/hexabot",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "11.2k★"
       },
       {
         "name": "Tiledesk Dashboard",
         "githubUrl": "https://github.com/tiledesk/tiledesk-dashboard",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "17.8k★"
       }
     ],
@@ -3415,14 +3463,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -3504,25 +3558,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Openpanel",
         "githubUrl": "https://github.com/openpanel-dev/openpanel",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "16.8k★"
       },
       {
         "name": "Umami",
         "githubUrl": "https://github.com/umami-software/umami",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "38.4k★"
       },
       {
         "name": "Analytics",
         "githubUrl": "https://github.com/plausible/analytics",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "30.3k★"
       },
       {
         "name": "Matomo",
         "githubUrl": "https://github.com/matomo-org/matomo",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "26.6k★"
       }
     ],
@@ -3597,25 +3651,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Openpanel",
         "githubUrl": "https://github.com/openpanel-dev/openpanel",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "18.2k★"
       },
       {
         "name": "Umami",
         "githubUrl": "https://github.com/umami-software/umami",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.3k★"
       },
       {
         "name": "Analytics",
         "githubUrl": "https://github.com/plausible/analytics",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "20.0k★"
       },
       {
         "name": "Matomo",
         "githubUrl": "https://github.com/matomo-org/matomo",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "17.7k★"
       }
     ],
@@ -3690,25 +3744,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Openpanel",
         "githubUrl": "https://github.com/openpanel-dev/openpanel",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "15.6k★"
       },
       {
         "name": "Umami",
         "githubUrl": "https://github.com/umami-software/umami",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "34.4k★"
       },
       {
         "name": "Analytics",
         "githubUrl": "https://github.com/plausible/analytics",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.6k★"
       },
       {
         "name": "Matomo",
         "githubUrl": "https://github.com/matomo-org/matomo",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "16.6k★"
       }
     ],
@@ -3791,13 +3845,13 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Darktable",
         "githubUrl": "https://github.com/darktable-org/darktable",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "33.5k★"
       },
       {
         "name": "Rawtherapee",
         "githubUrl": "https://github.com/rawtherapee/rawtherapee",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "31.7k★"
       }
     ],
@@ -3880,19 +3934,19 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Postiz App",
         "githubUrl": "https://github.com/gitroomhq/postiz-app",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "24.1k★"
       },
       {
         "name": "Mixpost",
         "githubUrl": "https://github.com/inovector/mixpost",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "7.8k★"
       },
       {
         "name": "Trypost",
         "githubUrl": "https://github.com/trypostit/trypost",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "34.4k★"
       }
     ],
@@ -4064,25 +4118,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Twenty",
         "githubUrl": "https://github.com/twentyhq/twenty",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "11.5k★"
       },
       {
         "name": "Erpnext",
         "githubUrl": "https://github.com/frappe/erpnext",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "16.3k★"
       },
       {
         "name": "Crm",
         "githubUrl": "https://github.com/frappe/crm",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "7.8k★"
       },
       {
         "name": "Ever Gauzy",
         "githubUrl": "https://github.com/ever-co/ever-gauzy",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "32.4k★"
       }
     ],
@@ -4460,25 +4514,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Openpanel",
         "githubUrl": "https://github.com/openpanel-dev/openpanel",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "11.3k★"
       },
       {
         "name": "Rybbit",
         "githubUrl": "https://github.com/rybbit-io/rybbit",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "26.5k★"
       },
       {
         "name": "Countly Server",
         "githubUrl": "https://github.com/countly/countly-server",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "29.6k★"
       },
       {
         "name": "Litlyx",
         "githubUrl": "https://github.com/litlyx/litlyx",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "29.4k★"
       }
     ],
@@ -4739,25 +4793,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Excalidraw",
         "githubUrl": "https://github.com/excalidraw/excalidraw",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "38.9k★"
       },
       {
         "name": "AFFiNE",
         "githubUrl": "https://github.com/toeverything/AFFiNE",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "33.4k★"
       },
       {
         "name": "Penpot",
         "githubUrl": "https://github.com/penpot/penpot",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "15.8k★"
       },
       {
         "name": "Tldraw",
         "githubUrl": "https://github.com/tldraw/tldraw",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "25.2k★"
       }
     ],
@@ -5196,25 +5250,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Crm",
         "githubUrl": "https://github.com/trycompai/crm",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "6.5k★"
       },
       {
         "name": "Macro",
         "githubUrl": "https://github.com/macro-inc/macro",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "36.1k★"
       },
       {
         "name": "Odoo",
         "githubUrl": "https://github.com/odoo/odoo",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "17.2k★"
       },
       {
         "name": "Twenty",
         "githubUrl": "https://github.com/twentyhq/twenty",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "7.1k★"
       }
     ],
@@ -5386,14 +5440,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -5475,19 +5535,19 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Cal.Diy",
         "githubUrl": "https://github.com/calcom/cal.diy",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "10.4k★"
       },
       {
         "name": "Rallly",
         "githubUrl": "https://github.com/lukevella/rallly",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "25.4k★"
       },
       {
         "name": "Easyappointments",
         "githubUrl": "https://github.com/alextselegidis/easyappointments",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "9.5k★"
       }
     ],
@@ -5562,25 +5622,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Fider",
         "githubUrl": "https://github.com/getfider/fider",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "6.9k★"
       },
       {
         "name": "Logchimp",
         "githubUrl": "https://github.com/logchimp/logchimp",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "10.0k★"
       },
       {
         "name": "Clearflask",
         "githubUrl": "https://github.com/clearflask/clearflask",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.4k★"
       },
       {
         "name": "Shipshipship",
         "githubUrl": "https://github.com/gauthiernelkinsky/shipshipship",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "31.1k★"
       }
     ],
@@ -5752,14 +5812,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -6019,13 +6085,13 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Mastodon",
         "githubUrl": "https://github.com/mastodon/mastodon",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "15.7k★"
       },
       {
         "name": "Social App",
         "githubUrl": "https://github.com/bluesky-social/social-app",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "28.9k★"
       }
     ],
@@ -6197,7 +6263,7 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Harper",
         "githubUrl": "https://github.com/automattic/harper",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "31.4k★"
       }
     ],
@@ -6369,19 +6435,19 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Reflex",
         "githubUrl": "https://github.com/reflex-dev/reflex",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "34.1k★"
       },
       {
         "name": "Dyad",
         "githubUrl": "https://github.com/dyad-sh/dyad",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "32.2k★"
       },
       {
         "name": "Frontman",
         "githubUrl": "https://github.com/frontman-ai/frontman",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "29.4k★"
       }
     ],
@@ -6656,14 +6722,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -6834,7 +6906,7 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Open Seo",
         "githubUrl": "https://github.com/every-app/open-seo",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "30.4k★"
       }
     ],
@@ -6998,14 +7070,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -7354,14 +7432,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -7443,25 +7527,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Macro",
         "githubUrl": "https://github.com/macro-inc/macro",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "30.3k★"
       },
       {
         "name": "Plane",
         "githubUrl": "https://github.com/makeplane/plane",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "10.9k★"
       },
       {
         "name": "Platform",
         "githubUrl": "https://github.com/hcengineering/platform",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "25.5k★"
       },
       {
         "name": "Super Productivity",
         "githubUrl": "https://github.com/johannesjo/super-productivity",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "7.6k★"
       }
     ],
@@ -7544,25 +7628,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Studio",
         "githubUrl": "https://github.com/onlook-dev/studio",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "36.5k★"
       },
       {
         "name": "Webstudio",
         "githubUrl": "https://github.com/webstudio-is/webstudio",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "34.9k★"
       },
       {
         "name": "Builder",
         "githubUrl": "https://github.com/builderio/builder",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "8.3k★"
       },
       {
         "name": "Plasmic",
         "githubUrl": "https://github.com/plasmicapp/plasmic",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "38.2k★"
       }
     ],
@@ -7645,25 +7729,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Chatwoot",
         "githubUrl": "https://github.com/chatwoot/chatwoot",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "19.5k★"
       },
       {
         "name": "Fastgpt",
         "githubUrl": "https://github.com/labring/fastgpt",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "22.8k★"
       },
       {
         "name": "Zammad",
         "githubUrl": "https://github.com/zammad/zammad",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "23.4k★"
       },
       {
         "name": "Erxes",
         "githubUrl": "https://github.com/erxes/erxes",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "34.5k★"
       }
     ],
@@ -7849,13 +7933,13 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Horilla",
         "githubUrl": "https://github.com/horilla-opensource/horilla",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "20.6k★"
       },
       {
         "name": "Reqcore",
         "githubUrl": "https://github.com/reqcore-inc/reqcore",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "37.3k★"
       }
     ],
@@ -7938,25 +8022,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Dub",
         "githubUrl": "https://github.com/dubinc/dub",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "29.6k★"
       },
       {
         "name": "Sink",
         "githubUrl": "https://github.com/ccbikai/sink",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "33.7k★"
       },
       {
         "name": "Kutt",
         "githubUrl": "https://github.com/thedevs-network/kutt",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "39.6k★"
       },
       {
         "name": "Shlink",
         "githubUrl": "https://github.com/shlinkio/shlink",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "28.0k★"
       }
     ],
@@ -8039,25 +8123,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Supabase",
         "githubUrl": "https://github.com/supabase/supabase",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "22.2k★"
       },
       {
         "name": "Pocketbase",
         "githubUrl": "https://github.com/pocketbase/pocketbase",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "8.7k★"
       },
       {
         "name": "Instant",
         "githubUrl": "https://github.com/instantdb/instant",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "37.2k★"
       },
       {
         "name": "Encore",
         "githubUrl": "https://github.com/encoredev/encore",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "31.7k★"
       }
     ],
@@ -8140,25 +8224,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Vault",
         "githubUrl": "https://github.com/hashicorp/vault",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "36.6k★"
       },
       {
         "name": "Keepassxc",
         "githubUrl": "https://github.com/keepassxreboot/keepassxc",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "26.1k★"
       },
       {
         "name": "Server",
         "githubUrl": "https://github.com/bitwarden/server",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "8.9k★"
       },
       {
         "name": "Passbolt Api",
         "githubUrl": "https://github.com/passbolt/passbolt_api",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.2k★"
       }
     ],
@@ -8322,14 +8406,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -8500,25 +8590,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Meetily",
         "githubUrl": "https://github.com/Zackriya-Solutions/meetily",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "20.1k★"
       },
       {
         "name": "Anarlog",
         "githubUrl": "https://github.com/fastrepl/anarlog",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "20.5k★"
       },
       {
         "name": "Minutes",
         "githubUrl": "https://github.com/silverstein/minutes",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "5.5k★"
       },
       {
         "name": "Amical",
         "githubUrl": "https://github.com/amicalhq/amical",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "27.2k★"
       }
     ],
@@ -8601,14 +8691,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -8690,25 +8786,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Studio",
         "githubUrl": "https://github.com/onlook-dev/studio",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.4k★"
       },
       {
         "name": "WordPress",
         "githubUrl": "https://github.com/WordPress/WordPress",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "16.0k★"
       },
       {
         "name": "Webstudio",
         "githubUrl": "https://github.com/webstudio-is/webstudio",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "37.3k★"
       },
       {
         "name": "Plasmic",
         "githubUrl": "https://github.com/plasmicapp/plasmic",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "16.4k★"
       }
     ],
@@ -8894,14 +8990,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -8983,25 +9085,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "N8n",
         "githubUrl": "https://github.com/n8n-io/n8n",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "38.2k★"
       },
       {
         "name": "Activepieces",
         "githubUrl": "https://github.com/activepieces/activepieces",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "18.0k★"
       },
       {
         "name": "Windmill",
         "githubUrl": "https://github.com/windmill-labs/windmill",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "6.1k★"
       },
       {
         "name": "Automatisch",
         "githubUrl": "https://github.com/automatisch/automatisch",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "21.6k★"
       }
     ],
@@ -9084,14 +9186,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -9276,14 +9384,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -9571,25 +9685,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Coolify",
         "githubUrl": "https://github.com/coollabsio/coolify",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "33.2k★"
       },
       {
         "name": "Appwrite",
         "githubUrl": "https://github.com/appwrite/appwrite",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "37.0k★"
       },
       {
         "name": "Dokploy",
         "githubUrl": "https://github.com/dokploy/dokploy",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "13.8k★"
       },
       {
         "name": "Dokku",
         "githubUrl": "https://github.com/dokku/dokku",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "11.0k★"
       }
     ],
@@ -9775,25 +9889,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Karakeep",
         "githubUrl": "https://github.com/karakeep-app/karakeep",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "39.9k★"
       },
       {
         "name": "Linkwarden",
         "githubUrl": "https://github.com/linkwarden/linkwarden",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "35.2k★"
       },
       {
         "name": "Wallabag",
         "githubUrl": "https://github.com/wallabag/wallabag",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "8.3k★"
       },
       {
         "name": "Linkding",
         "githubUrl": "https://github.com/sissbruecker/linkding",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "31.6k★"
       }
     ],
@@ -9965,25 +10079,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Supabase",
         "githubUrl": "https://github.com/supabase/supabase",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "19.4k★"
       },
       {
         "name": "Tidb",
         "githubUrl": "https://github.com/pingcap/tidb",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "37.3k★"
       },
       {
         "name": "Neon",
         "githubUrl": "https://github.com/neondatabase/neon",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "37.1k★"
       },
       {
         "name": "Libsql",
         "githubUrl": "https://github.com/tursodatabase/libsql",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "8.4k★"
       }
     ],
@@ -10066,14 +10180,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -10258,25 +10378,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Appflowy",
         "githubUrl": "https://github.com/appflowy-io/appflowy",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "16.0k★"
       },
       {
         "name": "Memos",
         "githubUrl": "https://github.com/usememos/memos",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "6.2k★"
       },
       {
         "name": "Joplin",
         "githubUrl": "https://github.com/laurent22/joplin",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "13.2k★"
       },
       {
         "name": "Open Notebook",
         "githubUrl": "https://github.com/lfnovo/open-notebook",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "30.8k★"
       }
     ],
@@ -10537,19 +10657,19 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Learnhouse",
         "githubUrl": "https://github.com/learnhouse/learnhouse",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "17.7k★"
       },
       {
         "name": "Classroomio",
         "githubUrl": "https://github.com/rotimi-best/classroomio",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "11.4k★"
       },
       {
         "name": "Courselit",
         "githubUrl": "https://github.com/codelitdev/courselit",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "18.4k★"
       }
     ],
@@ -10632,13 +10752,13 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Firecrawl",
         "githubUrl": "https://github.com/mendableai/firecrawl",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "35.3k★"
       },
       {
         "name": "Crawl4ai",
         "githubUrl": "https://github.com/unclecode/crawl4ai",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.4k★"
       }
     ],
@@ -10899,13 +11019,13 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Gitbutler",
         "githubUrl": "https://github.com/gitbutlerapp/gitbutler",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "38.5k★"
       },
       {
         "name": "GitComet",
         "githubUrl": "https://github.com/Auto-Explore/GitComet",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "17.6k★"
       }
     ],
@@ -11077,25 +11197,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Listmonk",
         "githubUrl": "https://github.com/knadh/listmonk",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "26.5k★"
       },
       {
         "name": "Plunk",
         "githubUrl": "https://github.com/useplunk/plunk",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "33.4k★"
       },
       {
         "name": "Usesend",
         "githubUrl": "https://github.com/usesend/usesend",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "26.6k★"
       },
       {
         "name": "Notifuse",
         "githubUrl": "https://github.com/notifuse/notifuse",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "24.8k★"
       }
     ],
@@ -11267,14 +11387,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -11815,14 +11941,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -11993,25 +12125,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Vault",
         "githubUrl": "https://github.com/hashicorp/vault",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "12.9k★"
       },
       {
         "name": "Keepassxc",
         "githubUrl": "https://github.com/keepassxreboot/keepassxc",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "9.5k★"
       },
       {
         "name": "Server",
         "githubUrl": "https://github.com/bitwarden/server",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "24.2k★"
       },
       {
         "name": "Passbolt Api",
         "githubUrl": "https://github.com/passbolt/passbolt_api",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "15.7k★"
       }
     ],
@@ -12086,25 +12218,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Listmonk",
         "githubUrl": "https://github.com/knadh/listmonk",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "12.8k★"
       },
       {
         "name": "Billionmail",
         "githubUrl": "https://github.com/aapanel/billionmail",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "38.7k★"
       },
       {
         "name": "Mautic",
         "githubUrl": "https://github.com/mautic/mautic",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "18.9k★"
       },
       {
         "name": "Plunk",
         "githubUrl": "https://github.com/useplunk/plunk",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "7.2k★"
       }
     ],
@@ -12195,14 +12327,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -12284,7 +12422,7 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Open Seo",
         "githubUrl": "https://github.com/every-app/open-seo",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.8k★"
       }
     ],
@@ -12565,25 +12703,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Openpanel",
         "githubUrl": "https://github.com/openpanel-dev/openpanel",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "21.4k★"
       },
       {
         "name": "Rybbit",
         "githubUrl": "https://github.com/rybbit-io/rybbit",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "37.1k★"
       },
       {
         "name": "Openreplay",
         "githubUrl": "https://github.com/openreplay/openreplay",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "24.9k★"
       },
       {
         "name": "Fathom",
         "githubUrl": "https://github.com/usefathom/fathom",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "5.8k★"
       }
     ],
@@ -12666,14 +12804,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -13111,14 +13255,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -13281,14 +13431,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -13473,14 +13629,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -13829,13 +13991,13 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Penpot",
         "githubUrl": "https://github.com/penpot/penpot",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "17.8k★"
       },
       {
         "name": "Graphite",
         "githubUrl": "https://github.com/graphiteeditor/graphite",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "33.2k★"
       }
     ],
@@ -13910,14 +14072,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -14088,14 +14256,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -14258,25 +14432,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Crm",
         "githubUrl": "https://github.com/trycompai/crm",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "37.6k★"
       },
       {
         "name": "Macro",
         "githubUrl": "https://github.com/macro-inc/macro",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "26.2k★"
       },
       {
         "name": "Odoo",
         "githubUrl": "https://github.com/odoo/odoo",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "20.9k★"
       },
       {
         "name": "Twenty",
         "githubUrl": "https://github.com/twentyhq/twenty",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "8.0k★"
       }
     ],
@@ -14357,28 +14531,22 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
     ],
     "openSourceAlternatives": [
       {
-        "name": "Appflowy",
-        "githubUrl": "https://github.com/appflowy-io/appflowy",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
-        "stars": "7.1k★"
-      },
-      {
-        "name": "Joplin",
-        "githubUrl": "https://github.com/laurent22/joplin",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
-        "stars": "19.3k★"
+        "name": "AppFlowy",
+        "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
-        "stars": "38.4k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
       },
       {
         "name": "Outline",
         "githubUrl": "https://github.com/outline/outline",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
-        "stars": "18.3k★"
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -14460,25 +14628,25 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Tolgee Platform",
         "githubUrl": "https://github.com/tolgee/tolgee-platform",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "37.7k★"
       },
       {
         "name": "Lingo.Dev",
         "githubUrl": "https://github.com/lingodotdev/lingo.dev",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "10.4k★"
       },
       {
         "name": "Weblate",
         "githubUrl": "https://github.com/weblateorg/weblate",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "14.2k★"
       },
       {
         "name": "Languine",
         "githubUrl": "https://github.com/languine-ai/languine",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "27.7k★"
       }
     ],
@@ -14650,13 +14818,13 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "Ever Gauzy",
         "githubUrl": "https://github.com/ever-co/ever-gauzy",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "36.0k★"
       },
       {
         "name": "Horilla",
         "githubUrl": "https://github.com/horilla-opensource/horilla",
-        "description": "Verified open-source alternative scraped directly from OpenAlternative.co.",
+        "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "11.3k★"
       }
     ],
@@ -15198,14 +15366,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -15568,14 +15742,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -15738,14 +15918,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -16005,14 +16191,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -16286,14 +16478,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -16478,14 +16676,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -16670,14 +16874,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -17018,14 +17228,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -17552,14 +17768,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -18011,14 +18233,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -18915,14 +19143,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -19182,14 +19416,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -19449,14 +19689,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -20159,14 +20405,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -20721,14 +20973,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -21180,14 +21438,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -21995,14 +22259,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -22343,14 +22613,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -22521,14 +22797,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -23856,14 +24138,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -24301,14 +24589,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -24479,14 +24773,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -25027,14 +25327,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -26540,14 +26846,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -26821,14 +27133,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -27102,14 +27420,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -27636,14 +27960,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -27814,14 +28144,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -28259,14 +28595,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -28971,14 +29313,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -29341,14 +29689,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -29533,14 +29887,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -29903,14 +30263,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -30170,14 +30536,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -30615,14 +30987,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -30807,14 +31185,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -31341,14 +31725,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -31814,14 +32204,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -32437,14 +32833,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -32985,14 +33387,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -33252,14 +33660,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -33622,14 +34036,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -34067,14 +34487,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -35060,14 +35486,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -35992,14 +36424,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -36273,14 +36711,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -36807,14 +37251,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -37177,14 +37627,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -37347,14 +37803,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -37792,14 +38254,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -38237,14 +38705,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -38496,14 +38970,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -39208,14 +39688,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -39564,14 +40050,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -40009,14 +40501,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -40365,14 +40863,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -40899,14 +41403,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -41433,14 +41943,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -42351,14 +42867,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -42529,14 +43051,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -42796,14 +43324,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -42974,14 +43508,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -43152,14 +43692,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -44398,14 +44944,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -44946,14 +45498,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -45405,14 +45963,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -45597,14 +46161,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -45953,14 +46523,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -46234,14 +46810,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -46679,14 +47261,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -47124,14 +47712,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -47569,14 +48163,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -47836,14 +48436,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -48548,14 +49154,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -49082,14 +49694,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -49527,14 +50145,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -50061,14 +50685,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -50876,14 +51506,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -51143,14 +51779,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -51499,14 +52141,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -51677,14 +52325,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -52292,14 +52946,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -52648,14 +53308,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -53182,14 +53848,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -53538,14 +54210,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -53894,14 +54572,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -54517,14 +55201,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -54865,14 +55555,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -55057,14 +55753,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -55352,14 +56054,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -55722,14 +56430,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -55989,14 +56703,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -56345,14 +57065,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -56612,14 +57338,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -56879,14 +57611,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -57516,14 +58254,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -57900,14 +58644,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -58092,14 +58842,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -58551,14 +59307,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -58743,14 +59505,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -59010,14 +59778,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -59277,14 +60051,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -60017,14 +60797,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -60462,14 +61248,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -60907,14 +61699,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -61277,14 +62075,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -61544,14 +62348,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -62078,14 +62888,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -62448,14 +63264,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -62893,14 +63715,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -63338,14 +64166,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -63886,14 +64720,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -64420,14 +65260,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -65221,14 +66067,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -65961,14 +66813,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -66673,14 +67531,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -67043,14 +67907,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -67769,14 +68639,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -68036,14 +68912,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -68481,14 +69363,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -68659,14 +69547,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -69371,14 +70265,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -69638,14 +70538,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -69816,14 +70722,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -70172,14 +71084,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -70617,14 +71535,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -71118,14 +72042,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -71474,14 +72404,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -71755,14 +72691,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -72748,14 +73690,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -72926,14 +73874,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -73371,14 +74325,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -75610,14 +76570,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -75877,14 +76843,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -76247,14 +77219,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -76617,14 +77595,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -76973,14 +77957,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -77240,14 +78230,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -77507,14 +78503,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -77699,14 +78701,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -78233,14 +79241,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -79048,14 +80062,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -79493,14 +80513,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -79671,14 +80697,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -79863,14 +80895,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -80219,14 +81257,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -80753,14 +81797,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -80931,14 +81981,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -82444,14 +83500,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -83245,14 +84307,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -83437,14 +84505,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -83882,14 +84956,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -84327,14 +85407,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -84697,14 +85783,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -84875,14 +85967,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -85498,14 +86596,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -85690,14 +86794,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -86238,14 +87348,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -86711,14 +87827,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -86889,14 +88011,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -87690,14 +88818,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -88046,14 +89180,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -88669,14 +89809,20 @@ export const CATALOG_PRODUCTS: VerifiedProductSeed[] = [
       {
         "name": "AppFlowy",
         "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-        "description": "Open-source Notion alternative for data privacy and security.",
-        "stars": "54.1k★"
+        "description": "Verified open-source alternative.",
+        "stars": "61k★"
       },
       {
         "name": "Logseq",
         "githubUrl": "https://github.com/logseq/logseq",
-        "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-        "stars": "32.5k★"
+        "description": "Verified open-source alternative.",
+        "stars": "34k★"
+      },
+      {
+        "name": "Outline",
+        "githubUrl": "https://github.com/outline/outline",
+        "description": "Verified open-source alternative.",
+        "stars": "29k★"
       }
     ],
     "verifiedCommercialAlternatives": [

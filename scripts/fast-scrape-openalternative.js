@@ -16,7 +16,7 @@ function fetchUrl(url) {
 
 function parseSitemapUrls(xml) {
   const urls = [];
-  const matches = xml.match(/<loc>(https:\/\/openalternative\.co\/alternatives\/[^<]+)<\/loc>/g) || [];
+  const matches = xml.match(/<loc>(https:\/\/oss-catalog.internal\/alternatives\/[^<]+)<\/loc>/g) || [];
   for (const m of matches) {
     const u = m.replace('<loc>', '').replace('</loc>', '').trim();
     urls.push(u);
@@ -36,10 +36,10 @@ function cleanGithubName(repo) {
 }
 
 async function main() {
-  console.log("1. Fetching openalternative.co sitemap...");
-  const sitemapXml = await fetchUrl("https://openalternative.co/sitemap/alternatives.xml");
+  console.log("1. Fetching open-source index sitemap...");
+  const sitemapXml = await fetchUrl("https://oss-index.example.com/sitemap.xml");
   const urls = parseSitemapUrls(sitemapXml);
-  console.log(`Found ${urls.length} alternative URLs on OpenAlternative.co.`);
+  console.log(`Found ${urls.length} alternative URLs.`);
 
   const scrapedMap = {};
   let count = 0;
@@ -62,7 +62,7 @@ async function main() {
             return {
               name: repoName,
               githubUrl: `https://${fullRepo}`,
-              description: `Verified open-source alternative on OpenAlternative.co.`,
+              description: `Verified open-source alternative.`,
               stars: `${(Math.random() * 40 + 5).toFixed(1)}k★`
             };
           });
@@ -74,7 +74,7 @@ async function main() {
     console.log(`Progress: ${Math.min(i + chunkSize, urls.length)} / ${urls.length} pages scraped (${count} pairs found)...`);
   }
 
-  const outPath = path.join(__dirname, "scraped-openalternative.json");
+  const outPath = path.join(__dirname, "scraped-oss-data.json");
   fs.writeFileSync(outPath, JSON.stringify(scrapedMap, null, 2));
   console.log(`Finished! Saved ${Object.keys(scrapedMap).length} scraped tools to ${outPath}`);
 }

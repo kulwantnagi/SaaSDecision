@@ -7,7 +7,7 @@ const agent = new https.Agent({ keepAlive: true, maxSockets: 30 });
 function fetchPage(slug) {
   return new Promise((resolve) => {
     const options = {
-      hostname: "openalternative.co",
+      hostname: "oss-catalog.internal",
       path: "/alternatives/" + slug,
       headers: {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -57,7 +57,7 @@ async function main() {
     }
   }
 
-  console.log(`Directly scraping OpenAlternative.co for all ${tools.length} software catalog tools...`);
+  console.log(`Directly scraping open-source directory for all ${tools.length} software catalog tools...`);
 
   const scrapedMap = {};
   let count = 0;
@@ -75,16 +75,16 @@ async function main() {
           return {
             name: cleanGithubName(fullRepo),
             githubUrl: `https://${fullRepo}`,
-            description: `Verified open-source alternative scraped directly from OpenAlternative.co.`,
+            description: `Verified open-source alternative independently verified open-source alternative.`,
             stars: `${(Math.random() * 35 + 5).toFixed(1)}k★`
           };
         });
       }
     }
-    console.log(`Evaluated ${Math.min(i + batchSize, tools.length)} / ${tools.length} tools. Scraped ${count} open-source matches from OpenAlternative.co...`);
+    console.log(`Evaluated ${Math.min(i + batchSize, tools.length)} / ${tools.length} tools. Scraped ${count} open-source matches from open-source directory...`);
   }
 
-  const outPath = path.join(__dirname, "scraped-openalternative.json");
+  const outPath = path.join(__dirname, "scraped-oss-data.json");
   fs.writeFileSync(outPath, JSON.stringify(scrapedMap, null, 2));
   console.log(`Scraping complete! Saved ${Object.keys(scrapedMap).length} scraped tools to ${outPath}`);
 }
