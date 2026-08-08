@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "NODE_OPTIONS='--max-old-space-size=4096' next dev --webpack",
-    "build": "prisma generate && NODE_OPTIONS='--max-old-space-size=4096' opennextjs-cloudflare build",
+    "build": "prisma generate && NODE_OPTIONS='--max-old-space-size=4096' next build",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
     "prisma:generate": "prisma generate",
     "prisma:seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts",
-    "cf-build": "NODE_OPTIONS='--max-old-space-size=4096' opennextjs-cloudflare build"
+    "cf-build": "prisma generate && NODE_OPTIONS='--max-old-space-size=4096' opennextjs-cloudflare build"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.0",
