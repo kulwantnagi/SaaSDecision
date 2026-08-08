@@ -1,0 +1,221 @@
+// Base Prisma Generator & Datasource configuration
+datasource db {
+  provider = "postgresql"
+}
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+enum SoftwareStatus {
+  DRAFT
+  REVIEW
+  PUBLISHED
+  ARCHIVED
+}
+
+enum FeatureAvailability {
+  FULL
+  PARTIAL
+  NONE
+}
+
+enum SourceType {
+  OFFICIAL_WEBSITE
+  OFFICIAL_PRICING
+  OFFICIAL_DOCS
+  GITHUB
+  CHANGELOG
+  REPUTABLE_SECONDARY
+  OTHER
+}
+
+enum RelationshipType {
+  ALTERNATIVE
+  OPEN_SOURCE
+  CHEAPER
+  REPLACEMENT
+  COMPLEMENT
+}
+
+model Category {
+  id          String     @id @default(cuid())
+  name        String
+  slug        String     @unique
+  description String?
+  softwares   Software[]
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+}
+
+model Software {
+  id               String               @id @default(cuid())
+  name             String
+  slug             String               @unique
+  shortDescription String
+  summary          String?
+  websiteUrl       String
+  logoUrl          String?
+  categoryId       String
+  category         Category             @relation(fields: [categoryId], references: [id])
+  status           SoftwareStatus       @default(DRAFT)
+  dataConfidence   Float                @default(1.0)
+  lastVerifiedAt   DateTime             @default(now())
+  createdAt        DateTime             @default(now())
+  updatedAt        DateTime             @updatedAt
+
+  aliases          SoftwareAlias[]
+  assessment       SoftwareAssessment?
+  pricingPlans     PricingPlan[]
+  features         SoftwareFeature[]
+  sources          Source[]
+  outgoingRel      SoftwareRelationship[] @relation("SourceSoftware")
+  incomingRel      SoftwareRelationship[] @relation("TargetSoftware")
+}
+
+model SoftwareAlias {
+  id         String   @id @default(cuid())
+  softwareId String
+  software   Software @relation(fields: [softwareId], references: [id], onDelete: Cascade)
+  alias      String   @unique
+}
+
+model SoftwareAssessment {
+  id                        String   @id @default(cuid())
+  softwareId                String   @unique
+  software                  Software @relation(fields: [softwareId], references: [id], onDelete: Cascade)
+  buildComplexity           Int      @default(3)
+  integrationDependency     Int      @default(3)
+  dataMoat                  Int      @default(3)
+  networkEffects            Int      @default(3)
+  complianceRequirement     Int      @default(3)
+  infrastructureComplexity  Int      @default(3)
+  realtimeCollaboration     Int      @default(3)
+  maintenanceBurden         Int      @default(3)
+  businessCriticality       Int      @default(3)
+  migrationComplexity       Int      @default(3)
+  apiAvailability           Int      @default(3)
+  workflowAutomatable       Int      @default(3)
+  openSourceMaturity        Int      @default(3)
+  alternativeMarketStrength Int      @default(3)
+  dataPortability           Int      @default(3)
+  mobileDependency          Int      @default(3)
+  permissionComplexity      Int      @default(3)
+  reliabilityRequirement    Int      @default(3)
+  vendorLockIn              Int      @default(3)
+  createdAt                 DateTime @default(now())
+  updatedAt                 DateTime @updatedAt
+}
+
+model Feature {
+  id          String            @id @default(cuid())
+  name        String
+  slug        String            @unique
+  category    String?
+  description String?
+  softwares   SoftwareFeature[]
+}
+
+model SoftwareFeature {
+  id           String              @id @default(cuid())
+  softwareId   String
+  software     Software            @relation(fields: [softwareId], references: [id], onDelete: Cascade)
+  featureId    String
+  feature      Feature             @relation(fields: [featureId], references: [id], onDelete: Cascade)
+  availability FeatureAvailability @default(FULL)
+  importance   Int                 @default(3)
+  notes        String?
+
+  @@unique([softwareId, featureId])
+}
+
+model PricingPlan {
+  id             String            @id @default(cuid())
+  softwareId     String
+  software       Software          @relation(fields: [softwareId], references: [id], onDelete: Cascade)
+  name           String
+  currency       String            @default("USD")
+  billingInterval String           @default("monthly")
+  basePrice      Float             @default(0.0)
+  pricePerSeat   Float             @default(0.0)
+  minimumSeats   Int               @default(1)
+  freeTier       Boolean           @default(false)
+  pricingUrl     String?
+  verifiedAt     DateTime          @default(now())
+  snapshots      PricingSnapshot[]
+}
+
+model PricingSnapshot {
+  id            String      @id @default(cuid())
+  pricingPlanId String
+  pricingPlan   PricingPlan @relation(fields: [pricingPlanId], references: [id], onDelete: Cascade)
+  price         Float
+  recordedAt    DateTime    @default(now())
+}
+
+model SoftwareRelationship {
+  id                   String           @id @default(cuid())
+  sourceSoftwareId     String
+  sourceSoftware       Software         @relation("SourceSoftware", fields: [sourceSoftwareId], references: [id], onDelete: Cascade)
+  targetSoftwareId     String
+  targetSoftware       Software         @relation("TargetSoftware", fields: [targetSoftwareId], references: [id], onDelete: Cascade)
+  type                 RelationshipType
+  featureParity        Int              @default(3)
+  migrationDifficulty  Int              @default(3)
+  priceAdvantage       Int              @default(3)
+  technicalDifficulty Int              @default(3)
+  confidence           Float            @default(1.0)
+  notes                String?
+  verifiedAt           DateTime         @default(now())
+}
+
+model Source {
+  id         String     @id @default(cuid())
+  softwareId String
+  software   Software   @relation(fields: [softwareId], references: [id], onDelete: Cascade)
+  type       SourceType
+  title      String
+  url        String
+  publisher  String?
+  checkedAt  DateTime   @default(now())
+  notes      String?
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified Boolean   @default(false)
+  image         String?
+  role          String    @default("user")
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  sessions      Session[]
+  accounts      Account[]
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  token     String   @unique
+  expiresAt DateTime
+  ipAddress String?
+  userAgent String?
+  createdAt DateTime @default(now())
+}
+
+model Account {
+  id           String    @id @default(cuid())
+  userId       String
+  user         User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accountId    String
+  providerId   String
+  accessToken  String?
+  refreshToken String?
+  expiresAt    DateTime?
+  password     String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
