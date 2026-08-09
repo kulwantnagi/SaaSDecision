@@ -61,6 +61,41 @@ export default async function SoftwarePage({
     })),
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `Should you keep or switch from ${prod.name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Based on our deterministic 0-100 evaluation engine, the primary recommendation for ${prod.name} is ${scores.primaryDecision.replace('_', ' ')} with a confidence level of ${scores.confidence}%. ${scores.primaryDecision === 'KEEP' ? `${prod.name} provides high retention value and deep operational integrations.` : `${prod.name} can be optimized or replaced with cheaper commercial or self-hosted alternatives.`}`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What are the top open-source alternatives to ${prod.name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: prod.openSourceAlternatives && prod.openSourceAlternatives.length > 0
+            ? `${prod.name} can be self-hosted using open-source repositories like ${prod.openSourceAlternatives.map(a => a.name).join(', ')}.`
+            : `Open-source self-hosted alternatives allow teams to cut monthly recurring costs by up to 90% by hosting on VPS servers like Hostinger or Hetzner.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `How much does ${prod.name} cost per month?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: prod.pricing && prod.pricing.length > 0
+            ? `${prod.name} plans start at $${prod.pricing[0].basePrice}/mo for the ${prod.pricing[0].name} tier.`
+            : `${prod.name} pricing varies based on team seat count and enterprise feature tiers.`,
+        },
+      },
+    ],
+  };
+
   const alternatives = ALL_SOFTWARE_PRODUCTS.filter((p) => p.slug !== prod.slug && p.categorySlug === prod.categorySlug).slice(0, 3);
   const relatedCategories = Array.from(new Set(ALL_SOFTWARE_PRODUCTS.map((p) => p.categoryName))).slice(0, 6);
 
@@ -69,6 +104,10 @@ export default async function SoftwarePage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
       {/* Breadcrumbs */}
@@ -151,7 +190,22 @@ export default async function SoftwarePage({
               </p>
             </div>
 
-            {/* Moat & Decision Scores — Light Theme */}
+            {/* AEO / AI Search Direct Answer Executive Summary Box */}
+            <div className="bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-5 space-y-2">
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] uppercase font-extrabold bg-[#2b00d9] text-white px-2 py-0.5 rounded">
+                  AEO Direct Answer Summary
+                </span>
+                <span className="text-xs text-[#64748b] font-medium">Updated for 2026 Procurement</span>
+              </div>
+              <p className="text-xs sm:text-sm text-[#0f172a] font-semibold leading-relaxed">
+                <strong>Verdict:</strong> Our deterministic engine scores {prod.name} with a primary verdict of{' '}
+                <span className="font-extrabold text-[#2b00d9] uppercase underline">{scores.primaryDecision.replace('_', ' ')}</span>{' '}
+                ({scores.confidence}% confidence score). {scores.primaryDecision === 'KEEP'
+                  ? `Retain ${prod.name} if your team depends on its proprietary integrations and workflow compliance.`
+                  : `Consider exploring verified alternatives or self-hosting open-source options to optimize annual SaaS spend.`}
+              </p>
+            </div>
             <div id="scores" className="pt-4 border-t border-[#f1f5f9] space-y-5">
               {/* Section header */}
               <div className="flex items-center justify-between">
@@ -466,12 +520,16 @@ export default async function SoftwarePage({
                       </p>
                     </div>
 
-                    <div className="pt-3 border-t border-[#e2e8f0] space-y-2">
+                    <div className="pt-3 border-t border-[#e2e8f0]">
                       <Link
                         href={`/compare/${prod.slug}-vs-${alt.slug}`}
-                        className="block text-center bg-[#2b00d9] hover:bg-[#1f00a8] text-white text-xs font-bold py-2.5 rounded-xl transition shadow-sm"
+                        className="flex items-center justify-center gap-1.5 w-full text-center bg-[#2b00d9] hover:bg-[#1f00a8] text-white text-xs font-bold py-2.5 px-3 rounded-xl transition shadow-sm"
+                        title={`Compare ${prod.name} vs ${alt.name}`}
                       >
-                        Compare {prod.name} vs {alt.name} ↗
+                        <span className="truncate max-w-[90%]">
+                          Compare {prod.name} vs {alt.name}
+                        </span>
+                        <span className="flex-shrink-0">↗</span>
                       </Link>
                     </div>
                   </div>
@@ -492,12 +550,16 @@ export default async function SoftwarePage({
                       </p>
                     </div>
 
-                    <div className="pt-3 border-t border-[#e2e8f0] space-y-2">
+                    <div className="pt-3 border-t border-[#e2e8f0]">
                       <Link
                         href={`/compare/${prod.slug}-vs-${alt.slug}`}
-                        className="block text-center bg-[#2b00d9] hover:bg-[#1f00a8] text-white text-xs font-bold py-2.5 rounded-xl transition shadow-sm"
+                        className="flex items-center justify-center gap-1.5 w-full text-center bg-[#2b00d9] hover:bg-[#1f00a8] text-white text-xs font-bold py-2.5 px-3 rounded-xl transition shadow-sm"
+                        title={`Compare ${prod.name} vs ${alt.name}`}
                       >
-                        Compare {prod.name} vs {alt.name} ↗
+                        <span className="truncate max-w-[90%]">
+                          Compare {prod.name} vs {alt.name}
+                        </span>
+                        <span className="flex-shrink-0">↗</span>
                       </Link>
                     </div>
                   </div>
@@ -523,6 +585,77 @@ export default async function SoftwarePage({
                   </span>
                 </div>
               ))}
+            </div>
+          </section>
+
+          {/* Visible FAQ Accordion Section for SEO & AEO */}
+          <section id="faq" className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-6 shadow-sm">
+            <div className="border-b border-[#f1f5f9] pb-4">
+              <span className="text-[10px] uppercase font-bold text-[#2b00d9] bg-[#eef2ff] px-2.5 py-0.5 rounded-full border border-[#2b00d9]/20">
+                Frequently Asked Questions
+              </span>
+              <h2 className="text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">
+                Frequently Asked Questions about {prod.name}
+              </h2>
+              <p className="text-xs font-medium text-[#475569] mt-1">
+                Verified answers to common decision, pricing, and self-hosting questions for {prod.name}.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <details className="group bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-5 [&_summary::-webkit-details-marker]:none cursor-pointer" open>
+                <summary className="flex items-center justify-between font-extrabold text-sm text-[#0f172a] select-none">
+                  <span>Should you keep or switch from {prod.name}?</span>
+                  <span className="ml-2 text-[#64748b] group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-xs text-[#475569] font-medium leading-relaxed mt-3 pt-3 border-t border-[#e2e8f0]">
+                  Based on our deterministic 0-100 evaluation engine, the primary recommendation for {prod.name} is{' '}
+                  <strong className="text-[#2b00d9] font-extrabold">{scores.primaryDecision.replace('_', ' ')}</strong> with a confidence level of{' '}
+                  <strong className="text-[#0f172a]">{scores.confidence}%</strong>.{' '}
+                  {scores.primaryDecision === 'KEEP'
+                    ? `${prod.name} provides high retention value and deep operational integrations that outweigh potential cost savings.`
+                    : `${prod.name} can be optimized or replaced with lower-cost commercial alternatives or self-hosted open-source software.`}
+                </p>
+              </details>
+
+              <details className="group bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-5 [&_summary::-webkit-details-marker]:none cursor-pointer">
+                <summary className="flex items-center justify-between font-extrabold text-sm text-[#0f172a] select-none">
+                  <span>What are the top open-source alternatives to {prod.name}?</span>
+                  <span className="ml-2 text-[#64748b] group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-xs text-[#475569] font-medium leading-relaxed mt-3 pt-3 border-t border-[#e2e8f0]">
+                  {prod.openSourceAlternatives && prod.openSourceAlternatives.length > 0 ? (
+                    <span>
+                      The top verified open-source alternatives to {prod.name} are{' '}
+                      <strong className="text-[#9333ea]">{prod.openSourceAlternatives.map((a) => a.name).join(', ')}</strong>. You can self-host these on VPS servers like Hostinger or Hetzner for $5 to $20/month.
+                    </span>
+                  ) : (
+                    <span>
+                      Open-source self-hosted alternatives allow engineering teams to cut monthly recurring seat fees by up to 90% by hosting community software on cloud servers.
+                    </span>
+                  )}
+                </p>
+              </details>
+
+              <details className="group bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-5 [&_summary::-webkit-details-marker]:none cursor-pointer">
+                <summary className="flex items-center justify-between font-extrabold text-sm text-[#0f172a] select-none">
+                  <span>How much does {prod.name} cost per month?</span>
+                  <span className="ml-2 text-[#64748b] group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-xs text-[#475569] font-medium leading-relaxed mt-3 pt-3 border-t border-[#e2e8f0]">
+                  {prod.pricing && prod.pricing.length > 0 ? (
+                    <span>
+                      {prod.name} plans start at{' '}
+                      <strong className="text-[#16a34a] font-bold">
+                        {prod.pricing[0].freeTier ? 'Free' : `$${prod.pricing[0].basePrice}/mo`}
+                      </strong>{' '}
+                      for the {prod.pricing[0].name} plan. Higher tier plans scale based on additional seat licensing and enterprise features.
+                    </span>
+                  ) : (
+                    <span>{prod.name} pricing depends on seat licensing tiers and feature requirements.</span>
+                  )}
+                </p>
+              </details>
             </div>
           </section>
 
