@@ -143,10 +143,10 @@ export default async function OpenSourcePage({
           {/* DigitalOcean */}
           <div className="bg-white border border-[#e2e8f0] rounded-2xl p-6 space-y-4 shadow-sm flex flex-col justify-between hover:border-[#0069ff]/30 transition">
             <div className="space-y-3">
-              <div className="flex items-center justify-between">
-                <span className="font-extrabold text-lg text-[#0f172a]">DigitalOcean</span>
-                <span className="text-[10px] bg-[#eef2ff] text-[#0069ff] font-extrabold px-2.5 py-0.5 rounded-full border border-[#93c5fd]">
-                  Developer Standard
+              <div className="flex items-center justify-between gap-2">
+                <span className="font-extrabold text-lg text-[#0f172a] shrink-0">DigitalOcean</span>
+                <span className="text-[10px] bg-[#eef2ff] text-[#0069ff] font-extrabold px-2.5 py-0.5 rounded-full border border-[#93c5fd] whitespace-nowrap shrink-0">
+                  Dev Standard
                 </span>
               </div>
               <p className="text-xs text-[#475569] font-medium leading-relaxed">
