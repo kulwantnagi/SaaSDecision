@@ -567,25 +567,19 @@ function DecisionScoreCard({
       isPrimary ? `border-2 ${badgeBorder} shadow-md` : 'border-[#e2e8f0]'
     }`}>
 
-      {/* Top accent stripe */}
-      {isPrimary && <div className={`absolute top-0 left-0 right-0 h-1 ${barColor}`} />}
-
-      {/* Corner ribbon */}
-      {isPrimary && (
-        <div className="absolute top-0 right-0 w-[72px] h-[72px] overflow-hidden pointer-events-none rounded-tr-2xl">
-          <div
-            className={`absolute -top-1 -right-6 w-[90px] text-center text-[7px] font-extrabold uppercase tracking-widest text-white py-[5px] rotate-45 shadow-sm ${barColor}`}
-          >
-            ★ Top Pick
-          </div>
+      {/* Top Pick bar */}
+      {isPrimary ? (
+        <div className={`absolute top-0 left-0 right-0 flex items-center justify-center gap-1 py-1 text-[9px] font-extrabold uppercase tracking-widest text-white ${barColor}`}>
+          ★ Top Pick
         </div>
-      )}
+      ) : null}
 
       {/* Score number + hint */}
-      <div className="pt-1">
+      <div className={isPrimary ? 'pt-5' : 'pt-1'}>
         <p className="text-[9px] font-bold uppercase tracking-wider text-[#94a3b8] mb-0.5">{hint}</p>
-        <p className={`text-3xl font-extrabold tabular-nums leading-none ${textColor}`}>{score}</p>
-        <p className="text-[9px] text-[#94a3b8] font-medium mt-0.5">/100</p>
+        <p className={`text-3xl font-extrabold tabular-nums leading-none ${textColor}`}>
+          {score}<span className="text-sm font-semibold text-[#94a3b8]">/100</span>
+        </p>
       </div>
 
       {/* Label + progress bar */}
