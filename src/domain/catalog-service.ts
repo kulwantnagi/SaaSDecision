@@ -62,11 +62,13 @@ export function searchCatalog(query: string, limit = 20): VerifiedProductSeed[] 
   if (!q) return [];
 
   return ALL_SOFTWARE_PRODUCTS.filter((p) => {
-    const matchName = p.name.toLowerCase().includes(q);
-    const matchSlug = p.slug.toLowerCase().includes(q);
-    const matchCat = p.categoryName.toLowerCase().includes(q);
-    const matchDesc = p.shortDescription.toLowerCase().includes(q);
-    const matchAlias = p.aliases.some((a) => a.toLowerCase().includes(q));
-    return matchName || matchSlug || matchCat || matchDesc || matchAlias;
+    if (!p) return false;
+    const matchName = p.name ? p.name.toLowerCase().includes(q) : false;
+    const matchSlug = p.slug ? p.slug.toLowerCase().includes(q) : false;
+    const matchCat = p.categoryName ? p.categoryName.toLowerCase().includes(q) : false;
+    const matchDesc = p.shortDescription ? p.shortDescription.toLowerCase().includes(q) : false;
+    const matchSummary = p.summary ? p.summary.toLowerCase().includes(q) : false;
+    const matchAlias = Array.isArray(p.aliases) ? p.aliases.some((a) => typeof a === 'string' && a.toLowerCase().includes(q)) : false;
+    return matchName || matchSlug || matchCat || matchDesc || matchSummary || matchAlias;
   }).slice(0, limit);
 }

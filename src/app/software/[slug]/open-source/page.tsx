@@ -95,6 +95,110 @@ export default async function OpenSourcePage({
           )}
         </div>
       </section>
+
+      {/* Self-Hosting VPS Provider Recommendation Guide */}
+      <section className="bg-gradient-to-br from-white to-[#f8fafc] border border-[#e2e8f0] rounded-3xl p-8 space-y-6 shadow-sm">
+        <div className="border-b border-[#e2e8f0] pb-4">
+          <span className="text-[10px] uppercase font-extrabold tracking-wider bg-[#eef2ff] text-[#2b00d9] px-3 py-1 rounded-full border border-[#2b00d9]/20">
+            Hosting Setup Guide
+          </span>
+          <h2 className="text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">
+            Recommended VPS Servers for Self-Hosting
+          </h2>
+          <p className="text-xs text-[#64748b] font-medium mt-1">
+            To self-host open-source alternatives to {prod.name}, you need a Virtual Private Server (VPS) with 100% root access, Docker support, and dedicated IPv4 addresses.
+          </p>
+        </div>
+
+        <div className="grid gap-5 md:grid-cols-3">
+          {/* Hostinger */}
+          <div className="bg-white border border-[#e2e8f0] rounded-2xl p-6 space-y-4 shadow-sm flex flex-col justify-between hover:border-[#2b00d9]/30 transition">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="font-extrabold text-lg text-[#0f172a]">Hostinger VPS</span>
+                <span className="text-[10px] bg-[#f0fdf4] text-[#16a34a] font-extrabold px-2.5 py-0.5 rounded-full border border-[#86efac]">
+                  ★ Best Value
+                </span>
+              </div>
+              <p className="text-xs text-[#475569] font-medium leading-relaxed">
+                Ultra-fast KVM VPS with NVMe storage, 1-click Docker deployment, automatic weekly backups, and global server locations.
+              </p>
+              <div className="text-xs space-y-1 font-semibold text-[#334155] pt-1">
+                <div className="flex items-center gap-1.5 text-[#16a34a]">✓ NVMe SSD Storage</div>
+                <div className="flex items-center gap-1.5 text-[#16a34a]">✓ 1-Click Docker Templates</div>
+                <div className="flex items-center gap-1.5 text-[#16a34a]">✓ Starting at $4.99/mo</div>
+              </div>
+            </div>
+
+            <a
+              href="https://hostinger.in/cloud-hosting"
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="block w-full text-center bg-[#2b00d9] hover:bg-[#1f00a8] text-white font-bold text-xs py-3 rounded-xl transition shadow-md shadow-[#2b00d9]/20"
+            >
+              Deploy on Hostinger ↗
+            </a>
+          </div>
+
+          {/* DigitalOcean */}
+          <div className="bg-white border border-[#e2e8f0] rounded-2xl p-6 space-y-4 shadow-sm flex flex-col justify-between hover:border-[#0069ff]/30 transition">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="font-extrabold text-lg text-[#0f172a]">DigitalOcean</span>
+                <span className="text-[10px] bg-[#eef2ff] text-[#0069ff] font-extrabold px-2.5 py-0.5 rounded-full border border-[#93c5fd]">
+                  Developer Standard
+                </span>
+              </div>
+              <p className="text-xs text-[#475569] font-medium leading-relaxed">
+                Developer-first Droplets with 1-click App Marketplace for Docker, PostgreSQL, and instant cloud scaling.
+              </p>
+              <div className="text-xs space-y-1 font-semibold text-[#334155] pt-1">
+                <div className="flex items-center gap-1.5 text-[#16a34a]">✓ 1-Click Marketplace Apps</div>
+                <div className="flex items-center gap-1.5 text-[#16a34a]">✓ Predictable Monthly Billing</div>
+                <div className="flex items-center gap-1.5 text-[#16a34a]">✓ Starting at $4.00/mo</div>
+              </div>
+            </div>
+
+            <a
+              href="https://www.digitalocean.com"
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="block w-full text-center bg-[#0069ff] hover:bg-[#0052cc] text-white font-bold text-xs py-3 rounded-xl transition shadow-md shadow-[#0069ff]/20"
+            >
+              Deploy on DigitalOcean ↗
+            </a>
+          </div>
+
+          {/* Hosting.com */}
+          <div className="bg-white border border-[#e2e8f0] rounded-2xl p-6 space-y-4 shadow-sm flex flex-col justify-between hover:border-[#d97706]/30 transition">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="font-extrabold text-lg text-[#0f172a]">Hosting.com</span>
+                <span className="text-[10px] bg-[#fffbeb] text-[#d97706] font-extrabold px-2.5 py-0.5 rounded-full border border-[#fde68a]">
+                  Enterprise Cloud
+                </span>
+              </div>
+              <p className="text-xs text-[#475569] font-medium leading-relaxed">
+                High-availability managed cloud hosting with 99.99% uptime SLAs, enterprise security, and 24/7 dedicated support.
+              </p>
+              <div className="text-xs space-y-1 font-semibold text-[#334155] pt-1">
+                <div className="flex items-center gap-1.5 text-[#16a34a]">✓ 99.99% Uptime Guarantee</div>
+                <div className="flex items-center gap-1.5 text-[#16a34a]">✓ Enterprise DDoS Mitigation</div>
+                <div className="flex items-center gap-1.5 text-[#16a34a]">✓ Dedicated Managed VPS</div>
+              </div>
+            </div>
+
+            <a
+              href="https://hosting.com"
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="block w-full text-center bg-[#0f172a] hover:bg-[#1e293b] text-white font-bold text-xs py-3 rounded-xl transition shadow-md"
+            >
+              Explore Hosting.com ↗
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
