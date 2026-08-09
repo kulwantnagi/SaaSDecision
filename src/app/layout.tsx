@@ -73,31 +73,8 @@ export default function RootLayout({
         <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-[#e2e8f0]">
           <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-8 h-8 rounded-xl bg-[#2b00d9] flex items-center justify-center text-white font-extrabold text-sm shadow-md shadow-[#2b00d9]/25 group-hover:scale-105 transition-transform overflow-hidden p-0.5">
-                <svg viewBox="0 0 512 512" className="w-full h-full text-white">
-                  <path fill="currentColor" d="
-                    M 331 170
-                    C 331 115 291 75 241 75
-                    C 191 75 151 115 151 165
-                    L 211 165
-                    C 211 142 224 128 241 128
-                    C 258 128 274 145 274 170
-                    C 274 198 251 218 221 242
-                    C 176 272 151 300 151 345
-                    L 211 345
-                    C 211 318 231 298 268 270
-                    C 311 240 331 208 331 170
-                    Z" />
-                  <path fill="currentColor" d="
-                    M 211 345
-                    C 211 380 241 400 276 400
-                    C 311 400 336 375 336 340
-                    L 391 340
-                    C 391 405 341 455 276 455
-                    C 211 455 151 415 151 345
-                    Z" transform="translate(0, -10)" />
-                  <circle cx="276" cy="420" r="22" fill="#16a34a" stroke="#ffffff" strokeWidth="4" />
-                </svg>
+              <div className="w-8 h-8 rounded-xl bg-[#2b00d9] flex items-center justify-center text-white font-extrabold text-sm shadow-md shadow-[#2b00d9]/25 group-hover:scale-105 transition-transform">
+                S
               </div>
               <span className="font-extrabold text-lg tracking-tight text-[#0f172a]">
                 SaaS<span className="text-[#2b00d9]"> Decision</span>
@@ -148,31 +125,8 @@ export default function RootLayout({
         <footer className="relative z-10 border-t border-[#e2e8f0] bg-white py-10 text-xs text-[#64748b]">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded-lg bg-[#2b00d9] flex items-center justify-center text-white font-extrabold text-[10px] shadow-xs overflow-hidden p-0.5">
-                <svg viewBox="0 0 512 512" className="w-full h-full text-white">
-                  <path fill="currentColor" d="
-                    M 331 170
-                    C 331 115 291 75 241 75
-                    C 191 75 151 115 151 165
-                    L 211 165
-                    C 211 142 224 128 241 128
-                    C 258 128 274 145 274 170
-                    C 274 198 251 218 221 242
-                    C 176 272 151 300 151 345
-                    L 211 345
-                    C 211 318 231 298 268 270
-                    C 311 240 331 208 331 170
-                    Z" />
-                  <path fill="currentColor" d="
-                    M 211 345
-                    C 211 380 241 400 276 400
-                    C 311 400 336 375 336 340
-                    L 391 340
-                    C 391 405 341 455 276 455
-                    C 211 455 151 415 151 345
-                    Z" transform="translate(0, -10)" />
-                  <circle cx="276" cy="420" r="22" fill="#16a34a" stroke="#ffffff" strokeWidth="4" />
-                </svg>
+              <div className="w-5 h-5 rounded-lg bg-[#2b00d9] flex items-center justify-center text-[10px] text-white font-bold">
+                S
               </div>
               <span className="font-bold text-[#0f172a]">SaaS Decision</span>
               <span>— Open Source SaaS Alternatives</span>

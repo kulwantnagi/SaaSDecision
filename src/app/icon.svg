@@ -1,57 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <defs>
-    <!-- Deep Indigo SaaS Gradient Background -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="0%" stop-color="#3b82f6" />
       <stop offset="50%" stop-color="#2b00d9" />
       <stop offset="100%" stop-color="#1e0096" />
     </linearGradient>
-
-    <!-- Metallic Glyph Gradient -->
-    <linearGradient id="glyphGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#e0e7ff" />
-    </linearGradient>
-
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#090526" flood-opacity="0.5" />
-    </filter>
   </defs>
 
-  <!-- Squircle Container -->
-  <rect width="512" height="512" rx="124" fill="url(#bgGrad)" />
+  <!-- Background Squircle -->
+  <rect width="512" height="512" rx="120" fill="url(#bgGrad)" />
 
-  <!-- Subtle Inner Glass Ring -->
-  <rect x="24" y="24" width="464" height="464" rx="104" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="5" />
-
-  <!-- Combined S + Question Mark (?) Hybrid Brandmark -->
-  <g filter="url(#softShadow)" transform="translate(256, 240)">
-    <!-- Top Arc & Sweeping S-Curve resembling Question Mark Head -->
-    <path fill="url(#glyphGrad)" d="
-      M 75 -70
-      C 75 -125, 35 -165, -15 -165
-      C -65 -165, -105 -125, -105 -75
-      L -45 -75
-      C -45 -98, -32 -112, -15 -112
-      C 2 -112, 18 -95, 18 -70
-      C 18 -42, -5 -22, -35 2
-      C -80 32, -105 60, -105 105
-      L -45 105
-      C -45 78, -25 58, 12 30
-      C 55 0, 75 -32, 75 -70
-      Z" />
-
-    <!-- Lower Hook of S -->
-    <path fill="url(#glyphGrad)" d="
-      M -45 105
-      C -45 140, -15 160, 20 160
-      C 55 160, 80 135, 80 100
-      L 135 100
-      C 135 165, 85 215, 20 215
-      C -45 215, -105 175, -105 105
-      Z" transform="translate(0, -10)" />
-
-    <!-- Decision Dot / Question Mark Dot Accent (Green KEEP Dot) -->
-    <circle cx="20" cy="180" r="22" fill="#16a34a" stroke="#ffffff" stroke-width="4" />
-  </g>
+  <!-- Clean Centered 'S' Letter - Maximum Edge-to-Edge Size -->
+  <text
+    x="256"
+    y="425"
+    font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif"
+    font-size="500"
+    font-weight="900"
+    fill="#ffffff"
+    text-anchor="middle"
+  >S</text>
 </svg>
