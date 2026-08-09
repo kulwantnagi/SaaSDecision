@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ALL_SOFTWARE_PRODUCTS, searchCatalog } from '@/domain/catalog-service';
 import { evaluateSoftware } from '@/domain/decision-engine';
 import DecisionGlossarySection from '@/components/common/DecisionGlossarySection';
+import RealtimeSearchBox from '@/components/common/RealtimeSearchBox';
 
 const CATEGORY_OPTIONS = [
   { label: 'All Software', value: '' },
@@ -79,25 +80,8 @@ export default async function HomePage({
           <strong className="text-[#dc2626] font-bold">BUILD</strong> your own.
         </p>
 
-        {/* Soft Modern Search Bar */}
-        <form method="GET" action="/" className="relative max-w-2xl mx-auto pt-2">
-          {category && <input type="hidden" name="category" value={category} />}
-          <div className="relative">
-            <input
-              type="text"
-              name="q"
-              defaultValue={q}
-              placeholder={`Search across ${ALL_SOFTWARE_PRODUCTS.length} software tools (e.g. Granola, Wispr Flow, ChatGPT, Cursor)...`}
-              className="w-full bg-white border border-[#e2e8f0] rounded-2xl px-6 py-4 text-sm text-[#0f172a] placeholder-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition shadow-lg shadow-[#0f172a]/5"
-            />
-            <button
-              type="submit"
-              className="absolute right-2.5 top-2.5 bg-[#2b00d9] hover:bg-[#1f00a8] text-white font-bold px-6 py-2.5 rounded-xl text-xs transition shadow-md shadow-[#2b00d9]/25"
-            >
-              Evaluate
-            </button>
-          </div>
-        </form>
+        {/* Real-time Dynamic Search Bar */}
+        <RealtimeSearchBox initialQuery={q} totalCount={ALL_SOFTWARE_PRODUCTS.length} category={category} />
       </section>
 
       {/* Metric Highlights */}
