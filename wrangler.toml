@@ -2,6 +2,7 @@ name = "keepswitchbuild"
 main = ".open-next/worker.js"
 compatibility_date = "2026-08-01"
 compatibility_flags = ["nodejs_compat"]
+account_id = "9a432939f7e519d50ed9894a9a6a4aec"
 
 [site]
 bucket = ".open-next/assets"
