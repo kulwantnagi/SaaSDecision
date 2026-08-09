@@ -57,16 +57,22 @@
     ],
     "openSourceAlternatives": [
       {
-        "name": "Gitea",
-        "githubUrl": "https://github.com/go-gitea/gitea",
-        "description": "Lightweight self-hosted Git service.",
-        "stars": "46k★"
+        "name": "Anarlog",
+        "githubUrl": "https://github.com/fastrepl/anarlog",
+        "description": "Open-source AI meeting notepad and recorder built for privacy-first meeting notes.",
+        "stars": "1.1k★"
       },
       {
-        "name": "Coolify",
-        "githubUrl": "https://github.com/coollabsio/coolify",
-        "description": "Open-source self-hostable Vercel alternative.",
-        "stars": "37k★"
+        "name": "Quill Meetings",
+        "githubUrl": "https://www.quillmeetings.com/",
+        "description": "Open-source meeting copilot that records, transcribes, and summarizes your meetings.",
+        "stars": "Open Source"
+      },
+      {
+        "name": "Meetily",
+        "githubUrl": "https://github.com/Zackriya-Solutions/meetily",
+        "description": "Open-source desktop app for recording and summarizing meetings with local AI models.",
+        "stars": "850★"
       }
     ],
     "verifiedCommercialAlternatives": [
@@ -146,16 +152,40 @@
     ],
     "openSourceAlternatives": [
       {
-        "name": "Gitea",
-        "githubUrl": "https://github.com/go-gitea/gitea",
-        "description": "Lightweight self-hosted Git service.",
-        "stars": "46k★"
+        "name": "Handy",
+        "githubUrl": "https://github.com/cjpais/Handy",
+        "description": "Free, open-source macOS menu bar app for offline speech-to-text powered by Whisper.",
+        "stars": "1.2k★"
       },
       {
-        "name": "Coolify",
-        "githubUrl": "https://github.com/coollabsio/coolify",
-        "description": "Open-source self-hostable Vercel alternative.",
-        "stars": "37k★"
+        "name": "OpenWhispr",
+        "githubUrl": "https://github.com/OpenWhispr/openwhispr",
+        "description": "Open-source desktop client for dictation and voice typing using local Whisper models or APIs.",
+        "stars": "1.5k★"
+      },
+      {
+        "name": "Buzz",
+        "githubUrl": "https://github.com/chidiwilliams/buzz",
+        "description": "Transcribe and translate audio offline on your personal computer using OpenAI's Whisper.",
+        "stars": "14k★"
+      },
+      {
+        "name": "dsnote",
+        "githubUrl": "https://github.com/mkiol/dsnote",
+        "description": "Open-source note-taking and offline voice/speech-to-text application.",
+        "stars": "800★"
+      },
+      {
+        "name": "FluidVoice",
+        "githubUrl": "https://github.com/altic-dev/FluidVoice",
+        "description": "Open-source dictation and speech recognition tool for system-wide voice input.",
+        "stars": "500★"
+      },
+      {
+        "name": "Parrot AI",
+        "githubUrl": "https://tryparrot.app/",
+        "description": "Desktop voice dictation app designed for fast local AI dictation.",
+        "stars": "Open Source"
       }
     ],
     "verifiedCommercialAlternatives": [

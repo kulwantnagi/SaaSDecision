@@ -136,17 +136,18 @@ export default async function SoftwarePage({
                 <p className="text-[#475569] text-sm md:text-base leading-relaxed font-medium">{prod.shortDescription}</p>
               </div>
 
-              <div className="bg-[#f8fafc] border border-[#e2e8f0] p-6 rounded-2xl text-center min-w-[260px] space-y-2">
-                <span className="text-[11px] text-[#64748b] uppercase font-bold tracking-wider block">
-                  Primary Recommendation
+              <div className="relative overflow-hidden bg-gradient-to-br from-[#eff6ff] via-[#eef2ff] to-[#f3e8ff] border border-[#c7d2fe] p-6 rounded-2xl text-center min-w-[260px] space-y-2.5 shadow-md shadow-[#2b00d9]/5">
+                <div className="absolute -top-12 -right-12 w-32 h-32 bg-[#2b00d9]/10 rounded-full blur-2xl pointer-events-none" />
+                <span className="text-[11px] text-[#2b00d9] uppercase font-extrabold tracking-wider block bg-white/70 backdrop-blur-xs py-1 px-3 rounded-full border border-[#a5b4fc]/40 w-fit mx-auto shadow-2xs">
+                  ★ Primary Recommendation
                 </span>
-                <span className="text-3xl font-black text-[#2b00d9] block tracking-tight">
+                <span className="text-3xl font-black text-[#2b00d9] block tracking-tight pt-1">
                   {scores.primaryDecision.replace('_', ' ')}
                 </span>
-                <span className="text-xs text-[#16a34a] font-bold block">
-                  {scores.confidence}% Confidence Match
+                <span className="text-xs text-[#16a34a] font-extrabold bg-[#f0fdf4] text-[#15803d] px-3 py-1 rounded-full inline-block border border-[#bbf7d0]">
+                  ✓ {scores.confidence}% Confidence Match
                 </span>
-                <div className="pt-2 border-t border-[#e2e8f0] text-center text-xs font-medium text-[#475569] space-y-1">
+                <div className="pt-3 border-t border-[#c7d2fe]/60 text-center text-xs font-medium text-[#334155] space-y-1 relative z-10">
                   <span className="font-extrabold text-[#0f172a] block">Why {scores.primaryDecision.replace('_', ' ')}?</span>
                   <p className="leading-relaxed">
                     {scores.primaryDecision === 'KEEP'
@@ -160,14 +161,16 @@ export default async function SoftwarePage({
                       : `Custom building a replacement for ${prod.name} is feasible due to low build complexity (${prod.assessment.buildComplexity}/5).`}
                   </p>
                 </div>
-                <a
-                  href={prod.websiteUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-2 block w-full text-center bg-[#2b00d9] hover:bg-[#1f00a8] text-white font-bold text-xs py-2.5 px-4 rounded-xl transition shadow-md shadow-[#2b00d9]/25"
-                >
-                  Visit Official Site ↗
-                </a>
+                <div className="pt-2">
+                  <a
+                    href={prod.websiteUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block w-full text-center bg-gradient-to-r from-[#2b00d9] to-[#1f00a8] hover:from-[#1f00a8] hover:to-[#17007e] text-white font-extrabold text-xs py-2.5 px-4 rounded-xl transition-all shadow-xs hover:shadow-md active:scale-95"
+                  >
+                    Visit Official Site ↗
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -255,6 +258,59 @@ export default async function SoftwarePage({
                   <span className="text-[10px] font-bold text-[#2b00d9] tabular-nums">{scores.confidence}% confidence</span>
                 </div>
               </div>
+            </div>
+          </section>
+
+          {/* Open-Source Alternatives */}
+          <section id="open-source" className="relative overflow-hidden bg-gradient-to-br from-[#eff6ff] via-[#eef2ff] to-[#e0e7ff] border border-[#a5b4fc]/60 rounded-3xl p-8 space-y-6 shadow-md shadow-[#2b00d9]/5">
+            <div className="absolute -top-24 -right-24 w-64 h-64 bg-[#2b00d9]/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="flex justify-between items-center border-b border-[#c7d2fe] pb-4 relative z-10">
+              <div>
+                <span className="text-[10px] uppercase font-extrabold text-[#2b00d9] bg-[#eef2ff] px-3 py-1 rounded-full border border-[#818cf8]/40 shadow-xs">
+                  ⚡ Zero Subscription Fee
+                </span>
+                <h2 className="text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">Open-Source Alternatives to {prod.name}</h2>
+              </div>
+              <Link href={`/software/${prod.slug}/open-source`} className="text-xs text-[#2b00d9] font-extrabold hover:text-[#1f00a8] hover:underline bg-white/80 backdrop-blur-xs px-3.5 py-2 rounded-xl border border-[#a5b4fc]/50 shadow-2xs transition">
+                Self-Host Guide ↗
+              </Link>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2 relative z-10">
+              {prod.openSourceAlternatives && prod.openSourceAlternatives.length > 0 ? (
+                prod.openSourceAlternatives.map((os, idx) => (
+                  <div key={idx} className="bg-white/85 backdrop-blur-sm border border-[#c7d2fe] p-6 rounded-2xl space-y-3 shadow-xs hover:shadow-md hover:border-[#818cf8] transition-all duration-200">
+                    <div className="flex justify-between items-start">
+                      <div>
+                        <span className="text-[10px] font-extrabold text-[#2b00d9] uppercase tracking-wider">Verified Repository</span>
+                        <h3 className="text-lg font-extrabold text-[#0f172a] mt-0.5">{os.name}</h3>
+                      </div>
+                      <span className="text-xs bg-[#eef2ff] text-[#2b00d9] px-2.5 py-1 rounded-full font-extrabold border border-[#c7d2fe]">
+                        {os.stars}
+                      </span>
+                    </div>
+                    <p className="text-xs text-[#475569] leading-relaxed font-medium">{os.description}</p>
+                    <div className="pt-3 flex justify-between items-center border-t border-[#e0e7ff]">
+                      <span className="text-xs text-[#16a34a] font-extrabold flex items-center gap-1">
+                        <span>🏷️</span> Est. Hosting: $5 - $20/mo
+                      </span>
+                      <a
+                        href={os.githubUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="bg-gradient-to-r from-[#2b00d9] to-[#1f00a8] hover:from-[#1f00a8] hover:to-[#17007e] text-white font-bold text-xs px-4 py-2 rounded-xl transition-all shadow-xs hover:shadow-md active:scale-95"
+                      >
+                        GitHub Repo ↗
+                      </a>
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <div className="bg-white/85 backdrop-blur-sm border border-[#c7d2fe] p-6 rounded-2xl space-y-3 sm:col-span-2 shadow-xs">
+                  <h3 className="text-lg font-extrabold text-[#0f172a]">Open-{prod.name} Alternative</h3>
+                  <p className="text-xs text-[#475569] leading-relaxed font-medium">Self-hostable open-source community software with zero monthly subscription fees.</p>
+                </div>
+              )}
             </div>
           </section>
 
@@ -430,55 +486,7 @@ export default async function SoftwarePage({
             </div>
           </section>
 
-          {/* Open-Source Alternatives */}
-          <section id="open-source" className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-6 shadow-sm">
-            <div className="flex justify-between items-center border-b border-[#f1f5f9] pb-4">
-              <div>
-                <span className="text-[10px] uppercase font-bold text-[#9333ea] bg-[#f3e8ff] px-2.5 py-0.5 rounded-full border border-[#9333ea]/20">
-                  Zero Subscription Fee
-                </span>
-                <h2 className="text-xl font-bold text-[#0f172a] mt-1">Open-Source Alternatives to {prod.name}</h2>
-              </div>
-              <Link href={`/software/${prod.slug}/open-source`} className="text-xs text-[#2b00d9] font-bold hover:underline">
-                Self-Host Guide ↗
-              </Link>
-            </div>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              {prod.openSourceAlternatives && prod.openSourceAlternatives.length > 0 ? (
-                prod.openSourceAlternatives.map((os, idx) => (
-                  <div key={idx} className="bg-[#f8fafc] border border-[#e2e8f0] p-6 rounded-2xl space-y-3">
-                    <div className="flex justify-between items-start">
-                      <div>
-                        <span className="text-[10px] font-bold text-[#9333ea] uppercase">Verified Repository</span>
-                        <h3 className="text-lg font-extrabold text-[#0f172a] mt-0.5">{os.name}</h3>
-                      </div>
-                      <span className="text-xs bg-[#f3e8ff] text-[#6b21a8] px-2.5 py-1 rounded-full font-bold">
-                        {os.stars}
-                      </span>
-                    </div>
-                    <p className="text-xs text-[#475569] leading-relaxed font-medium">{os.description}</p>
-                    <div className="pt-2 flex justify-between items-center border-t border-[#e2e8f0]">
-                      <span className="text-xs text-[#16a34a] font-bold">Est. Hosting: $5 - $20/mo</span>
-                      <a
-                        href={os.githubUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="bg-[#9333ea] hover:bg-[#7e22ce] text-white font-bold text-xs px-4 py-2 rounded-xl transition shadow-sm"
-                      >
-                        GitHub Repo ↗
-                      </a>
-                    </div>
-                  </div>
-                ))
-              ) : (
-                <div className="bg-[#f8fafc] border border-[#e2e8f0] p-6 rounded-2xl space-y-3 sm:col-span-2">
-                  <h3 className="text-lg font-extrabold text-[#0f172a]">Open-{prod.name} Alternative</h3>
-                  <p className="text-xs text-[#475569] leading-relaxed font-medium">Self-hostable open-source community software with zero monthly subscription fees.</p>
-                </div>
-              )}
-            </div>
-          </section>
 
           {/* Alternatives Comparison (Truvora Grid + Detailed Research) */}
           <section id="alternatives" className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-6 shadow-sm">
@@ -499,72 +507,125 @@ export default async function SoftwarePage({
             </p>
 
             <div className="grid gap-5 md:grid-cols-3">
-              {prod.verifiedCommercialAlternatives && prod.verifiedCommercialAlternatives.length > 0 ? (
-                prod.verifiedCommercialAlternatives.map((alt, idx) => (
-                  <div key={idx} className="bg-[#f8fafc] border border-[#e2e8f0] p-6 rounded-2xl space-y-4 flex flex-col justify-between">
-                    <div className="space-y-2">
-                      <div className="flex justify-between items-start">
-                        <h3 className="font-extrabold text-base text-[#0f172a]">{alt.name}</h3>
-                        <span className="text-xs text-[#16a34a] font-extrabold">{alt.startingPrice}</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-[10px] font-extrabold text-[#2b00d9] uppercase bg-[#eef2ff] px-2 py-0.5 rounded">
-                          {alt.featureParity} Parity
-                        </span>
-                        <span className="text-[10px] font-semibold text-[#64748b]">
-                          {alt.freeTier ? 'Free Tier' : 'Paid Tier'}
-                        </span>
-                      </div>
-                      <p className="text-xs text-[#475569] leading-relaxed font-medium pt-1">
-                        <strong className="text-[#0f172a]">Key Advantage:</strong> {alt.keyAdvantage}
-                      </p>
-                    </div>
+              {(() => {
+                const cardGradients = [
+                  {
+                    bg: 'bg-gradient-to-br from-[#eff6ff] to-[#dbeafe]',
+                    border: 'border-[#bfdbfe]',
+                    badgeBg: 'bg-[#dbeafe]',
+                    badgeText: 'text-[#1e40af]',
+                    btnBg: 'bg-gradient-to-r from-[#2563eb] to-[#1d4ed8] hover:from-[#1d4ed8] hover:to-[#1e40af]',
+                  },
+                  {
+                    bg: 'bg-gradient-to-br from-[#faf5ff] to-[#f3e8ff]',
+                    border: 'border-[#e9d5ff]',
+                    badgeBg: 'bg-[#f3e8ff]',
+                    badgeText: 'text-[#6b21a8]',
+                    btnBg: 'bg-gradient-to-r from-[#9333ea] to-[#7e22ce] hover:from-[#7e22ce] hover:to-[#6b21a8]',
+                  },
+                  {
+                    bg: 'bg-gradient-to-br from-[#f0fdf4] to-[#dcfce7]',
+                    border: 'border-[#bbf7d0]',
+                    badgeBg: 'bg-[#dcfce7]',
+                    badgeText: 'text-[#166534]',
+                    btnBg: 'bg-gradient-to-r from-[#16a34a] to-[#15803d] hover:from-[#15803d] hover:to-[#166534]',
+                  },
+                  {
+                    bg: 'bg-gradient-to-br from-[#fff7ed] to-[#ffedd5]',
+                    border: 'border-[#fed7aa]',
+                    badgeBg: 'bg-[#ffedd5]',
+                    badgeText: 'text-[#9a3412]',
+                    btnBg: 'bg-gradient-to-r from-[#ea580c] to-[#c2410c] hover:from-[#c2410c] hover:to-[#9a3412]',
+                  },
+                  {
+                    bg: 'bg-gradient-to-br from-[#fdf2f8] to-[#fce7f3]',
+                    border: 'border-[#fbcfe8]',
+                    badgeBg: 'bg-[#fce7f3]',
+                    badgeText: 'text-[#9d174d]',
+                    btnBg: 'bg-gradient-to-r from-[#db2777] to-[#be185d] hover:from-[#be185d] hover:to-[#9d174d]',
+                  },
+                  {
+                    bg: 'bg-gradient-to-br from-[#f0fdfa] to-[#ccfbf1]',
+                    border: 'border-[#99f6e4]',
+                    badgeBg: 'bg-[#ccfbf1]',
+                    badgeText: 'text-[#115e59]',
+                    btnBg: 'bg-gradient-to-r from-[#0d9488] to-[#0f766e] hover:from-[#0f766e] hover:to-[#115e59]',
+                  },
+                ];
 
-                    <div className="pt-3 border-t border-[#e2e8f0]">
-                      <Link
-                        href={`/compare/${prod.slug}-vs-${alt.slug}`}
-                        className="flex items-center justify-center gap-1.5 w-full text-center bg-[#2b00d9] hover:bg-[#1f00a8] text-white text-xs font-bold py-2.5 px-3 rounded-xl transition shadow-sm"
-                        title={`Compare ${prod.name} vs ${alt.name}`}
-                      >
-                        <span className="truncate max-w-[90%]">
-                          Compare {prod.name} vs {alt.name}
-                        </span>
-                        <span className="flex-shrink-0">↗</span>
-                      </Link>
-                    </div>
-                  </div>
-                ))
-              ) : (
-                alternatives.map((alt) => (
-                  <div key={alt.slug} className="bg-[#f8fafc] border border-[#e2e8f0] p-6 rounded-2xl space-y-4 flex flex-col justify-between">
-                    <div className="space-y-2">
-                      <div className="flex justify-between items-start">
-                        <h3 className="font-extrabold text-base text-[#0f172a]">{alt.name}</h3>
-                        <span className="text-xs text-[#16a34a] font-bold">${alt.pricing[0]?.basePrice ?? 0}/mo</span>
-                      </div>
-                      <span className="text-[10px] font-bold text-[#2b00d9] uppercase bg-[#eef2ff] px-2 py-0.5 rounded">
-                        {alt.categoryName}
-                      </span>
-                      <p className="text-xs text-[#475569] line-clamp-3 leading-relaxed font-medium pt-1">
-                        {alt.shortDescription}
-                      </p>
-                    </div>
+                return prod.verifiedCommercialAlternatives && prod.verifiedCommercialAlternatives.length > 0 ? (
+                  prod.verifiedCommercialAlternatives.map((alt, idx) => {
+                    const style = cardGradients[idx % cardGradients.length];
+                    return (
+                      <div key={idx} className={`${style.bg} ${style.border} border p-6 rounded-2xl space-y-4 flex flex-col justify-between shadow-xs hover:shadow-md transition-all duration-200`}>
+                        <div className="space-y-2">
+                          <div className="flex justify-between items-start">
+                            <h3 className="font-extrabold text-base text-[#0f172a]">{alt.name}</h3>
+                            <span className="text-xs text-[#16a34a] font-extrabold">{alt.startingPrice}</span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <span className={`text-[10px] font-extrabold uppercase ${style.badgeBg} ${style.badgeText} px-2 py-0.5 rounded border border-black/5`}>
+                              {alt.featureParity} Parity
+                            </span>
+                            <span className="text-[10px] font-semibold text-[#64748b]">
+                              {alt.freeTier ? 'Free Tier' : 'Paid Tier'}
+                            </span>
+                          </div>
+                          <p className="text-xs text-[#475569] leading-relaxed font-medium pt-1">
+                            <strong className="text-[#0f172a]">Key Advantage:</strong> {alt.keyAdvantage}
+                          </p>
+                        </div>
 
-                    <div className="pt-3 border-t border-[#e2e8f0]">
-                      <Link
-                        href={`/compare/${prod.slug}-vs-${alt.slug}`}
-                        className="flex items-center justify-center gap-1.5 w-full text-center bg-[#2b00d9] hover:bg-[#1f00a8] text-white text-xs font-bold py-2.5 px-3 rounded-xl transition shadow-sm"
-                        title={`Compare ${prod.name} vs ${alt.name}`}
-                      >
-                        <span className="truncate max-w-[90%]">
-                          Compare {prod.name} vs {alt.name}
-                        </span>
-                        <span className="flex-shrink-0">↗</span>
-                      </Link>
-                    </div>
-                  </div>
-                ))
-              )}
+                        <div className="pt-3 border-t border-black/5">
+                          <Link
+                            href={`/compare/${prod.slug}-vs-${alt.slug}`}
+                            className={`flex items-center justify-center gap-1.5 w-full text-center ${style.btnBg} text-white text-xs font-bold py-2.5 px-3 rounded-xl transition shadow-xs hover:shadow-md`}
+                            title={`Compare ${prod.name} vs ${alt.name}`}
+                          >
+                            <span className="truncate max-w-[90%]">
+                              Compare {prod.name} vs {alt.name}
+                            </span>
+                            <span className="flex-shrink-0">↗</span>
+                          </Link>
+                        </div>
+                      </div>
+                    );
+                  })
+                ) : (
+                  alternatives.map((alt, idx) => {
+                    const style = cardGradients[idx % cardGradients.length];
+                    return (
+                      <div key={alt.slug} className={`${style.bg} ${style.border} border p-6 rounded-2xl space-y-4 flex flex-col justify-between shadow-xs hover:shadow-md transition-all duration-200`}>
+                        <div className="space-y-2">
+                          <div className="flex justify-between items-start">
+                            <h3 className="font-extrabold text-base text-[#0f172a]">{alt.name}</h3>
+                            <span className="text-xs text-[#16a34a] font-bold">${alt.pricing[0]?.basePrice ?? 0}/mo</span>
+                          </div>
+                          <span className={`text-[10px] font-bold uppercase ${style.badgeBg} ${style.badgeText} px-2 py-0.5 rounded border border-black/5`}>
+                            {alt.categoryName}
+                          </span>
+                          <p className="text-xs text-[#475569] line-clamp-3 leading-relaxed font-medium pt-1">
+                            {alt.shortDescription}
+                          </p>
+                        </div>
+
+                        <div className="pt-3 border-t border-black/5">
+                          <Link
+                            href={`/compare/${prod.slug}-vs-${alt.slug}`}
+                            className={`flex items-center justify-center gap-1.5 w-full text-center ${style.btnBg} text-white text-xs font-bold py-2.5 px-3 rounded-xl transition shadow-xs hover:shadow-md`}
+                            title={`Compare ${prod.name} vs ${alt.name}`}
+                          >
+                            <span className="truncate max-w-[90%]">
+                              Compare {prod.name} vs {alt.name}
+                            </span>
+                            <span className="flex-shrink-0">↗</span>
+                          </Link>
+                        </div>
+                      </div>
+                    );
+                  })
+                );
+              })()}
             </div>
           </section>
 
