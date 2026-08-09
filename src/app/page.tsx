@@ -58,6 +58,11 @@ export default async function HomePage({
     scores: evaluateSoftware(prod.assessment),
   }));
 
+  // Dynamic real catalog analytics
+  const freeTierCount = ALL_SOFTWARE_PRODUCTS.filter((p) => p.pricing?.some((tier) => tier.freeTier)).length;
+  const openSourceCount = ALL_SOFTWARE_PRODUCTS.filter((p) => p.openSourceAlternatives && p.openSourceAlternatives.length > 0).length;
+  const totalCategories = new Set(ALL_SOFTWARE_PRODUCTS.map((p) => p.categoryName)).size;
+
   return (
     <div className="space-y-12">
       {/* Hero Section */}
@@ -84,57 +89,59 @@ export default async function HomePage({
         <RealtimeSearchBox initialQuery={q} totalCount={ALL_SOFTWARE_PRODUCTS.length} category={category} />
       </section>
 
-      {/* Metric Highlights */}
+      {/* Metric Highlights — 100% Real Dynamic Catalog Intelligence */}
       <section className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl shadow-sm flex flex-col justify-between">
           <div className="flex justify-between items-start mb-2">
-            <span className="text-xs font-semibold text-[#64748b]">Total SaaS Spend Analyzed</span>
+            <span className="text-xs font-semibold text-[#64748b]">Indexed Software Products</span>
             <div className="w-8 h-8 rounded-full bg-[#eef2ff] text-[#2b00d9] flex items-center justify-center font-bold text-xs">
-              💰
+              📊
             </div>
           </div>
           <div>
-            <span className="text-3xl font-extrabold text-[#0f172a]">$2.45M+</span>
-            <span className="text-xs text-[#16a34a] font-bold block mt-1">↗ +12.5% this month</span>
+            <span className="text-3xl font-extrabold text-[#0f172a]">{ALL_SOFTWARE_PRODUCTS.length}</span>
+            <span className="text-xs text-[#2b00d9] font-bold block mt-1">across {totalCategories} Software Categories</span>
           </div>
         </div>
 
         <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl shadow-sm flex flex-col justify-between">
           <div className="flex justify-between items-start mb-2">
-            <span className="text-xs font-semibold text-[#64748b]">Potential Annual Savings</span>
-            <div className="w-8 h-8 rounded-full bg-[#eef2ff] text-[#2b00d9] flex items-center justify-center font-bold text-xs">
-              ✨
+            <span className="text-xs font-semibold text-[#64748b]">Products with Free Tier</span>
+            <div className="w-8 h-8 rounded-full bg-[#f0fdf4] text-[#16a34a] flex items-center justify-center font-bold text-xs">
+              🎁
             </div>
           </div>
           <div>
-            <span className="text-3xl font-extrabold text-[#16a34a]">$780.5K</span>
-            <span className="text-xs text-[#16a34a] font-bold block mt-1">↗ 31.8% average savings</span>
+            <span className="text-3xl font-extrabold text-[#16a34a]">{freeTierCount}</span>
+            <span className="text-xs text-[#16a34a] font-bold block mt-1">
+              {Math.round((freeTierCount / ALL_SOFTWARE_PRODUCTS.length) * 100)}% of catalog has zero-cost starter tier
+            </span>
           </div>
         </div>
 
         <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl shadow-sm flex flex-col justify-between">
           <div className="flex justify-between items-start mb-2">
-            <span className="text-xs font-semibold text-[#64748b]">Verified Catalog Entries</span>
-            <div className="w-8 h-8 rounded-full bg-[#eef2ff] text-[#2b00d9] flex items-center justify-center font-bold text-xs">
-              📋
+            <span className="text-xs font-semibold text-[#64748b]">Open-Source Alternatives</span>
+            <div className="w-8 h-8 rounded-full bg-[#f3e8ff] text-[#9333ea] flex items-center justify-center font-bold text-xs">
+              🚀
             </div>
           </div>
           <div>
-            <span className="text-3xl font-extrabold text-[#0f172a]">{ALL_SOFTWARE_PRODUCTS.length} SaaS</span>
-            <span className="text-xs text-[#2b00d9] font-bold block mt-1">100% Verified Engine</span>
+            <span className="text-3xl font-extrabold text-[#9333ea]">{openSourceCount}</span>
+            <span className="text-xs text-[#9333ea] font-bold block mt-1">verified self-hostable replacements</span>
           </div>
         </div>
 
         <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl shadow-sm flex flex-col justify-between">
           <div className="flex justify-between items-start mb-2">
-            <span className="text-xs font-semibold text-[#64748b]">Engine Status</span>
+            <span className="text-xs font-semibold text-[#64748b]">Evaluation Engine</span>
             <div className="w-8 h-8 rounded-full bg-[#eef2ff] text-[#2b00d9] flex items-center justify-center font-bold text-xs">
               ⚡
             </div>
           </div>
           <div>
-            <span className="text-3xl font-extrabold text-[#2b00d9]">v1.0 Pure</span>
-            <span className="text-xs text-[#64748b] font-bold block mt-1">Zero LLM Hallucinated Scores</span>
+            <span className="text-3xl font-extrabold text-[#2b00d9]">0 - 100</span>
+            <span className="text-xs text-[#64748b] font-bold block mt-1">Pure deterministic scoring</span>
           </div>
         </div>
       </section>
