@@ -6,6 +6,7 @@ import { evaluateSoftware } from '@/domain/decision-engine';
 import MoatRadarChart from '@/components/software/MoatRadarChart';
 import DecisionGlossarySection from '@/components/common/DecisionGlossarySection';
 import StickyRecommendedHostingWidget from '@/components/StickyRecommendedHostingWidget';
+import InteractiveAlternativesSuite from '@/components/software/InteractiveAlternativesSuite';
 
 export async function generateMetadata({
   params,
@@ -563,6 +564,15 @@ export default async function SoftwarePage({
           </section>
 
 
+
+          {/* Interactive Alternatives & Cost Savings Suite (Features 2, 3 & 4) */}
+          <InteractiveAlternativesSuite
+            productName={prod.name}
+            pricing={prod.pricing}
+            sources={prod.sources || []}
+            openSourceAlternatives={prod.openSourceAlternatives || []}
+            commercialAlternatives={prod.verifiedCommercialAlternatives || []}
+          />
 
           {/* Alternatives Comparison (Truvora Grid + Detailed Research) */}
           <section id="alternatives" className="bg-white border border-[#e2e8f0] rounded-3xl p-5 sm:p-8 space-y-6 shadow-sm">

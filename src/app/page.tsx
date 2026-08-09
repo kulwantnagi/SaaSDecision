@@ -32,7 +32,10 @@ export default async function HomePage({
 }) {
   const { q = '', category = '', page = '1' } = await searchParams;
 
-  let filtered = ALL_SOFTWARE_PRODUCTS;
+  // Shuffle software on every page reload/request
+  const shuffledSoftware = [...ALL_SOFTWARE_PRODUCTS].sort(() => Math.random() - 0.5);
+
+  let filtered = shuffledSoftware;
 
   if (q) {
     filtered = searchCatalog(q, ALL_SOFTWARE_PRODUCTS.length);
@@ -147,7 +150,7 @@ export default async function HomePage({
       </section>
 
       {/* Primary Catalog Grid */}
-      <section className="space-y-6">
+      <section id="catalog" className="space-y-6">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end border-b border-[#e2e8f0] pb-4 gap-2">
           <div>
             <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f172a] tracking-tight">Software Decision Index</h2>
@@ -169,7 +172,8 @@ export default async function HomePage({
             return (
               <Link
                 key={cat.value}
-                href={`/?${queryParams.toString()}`}
+                href={`/?${queryParams.toString()}#catalog`}
+                scroll={false}
                 className={`text-xs font-bold px-3.5 py-2 rounded-xl border transition shrink-0 ${
                   isActive
                     ? 'bg-[#2b00d9] text-white border-[#2b00d9] shadow-sm'
@@ -187,7 +191,8 @@ export default async function HomePage({
             <h3 className="text-lg font-bold text-[#0f172a]">No software matching current filters</h3>
             <p className="text-xs text-[#64748b]">Try resetting search query or selecting another category.</p>
             <Link
-              href="/"
+              href="/#catalog"
+              scroll={false}
               className="inline-block bg-[#2b00d9] text-white font-bold text-xs px-5 py-2.5 rounded-xl hover:bg-[#1f00a8] transition shadow-md shadow-[#2b00d9]/20"
             >
               Reset Filters
@@ -257,7 +262,8 @@ export default async function HomePage({
           <div className="flex justify-between items-center pt-6 border-t border-[#e2e8f0]">
             {safePage > 1 ? (
               <Link
-                href={`/?${new URLSearchParams({ ...(q ? { q } : {}), ...(category ? { category } : {}), page: (safePage - 1).toString() }).toString()}`}
+                href={`/?${new URLSearchParams({ ...(q ? { q } : {}), ...(category ? { category } : {}), page: (safePage - 1).toString() }).toString()}#catalog`}
+                scroll={false}
                 className="bg-white border border-[#e2e8f0] text-[#0f172a] hover:border-[#2b00d9] text-xs font-bold px-4 py-2 rounded-xl transition shadow-sm"
               >
                 ← Previous Page
@@ -272,7 +278,8 @@ export default async function HomePage({
 
             {safePage < totalPages ? (
               <Link
-                href={`/?${new URLSearchParams({ ...(q ? { q } : {}), ...(category ? { category } : {}), page: (safePage + 1).toString() }).toString()}`}
+                href={`/?${new URLSearchParams({ ...(q ? { q } : {}), ...(category ? { category } : {}), page: (safePage + 1).toString() }).toString()}#catalog`}
+                scroll={false}
                 className="bg-[#2b00d9] hover:bg-[#1f00a8] text-white text-xs font-bold px-4 py-2 rounded-xl transition shadow-md shadow-[#2b00d9]/20"
               >
                 Next Page →
