@@ -3,7 +3,7 @@ import Link from 'next/link';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'SaaS Decision Engine - Keep, Switch, Self-Host, Automate, or Build',
+  title: 'Open Source SaaS Alternatives - SaaS Decision',
   description: 'Deterministic software intelligence platform evaluating software retention, migration, automation, open-source replacement, and custom build feasibility.',
 };
 
