@@ -572,9 +572,9 @@ function DecisionScoreCard({
 
       {/* Corner ribbon */}
       {isPrimary && (
-        <div className="absolute top-0 right-0 overflow-hidden w-20 h-20 pointer-events-none">
+        <div className="absolute top-0 right-0 w-[72px] h-[72px] overflow-hidden pointer-events-none rounded-tr-2xl">
           <div
-            className={`absolute top-4 -right-6 w-24 text-center text-[8px] font-extrabold uppercase tracking-wider text-white py-1 rotate-45 ${barColor}`}
+            className={`absolute -top-1 -right-6 w-[90px] text-center text-[7px] font-extrabold uppercase tracking-widest text-white py-[5px] rotate-45 shadow-sm ${barColor}`}
           >
             ★ Top Pick
           </div>
