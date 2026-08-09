@@ -92,10 +92,6 @@ export default async function SoftwarePage({
                   <span className="text-xs font-bold uppercase tracking-wider bg-[#eef2ff] text-[#2b00d9] px-3 py-1 rounded-full border border-[#2b00d9]/20">
                     {prod.categoryName}
                   </span>
-                  <div className="flex items-center gap-1 text-xs font-bold text-[#d97706]">
-                    <span>★ 4.4 / 5</span>
-                    <span className="text-[#64748b] font-normal">(18 verified ratings)</span>
-                  </div>
                 </div>
                 <h1 className="text-4xl md:text-5xl font-extrabold text-[#0f172a] tracking-tight">{prod.name}</h1>
                 <p className="text-[#475569] text-sm md:text-base leading-relaxed font-medium">{prod.shortDescription}</p>

@@ -64,10 +64,10 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3 group">
               <div className="w-8 h-8 rounded-xl bg-[#2b00d9] flex items-center justify-center text-white font-extrabold text-sm shadow-md shadow-[#2b00d9]/25 group-hover:scale-105 transition-transform">
-                K
+                S
               </div>
               <span className="font-extrabold text-lg tracking-tight text-[#0f172a]">
-                Keep<span className="text-[#2b00d9]">.Switch</span><span className="text-[#d97706]">.Build</span>
+                SaaS<span className="text-[#2b00d9]"> Decision</span>
               </span>
               <span className="text-[10px] font-bold tracking-wider uppercase bg-[#eef2ff] text-[#2b00d9] px-2.5 py-0.5 rounded-full border border-[#2b00d9]/20">
                 v1.0
@@ -116,10 +116,10 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-lg bg-[#2b00d9] flex items-center justify-center text-[10px] text-white font-bold">
-                K
+                S
               </div>
-              <span className="font-bold text-[#0f172a]">Keep.Switch.Build Software Intelligence</span>
-              <span>— Pure Rule Engine v1.0</span>
+              <span className="font-bold text-[#0f172a]">SaaS Decision</span>
+              <span>— Open Source SaaS Alternatives</span>
             </div>
             <div className="flex gap-6 font-medium">
               <Link href="/" className="hover:text-[#2b00d9] transition">Index</Link>
@@ -127,7 +127,7 @@ export default function RootLayout({
               <Link href="/blueprint" className="hover:text-[#2b00d9] transition">Blueprint</Link>
               <Link href="/expert-audit" className="hover:text-[#2b00d9] transition">Expert Review</Link>
             </div>
-            <p>© {new Date().getFullYear()} SaaS Decision Engine. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} SaaS Decision. All rights reserved.</p>
           </div>
         </footer>
       </body>

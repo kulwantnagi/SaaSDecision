@@ -2250,6 +2250,12 @@
         "githubUrl": "https://github.com/dokku/dokku",
         "description": "Verified open-source alternative independently verified open-source alternative.",
         "stars": "12.7k★"
+      },
+      {
+        "name": "OpenShip",
+        "githubUrl": "https://github.com/oblien/openship",
+        "description": "Self-hostable deployment platform with built-in CI/CD, domains, SSL, and edge CDN — runs on your own VPS.",
+        "stars": "2.1k★"
       }
     ],
     "verifiedCommercialAlternatives": [
