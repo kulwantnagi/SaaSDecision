@@ -2,9 +2,45 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import './globals.css';
 
+const BASE_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://saas-decision.com';
+
 export const metadata: Metadata = {
-  title: 'Open Source SaaS Alternatives - SaaS Decision',
-  description: 'Deterministic software intelligence platform evaluating software retention, migration, automation, open-source replacement, and custom build feasibility.',
+  metadataBase: new URL(BASE_URL),
+  title: {
+    default: 'Open Source SaaS Alternatives - SaaS Decision',
+    template: '%s | SaaS Decision',
+  },
+  description: 'Find verified open-source alternatives to 985+ SaaS tools. Get deterministic KEEP, SWITCH, SELF-HOST, AUTOMATE & BUILD scores — no LLM hallucinations.',
+  keywords: [
+    'open source SaaS alternatives', 'SaaS alternatives', 'self-host software',
+    'open source alternatives', 'SaaS decision engine', 'reduce SaaS costs',
+    'vendor lock-in', 'software evaluation', 'keep or switch SaaS',
+  ],
+  authors: [{ name: 'SaaS Decision' }],
+  creator: 'SaaS Decision',
+  publisher: 'SaaS Decision',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large' },
+  },
+  alternates: {
+    canonical: BASE_URL,
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'SaaS Decision',
+    title: 'Open Source SaaS Alternatives - SaaS Decision',
+    description: 'Find verified open-source alternatives to 985+ SaaS tools. Deterministic KEEP / SWITCH / SELF-HOST scores.',
+    url: BASE_URL,
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Open Source SaaS Alternatives - SaaS Decision',
+    description: 'Find verified open-source alternatives to 985+ SaaS tools. Deterministic KEEP / SWITCH / SELF-HOST scores.',
+    creator: '@SaaSDecision',
+  },
 };
 
 export default function RootLayout({
