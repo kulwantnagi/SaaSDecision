@@ -16,10 +16,17 @@ export async function generateMetadata({
   const { prodA, prodB } = pair;
 
   return {
-    title: `${prodA.name} vs ${prodB.name}: 2026 Head-to-Head Comparison & Decision Scores`,
-    description: `Detailed comparison of ${prodA.name} vs ${prodB.name}. Features side-by-side pricing, replacement difficulty, 5 deterministic decision scores (KEEP, SWITCH, SELF-HOST, AUTOMATE, BUILD), and verified alternatives.`,
+    title: `${prodA.name} vs ${prodB.name}: Alternatives and Open Source SaaS Solutions`,
+    description: `Compare ${prodA.name} vs ${prodB.name} pricing, feature parity, and open source SaaS alternatives. Get deterministic KEEP, SWITCH & SELF-HOST decision scores.`,
+    keywords: [
+      `${prodA.name} vs ${prodB.name}`,
+      `${prodA.name} alternatives`,
+      `${prodB.name} alternatives`,
+      `open source alternatives to ${prodA.name}`,
+      `open source SaaS solutions`,
+    ],
     openGraph: {
-      title: `${prodA.name} vs ${prodB.name} Comparison — SaaS Decision`,
+      title: `${prodA.name} vs ${prodB.name}: Alternatives and Open Source SaaS Solutions`,
       description: `Evaluate feature parity, pricing models, and open-source alternatives for ${prodA.name} and ${prodB.name}.`,
     },
   };
@@ -93,33 +100,33 @@ export default async function ComparePage({
       </nav>
 
       {/* Header Banner */}
-      <div className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-4 shadow-sm text-center">
+      <div className="bg-white border border-[#e2e8f0] rounded-3xl p-5 sm:p-8 space-y-4 shadow-sm text-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#eef2ff] text-[#2b00d9] border border-[#2b00d9]/20 text-xs font-bold uppercase tracking-wider">
           <span>⚡ Head-to-Head Deterministic Intelligence</span>
         </div>
-        <h1 className="text-3xl sm:text-5xl font-extrabold text-[#0f172a] tracking-tight">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-[#0f172a] tracking-tight">
           {prodA.name} <span className="text-[#2b00d9]">vs</span> {prodB.name}
         </h1>
-        <p className="text-sm font-medium text-[#475569] max-w-2xl mx-auto leading-relaxed">
+        <p className="text-xs sm:text-sm font-medium text-[#475569] max-w-2xl mx-auto leading-relaxed">
           Comprehensive deterministic comparison evaluating decision scores, pricing models, replacement difficulty, and open-source alternatives for 2026.
         </p>
       </div>
 
       {/* Product Summary Cards */}
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-4 sm:gap-6 grid-cols-1 md:grid-cols-2">
         {/* Product A Card */}
-        <div className="bg-white border border-[#e2e8f0] p-8 rounded-3xl space-y-5 shadow-sm flex flex-col justify-between">
+        <div className="bg-white border border-[#e2e8f0] p-5 sm:p-8 rounded-3xl space-y-5 shadow-sm flex flex-col justify-between">
           <div className="space-y-3">
             <div className="flex justify-between items-start">
               <div>
                 <span className="text-[10px] uppercase font-bold text-[#2b00d9] bg-[#eef2ff] px-2.5 py-0.5 rounded-full border border-[#2b00d9]/20">
                   {prodA.categoryName}
                 </span>
-                <h2 className="text-2xl font-extrabold text-[#0f172a] mt-2">{prodA.name}</h2>
+                <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f172a] mt-2">{prodA.name}</h2>
               </div>
-              <div className="text-right">
+              <div className="text-right shrink-0">
                 <span className="text-xs text-[#64748b] block font-medium">Starting Price</span>
-                <span className="text-lg font-extrabold text-[#16a34a]">
+                <span className="text-base sm:text-lg font-extrabold text-[#16a34a]">
                   {prodA.pricing[0]?.freeTier ? 'Free' : `$${prodA.pricing[0]?.basePrice ?? 0}/mo`}
                 </span>
               </div>
@@ -127,7 +134,7 @@ export default async function ComparePage({
             <p className="text-xs text-[#475569] leading-relaxed font-medium">{prodA.shortDescription}</p>
           </div>
 
-          <div className="pt-4 border-t border-[#f1f5f9] flex items-center justify-between">
+          <div className="pt-4 border-t border-[#f1f5f9] flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-2">
               <span className="text-xs font-bold text-[#475569]">Verdict:</span>
               <span className="text-xs font-extrabold uppercase px-2.5 py-1 rounded-full bg-[#eef2ff] text-[#2b00d9]">
@@ -144,18 +151,18 @@ export default async function ComparePage({
         </div>
 
         {/* Product B Card */}
-        <div className="bg-white border border-[#e2e8f0] p-8 rounded-3xl space-y-5 shadow-sm flex flex-col justify-between">
+        <div className="bg-white border border-[#e2e8f0] p-5 sm:p-8 rounded-3xl space-y-5 shadow-sm flex flex-col justify-between">
           <div className="space-y-3">
             <div className="flex justify-between items-start">
               <div>
                 <span className="text-[10px] uppercase font-bold text-[#2b00d9] bg-[#eef2ff] px-2.5 py-0.5 rounded-full border border-[#2b00d9]/20">
                   {prodB.categoryName}
                 </span>
-                <h2 className="text-2xl font-extrabold text-[#0f172a] mt-2">{prodB.name}</h2>
+                <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f172a] mt-2">{prodB.name}</h2>
               </div>
-              <div className="text-right">
+              <div className="text-right shrink-0">
                 <span className="text-xs text-[#64748b] block font-medium">Starting Price</span>
-                <span className="text-lg font-extrabold text-[#16a34a]">
+                <span className="text-base sm:text-lg font-extrabold text-[#16a34a]">
                   {prodB.pricing[0]?.freeTier ? 'Free' : `$${prodB.pricing[0]?.basePrice ?? 0}/mo`}
                 </span>
               </div>
@@ -163,7 +170,7 @@ export default async function ComparePage({
             <p className="text-xs text-[#475569] leading-relaxed font-medium">{prodB.shortDescription}</p>
           </div>
 
-          <div className="pt-4 border-t border-[#f1f5f9] flex items-center justify-between">
+          <div className="pt-4 border-t border-[#f1f5f9] flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-2">
               <span className="text-xs font-bold text-[#475569]">Verdict:</span>
               <span className="text-xs font-extrabold uppercase px-2.5 py-1 rounded-full bg-[#eef2ff] text-[#2b00d9]">
@@ -181,12 +188,12 @@ export default async function ComparePage({
       </div>
 
       {/* Head-to-Head Detailed Decision Score Matrix */}
-      <section className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-6 shadow-sm">
+      <section className="bg-white border border-[#e2e8f0] rounded-3xl p-5 sm:p-8 space-y-6 shadow-sm">
         <div className="border-b border-[#f1f5f9] pb-4">
           <span className="text-[10px] uppercase font-bold text-[#2b00d9] bg-[#eef2ff] px-2.5 py-0.5 rounded-full border border-[#2b00d9]/20">
             Deterministic Decision Engine
           </span>
-          <h2 className="text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">
+          <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">
             Side-by-Side Decision Scores Matrix
           </h2>
           <p className="text-xs text-[#64748b] font-medium mt-1">
@@ -194,22 +201,22 @@ export default async function ComparePage({
           </p>
         </div>
 
-        <div className="overflow-x-auto">
-          <table className="w-full text-left text-xs border-collapse">
+        <div className="overflow-x-auto no-scrollbar">
+          <table className="w-full text-left text-xs border-collapse min-w-[540px]">
             <thead>
               <tr className="border-b border-[#e2e8f0] bg-[#f8fafc] text-[#475569] uppercase font-extrabold">
-                <th className="p-4 rounded-l-xl">Evaluation Metric</th>
-                <th className="p-4 text-center font-black text-[#0f172a] text-sm w-1/3">{prodA.name}</th>
-                <th className="p-4 text-center font-black text-[#0f172a] text-sm w-1/3 rounded-r-xl">{prodB.name}</th>
+                <th className="p-3 sm:p-4 rounded-l-xl">Evaluation Metric</th>
+                <th className="p-3 sm:p-4 text-center font-black text-[#0f172a] text-sm w-1/3">{prodA.name}</th>
+                <th className="p-3 sm:p-4 text-center font-black text-[#0f172a] text-sm w-1/3 rounded-r-xl">{prodB.name}</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-[#f1f5f9] font-medium text-[#0f172a]">
               {metricRows.map((row, idx) => (
                 <tr key={idx} className="hover:bg-[#f8fafc]/80 transition-colors">
-                  <td className="p-4 font-bold text-[#334155]">{row.label}</td>
+                  <td className="p-3 sm:p-4 font-bold text-[#334155]">{row.label}</td>
                   
                   {/* Product A Column */}
-                  <td className="p-4 text-center">
+                  <td className="p-3 sm:p-4 text-center">
                     {row.isBadge ? (
                       <span className="font-extrabold text-xs uppercase bg-[#eef2ff] text-[#2b00d9] px-3 py-1 rounded-full border border-[#2b00d9]/20">
                         {row.valA}
@@ -227,7 +234,7 @@ export default async function ComparePage({
                   </td>
 
                   {/* Product B Column */}
-                  <td className="p-4 text-center">
+                  <td className="p-3 sm:p-4 text-center">
                     {row.isBadge ? (
                       <span className="font-extrabold text-xs uppercase bg-[#eef2ff] text-[#2b00d9] px-3 py-1 rounded-full border border-[#2b00d9]/20">
                         {row.valB}

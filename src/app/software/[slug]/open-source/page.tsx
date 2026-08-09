@@ -1,6 +1,34 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getSoftwareBySlug } from '@/domain/catalog-service';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const prod = getSoftwareBySlug(slug);
+  if (!prod) return {};
+
+  return {
+    title: `Top Open Source ${prod.name} Alternatives and SaaS Solutions`,
+    description: `Discover verified open source alternatives to ${prod.name}. Self-host free open-source software solutions on Hostinger or DigitalOcean with zero monthly subscription fees.`,
+    keywords: [
+      `open source ${prod.name} alternative`,
+      `self-host ${prod.name}`,
+      `free ${prod.name} open source`,
+      `${prod.name} alternatives`,
+      `open source SaaS solutions`,
+      `self-hosted software`,
+    ],
+    openGraph: {
+      title: `Top Open Source ${prod.name} Alternatives and SaaS Solutions`,
+      description: `Verified self-hostable open-source alternatives to ${prod.name} offering 100% data sovereignty and zero seat fees.`,
+    },
+  };
+}
 
 export default async function OpenSourcePage({
   params,

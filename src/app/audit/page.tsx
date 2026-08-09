@@ -1,8 +1,15 @@
 import AuditForm from './AuditForm';
 
 export const metadata = {
-  title: 'Full SaaS Stack Audit - Analyze Total SaaS Spend & Overlaps',
-  description: 'Evaluate your complete SaaS subscription stack, detect software overlaps, and compute potential annual savings.',
+  title: 'SaaS Stack Audit: Alternatives and Open Source SaaS Solutions',
+  description: 'Audit your complete software subscription stack. Detect redundant SaaS overlaps, calculate annual savings, and discover verified open source SaaS alternatives.',
+  keywords: [
+    'SaaS stack audit',
+    'open source SaaS alternatives',
+    'SaaS cost optimization',
+    'open source SaaS solutions',
+    'self-hosted software audit',
+  ],
 };
 
 export default function AuditPage() {

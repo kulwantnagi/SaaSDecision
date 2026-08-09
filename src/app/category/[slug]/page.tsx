@@ -1,6 +1,35 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getSoftwareByCategory } from '@/domain/catalog-service';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const products = getSoftwareByCategory(slug);
+  if (products.length === 0) return {};
+
+  const categoryName = products[0].categoryName;
+
+  return {
+    title: `${categoryName} Alternatives and Open Source SaaS Solutions`,
+    description: `Discover verified ${categoryName} alternatives and open source SaaS solutions. Compare decision ratings, commercial competitors, free starter tiers, and self-hosted replacements.`,
+    keywords: [
+      `${categoryName} alternatives`,
+      `open source ${categoryName} software`,
+      `free ${categoryName} tools`,
+      `self-hosted ${categoryName}`,
+      `open source SaaS solutions`,
+    ],
+    openGraph: {
+      title: `${categoryName} Alternatives and Open Source SaaS Solutions`,
+      description: `Explore top verified open source alternatives and decision scores for ${categoryName} software tools.`,
+    },
+  };
+}
 
 export default async function CategoryPage({
   params,

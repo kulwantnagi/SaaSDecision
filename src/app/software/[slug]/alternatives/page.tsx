@@ -14,8 +14,19 @@ export async function generateMetadata({
   if (!prod) return {};
 
   return {
-    title: `Best ${prod.name} Alternatives & Competitors (2026 Comparison)`,
-    description: `Compare the top alternatives to ${prod.name}. Compare pricing, open-source options, feature parity, and switching difficulty.`,
+    title: `Best ${prod.name} Alternatives and Open Source SaaS Solutions`,
+    description: `Explore top commercial competitors and free open source SaaS alternatives to ${prod.name}. Compare feature parity, self-hosting options, pricing tiers, and migration complexity.`,
+    keywords: [
+      `${prod.name} alternatives`,
+      `best ${prod.name} alternative`,
+      `open source alternatives to ${prod.name}`,
+      `free ${prod.name} competitor`,
+      `open source SaaS solutions`,
+    ],
+    openGraph: {
+      title: `Best ${prod.name} Alternatives and Open Source SaaS Solutions`,
+      description: `Compare verified alternatives and self-hosted open source SaaS replacements for ${prod.name}.`,
+    },
   };
 }
 

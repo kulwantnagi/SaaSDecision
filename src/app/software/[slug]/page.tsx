@@ -5,6 +5,7 @@ import { getSoftwareBySlug, ALL_SOFTWARE_PRODUCTS } from '@/domain/catalog-servi
 import { evaluateSoftware } from '@/domain/decision-engine';
 import MoatRadarChart from '@/components/software/MoatRadarChart';
 import DecisionGlossarySection from '@/components/common/DecisionGlossarySection';
+import StickyRecommendedHostingWidget from '@/components/StickyRecommendedHostingWidget';
 
 export async function generateMetadata({
   params,
@@ -18,11 +19,20 @@ export async function generateMetadata({
   const scores = evaluateSoftware(prod.assessment);
 
   return {
-    title: `${prod.name} [Verified Pros, Cons & Decision Scores] 2026`,
-    description: `Independent software testing for ${prod.name}. Primary recommendation: ${scores.primaryDecision}. Includes pros & cons, verified ratings, cost analysis, and alternatives.`,
+    title: `${prod.name} Alternatives and Open Source SaaS Solutions`,
+    description: `Discover verified ${prod.name} alternatives and open source SaaS solutions. Compare pricing, self-hosted replacements, KEEP/SWITCH/SELF-HOST decision scores, and cost optimization for ${prod.name}.`,
+    keywords: [
+      `${prod.name} alternatives`,
+      `open source ${prod.name} alternative`,
+      `${prod.name} competitors`,
+      `self-host ${prod.name}`,
+      `free ${prod.name} alternative`,
+      `open source SaaS solutions`,
+      `${prod.name} pricing`,
+    ],
     openGraph: {
-      title: `${prod.name} Decision Intelligence`,
-      description: prod.shortDescription,
+      title: `${prod.name} Alternatives and Open Source SaaS Solutions`,
+      description: `Discover verified ${prod.name} alternatives and open source SaaS solutions. Primary recommendation: ${scores.primaryDecision.replace('_', ' ')} (${scores.confidence}% confidence).`,
     },
   };
 }
@@ -100,7 +110,7 @@ export default async function SoftwarePage({
   const relatedCategories = Array.from(new Set(ALL_SOFTWARE_PRODUCTS.map((p) => p.categoryName))).slice(0, 6);
 
   return (
-    <div className="space-y-10 max-w-7xl mx-auto pb-12">
+    <div className="space-y-8 sm:space-y-10 max-w-7xl w-full min-w-0 mx-auto pb-12 overflow-hidden">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -111,7 +121,7 @@ export default async function SoftwarePage({
       />
 
       {/* Breadcrumbs */}
-      <nav className="text-xs text-[#64748b] flex items-center gap-2">
+      <nav className="text-xs text-[#64748b] flex flex-wrap items-center gap-2 w-full min-w-0">
         <Link href="/" className="hover:text-[#2b00d9] transition">Home</Link>
         <span>»</span>
         <Link href={`/category/${prod.categorySlug}`} className="hover:text-[#2b00d9] transition">{prod.categoryName}</Link>
@@ -120,28 +130,75 @@ export default async function SoftwarePage({
       </nav>
 
       {/* Main Grid Layout with Right Sidebar */}
-      <div className="grid gap-8 lg:grid-cols-4 items-start">
+      <div className="grid gap-8 lg:grid-cols-4 w-full min-w-0">
         {/* Main Content Area (3 Columns) */}
-        <div className="lg:col-span-3 space-y-10">
+        <div className="lg:col-span-3 space-y-8 sm:space-y-10 w-full min-w-0">
           {/* Header Badge & Hero */}
-          <section className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-6 shadow-sm">
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 border-b border-[#f1f5f9] pb-6">
-              <div className="space-y-3">
-                <div className="flex items-center gap-3">
+          <section className="bg-white border border-[#e2e8f0] rounded-3xl p-4 sm:p-8 space-y-6 shadow-sm w-full min-w-0 max-w-full overflow-hidden">
+            <div className="flex flex-col lg:flex-row lg:items-start justify-between gap-6 border-b border-[#f1f5f9] pb-6 w-full min-w-0">
+              <div className="space-y-4 flex-1 min-w-0 w-full">
+                <div className="flex flex-wrap items-center gap-2 sm:gap-3">
                   <span className="text-xs font-bold uppercase tracking-wider bg-[#eef2ff] text-[#2b00d9] px-3 py-1 rounded-full border border-[#2b00d9]/20">
                     {prod.categoryName}
                   </span>
+                  {prod.pricing.some(p => p.freeTier) && (
+                    <span className="text-xs font-bold bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-full border border-[#86efac]">
+                      Free Tier Available
+                    </span>
+                  )}
                 </div>
-                <h1 className="text-4xl md:text-5xl font-extrabold text-[#0f172a] tracking-tight">{prod.name}</h1>
-                <p className="text-[#475569] text-sm md:text-base leading-relaxed font-medium">{prod.shortDescription}</p>
+
+                <h1 className="text-3xl md:text-5xl font-extrabold text-[#0f172a] tracking-tight break-words">
+                  {prod.name}
+                </h1>
+
+                <p className="text-[#0f172a] text-sm md:text-base font-semibold leading-relaxed break-words">
+                  {prod.shortDescription}
+                </p>
+
+                {/* Rich Informational Paragraphs (Fills Hero Section) */}
+                <div className="space-y-2.5 pt-2 border-t border-[#f1f5f9]">
+                  <p className="text-xs sm:text-sm text-[#334155] leading-relaxed font-medium break-words">
+                    {prod.summary}
+                  </p>
+
+                  <p className="text-xs sm:text-sm text-[#475569] leading-relaxed break-words">
+                    Evaluated across 19 deterministic engineering vectors, <strong className="text-[#0f172a] font-bold">{prod.name}</strong> carries a build complexity score of <span className="font-extrabold text-[#2b00d9]">{prod.assessment.buildComplexity}/5</span> and an integration dependency factor of <span className="font-extrabold text-[#0f172a]">{prod.assessment.integrationDependency}/5</span>.
+                  </p>
+
+                  <p className="text-xs sm:text-sm text-[#475569] leading-relaxed break-words">
+                    {prod.openSourceAlternatives && prod.openSourceAlternatives.length > 0 ? (
+                      <>
+                        Our intelligence engine identifies <strong className="text-[#0f172a] font-bold">{prod.openSourceAlternatives.length} verified open-source alternatives</strong> including <span className="font-bold text-[#2b00d9]">{prod.openSourceAlternatives.slice(0, 2).map(a => a.name).join(' & ')}</span> to lower per-seat SaaS costs.
+                      </>
+                    ) : (
+                      <>
+                        Our intelligence engine evaluates open-source alternatives and self-hosted infrastructure to replace per-seat SaaS licensing.
+                      </>
+                    )}
+                  </p>
+                </div>
+
+                {/* Key Technical Highlights Badges */}
+                <div className="flex flex-wrap gap-2 pt-1">
+                  <span className="text-[11px] bg-[#f8fafc] text-[#475569] px-2.5 py-1 rounded-lg border border-[#e2e8f0] font-semibold">
+                    ⚡ Build Complexity: <strong className="text-[#0f172a]">{prod.assessment.buildComplexity}/5</strong>
+                  </span>
+                  <span className="text-[11px] bg-[#f8fafc] text-[#475569] px-2.5 py-1 rounded-lg border border-[#e2e8f0] font-semibold">
+                    🔗 Integration Moat: <strong className="text-[#0f172a]">{prod.assessment.integrationDependency}/5</strong>
+                  </span>
+                  <span className="text-[11px] bg-[#f8fafc] text-[#475569] px-2.5 py-1 rounded-lg border border-[#e2e8f0] font-semibold">
+                    🔒 Lock-In Risk: <strong className="text-[#0f172a]">{prod.assessment.vendorLockIn}/5</strong>
+                  </span>
+                </div>
               </div>
 
-              <div className="relative overflow-hidden bg-gradient-to-br from-[#eff6ff] via-[#eef2ff] to-[#f3e8ff] border border-[#c7d2fe] p-6 rounded-2xl text-center min-w-[260px] space-y-2.5 shadow-md shadow-[#2b00d9]/5">
+              <div className="relative overflow-hidden bg-gradient-to-br from-[#eff6ff] via-[#eef2ff] to-[#f3e8ff] border border-[#c7d2fe] p-4 sm:p-6 rounded-2xl text-center w-full lg:w-80 lg:shrink-0 min-w-0 max-w-full space-y-2.5 shadow-md shadow-[#2b00d9]/5">
                 <div className="absolute -top-12 -right-12 w-32 h-32 bg-[#2b00d9]/10 rounded-full blur-2xl pointer-events-none" />
                 <span className="text-[11px] text-[#2b00d9] uppercase font-extrabold tracking-wider block bg-white/70 backdrop-blur-xs py-1 px-3 rounded-full border border-[#a5b4fc]/40 w-fit mx-auto shadow-2xs">
                   ★ Primary Recommendation
                 </span>
-                <span className="text-3xl font-black text-[#2b00d9] block tracking-tight pt-1">
+                <span className="text-3xl font-black text-[#2b00d9] block tracking-tight pt-1 break-words">
                   {scores.primaryDecision.replace('_', ' ')}
                 </span>
                 <span className="text-xs text-[#16a34a] font-extrabold bg-[#f0fdf4] text-[#15803d] px-3 py-1 rounded-full inline-block border border-[#bbf7d0]">
@@ -149,7 +206,7 @@ export default async function SoftwarePage({
                 </span>
                 <div className="pt-3 border-t border-[#c7d2fe]/60 text-center text-xs font-medium text-[#334155] space-y-1 relative z-10">
                   <span className="font-extrabold text-[#0f172a] block">Why {scores.primaryDecision.replace('_', ' ')}?</span>
-                  <p className="leading-relaxed">
+                  <p className="leading-relaxed break-words">
                     {scores.primaryDecision === 'KEEP'
                       ? `Retaining ${prod.name} is recommended due to its high integration dependency (${prod.assessment.integrationDependency}/5).`
                       : scores.primaryDecision === 'SWITCH'
@@ -175,14 +232,14 @@ export default async function SoftwarePage({
             </div>
 
             {/* Anchor Table of Contents Bar */}
-            <nav className="flex flex-wrap gap-2 text-xs font-bold text-[#475569] border-b border-[#f1f5f9] pb-4">
-              <a href="#overview" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0]">Overview</a>
-              <a href="#pros-cons" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0]">Pros & Cons</a>
-              <a href="#scores" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0]">Decision Ratings</a>
-              <a href="#open-source" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0]">Open Source</a>
-              <a href="#pricing" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0]">Pricing</a>
-              <a href="#alternatives" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0]">Alternatives</a>
-              <a href="#reviews" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0]">User Reviews</a>
+            <nav className="flex gap-2 text-xs font-bold text-[#475569] border-b border-[#f1f5f9] pb-4 overflow-x-auto no-scrollbar whitespace-nowrap scroll-smooth w-full min-w-0 max-w-full">
+              <a href="#overview" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0] shrink-0">Overview</a>
+              <a href="#pros-cons" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0] shrink-0">Pros & Cons</a>
+              <a href="#scores" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0] shrink-0">Decision Ratings</a>
+              <a href="#open-source" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0] shrink-0">Open Source</a>
+              <a href="#pricing" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0] shrink-0">Pricing</a>
+              <a href="#alternatives" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0] shrink-0">Alternatives</a>
+              <a href="#reviews" className="bg-[#f8fafc] hover:bg-[#e2e8f0] px-3 py-1.5 rounded-lg border border-[#e2e8f0] shrink-0">User Reviews</a>
             </nav>
 
             {/* Overview Section */}
@@ -226,11 +283,11 @@ export default async function SoftwarePage({
               </div>
 
               {/* Moat + Score cards */}
-              <div className="grid gap-4 md:grid-cols-5">
-                <div className="md:col-span-2">
+              <div className="grid gap-4 grid-cols-1 lg:grid-cols-5">
+                <div className="lg:col-span-2">
                   <MoatRadarChart metrics={prod.assessment} />
                 </div>
-                <div className="md:col-span-3 grid gap-2.5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 content-start">
+                <div className="lg:col-span-3 grid gap-2.5 grid-cols-2 sm:grid-cols-3 content-start">
                   <DecisionScoreCard title="KEEP" score={scores.keepScore} isPrimary={scores.primaryDecision === 'KEEP'} hint="Retention value" barColor="bg-[#16a34a]" trackColor="bg-[#dcfce7]" textColor="text-[#16a34a]" badgeBg="bg-[#f0fdf4]" badgeBorder="border-[#bbf7d0]" />
                   <DecisionScoreCard title="SWITCH" score={scores.switchScore} isPrimary={scores.primaryDecision === 'SWITCH'} hint="Migration savings" barColor="bg-[#2b00d9]" trackColor="bg-[#eef2ff]" textColor="text-[#2b00d9]" badgeBg="bg-[#eef2ff]" badgeBorder="border-[#c7d2fe]" />
                   <DecisionScoreCard title="SELF-HOST" score={scores.selfHostScore} isPrimary={scores.primaryDecision === 'SELF_HOST'} hint="OSS viability" barColor="bg-[#9333ea]" trackColor="bg-[#f3e8ff]" textColor="text-[#9333ea]" badgeBg="bg-[#f3e8ff]" badgeBorder="border-[#e9d5ff]" />
@@ -239,39 +296,58 @@ export default async function SoftwarePage({
                 </div>
               </div>
 
-              {/* Confidence strip */}
-              <div className="bg-[#f8fafc] border border-[#e2e8f0] rounded-xl px-5 py-3 flex flex-wrap items-center justify-between gap-3">
-                <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 rounded-full bg-[#16a34a]" />
-                  <span className="text-[11px] font-semibold text-[#475569]">
-                    Primary: <span className="font-extrabold text-[#0f172a]">{scores.primaryDecision.replace('_', '-')}</span>
-                  </span>
-                  <span className="text-[#cbd5e1] text-xs">/</span>
-                  <span className="text-[11px] font-semibold text-[#64748b]">
-                    Secondary: <span className="font-bold text-[#334155]">{scores.secondaryDecision.replace('_', '-')}</span>
-                  </span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="h-1.5 w-24 bg-[#e2e8f0] rounded-full overflow-hidden">
-                    <div className="h-full rounded-full bg-[#2b00d9]" style={{ width: `${scores.confidence}%` }} />
+              {/* Premium Confidence & Decision Pathway Banner */}
+              <div className="bg-gradient-to-r from-[#f8fafc] via-[#eef2ff]/60 to-[#f8fafc] border border-[#c7d2fe]/70 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-sm">
+                <div className="flex flex-wrap items-center gap-2.5 sm:gap-3">
+                  {/* Primary Verdict Pill */}
+                  <div className="flex items-center gap-2 bg-[#2b00d9] text-white px-3 py-1.5 rounded-xl shadow-xs text-xs font-extrabold tracking-wide">
+                    <span className="w-2 h-2 rounded-full bg-[#4ade80] animate-pulse" />
+                    <span>Primary:</span>
+                    <span className="uppercase">{scores.primaryDecision.replace('_', ' ')}</span>
                   </div>
-                  <span className="text-[10px] font-bold text-[#2b00d9] tabular-nums">{scores.confidence}% confidence</span>
+
+                  <span className="text-[#cbd5e1] font-bold text-sm hidden xs:inline">/</span>
+
+                  {/* Secondary Path Pill */}
+                  <div className="flex items-center gap-2 bg-white text-[#334155] border border-[#cbd5e1] px-3 py-1.5 rounded-xl text-xs font-bold shadow-2xs">
+                    <span className="text-[#64748b] font-semibold">Secondary:</span>
+                    <span className="uppercase text-[#0f172a] font-extrabold">{scores.secondaryDecision.replace('_', ' ')}</span>
+                  </div>
+                </div>
+
+                {/* Meter & Rating Badge */}
+                <div className="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-end bg-white/90 backdrop-blur-xs px-3.5 py-1.5 rounded-xl border border-[#cbd5e1]/60 shadow-2xs">
+                  <div className="space-y-1">
+                    <div className="flex justify-between text-[10px] font-extrabold text-[#475569] uppercase tracking-wider gap-4">
+                      <span>Engine Confidence</span>
+                      <span className="text-[#2b00d9] font-black">{scores.confidence}%</span>
+                    </div>
+                    <div className="h-2 w-28 sm:w-36 bg-[#e2e8f0] rounded-full overflow-hidden p-0.5">
+                      <div
+                        className="h-full rounded-full bg-gradient-to-r from-[#2b00d9] via-[#6366f1] to-[#10b981] transition-all duration-700"
+                        style={{ width: `${scores.confidence}%` }}
+                      />
+                    </div>
+                  </div>
+                  <span className="text-xs font-black text-[#2b00d9] bg-[#eef2ff] px-2.5 py-1 rounded-lg border border-[#c7d2fe] shrink-0">
+                    High Fit
+                  </span>
                 </div>
               </div>
             </div>
           </section>
 
           {/* Open-Source Alternatives */}
-          <section id="open-source" className="relative overflow-hidden bg-gradient-to-br from-[#eff6ff] via-[#eef2ff] to-[#e0e7ff] border border-[#a5b4fc]/60 rounded-3xl p-8 space-y-6 shadow-md shadow-[#2b00d9]/5">
+          <section id="open-source" className="relative overflow-hidden bg-gradient-to-br from-[#eff6ff] via-[#eef2ff] to-[#e0e7ff] border border-[#a5b4fc]/60 rounded-3xl p-5 sm:p-8 space-y-6 shadow-md shadow-[#2b00d9]/5">
             <div className="absolute -top-24 -right-24 w-64 h-64 bg-[#2b00d9]/10 rounded-full blur-3xl pointer-events-none" />
-            <div className="flex justify-between items-center border-b border-[#c7d2fe] pb-4 relative z-10">
+            <div className="flex justify-between items-center border-b border-[#c7d2fe] pb-4 relative z-10 gap-3">
               <div>
                 <span className="text-[10px] uppercase font-extrabold text-[#2b00d9] bg-[#eef2ff] px-3 py-1 rounded-full border border-[#818cf8]/40 shadow-xs">
                   ⚡ Zero Subscription Fee
                 </span>
-                <h2 className="text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">Open-Source Alternatives to {prod.name}</h2>
+                <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">Open-Source Alternatives to {prod.name}</h2>
               </div>
-              <Link href={`/software/${prod.slug}/open-source`} className="text-xs text-[#2b00d9] font-extrabold hover:text-[#1f00a8] hover:underline bg-white/80 backdrop-blur-xs px-3.5 py-2 rounded-xl border border-[#a5b4fc]/50 shadow-2xs transition">
+              <Link href={`/software/${prod.slug}/open-source`} className="text-xs text-[#2b00d9] font-extrabold hover:text-[#1f00a8] hover:underline bg-white/80 backdrop-blur-xs px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border border-[#a5b4fc]/50 shadow-2xs transition shrink-0">
                 Self-Host Guide ↗
               </Link>
             </div>
@@ -279,7 +355,7 @@ export default async function SoftwarePage({
             <div className="grid gap-4 sm:grid-cols-2 relative z-10">
               {prod.openSourceAlternatives && prod.openSourceAlternatives.length > 0 ? (
                 prod.openSourceAlternatives.map((os, idx) => (
-                  <div key={idx} className="bg-white/85 backdrop-blur-sm border border-[#c7d2fe] p-6 rounded-2xl space-y-3 shadow-xs hover:shadow-md hover:border-[#818cf8] transition-all duration-200">
+                  <div key={idx} className="bg-white/85 backdrop-blur-sm border border-[#c7d2fe] p-5 sm:p-6 rounded-2xl space-y-3 shadow-xs hover:shadow-md hover:border-[#818cf8] transition-all duration-200">
                     <div className="flex justify-between items-start">
                       <div>
                         <span className="text-[10px] font-extrabold text-[#2b00d9] uppercase tracking-wider">Verified Repository</span>
@@ -306,7 +382,7 @@ export default async function SoftwarePage({
                   </div>
                 ))
               ) : (
-                <div className="bg-white/85 backdrop-blur-sm border border-[#c7d2fe] p-6 rounded-2xl space-y-3 sm:col-span-2 shadow-xs">
+                <div className="bg-white/85 backdrop-blur-sm border border-[#c7d2fe] p-5 sm:p-6 rounded-2xl space-y-3 sm:col-span-2 shadow-xs">
                   <h3 className="text-lg font-extrabold text-[#0f172a]">Open-{prod.name} Alternative</h3>
                   <p className="text-xs text-[#475569] leading-relaxed font-medium">Self-hostable open-source community software with zero monthly subscription fees.</p>
                 </div>
@@ -329,20 +405,20 @@ export default async function SoftwarePage({
           </a>
 
           {/* VPS Hosting Guide for Self-Hosting Options */}
-          <section className="bg-gradient-to-br from-white to-[#f8fafc] border border-[#e2e8f0] rounded-3xl p-8 space-y-6 shadow-sm">
+          <section className="bg-gradient-to-br from-white to-[#f8fafc] border border-[#e2e8f0] rounded-3xl p-5 sm:p-8 space-y-6 shadow-sm">
               <div className="border-b border-[#e2e8f0] pb-4">
                 <span className="text-[10px] uppercase font-extrabold tracking-wider bg-[#f3e8ff] text-[#9333ea] px-3 py-1 rounded-full border border-[#9333ea]/20">
                   Recommended Deployment Infrastructure
                 </span>
-                <h2 className="text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">
-                  Recommended VPS Hosting for {prod.name} Alternatives
+                <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">
+                  Recommended Hosting to Deploy Open-Source Models for {prod.name}
                 </h2>
                 <p className="text-xs text-[#64748b] font-medium mt-1">
-                  Because the primary verdict for {prod.name} is <strong className="text-[#9333ea]">SELF-HOST</strong>, you will need a reliable VPS provider with 100% root access, Docker support, and dedicated IPv4 bandwidth.
+                  Because the primary verdict for {prod.name} is <strong className="text-[#9333ea]">SELF-HOST</strong>, you will need a reliable VPS provider with 100% root access, Docker support, and dedicated IPv4 bandwidth to deploy open-source models & self-hosted alternatives.
                 </p>
               </div>
 
-              <div className="grid gap-5 md:grid-cols-3">
+              <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {/* Hostinger */}
                 <div className="bg-white border border-[#e2e8f0] rounded-2xl p-6 space-y-4 shadow-sm flex flex-col justify-between hover:border-[#2b00d9]/30 transition">
                   <div className="space-y-3">
@@ -489,8 +565,8 @@ export default async function SoftwarePage({
 
 
           {/* Alternatives Comparison (Truvora Grid + Detailed Research) */}
-          <section id="alternatives" className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-6 shadow-sm">
-            <div className="flex justify-between items-center border-b border-[#f1f5f9] pb-4">
+          <section id="alternatives" className="bg-white border border-[#e2e8f0] rounded-3xl p-5 sm:p-8 space-y-6 shadow-sm">
+            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#f1f5f9] pb-4">
               <div>
                 <span className="text-[10px] uppercase font-bold text-[#2b00d9] bg-[#eef2ff] px-2.5 py-0.5 rounded-full border border-[#2b00d9]/20">
                   Verified Parity Research
@@ -506,7 +582,7 @@ export default async function SoftwarePage({
               Independent hands-on research comparing feature parity, pricing models, and key advantages against top market competitors:
             </p>
 
-            <div className="grid gap-5 md:grid-cols-3">
+            <div className="grid gap-4 sm:gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
               {(() => {
                 const cardGradients = [
                   {
@@ -557,7 +633,7 @@ export default async function SoftwarePage({
                   prod.verifiedCommercialAlternatives.map((alt, idx) => {
                     const style = cardGradients[idx % cardGradients.length];
                     return (
-                      <div key={idx} className={`${style.bg} ${style.border} border p-6 rounded-2xl space-y-4 flex flex-col justify-between shadow-xs hover:shadow-md transition-all duration-200`}>
+                      <div key={idx} className={`${style.bg} ${style.border} border p-5 sm:p-6 rounded-2xl space-y-4 flex flex-col justify-between shadow-xs hover:shadow-md transition-all duration-200`}>
                         <div className="space-y-2">
                           <div className="flex justify-between items-start">
                             <h3 className="font-extrabold text-base text-[#0f172a]">{alt.name}</h3>
@@ -595,7 +671,7 @@ export default async function SoftwarePage({
                   alternatives.map((alt, idx) => {
                     const style = cardGradients[idx % cardGradients.length];
                     return (
-                      <div key={alt.slug} className={`${style.bg} ${style.border} border p-6 rounded-2xl space-y-4 flex flex-col justify-between shadow-xs hover:shadow-md transition-all duration-200`}>
+                      <div key={alt.slug} className={`${style.bg} ${style.border} border p-5 sm:p-6 rounded-2xl space-y-4 flex flex-col justify-between shadow-xs hover:shadow-md transition-all duration-200`}>
                         <div className="space-y-2">
                           <div className="flex justify-between items-start">
                             <h3 className="font-extrabold text-base text-[#0f172a]">{alt.name}</h3>
@@ -629,19 +705,17 @@ export default async function SoftwarePage({
             </div>
           </section>
 
-
-
           {/* Pricing Table */}
-          <section id="pricing" className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-6 shadow-sm">
-            <h2 className="text-xl font-bold text-[#0f172a]">{prod.name} Verified Pricing</h2>
-            <div className="grid gap-4 sm:grid-cols-2">
+          <section id="pricing" className="bg-white border border-[#e2e8f0] rounded-3xl p-5 sm:p-8 space-y-6 shadow-sm">
+            <h2 className="text-lg sm:text-xl font-bold text-[#0f172a]">{prod.name} Verified Pricing</h2>
+            <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2">
               {prod.pricing.map((p, idx) => (
-                <div key={idx} className="bg-[#f8fafc] p-5 rounded-2xl border border-[#e2e8f0] flex justify-between items-center">
+                <div key={idx} className="bg-[#f8fafc] p-4 sm:p-5 rounded-2xl border border-[#e2e8f0] flex flex-wrap items-center justify-between gap-2">
                   <div>
                     <span className="font-bold text-[#0f172a] text-sm block">{p.name}</span>
                     <span className="text-xs text-[#64748b]">{p.billingInterval} billing</span>
                   </div>
-                  <span className="text-lg font-extrabold text-[#16a34a]">
+                  <span className="text-base sm:text-lg font-extrabold text-[#16a34a]">
                     {p.freeTier ? 'Free' : `$${p.basePrice}/mo`}
                   </span>
                 </div>
@@ -650,12 +724,12 @@ export default async function SoftwarePage({
           </section>
 
           {/* Visible FAQ Accordion Section for SEO & AEO */}
-          <section id="faq" className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-6 shadow-sm">
+          <section id="faq" className="bg-white border border-[#e2e8f0] rounded-3xl p-5 sm:p-8 space-y-6 shadow-sm">
             <div className="border-b border-[#f1f5f9] pb-4">
               <span className="text-[10px] uppercase font-bold text-[#2b00d9] bg-[#eef2ff] px-2.5 py-0.5 rounded-full border border-[#2b00d9]/20">
                 Frequently Asked Questions
               </span>
-              <h2 className="text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">
+              <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f172a] tracking-tight mt-2">
                 Frequently Asked Questions about {prod.name}
               </h2>
               <p className="text-xs font-medium text-[#475569] mt-1">
@@ -664,10 +738,10 @@ export default async function SoftwarePage({
             </div>
 
             <div className="space-y-4">
-              <details className="group bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-5 [&_summary::-webkit-details-marker]:none cursor-pointer" open>
-                <summary className="flex items-center justify-between font-extrabold text-sm text-[#0f172a] select-none">
+              <details className="group bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-4 sm:p-5 [&_summary::-webkit-details-marker]:none cursor-pointer" open>
+                <summary className="flex items-center justify-between font-extrabold text-xs sm:text-sm text-[#0f172a] select-none gap-2">
                   <span>Should you keep or switch from {prod.name}?</span>
-                  <span className="ml-2 text-[#64748b] group-open:rotate-180 transition-transform">▼</span>
+                  <span className="ml-2 text-[#64748b] group-open:rotate-180 transition-transform shrink-0">▼</span>
                 </summary>
                 <p className="text-xs text-[#475569] font-medium leading-relaxed mt-3 pt-3 border-t border-[#e2e8f0]">
                   Based on our deterministic 0-100 evaluation engine, the primary recommendation for {prod.name} is{' '}
@@ -679,10 +753,10 @@ export default async function SoftwarePage({
                 </p>
               </details>
 
-              <details className="group bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-5 [&_summary::-webkit-details-marker]:none cursor-pointer">
-                <summary className="flex items-center justify-between font-extrabold text-sm text-[#0f172a] select-none">
+              <details className="group bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-4 sm:p-5 [&_summary::-webkit-details-marker]:none cursor-pointer">
+                <summary className="flex items-center justify-between font-extrabold text-xs sm:text-sm text-[#0f172a] select-none gap-2">
                   <span>What are the top open-source alternatives to {prod.name}?</span>
-                  <span className="ml-2 text-[#64748b] group-open:rotate-180 transition-transform">▼</span>
+                  <span className="ml-2 text-[#64748b] group-open:rotate-180 transition-transform shrink-0">▼</span>
                 </summary>
                 <p className="text-xs text-[#475569] font-medium leading-relaxed mt-3 pt-3 border-t border-[#e2e8f0]">
                   {prod.openSourceAlternatives && prod.openSourceAlternatives.length > 0 ? (
@@ -698,10 +772,10 @@ export default async function SoftwarePage({
                 </p>
               </details>
 
-              <details className="group bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-5 [&_summary::-webkit-details-marker]:none cursor-pointer">
-                <summary className="flex items-center justify-between font-extrabold text-sm text-[#0f172a] select-none">
+              <details className="group bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-4 sm:p-5 [&_summary::-webkit-details-marker]:none cursor-pointer">
+                <summary className="flex items-center justify-between font-extrabold text-xs sm:text-sm text-[#0f172a] select-none gap-2">
                   <span>How much does {prod.name} cost per month?</span>
-                  <span className="ml-2 text-[#64748b] group-open:rotate-180 transition-transform">▼</span>
+                  <span className="ml-2 text-[#64748b] group-open:rotate-180 transition-transform shrink-0">▼</span>
                 </summary>
                 <p className="text-xs text-[#475569] font-medium leading-relaxed mt-3 pt-3 border-t border-[#e2e8f0]">
                   {prod.pricing && prod.pricing.length > 0 ? (
@@ -724,8 +798,8 @@ export default async function SoftwarePage({
           <DecisionGlossarySection />
         </div>
 
-        {/* Right Sidebar (1 Column) */}
-        <aside className="space-y-6 sticky top-24">
+        {/* Right Sidebar (1 Column - Full Height for Sticky Widget) */}
+        <aside className="space-y-6 lg:col-span-1 h-full min-h-full">
           {/* Quick Decision Box */}
           <div className="bg-white border border-[#e2e8f0] rounded-3xl p-6 space-y-4 shadow-sm">
             <h3 className="text-xs font-extrabold uppercase tracking-wider text-[#0f172a] border-b border-[#f1f5f9] pb-3">
@@ -813,6 +887,81 @@ export default async function SoftwarePage({
               ))}
             </div>
           </div>
+
+          {/* Recommended VPS Hosting Sidebar Widget (Last Widget, Sticky) */}
+          <div className="lg:sticky lg:top-24 bg-gradient-to-br from-[#0f172a] via-[#1e1b4b] to-[#0f172a] text-white border border-[#4338ca]/60 rounded-3xl p-5 space-y-4 shadow-xl shadow-[#2b00d9]/15 z-30">
+            <div className="flex items-center justify-between border-b border-white/10 pb-3">
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-[#4ade80] animate-pulse" />
+                <span className="text-[10px] uppercase font-extrabold tracking-wider text-[#a5b4fc]">
+                  Recommended VPS Hosting
+                </span>
+              </div>
+              <span className="text-[10px] bg-[#2b00d9] text-white font-bold px-2 py-0.5 rounded-full border border-[#6366f1]/40">
+                Verified
+              </span>
+            </div>
+
+            <div>
+              <h4 className="text-sm font-extrabold text-white tracking-tight">
+                Recommended Hosting to Deploy Open-Source Models
+              </h4>
+              <p className="text-xs text-slate-300 font-medium mt-1 leading-relaxed">
+                Optimized 1-click VPS & cloud infrastructure to deploy open-source models for {prod.name}.
+              </p>
+            </div>
+
+            <div className="space-y-2 pt-1">
+              <a
+                href="https://hostinger.in/cloud-hosting"
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="flex items-center justify-between bg-[#2b00d9] hover:bg-[#3700ff] text-white p-3 rounded-2xl transition border border-[#6366f1]/40 group"
+              >
+                <div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="font-extrabold text-xs">Hostinger VPS</span>
+                    <span className="text-[9px] bg-[#4ade80]/20 text-[#4ade80] font-bold px-1.5 py-0.2 rounded">
+                      ★ Best Value
+                    </span>
+                  </div>
+                  <span className="text-[10px] text-slate-200 font-medium">Starting at $4.99/mo</span>
+                </div>
+                <span className="text-xs font-bold group-hover:translate-x-0.5 transition-transform">Deploy ↗</span>
+              </a>
+
+              <a
+                href="https://www.digitalocean.com/"
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="flex items-center justify-between bg-[#0069ff] hover:bg-[#1a7aff] text-white p-3 rounded-2xl transition border border-[#60a5fa]/40 group"
+              >
+                <div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="font-extrabold text-xs">DigitalOcean</span>
+                    <span className="text-[9px] bg-white/20 text-white font-bold px-1.5 py-0.2 rounded">
+                      Dev Standard
+                    </span>
+                  </div>
+                  <span className="text-[10px] text-slate-100 font-medium">Starting at $4.00/mo</span>
+                </div>
+                <span className="text-xs font-bold group-hover:translate-x-0.5 transition-transform">Deploy ↗</span>
+              </a>
+
+              <a
+                href="https://hosting.com/"
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="flex items-center justify-between bg-white/10 hover:bg-white/15 text-white p-3 rounded-2xl transition border border-white/10 group"
+              >
+                <div>
+                  <span className="font-extrabold text-xs block">Hosting.com</span>
+                  <span className="text-[10px] text-slate-300 font-medium">Enterprise Cloud</span>
+                </div>
+                <span className="text-xs font-bold group-hover:translate-x-0.5 transition-transform">Explore ↗</span>
+              </a>
+            </div>
+          </div>
         </aside>
       </div>
     </div>
@@ -833,28 +982,28 @@ function DecisionScoreCard({
   badgeBorder: string;
 }) {
   return (
-    <div className={`relative bg-white border rounded-2xl p-4 space-y-3 shadow-sm overflow-hidden ${
+    <div className={`relative bg-white border rounded-2xl p-3 sm:p-4 space-y-2 sm:space-y-3 shadow-sm overflow-hidden w-full max-w-full ${
       isPrimary ? `border-2 ${badgeBorder} shadow-md` : 'border-[#e2e8f0]'
     }`}>
 
       {/* Top Pick bar */}
       {isPrimary ? (
-        <div className={`absolute top-0 left-0 right-0 flex items-center justify-center gap-1 py-1 text-[9px] font-extrabold uppercase tracking-widest text-white ${barColor}`}>
+        <div className={`absolute top-0 left-0 right-0 flex items-center justify-center gap-1 py-1 text-[8px] sm:text-[9px] font-extrabold uppercase tracking-widest text-white ${barColor}`}>
           ★ Top Pick
         </div>
       ) : null}
 
       {/* Score number + hint */}
-      <div className={isPrimary ? 'pt-5' : 'pt-1'}>
-        <p className="text-[9px] font-bold uppercase tracking-wider text-[#94a3b8] mb-0.5">{hint}</p>
-        <p className={`text-3xl font-extrabold tabular-nums leading-none ${textColor}`}>
-          {score}<span className="text-sm font-semibold text-[#94a3b8]">/100</span>
+      <div className={isPrimary ? 'pt-4 sm:pt-5' : 'pt-1'}>
+        <p className="text-[8px] sm:text-[9px] font-bold uppercase tracking-wider text-[#94a3b8] mb-0.5 truncate">{hint}</p>
+        <p className={`text-2xl sm:text-3xl font-extrabold tabular-nums leading-none ${textColor}`}>
+          {score}<span className="text-xs sm:text-sm font-semibold text-[#94a3b8]">/100</span>
         </p>
       </div>
 
       {/* Label + progress bar */}
       <div>
-        <span className={`text-[10px] font-extrabold uppercase tracking-wider block mb-1.5 ${isPrimary ? textColor : 'text-[#64748b]'}`}>
+        <span className={`text-[9px] sm:text-[10px] font-extrabold uppercase tracking-wider block mb-1 truncate ${isPrimary ? textColor : 'text-[#64748b]'}`}>
           {title}
         </span>
         <div className={`h-2 w-full rounded-full overflow-hidden ${trackColor}`}>

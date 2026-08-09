@@ -38,13 +38,13 @@ export default function BlueprintPage() {
       </div>
 
       {/* Generator Form */}
-      <form onSubmit={handleGenerate} className="bg-white border border-[#e2e8f0] p-8 rounded-3xl space-y-6 shadow-sm">
+      <form onSubmit={handleGenerate} className="bg-white border border-[#e2e8f0] p-5 sm:p-8 rounded-3xl space-y-6 shadow-sm">
         <div className="space-y-2">
           <label className="text-xs font-bold uppercase tracking-wider text-[#0f172a]">Target Software to Replace *</label>
           <select
             value={selectedProductSlug}
             onChange={(e) => setSelectedProductSlug(e.target.value)}
-            className="w-full bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl px-5 py-3.5 text-[#0f172a] text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition"
+            className="w-full bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl px-4 sm:px-5 py-3 sm:py-3.5 text-[#0f172a] text-xs sm:text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition"
           >
             {ALL_SOFTWARE_PRODUCTS.map((p: any) => (
               <option key={p.slug} value={p.slug}>
@@ -60,14 +60,14 @@ export default function BlueprintPage() {
             rows={3}
             value={requirements}
             onChange={(e) => setRequirements(e.target.value)}
-            className="w-full bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl px-5 py-3.5 text-[#0f172a] text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition"
+            className="w-full bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl px-4 sm:px-5 py-3 sm:py-3.5 text-[#0f172a] text-xs sm:text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition"
           />
         </div>
 
         <button
           type="submit"
           disabled={loading}
-          className="w-full bg-[#2b00d9] hover:bg-[#1f00a8] text-white font-bold py-4 rounded-2xl text-sm transition shadow-md shadow-[#2b00d9]/25"
+          className="w-full bg-[#2b00d9] hover:bg-[#1f00a8] text-white font-bold py-3.5 sm:py-4 rounded-2xl text-xs sm:text-sm transition shadow-md shadow-[#2b00d9]/25"
         >
           {loading ? 'Generating Structured Specification...' : 'Generate Replacement Blueprint Specification'}
         </button>
@@ -75,7 +75,7 @@ export default function BlueprintPage() {
 
       {/* Generated Blueprint View */}
       {blueprint && (
-        <div className="bg-white border border-[#2b00d9]/30 rounded-3xl p-8 space-y-6 shadow-lg shadow-[#2b00d9]/5">
+        <div className="bg-white border border-[#2b00d9]/30 rounded-3xl p-5 sm:p-8 space-y-6 shadow-lg shadow-[#2b00d9]/5">
           <div className="flex justify-between items-start border-b border-[#f1f5f9] pb-4">
             <div>
               <span className="text-[10px] text-[#2b00d9] font-bold uppercase tracking-wider bg-[#eef2ff] px-2.5 py-0.5 rounded-full">

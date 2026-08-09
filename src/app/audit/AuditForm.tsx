@@ -74,13 +74,13 @@ export default function AuditForm() {
       </div>
 
       {/* Add Product Form */}
-      <div className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-4 shadow-sm">
-        <h3 className="text-lg font-bold text-[#0f172a]">Add Software to Your Stack</h3>
-        <div className="flex flex-col md:flex-row gap-4">
+      <div className="bg-white border border-[#e2e8f0] rounded-3xl p-5 sm:p-8 space-y-4 shadow-sm">
+        <h3 className="text-base sm:text-lg font-bold text-[#0f172a]">Add Software to Your Stack</h3>
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
           <select
             value={selectedProductSlug}
             onChange={(e) => setSelectedProductSlug(e.target.value)}
-            className="flex-1 bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl px-5 py-3.5 text-[#0f172a] text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition"
+            className="flex-1 bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl px-4 sm:px-5 py-3 sm:py-3.5 text-[#0f172a] text-xs sm:text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition"
           >
             {ALL_SOFTWARE_PRODUCTS.map((p: any) => (
               <option key={p.slug} value={p.slug}>
@@ -94,13 +94,13 @@ export default function AuditForm() {
             value={costInput}
             onChange={(e) => setCostInput(Number(e.target.value))}
             placeholder="Monthly Cost ($)"
-            className="w-full md:w-44 bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl px-5 py-3.5 text-[#0f172a] text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition"
+            className="w-full sm:w-44 bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl px-4 sm:px-5 py-3 sm:py-3.5 text-[#0f172a] text-xs sm:text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition"
           />
 
           <button
             type="button"
             onClick={handleAddItem}
-            className="bg-[#2b00d9] hover:bg-[#1f00a8] text-white font-bold px-6 py-3.5 rounded-2xl text-sm transition shadow-md shadow-[#2b00d9]/25"
+            className="bg-[#2b00d9] hover:bg-[#1f00a8] text-white font-bold px-6 py-3 sm:py-3.5 rounded-2xl text-xs sm:text-sm transition shadow-md shadow-[#2b00d9]/25 shrink-0"
           >
             Add Item
           </button>
@@ -108,24 +108,24 @@ export default function AuditForm() {
       </div>
 
       {/* Audit Analytics Summary Cards */}
-      <div className="grid gap-4 md:grid-cols-4 text-center">
-        <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl space-y-1 shadow-sm">
-          <span className="text-[10px] text-[#64748b] uppercase font-bold">Total Annual Spend</span>
-          <p className="text-3xl font-extrabold text-[#0f172a]">${auditResult.totalAnnualSpend.toLocaleString()}</p>
+      <div className="grid gap-3 sm:gap-4 grid-cols-2 lg:grid-cols-4 text-center">
+        <div className="bg-white border border-[#e2e8f0] p-4 sm:p-6 rounded-2xl space-y-1 shadow-sm">
+          <span className="text-[9px] sm:text-[10px] text-[#64748b] uppercase font-bold">Total Annual Spend</span>
+          <p className="text-xl sm:text-3xl font-extrabold text-[#0f172a]">${auditResult.totalAnnualSpend.toLocaleString()}</p>
         </div>
-        <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl space-y-1 shadow-sm">
-          <span className="text-[10px] text-[#64748b] uppercase font-bold">Optimized Annual Spend</span>
-          <p className="text-3xl font-extrabold text-[#16a34a]">
+        <div className="bg-white border border-[#e2e8f0] p-4 sm:p-6 rounded-2xl space-y-1 shadow-sm">
+          <span className="text-[9px] sm:text-[10px] text-[#64748b] uppercase font-bold">Optimized Annual Spend</span>
+          <p className="text-xl sm:text-3xl font-extrabold text-[#16a34a]">
             ${(auditResult.totalAnnualSpend - auditResult.potentialAnnualSavings).toLocaleString()}
           </p>
         </div>
-        <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl space-y-1 shadow-sm">
-          <span className="text-[10px] text-[#64748b] uppercase font-bold">Potential Annual Savings</span>
-          <p className="text-3xl font-extrabold text-[#2b00d9]">${auditResult.potentialAnnualSavings.toLocaleString()}</p>
+        <div className="bg-white border border-[#e2e8f0] p-4 sm:p-6 rounded-2xl space-y-1 shadow-sm">
+          <span className="text-[9px] sm:text-[10px] text-[#64748b] uppercase font-bold">Potential Annual Savings</span>
+          <p className="text-xl sm:text-3xl font-extrabold text-[#2b00d9]">${auditResult.potentialAnnualSavings.toLocaleString()}</p>
         </div>
-        <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl space-y-1 shadow-sm">
-          <span className="text-[10px] text-[#64748b] uppercase font-bold">Stack Efficiency</span>
-          <p className="text-3xl font-extrabold text-[#9333ea]">{auditResult.stackEfficiencyScore}/100</p>
+        <div className="bg-white border border-[#e2e8f0] p-4 sm:p-6 rounded-2xl space-y-1 shadow-sm">
+          <span className="text-[9px] sm:text-[10px] text-[#64748b] uppercase font-bold">Stack Efficiency</span>
+          <p className="text-xl sm:text-3xl font-extrabold text-[#9333ea]">{auditResult.stackEfficiencyScore}/100</p>
         </div>
       </div>
 
@@ -137,23 +137,23 @@ export default function AuditForm() {
       />
 
       {/* Current Stack List */}
-      <div className="bg-white border border-[#e2e8f0] rounded-3xl p-8 space-y-4 shadow-sm">
-        <h3 className="text-xl font-bold text-[#0f172a]">Your SaaS Stack ({items.length} Items)</h3>
+      <div className="bg-white border border-[#e2e8f0] rounded-3xl p-5 sm:p-8 space-y-4 shadow-sm">
+        <h3 className="text-lg sm:text-xl font-bold text-[#0f172a]">Your SaaS Stack ({items.length} Items)</h3>
         {items.length === 0 ? (
           <p className="text-sm font-medium text-[#64748b]">No items in stack. Add software above.</p>
         ) : (
           <div className="divide-y divide-[#f1f5f9]">
             {items.map((item, idx) => (
-              <div key={idx} className="py-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div key={idx} className="py-4 flex items-center justify-between gap-4">
                 <div>
-                  <h4 className="font-bold text-[#0f172a] text-base">{item.softwareName}</h4>
+                  <h4 className="font-bold text-[#0f172a] text-sm sm:text-base">{item.softwareName}</h4>
                   <span className="text-xs text-[#64748b] font-medium">{item.categoryName}</span>
                 </div>
 
-                <div className="flex items-center gap-6">
+                <div className="flex items-center gap-4 sm:gap-6 shrink-0">
                   <div className="text-right">
-                    <span className="text-sm font-bold text-[#0f172a] block">${item.monthlyCost}/mo</span>
-                    <span className="text-xs text-[#16a34a] font-bold block">
+                    <span className="text-xs sm:text-sm font-bold text-[#0f172a] block">${item.monthlyCost}/mo</span>
+                    <span className="text-[10px] sm:text-xs text-[#16a34a] font-bold block">
                       Rec: {item.recommendedDecision}
                     </span>
                   </div>
@@ -173,9 +173,9 @@ export default function AuditForm() {
       </div>
 
       {/* Top Insights */}
-      <div className="grid gap-6 md:grid-cols-2">
-        <div className="bg-white border border-[#e2e8f0] p-8 rounded-3xl space-y-3 shadow-sm">
-          <h4 className="font-bold text-[#0f172a] text-lg">Top Optimization Priorities</h4>
+      <div className="grid gap-5 sm:gap-6 grid-cols-1 md:grid-cols-2">
+        <div className="bg-white border border-[#e2e8f0] p-5 sm:p-8 rounded-3xl space-y-3 shadow-sm">
+          <h4 className="font-bold text-[#0f172a] text-base sm:text-lg">Top Optimization Priorities</h4>
           <ul className="text-xs text-[#475569] font-semibold space-y-2">
             {auditResult.topRecommendations.map((rec, i) => (
               <li key={i} className="flex gap-2 items-start">
@@ -186,8 +186,8 @@ export default function AuditForm() {
           </ul>
         </div>
 
-        <div className="bg-white border border-[#e2e8f0] p-8 rounded-3xl space-y-3 shadow-sm">
-          <h4 className="font-bold text-[#0f172a] text-lg">Easiest Savings Opportunity</h4>
+        <div className="bg-white border border-[#e2e8f0] p-5 sm:p-8 rounded-3xl space-y-3 shadow-sm">
+          <h4 className="font-bold text-[#0f172a] text-base sm:text-lg">Easiest Savings Opportunity</h4>
           <p className="text-xs text-[#16a34a] font-bold">{auditResult.easiestSavingsOpportunity}</p>
           <div className="pt-4">
             <Link
@@ -201,7 +201,7 @@ export default function AuditForm() {
       </div>
 
       {/* Save & Email Report Bar */}
-      <div className="bg-white border border-[#e2e8f0] p-8 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-4 shadow-sm">
+      <div className="bg-white border border-[#e2e8f0] p-5 sm:p-8 rounded-3xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-sm">
         <div>
           <h4 className="font-bold text-[#0f172a]">Save or Share This Audit</h4>
           <p className="text-xs font-medium text-[#64748b]">Generate a secure shareable link without creating an account.</p>
@@ -215,7 +215,7 @@ export default function AuditForm() {
           <button
             type="button"
             onClick={handleSaveAudit}
-            className="bg-[#f8fafc] hover:bg-[#e2e8f0] text-[#0f172a] font-bold text-xs px-5 py-3 rounded-xl border border-[#e2e8f0] transition"
+            className="bg-[#f8fafc] hover:bg-[#e2e8f0] text-[#0f172a] font-bold text-xs px-5 py-3 rounded-xl border border-[#e2e8f0] transition w-full sm:w-auto text-center"
           >
             Generate Anonymous Share Link
           </button>

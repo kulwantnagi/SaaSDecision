@@ -1,6 +1,28 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { INITIAL_25_PRODUCTS } from '@/domain/seed-data';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ kitSlug: string }>;
+}): Promise<Metadata> {
+  const { kitSlug } = await params;
+  const kit = REPLACEMENT_KITS[kitSlug];
+  if (!kit) return {};
+
+  return {
+    title: `${kit.targetSaaS} Replacement Kit: Alternatives and Open Source SaaS Solutions`,
+    description: `Deploy a production-ready open source SaaS replacement for ${kit.targetSaaS}. ${kit.description}`,
+    keywords: [
+      `${kit.targetSaaS} replacement kit`,
+      `${kit.targetSaaS} alternatives`,
+      `open source ${kit.targetSaaS} alternative`,
+      `open source SaaS solutions`,
+      `self-hosted ${kit.targetSaaS}`,
+    ],
+  };
+}
 
 export interface KitDetails {
   title: string;
@@ -12,7 +34,7 @@ export interface KitDetails {
   codexPrompt: string;
 }
 
-export const REPLACEMENT_KITS: Record<string, KitDetails> = {
+const REPLACEMENT_KITS: Record<string, KitDetails> = {
   'calendly-kit': {
     title: 'Calendly Replacement Kit',
     targetSaaS: 'Calendly',
@@ -44,60 +66,86 @@ export default async function ReplacementKitPage({
   if (!kit) notFound();
 
   return (
-    <div className="max-w-4xl mx-auto py-8 space-y-8">
-      <div className="border-b border-[#23252a] pb-6 space-y-2 text-center">
-        <span className="text-[10px] uppercase font-bold tracking-wider bg-[#141516] text-[#828fff] px-2.5 py-0.5 rounded border border-[#23252a]">
-          Downloadable Starter Kit
-        </span>
-        <h1 className="text-3xl md:text-5xl font-extrabold text-white">{kit.title}</h1>
-        <p className="text-sm text-[#8a8f98] max-w-2xl mx-auto">{kit.description}</p>
+    <div className="max-w-4xl mx-auto py-6 sm:py-10 space-y-8">
+      {/* Breadcrumbs */}
+      <nav className="flex items-center gap-2 text-xs font-semibold text-[#64748b]">
+        <Link href="/" className="hover:text-[#2b00d9] transition">Home</Link>
+        <span>»</span>
+        <Link href="/kits/calendly-kit" className="hover:text-[#2b00d9] transition">Starter Kits</Link>
+        <span>»</span>
+        <span className="text-[#0f172a] font-bold">{kit.targetSaaS} Replacement</span>
+      </nav>
+
+      {/* Header Banner */}
+      <div className="bg-white border border-[#e2e8f0] rounded-3xl p-6 sm:p-10 text-center space-y-4 shadow-sm relative overflow-hidden">
+        <div className="absolute -top-20 -right-20 w-56 h-56 bg-[#2b00d9]/10 rounded-full blur-3xl pointer-events-none" />
+
+        <div>
+          <span className="text-xs font-extrabold uppercase tracking-wider bg-[#eef2ff] text-[#2b00d9] px-3.5 py-1 rounded-full border border-[#c7d2fe] inline-block shadow-2xs">
+            Downloadable Starter Kit
+          </span>
+        </div>
+
+        <h1 className="text-3xl md:text-5xl font-extrabold text-[#0f172a] tracking-tight">{kit.title}</h1>
+        <p className="text-sm md:text-base text-[#475569] font-medium leading-relaxed max-w-2xl mx-auto">
+          {kit.description}
+        </p>
       </div>
 
-      <div className="bg-[#0f1011] border border-[#23252a] p-8 rounded-2xl space-y-6">
-        <div className="flex justify-between items-center border-b border-[#23252a] pb-4">
+      {/* Main Kit Card */}
+      <div className="bg-white border border-[#e2e8f0] p-6 sm:p-10 rounded-3xl space-y-8 shadow-sm">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#f1f5f9] pb-6 gap-4">
           <div>
-            <h2 className="text-xl font-bold text-white">Kit Overview</h2>
-            <p className="text-xs text-[#8a8f98]">Source Code + AI Prompt + Deployment Guide</p>
+            <h2 className="text-xl font-extrabold text-[#0f172a]">Kit Architecture Overview</h2>
+            <p className="text-xs text-[#64748b] font-medium mt-1">Source Code + AI Prompt + Complete Deployment Guide</p>
           </div>
-          <span className="text-2xl font-black text-[#27a644]">${kit.price} USD</span>
+          <div className="bg-[#eef2ff] border border-[#c7d2fe] px-5 py-2 rounded-2xl">
+            <span className="text-2xl sm:text-3xl font-black text-[#2b00d9] tabular-nums">${kit.price} USD</span>
+          </div>
         </div>
 
+        {/* Features Grid */}
         <div className="space-y-3">
-          <h3 className="text-sm font-bold text-white">Included Features</h3>
-          <ul className="grid gap-2 sm:grid-cols-2 text-xs text-[#8a8f98]">
+          <h3 className="text-sm font-bold uppercase tracking-wider text-[#0f172a]">Included Features</h3>
+          <div className="grid gap-3 sm:grid-cols-2">
             {kit.featuresIncluded.map((feat, i) => (
-              <li key={i} className="flex gap-2 items-center">
-                <span className="text-[#27a644] font-bold">✓</span>
-                <span>{feat}</span>
-              </li>
+              <div key={i} className="flex items-center gap-3 bg-[#f8fafc] border border-[#e2e8f0] p-3.5 rounded-2xl">
+                <span className="w-6 h-6 rounded-full bg-[#f0fdf4] border border-[#86efac] text-[#16a34a] font-bold text-xs flex items-center justify-center shrink-0">
+                  ✓
+                </span>
+                <span className="text-xs font-semibold text-[#0f172a]">{feat}</span>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
 
+        {/* Tech Stack */}
         <div className="space-y-3">
-          <h3 className="text-sm font-bold text-white">Technology Stack</h3>
-          <div className="flex flex-wrap gap-2">
+          <h3 className="text-sm font-bold uppercase tracking-wider text-[#0f172a]">Technology Stack</h3>
+          <div className="flex flex-wrap gap-2.5">
             {kit.techStack.map((tech, i) => (
-              <span key={i} className="text-xs bg-[#141516] text-[#f7f8f8] px-3 py-1 rounded-lg border border-[#23252a]">
+              <span key={i} className="text-xs bg-[#f8fafc] text-[#334155] font-bold px-3.5 py-1.5 rounded-xl border border-[#e2e8f0] shadow-2xs">
                 {tech}
               </span>
             ))}
           </div>
         </div>
 
-        <div className="space-y-2 pt-2">
-          <h3 className="text-sm font-bold text-white">Codex / AI Builder Execution Prompt</h3>
-          <pre className="bg-[#010102] border border-[#23252a] p-4 rounded-xl text-xs text-[#8a8f98] font-mono whitespace-pre-wrap">
+        {/* Codex Prompt */}
+        <div className="space-y-2.5">
+          <h3 className="text-sm font-bold uppercase tracking-wider text-[#0f172a]">Codex / AI Builder Execution Prompt</h3>
+          <pre className="bg-[#f8fafc] border border-[#cbd5e1] p-4 sm:p-5 rounded-2xl text-xs text-[#1e293b] font-mono whitespace-pre-wrap leading-relaxed shadow-inner">
             {kit.codexPrompt}
           </pre>
         </div>
 
-        <div className="pt-4 border-t border-[#23252a]">
+        {/* CTA */}
+        <div className="pt-4 border-t border-[#f1f5f9]">
           <Link
             href="/expert-audit"
-            className="block text-center bg-[#5e6ad2] hover:bg-[#828fff] text-white font-medium py-3.5 rounded-xl text-sm transition shadow-lg shadow-[#5e6ad2]/30"
+            className="block text-center bg-gradient-to-r from-[#2b00d9] to-[#1f00a8] hover:from-[#1f00a8] hover:to-[#17007e] text-white font-extrabold py-4 rounded-2xl text-sm transition shadow-lg shadow-[#2b00d9]/25 hover:shadow-xl"
           >
-            Purchase {kit.title} (${kit.price}) ↗
+            Get {kit.title} (${kit.price}) ↗
           </Link>
         </div>
       </div>

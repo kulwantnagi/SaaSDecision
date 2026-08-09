@@ -72,12 +72,12 @@ export default async function HomePage({
           <span>Deterministic SaaS Intelligence ({ALL_SOFTWARE_PRODUCTS.length} Tools Indexed)</span>
         </div>
 
-        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-[#0f172a] leading-[1.1]">
-          Stop Paying for SaaS <br />
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#0f172a] leading-[1.1]">
+          Stop Paying for SaaS <br className="hidden sm:inline" />
           <span className="text-[#2b00d9]">You Don't Need.</span>
         </h1>
 
-        <p className="text-base sm:text-lg text-[#475569] max-w-2xl mx-auto leading-relaxed">
+        <p className="text-sm sm:text-lg text-[#475569] max-w-2xl mx-auto leading-relaxed">
           Evaluate whether you should <strong className="text-[#16a34a] font-bold">KEEP</strong> it,{' '}
           <strong className="text-[#2b00d9] font-bold">SWITCH</strong> to alternatives,{' '}
           <strong className="text-[#9333ea] font-bold">SELF-HOST</strong> open source,{' '}
@@ -90,8 +90,8 @@ export default async function HomePage({
       </section>
 
       {/* Metric Highlights — 100% Real Dynamic Catalog Intelligence */}
-      <section className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+      <section className="grid gap-4 sm:gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="bg-white border border-[#e2e8f0] p-5 sm:p-6 rounded-2xl shadow-sm flex flex-col justify-between">
           <div className="flex justify-between items-start mb-2">
             <span className="text-xs font-semibold text-[#64748b]">Indexed Software Products</span>
             <div className="w-8 h-8 rounded-full bg-[#eef2ff] text-[#2b00d9] flex items-center justify-center font-bold text-xs">
@@ -99,12 +99,12 @@ export default async function HomePage({
             </div>
           </div>
           <div>
-            <span className="text-3xl font-extrabold text-[#0f172a]">{ALL_SOFTWARE_PRODUCTS.length}</span>
+            <span className="text-2xl sm:text-3xl font-extrabold text-[#0f172a]">{ALL_SOFTWARE_PRODUCTS.length}</span>
             <span className="text-xs text-[#2b00d9] font-bold block mt-1">across {totalCategories} Software Categories</span>
           </div>
         </div>
 
-        <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+        <div className="bg-white border border-[#e2e8f0] p-5 sm:p-6 rounded-2xl shadow-sm flex flex-col justify-between">
           <div className="flex justify-between items-start mb-2">
             <span className="text-xs font-semibold text-[#64748b]">Products with Free Tier</span>
             <div className="w-8 h-8 rounded-full bg-[#f0fdf4] text-[#16a34a] flex items-center justify-center font-bold text-xs">
@@ -112,14 +112,14 @@ export default async function HomePage({
             </div>
           </div>
           <div>
-            <span className="text-3xl font-extrabold text-[#16a34a]">{freeTierCount}</span>
+            <span className="text-2xl sm:text-3xl font-extrabold text-[#16a34a]">{freeTierCount}</span>
             <span className="text-xs text-[#16a34a] font-bold block mt-1">
               {Math.round((freeTierCount / ALL_SOFTWARE_PRODUCTS.length) * 100)}% of catalog has zero-cost starter tier
             </span>
           </div>
         </div>
 
-        <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+        <div className="bg-white border border-[#e2e8f0] p-5 sm:p-6 rounded-2xl shadow-sm flex flex-col justify-between">
           <div className="flex justify-between items-start mb-2">
             <span className="text-xs font-semibold text-[#64748b]">Open-Source Alternatives</span>
             <div className="w-8 h-8 rounded-full bg-[#f3e8ff] text-[#9333ea] flex items-center justify-center font-bold text-xs">
@@ -127,12 +127,12 @@ export default async function HomePage({
             </div>
           </div>
           <div>
-            <span className="text-3xl font-extrabold text-[#9333ea]">{openSourceCount}</span>
+            <span className="text-2xl sm:text-3xl font-extrabold text-[#9333ea]">{openSourceCount}</span>
             <span className="text-xs text-[#9333ea] font-bold block mt-1">verified self-hostable replacements</span>
           </div>
         </div>
 
-        <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+        <div className="bg-white border border-[#e2e8f0] p-5 sm:p-6 rounded-2xl shadow-sm flex flex-col justify-between">
           <div className="flex justify-between items-start mb-2">
             <span className="text-xs font-semibold text-[#64748b]">Evaluation Engine</span>
             <div className="w-8 h-8 rounded-full bg-[#eef2ff] text-[#2b00d9] flex items-center justify-center font-bold text-xs">
@@ -140,7 +140,7 @@ export default async function HomePage({
             </div>
           </div>
           <div>
-            <span className="text-3xl font-extrabold text-[#2b00d9]">0 - 100</span>
+            <span className="text-2xl sm:text-3xl font-extrabold text-[#2b00d9]">0 - 100</span>
             <span className="text-xs text-[#64748b] font-bold block mt-1">Pure deterministic scoring</span>
           </div>
         </div>
@@ -150,7 +150,7 @@ export default async function HomePage({
       <section className="space-y-6">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end border-b border-[#e2e8f0] pb-4 gap-2">
           <div>
-            <h2 className="text-2xl font-extrabold text-[#0f172a] tracking-tight">Software Decision Index</h2>
+            <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f172a] tracking-tight">Software Decision Index</h2>
             <p className="text-xs font-medium text-[#64748b]">High-Commercial-Intent Verified Products ({totalItems} total matches)</p>
           </div>
           <span className="text-xs font-bold text-[#94a3b8]">
@@ -158,8 +158,8 @@ export default async function HomePage({
           </span>
         </div>
 
-        {/* Category Filter Bar */}
-        <div className="flex flex-wrap gap-2 pt-1 pb-3 overflow-x-auto no-scrollbar">
+        {/* Category Filter Bar (Smooth horizontal scroll on touch screens) */}
+        <div className="flex gap-2 pt-1 pb-3 overflow-x-auto no-scrollbar whitespace-nowrap scroll-smooth">
           {CATEGORY_OPTIONS.map((cat) => {
             const isActive = category === cat.value;
             const queryParams = new URLSearchParams();
@@ -170,7 +170,7 @@ export default async function HomePage({
               <Link
                 key={cat.value}
                 href={`/?${queryParams.toString()}`}
-                className={`text-xs font-bold px-3 py-1.5 rounded-xl border transition ${
+                className={`text-xs font-bold px-3.5 py-2 rounded-xl border transition shrink-0 ${
                   isActive
                     ? 'bg-[#2b00d9] text-white border-[#2b00d9] shadow-sm'
                     : 'bg-white text-[#475569] border-[#e2e8f0] hover:border-[#cbd5e1] hover:text-[#0f172a]'
