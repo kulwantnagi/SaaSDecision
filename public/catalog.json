@@ -89547,5 +89547,642 @@
         "keyAdvantage": "Universal web traffic analytics with search console integration."
       }
     ]
+  },
+  {
+    "name": "Contentful",
+    "slug": "contentful",
+    "categoryName": "Developer Tools",
+    "categorySlug": "developer-tools",
+    "shortDescription": "Contentful is an enterprise composable content platform for digital teams.",
+    "summary": "Contentful offers API-first content management, enabling teams to unify, structure, and deliver content across mobile apps and websites.",
+    "websiteUrl": "https://www.contentful.com",
+    "aliases": [
+      "Contentful CMS"
+    ],
+    "assessment": {
+      "buildComplexity": 4,
+      "integrationDependency": 4,
+      "dataMoat": 4,
+      "networkEffects": 2,
+      "complianceRequirement": 4,
+      "infrastructureComplexity": 4,
+      "realtimeCollaboration": 3,
+      "maintenanceBurden": 3,
+      "businessCriticality": 4,
+      "migrationComplexity": 4,
+      "apiAvailability": 5,
+      "workflowAutomatable": 4,
+      "openSourceMaturity": 5,
+      "alternativeMarketStrength": 5,
+      "dataPortability": 5,
+      "mobileDependency": 2,
+      "permissionComplexity": 4,
+      "reliabilityRequirement": 5,
+      "vendorLockIn": 3
+    },
+    "pricing": [
+      {
+        "name": "Free Tier",
+        "billingInterval": "monthly",
+        "basePrice": 0,
+        "pricePerSeat": 0,
+        "freeTier": true
+      },
+      {
+        "name": "Basic",
+        "billingInterval": "monthly",
+        "basePrice": 300,
+        "pricePerSeat": 300,
+        "freeTier": false
+      }
+    ],
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "title": "Contentful Official Website",
+        "url": "https://www.contentful.com"
+      }
+    ],
+    "openSourceAlternatives": [
+      {
+        "name": "Strapi",
+        "githubUrl": "https://github.com/strapi/strapi",
+        "description": "Open-source headless CMS.",
+        "stars": "61k★"
+      },
+      {
+        "name": "Directus",
+        "githubUrl": "https://github.com/directus/directus",
+        "description": "Open-source data platform & CMS.",
+        "stars": "28k★"
+      }
+    ],
+    "verifiedCommercialAlternatives": [
+      {
+        "name": "Sanity.io",
+        "slug": "sanity",
+        "startingPrice": "$0",
+        "freeTier": true,
+        "featureParity": "95%",
+        "keyAdvantage": "Real-time collaborative structured content platform."
+      }
+    ]
+  },
+  {
+    "name": "Sanity.io",
+    "slug": "sanity",
+    "categoryName": "Developer Tools",
+    "categorySlug": "developer-tools",
+    "shortDescription": "Sanity is a platform for structured content that powers customizable digital experiences.",
+    "summary": "Sanity Studio provides real-time collaboration, a flexible schema API, and structured content management for modern web applications.",
+    "websiteUrl": "https://www.sanity.io",
+    "aliases": [
+      "Sanity CMS",
+      "Sanity Studio"
+    ],
+    "assessment": {
+      "buildComplexity": 4,
+      "integrationDependency": 4,
+      "dataMoat": 3,
+      "networkEffects": 2,
+      "complianceRequirement": 3,
+      "infrastructureComplexity": 3,
+      "realtimeCollaboration": 4,
+      "maintenanceBurden": 2,
+      "businessCriticality": 4,
+      "migrationComplexity": 3,
+      "apiAvailability": 5,
+      "workflowAutomatable": 4,
+      "openSourceMaturity": 5,
+      "alternativeMarketStrength": 5,
+      "dataPortability": 5,
+      "mobileDependency": 2,
+      "permissionComplexity": 3,
+      "reliabilityRequirement": 5,
+      "vendorLockIn": 2
+    },
+    "pricing": [
+      {
+        "name": "Free Tier",
+        "billingInterval": "monthly",
+        "basePrice": 0,
+        "pricePerSeat": 0,
+        "freeTier": true
+      },
+      {
+        "name": "Growth",
+        "billingInterval": "monthly",
+        "basePrice": 15,
+        "pricePerSeat": 15,
+        "freeTier": false
+      }
+    ],
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "title": "Sanity Official Website",
+        "url": "https://www.sanity.io"
+      }
+    ],
+    "openSourceAlternatives": [
+      {
+        "name": "Payload CMS",
+        "githubUrl": "https://github.com/payloadcms/payload",
+        "description": "Next.js native open-source headless CMS.",
+        "stars": "24k★"
+      },
+      {
+        "name": "Strapi",
+        "githubUrl": "https://github.com/strapi/strapi",
+        "description": "Open-source headless CMS.",
+        "stars": "61k★"
+      }
+    ],
+    "verifiedCommercialAlternatives": [
+      {
+        "name": "Contentful",
+        "slug": "contentful",
+        "startingPrice": "$300/mo",
+        "freeTier": true,
+        "featureParity": "94%",
+        "keyAdvantage": "Enterprise headless content platform with global CDN delivery."
+      }
+    ]
+  },
+  {
+    "name": "Firebase",
+    "slug": "firebase",
+    "categoryName": "Developer Tools",
+    "categorySlug": "developer-tools",
+    "shortDescription": "Firebase is Google app development platform providing backend services like Firestore, auth, and hosting.",
+    "summary": "Firebase accelerates web and mobile development with managed real-time databases, authentication, storage, and serverless functions.",
+    "websiteUrl": "https://firebase.google.com",
+    "aliases": [
+      "Google Firebase",
+      "Firestore"
+    ],
+    "assessment": {
+      "buildComplexity": 4,
+      "integrationDependency": 5,
+      "dataMoat": 5,
+      "networkEffects": 3,
+      "complianceRequirement": 4,
+      "infrastructureComplexity": 4,
+      "realtimeCollaboration": 4,
+      "maintenanceBurden": 2,
+      "businessCriticality": 5,
+      "migrationComplexity": 5,
+      "apiAvailability": 5,
+      "workflowAutomatable": 4,
+      "openSourceMaturity": 5,
+      "alternativeMarketStrength": 5,
+      "dataPortability": 3,
+      "mobileDependency": 5,
+      "permissionComplexity": 4,
+      "reliabilityRequirement": 5,
+      "vendorLockIn": 5
+    },
+    "pricing": [
+      {
+        "name": "Spark Plan",
+        "billingInterval": "monthly",
+        "basePrice": 0,
+        "pricePerSeat": 0,
+        "freeTier": true
+      },
+      {
+        "name": "Blaze Plan",
+        "billingInterval": "monthly",
+        "basePrice": 0,
+        "pricePerSeat": 0,
+        "freeTier": false
+      }
+    ],
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "title": "Firebase Official Website",
+        "url": "https://firebase.google.com"
+      }
+    ],
+    "openSourceAlternatives": [
+      {
+        "name": "Supabase",
+        "githubUrl": "https://github.com/supabase/supabase",
+        "description": "Open-source Firebase alternative.",
+        "stars": "70k★"
+      },
+      {
+        "name": "Appwrite",
+        "githubUrl": "https://github.com/appwrite/appwrite",
+        "description": "Open-source backend server.",
+        "stars": "45k★"
+      }
+    ],
+    "verifiedCommercialAlternatives": [
+      {
+        "name": "AWS Amplify",
+        "slug": "aws-amplify",
+        "startingPrice": "$0",
+        "freeTier": true,
+        "featureParity": "90%",
+        "keyAdvantage": "Deep integration with AWS cloud ecosystem and serverless backend."
+      }
+    ]
+  },
+  {
+    "name": "Dropbox",
+    "slug": "dropbox",
+    "categoryName": "Storage & Backup",
+    "categorySlug": "developer-tools",
+    "shortDescription": "Dropbox is a cloud storage and file synchronization platform for individuals and teams.",
+    "summary": "Dropbox enables seamless file sharing, automated backups, and cloud document collaboration across desktop and mobile devices.",
+    "websiteUrl": "https://www.dropbox.com",
+    "aliases": [
+      "Dropbox Cloud Storage"
+    ],
+    "assessment": {
+      "buildComplexity": 4,
+      "integrationDependency": 4,
+      "dataMoat": 4,
+      "networkEffects": 3,
+      "complianceRequirement": 4,
+      "infrastructureComplexity": 4,
+      "realtimeCollaboration": 4,
+      "maintenanceBurden": 2,
+      "businessCriticality": 4,
+      "migrationComplexity": 3,
+      "apiAvailability": 4,
+      "workflowAutomatable": 3,
+      "openSourceMaturity": 5,
+      "alternativeMarketStrength": 5,
+      "dataPortability": 4,
+      "mobileDependency": 4,
+      "permissionComplexity": 3,
+      "reliabilityRequirement": 5,
+      "vendorLockIn": 3
+    },
+    "pricing": [
+      {
+        "name": "Basic",
+        "billingInterval": "monthly",
+        "basePrice": 0,
+        "pricePerSeat": 0,
+        "freeTier": true
+      },
+      {
+        "name": "Plus",
+        "billingInterval": "monthly",
+        "basePrice": 11.99,
+        "pricePerSeat": 11.99,
+        "freeTier": false
+      }
+    ],
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "title": "Dropbox Official Website",
+        "url": "https://www.dropbox.com"
+      }
+    ],
+    "openSourceAlternatives": [
+      {
+        "name": "Nextcloud",
+        "githubUrl": "https://github.com/nextcloud/server",
+        "description": "Self-hosted open-source productivity platform.",
+        "stars": "26k★"
+      },
+      {
+        "name": "OwnCloud",
+        "githubUrl": "https://github.com/owncloud/core",
+        "description": "Open-source file hosting.",
+        "stars": "8k★"
+      }
+    ],
+    "verifiedCommercialAlternatives": [
+      {
+        "name": "Google Drive",
+        "slug": "google-drive",
+        "startingPrice": "$0",
+        "freeTier": true,
+        "featureParity": "95%",
+        "keyAdvantage": "Native integration with Google Docs, Sheets, and Workspace."
+      }
+    ]
+  },
+  {
+    "name": "Google Analytics",
+    "slug": "google-analytics",
+    "categoryName": "Analytics",
+    "categorySlug": "analytics",
+    "shortDescription": "Google Analytics is a web analytics service that tracks and reports website and app traffic.",
+    "summary": "Google Analytics provides comprehensive user acquisition, behavioral insights, and integration with Google Ads ecosystem.",
+    "websiteUrl": "https://analytics.google.com",
+    "aliases": [
+      "GA4",
+      "Google Analytics 4"
+    ],
+    "assessment": {
+      "buildComplexity": 4,
+      "integrationDependency": 4,
+      "dataMoat": 5,
+      "networkEffects": 3,
+      "complianceRequirement": 4,
+      "infrastructureComplexity": 4,
+      "realtimeCollaboration": 2,
+      "maintenanceBurden": 2,
+      "businessCriticality": 5,
+      "migrationComplexity": 4,
+      "apiAvailability": 4,
+      "workflowAutomatable": 3,
+      "openSourceMaturity": 5,
+      "alternativeMarketStrength": 5,
+      "dataPortability": 3,
+      "mobileDependency": 3,
+      "permissionComplexity": 3,
+      "reliabilityRequirement": 5,
+      "vendorLockIn": 4
+    },
+    "pricing": [
+      {
+        "name": "Standard",
+        "billingInterval": "monthly",
+        "basePrice": 0,
+        "pricePerSeat": 0,
+        "freeTier": true
+      },
+      {
+        "name": "Analytics 360",
+        "billingInterval": "monthly",
+        "basePrice": 12500,
+        "pricePerSeat": 12500,
+        "freeTier": false
+      }
+    ],
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "title": "Google Analytics Official Website",
+        "url": "https://analytics.google.com"
+      }
+    ],
+    "openSourceAlternatives": [
+      {
+        "name": "Plausible Analytics",
+        "githubUrl": "https://github.com/plausible/analytics",
+        "description": "Privacy-friendly open-source web analytics.",
+        "stars": "20k★"
+      },
+      {
+        "name": "Umami",
+        "githubUrl": "https://github.com/umami-software/umami",
+        "description": "Open-source web analytics.",
+        "stars": "25k★"
+      }
+    ],
+    "verifiedCommercialAlternatives": [
+      {
+        "name": "Mixpanel",
+        "slug": "mixpanel",
+        "startingPrice": "$28/mo",
+        "freeTier": true,
+        "featureParity": "95%",
+        "keyAdvantage": "Self-serve product analytics for conversion and funnel retention."
+      }
+    ]
+  },
+  {
+    "name": "Koursely",
+    "slug": "koursely",
+    "categoryName": "Design & Media",
+    "categorySlug": "education-lms",
+    "shortDescription": "Koursely is an online course creation and learning management platform.",
+    "summary": "Koursely empowers creators to build, market, and sell digital courses with automated video hosting and student tracking.",
+    "websiteUrl": "https://koursely.com",
+    "aliases": [
+      "Koursely LMS"
+    ],
+    "assessment": {
+      "buildComplexity": 3,
+      "integrationDependency": 3,
+      "dataMoat": 3,
+      "networkEffects": 2,
+      "complianceRequirement": 2,
+      "infrastructureComplexity": 2,
+      "realtimeCollaboration": 2,
+      "maintenanceBurden": 2,
+      "businessCriticality": 4,
+      "migrationComplexity": 3,
+      "apiAvailability": 4,
+      "workflowAutomatable": 3,
+      "openSourceMaturity": 4,
+      "alternativeMarketStrength": 4,
+      "dataPortability": 4,
+      "mobileDependency": 2,
+      "permissionComplexity": 2,
+      "reliabilityRequirement": 4,
+      "vendorLockIn": 2
+    },
+    "pricing": [
+      {
+        "name": "Basic",
+        "billingInterval": "monthly",
+        "basePrice": 29,
+        "pricePerSeat": 29,
+        "freeTier": false
+      }
+    ],
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "title": "Koursely Official Website",
+        "url": "https://koursely.com"
+      }
+    ],
+    "openSourceAlternatives": [
+      {
+        "name": "Moodle",
+        "githubUrl": "https://github.com/moodle/moodle",
+        "description": "Open-source learning platform.",
+        "stars": "4.5k★"
+      },
+      {
+        "name": "Canvas LMS",
+        "githubUrl": "https://github.com/instructure/canvas-lms",
+        "description": "Open-source LMS.",
+        "stars": "7k★"
+      }
+    ],
+    "verifiedCommercialAlternatives": [
+      {
+        "name": "Teachable",
+        "slug": "teachable",
+        "startingPrice": "$39/mo",
+        "freeTier": true,
+        "featureParity": "92%",
+        "keyAdvantage": "All-in-one course creator platform with payment processing."
+      }
+    ]
+  },
+  {
+    "name": "AWS Amplify",
+    "slug": "aws-amplify",
+    "categoryName": "Developer Tools",
+    "categorySlug": "developer-tools",
+    "shortDescription": "AWS Amplify is a set of purpose-built tools and features that lets frontend web and mobile developers quickly build full-stack applications on AWS.",
+    "summary": "AWS Amplify simplifies cloud backend deployment with managed auth, APIs, storage, and serverless hosting.",
+    "websiteUrl": "https://aws.amazon.com/amplify",
+    "aliases": [
+      "Amplify"
+    ],
+    "assessment": {
+      "buildComplexity": 4,
+      "integrationDependency": 5,
+      "dataMoat": 5,
+      "networkEffects": 2,
+      "complianceRequirement": 4,
+      "infrastructureComplexity": 4,
+      "realtimeCollaboration": 3,
+      "maintenanceBurden": 2,
+      "businessCriticality": 5,
+      "migrationComplexity": 5,
+      "apiAvailability": 5,
+      "workflowAutomatable": 4,
+      "openSourceMaturity": 5,
+      "alternativeMarketStrength": 5,
+      "dataPortability": 3,
+      "mobileDependency": 5,
+      "permissionComplexity": 4,
+      "reliabilityRequirement": 5,
+      "vendorLockIn": 5
+    },
+    "pricing": [
+      {
+        "name": "Free Tier",
+        "billingInterval": "monthly",
+        "basePrice": 0,
+        "pricePerSeat": 0,
+        "freeTier": true
+      },
+      {
+        "name": "Pay As You Go",
+        "billingInterval": "monthly",
+        "basePrice": 0,
+        "pricePerSeat": 0,
+        "freeTier": false
+      }
+    ],
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "title": "AWS Amplify Official Website",
+        "url": "https://aws.amazon.com/amplify"
+      }
+    ],
+    "openSourceAlternatives": [
+      {
+        "name": "Supabase",
+        "githubUrl": "https://github.com/supabase/supabase",
+        "description": "Open-source Firebase alternative.",
+        "stars": "70k★"
+      },
+      {
+        "name": "Appwrite",
+        "githubUrl": "https://github.com/appwrite/appwrite",
+        "description": "Open-source backend server.",
+        "stars": "45k★"
+      }
+    ],
+    "verifiedCommercialAlternatives": [
+      {
+        "name": "Firebase",
+        "slug": "firebase",
+        "startingPrice": "$0",
+        "freeTier": true,
+        "featureParity": "95%",
+        "keyAdvantage": "Google integrated application backend and analytics ecosystem."
+      }
+    ]
+  },
+  {
+    "name": "Google Drive",
+    "slug": "google-drive",
+    "categoryName": "Storage & Backup",
+    "categorySlug": "developer-tools",
+    "shortDescription": "Google Drive is a cloud-based storage service that allows users to store, share, and access files from any device.",
+    "summary": "Google Drive offers cloud file storage, real-time collaboration with Google Docs, Sheets, and Slides, and automated backups.",
+    "websiteUrl": "https://drive.google.com",
+    "aliases": [
+      "Google Docs",
+      "Google Workspace Drive"
+    ],
+    "assessment": {
+      "buildComplexity": 4,
+      "integrationDependency": 4,
+      "dataMoat": 5,
+      "networkEffects": 4,
+      "complianceRequirement": 4,
+      "infrastructureComplexity": 4,
+      "realtimeCollaboration": 5,
+      "maintenanceBurden": 2,
+      "businessCriticality": 5,
+      "migrationComplexity": 3,
+      "apiAvailability": 4,
+      "workflowAutomatable": 3,
+      "openSourceMaturity": 5,
+      "alternativeMarketStrength": 5,
+      "dataPortability": 4,
+      "mobileDependency": 4,
+      "permissionComplexity": 3,
+      "reliabilityRequirement": 5,
+      "vendorLockIn": 4
+    },
+    "pricing": [
+      {
+        "name": "Free Tier",
+        "billingInterval": "monthly",
+        "basePrice": 0,
+        "pricePerSeat": 0,
+        "freeTier": true
+      },
+      {
+        "name": "Google One 100GB",
+        "billingInterval": "monthly",
+        "basePrice": 1.99,
+        "pricePerSeat": 1.99,
+        "freeTier": false
+      }
+    ],
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "title": "Google Drive Official Website",
+        "url": "https://drive.google.com"
+      }
+    ],
+    "openSourceAlternatives": [
+      {
+        "name": "Nextcloud",
+        "githubUrl": "https://github.com/nextcloud/server",
+        "description": "Open-source productivity platform.",
+        "stars": "26k★"
+      },
+      {
+        "name": "OwnCloud",
+        "githubUrl": "https://github.com/owncloud/core",
+        "description": "Open-source file hosting.",
+        "stars": "8k★"
+      }
+    ],
+    "verifiedCommercialAlternatives": [
+      {
+        "name": "Dropbox",
+        "slug": "dropbox",
+        "startingPrice": "$11.99/mo",
+        "freeTier": true,
+        "featureParity": "92%",
+        "keyAdvantage": "Cross-platform desktop folder syncing and fast file sharing."
+      }
+    ]
   }
 ]
