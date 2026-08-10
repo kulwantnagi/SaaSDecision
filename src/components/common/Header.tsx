@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { CATEGORY_TREE } from '@/domain/category-navigation';
+import RealtimeSearchBox from '@/components/common/RealtimeSearchBox';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -38,6 +39,11 @@ export default function Header() {
             v1.0
           </span>
         </Link>
+
+        {/* Realtime Search Box in Header */}
+        <div className="flex-1 max-w-xs md:max-w-sm mx-2 hidden sm:block">
+          <RealtimeSearchBox variant="header" />
+        </div>
 
         {/* Desktop Navigation Links (>= lg screens) */}
         <nav className="hidden lg:flex items-center gap-6 xl:gap-8 text-xs font-semibold text-[#475569]">
@@ -194,6 +200,11 @@ export default function Header() {
       {/* Mobile & Tablet Drawer Menu Dropdown */}
       {mobileMenuOpen && (
         <div className="lg:hidden bg-white border-b border-[#e2e8f0] px-4 py-5 space-y-4 animate-in slide-in-from-top-2 duration-200 max-h-[85vh] overflow-y-auto">
+          {/* Mobile Search Box */}
+          <div className="sm:hidden mb-2">
+            <RealtimeSearchBox variant="header" />
+          </div>
+
           <nav className="flex flex-col space-y-3 font-bold text-sm text-[#0f172a]">
             <Link
               href="/"

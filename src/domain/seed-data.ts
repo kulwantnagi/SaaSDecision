@@ -38,6 +38,7 @@ export interface VerifiedProductSeed {
   }[];
   pros?: string[];
   cons?: string[];
+  tags?: string[];
 }
 
 export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [

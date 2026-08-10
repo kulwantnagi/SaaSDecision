@@ -21,9 +21,14 @@ export async function generateMetadata({
 
   const scores = evaluateSoftware(prod.assessment);
 
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://saas-decision.com';
+
   return {
     title: `${prod.name} Alternatives and Open Source SaaS Solutions`,
     description: `Discover verified ${prod.name} alternatives and open source SaaS solutions. Compare pricing, self-hosted replacements, KEEP/SWITCH/SELF-HOST decision scores, and cost optimization for ${prod.name}.`,
+    alternates: {
+      canonical: `${baseUrl}/software/${prod.slug}`,
+    },
     keywords: [
       `${prod.name} alternatives`,
       `open source ${prod.name} alternative`,
@@ -36,6 +41,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${prod.name} Alternatives and Open Source SaaS Solutions`,
       description: `Discover verified ${prod.name} alternatives and open source SaaS solutions. Primary recommendation: ${scores.primaryDecision.replace('_', ' ')} (${scores.confidence}% confidence).`,
+      url: `${baseUrl}/software/${prod.slug}`,
       images: [
         {
           url: `/api/og?slug=${prod.slug}`,
@@ -134,6 +140,44 @@ export default async function SoftwarePage({
   const alternatives = ALL_SOFTWARE_PRODUCTS.filter((p) => p.slug !== prod.slug && p.categorySlug === prod.categorySlug).slice(0, 3);
   const relatedCategories = Array.from(new Set(ALL_SOFTWARE_PRODUCTS.map((p) => p.categoryName))).slice(0, 6);
 
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://saas-decision.com';
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: baseUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: prod.categoryName,
+        item: `${baseUrl}/category/${prod.categorySlug}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: prod.name,
+        item: `${baseUrl}/software/${prod.slug}`,
+      },
+    ],
+  };
+
+  const speakableJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: `${prod.name} Alternatives and Decision Analysis`,
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.summary-text', '.decision-verdict'],
+    },
+    url: `${baseUrl}/software/${prod.slug}`,
+  };
+
   return (
     <div className="space-y-8 sm:space-y-10 max-w-7xl w-full min-w-0 mx-auto pb-12 overflow-hidden">
       <script
@@ -143,6 +187,14 @@ export default async function SoftwarePage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableJsonLd) }}
       />
 
       {/* Breadcrumbs */}
@@ -204,8 +256,19 @@ export default async function SoftwarePage({
                   </p>
                 </div>
 
-                {/* Key Technical Highlights Badges */}
-                <div className="flex flex-wrap gap-2 pt-1">
+                {/* Key Technical Highlights & Pricing Badges */}
+                <div className="flex flex-wrap items-center gap-2 pt-1">
+                  {/* Live Starting Price Highlight */}
+                  {prod.pricing && prod.pricing.length > 0 && (
+                    <span className="text-[11px] bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg border border-[#86efac] font-black flex items-center gap-1.5 shadow-2xs">
+                      <span>🏷️ Starting Price:</span>
+                      <span className="text-[#059669]">
+                        {prod.pricing.some(p => p.freeTier && p.basePrice === 0)
+                          ? 'Free Tier Available'
+                          : `$${prod.pricing.find(p => p.basePrice > 0)?.basePrice || prod.pricing[0].basePrice}/mo`}
+                      </span>
+                    </span>
+                  )}
                   <span className="text-[11px] bg-[#f8fafc] text-[#475569] px-2.5 py-1 rounded-lg border border-[#e2e8f0] font-semibold">
                     ⚡ Build Complexity: <strong className="text-[#0f172a]">{prod.assessment.buildComplexity}/5</strong>
                   </span>
@@ -268,6 +331,37 @@ export default async function SoftwarePage({
                 </div>
               </div>
             </div>
+
+            {/* Full-Width Highlighted Verified Pricing Summary Bar */}
+            {prod.pricing && prod.pricing.length > 0 && (
+              <div className="w-full p-4 sm:p-5 bg-gradient-to-r from-[#fff7ed] via-[#fff3e0] to-[#ffedd5] border-2 border-[#fdba74] rounded-2xl flex flex-wrap items-center justify-between gap-4 text-xs shadow-md shadow-[#ea580c]/10">
+                <div className="flex flex-wrap items-center gap-3">
+                  <span className="text-base bg-[#ea580c] text-white p-1.5 rounded-xl shadow-xs">💳</span>
+                  <span className="font-black text-[#9a3412] tracking-tight text-sm sm:text-base">Verified Pricing Plans:</span>
+                  <div className="flex flex-wrap items-center gap-2">
+                    {prod.pricing.slice(0, 4).map((p, idx) => (
+                      <span
+                        key={idx}
+                        className={`px-3 py-1.5 rounded-xl text-xs font-black border ${
+                          p.freeTier && p.basePrice === 0
+                            ? 'bg-[#dcfce7] text-[#15803d] border-[#86efac]'
+                            : 'bg-white text-[#0f172a] border-[#fed7aa] shadow-2xs'
+                        }`}
+                      >
+                        {p.name}: <span className="text-[#ea580c]">{p.freeTier && p.basePrice === 0 ? 'Free' : `$${p.basePrice}/mo`}</span>
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <a
+                  href="#pricing"
+                  className="bg-[#ea580c] hover:bg-[#c2410c] text-white text-xs font-black px-4 py-2 rounded-xl transition shadow-xs hover:shadow-md flex items-center gap-1.5 shrink-0 active:scale-95"
+                >
+                  <span>Full Pricing Tiers</span>
+                  <span>→</span>
+                </a>
+              </div>
+            )}
 
             {/* Anchor Table of Contents Bar */}
             <nav className="flex gap-1.5 text-[11px] font-extrabold border-b border-[#f1f5f9] pb-3 overflow-x-auto no-scrollbar whitespace-nowrap scroll-smooth w-full min-w-0 max-w-full">
@@ -559,6 +653,92 @@ export default async function SoftwarePage({
                 </div>
               </div>
             </section>
+
+          {/* Highlighted Verified Pricing Tiers Section */}
+          <section id="pricing" className="relative overflow-hidden bg-gradient-to-br from-[#fff7ed] via-[#fff3e0] to-[#ffedd5] border-2 border-[#fdba74] rounded-3xl p-6 sm:p-8 space-y-6 shadow-md shadow-[#ea580c]/10">
+            <div className="absolute -top-16 -right-16 w-48 h-48 bg-[#ea580c]/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[#fed7aa] pb-4 relative z-10">
+              <div>
+                <span className="text-[10px] font-black uppercase tracking-wider bg-[#ea580c] text-white px-3 py-1 rounded-full shadow-xs">
+                  💰 Verified Pricing Breakdown
+                </span>
+                <h2 className="text-xl sm:text-2xl font-black text-[#0f172a] tracking-tight mt-2">
+                  Official {prod.name} Pricing Tiers
+                </h2>
+              </div>
+              {prod.sources?.find(s => s.type === 'OFFICIAL_PRICING' || s.type === 'OFFICIAL_WEBSITE') && (
+                <a
+                  href={prod.sources.find(s => s.type === 'OFFICIAL_PRICING')?.url || prod.websiteUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xs text-[#ea580c] font-black hover:text-[#c2410c] hover:underline bg-white px-3.5 py-2 rounded-xl border border-[#fed7aa] shadow-2xs transition shrink-0"
+                >
+                  Verify Live Pricing ↗
+                </a>
+              )}
+            </div>
+
+            <p className="text-xs text-[#475569] font-medium leading-relaxed relative z-10">
+              Official subscription plans and licensing structures for <strong className="text-[#0f172a] font-bold">{prod.name}</strong>, verified against active vendor sources:
+            </p>
+
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 relative z-10">
+              {prod.pricing && prod.pricing.length > 0 ? (
+                prod.pricing.map((plan, idx) => (
+                  <div
+                    key={idx}
+                    className={`bg-white border p-5 sm:p-6 rounded-2xl space-y-4 shadow-sm flex flex-col justify-between transition-all hover:shadow-md ${
+                      plan.freeTier
+                        ? 'border-[#86efac] bg-gradient-to-b from-[#f0fdf4] to-white'
+                        : idx === 1
+                        ? 'border-[#2b00d9]/40 border-2 shadow-md ring-2 ring-[#2b00d9]/10'
+                        : 'border-[#e2e8f0]'
+                    }`}
+                  >
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-start gap-2">
+                        <span className="font-black text-base text-[#0f172a]">{plan.name}</span>
+                        {plan.freeTier ? (
+                          <span className="text-[10px] bg-[#dcfce7] text-[#15803d] font-extrabold px-2.5 py-0.5 rounded-full border border-[#86efac]">
+                            Free Tier
+                          </span>
+                        ) : idx === 1 ? (
+                          <span className="text-[10px] bg-[#2b00d9] text-white font-extrabold px-2.5 py-0.5 rounded-full">
+                            ★ Most Popular
+                          </span>
+                        ) : null}
+                      </div>
+
+                      <div className="pt-2">
+                        <div className="flex items-baseline gap-1">
+                          <span className="text-3xl font-black tracking-tight text-[#0f172a]">
+                            {plan.freeTier && plan.basePrice === 0 ? '$0' : `$${plan.basePrice}`}
+                          </span>
+                          <span className="text-xs font-bold text-[#64748b]">
+                            {plan.billingInterval ? `/${plan.billingInterval}` : '/month'}
+                          </span>
+                        </div>
+                        {plan.pricePerSeat > 0 && plan.pricePerSeat !== plan.basePrice && (
+                          <p className="text-[11px] text-[#475569] font-medium mt-0.5">
+                            + ${plan.pricePerSeat}/user per month
+                          </p>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="pt-3 border-t border-[#f1f5f9] text-[11px] text-[#64748b] font-medium flex items-center justify-between">
+                      <span>Billing: <strong className="text-[#0f172a] capitalize">{plan.billingInterval || 'monthly'}</strong></span>
+                      <span className="text-[#16a34a] font-extrabold">✓ Verified</span>
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <div className="bg-white border border-[#e2e8f0] p-6 rounded-2xl sm:col-span-3 text-center text-xs text-[#64748b]">
+                  Custom enterprise pricing. Contact {prod.name} sales team directly.
+                </div>
+              )}
+            </div>
+          </section>
 
           {/* Verified Pros & Cons */}
 

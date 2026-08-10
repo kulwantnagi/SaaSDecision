@@ -35,7 +35,8 @@ SaaS Decision evaluates software tools using a pure rule-based scoring engine (n
 - ${baseUrl}/audit — SaaS stack audit tool
 - ${baseUrl}/blueprint — AI replacement blueprint generator
 - ${baseUrl}/category/[slug] — Browse by software category
-- ${baseUrl}/sitemap.xml — Full sitemap of all 985 tools
+- ${baseUrl}/sitemap.xml — Full sitemap of all indexed tools
+- ${baseUrl}/llms-full.txt — Complete markdown dump of all 1,010 software products & open source alternatives for AI indexing
 
 ## How Scores Are Calculated
 

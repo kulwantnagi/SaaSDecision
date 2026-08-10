@@ -16,10 +16,12 @@ export default function RealtimeSearchBox({
   initialQuery = '',
   totalCount = 989,
   category = '',
+  variant = 'default',
 }: {
   initialQuery?: string;
   totalCount?: number;
   category?: string;
+  variant?: 'default' | 'header';
 }) {
   const [query, setQuery] = useState(initialQuery);
   const [results, setResults] = useState<SearchResult[]>([]);
@@ -76,8 +78,10 @@ export default function RealtimeSearchBox({
     router.push(`/?${params.toString()}`);
   };
 
+  const isHeader = variant === 'header';
+
   return (
-    <div ref={wrapperRef} className="relative max-w-2xl mx-auto pt-2">
+    <div ref={wrapperRef} className={isHeader ? 'relative w-full max-w-sm' : 'relative max-w-2xl mx-auto pt-2'}>
       <form onSubmit={handleSubmit} className="relative">
         <div className="relative flex items-center">
           <input
@@ -85,16 +89,32 @@ export default function RealtimeSearchBox({
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onFocus={() => query.trim() && results.length > 0 && setIsOpen(true)}
-            placeholder={`Search across ${totalCount} software tools...`}
-            className="w-full bg-white border border-[#e2e8f0] rounded-2xl pl-4 sm:pl-6 pr-24 sm:pr-32 py-3.5 sm:py-4 text-xs sm:text-sm text-[#0f172a] placeholder-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition shadow-lg shadow-[#0f172a]/5"
+            placeholder={isHeader ? 'Search tools...' : `Search across ${totalCount} software tools...`}
+            className={
+              isHeader
+                ? 'w-full bg-[#f8fafc] border border-[#e2e8f0] rounded-xl pl-3.5 pr-10 py-1.5 text-xs text-[#0f172a] placeholder-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2b00d9] focus:bg-white transition'
+                : 'w-full bg-white border border-[#e2e8f0] rounded-2xl pl-4 sm:pl-6 pr-24 sm:pr-32 py-3.5 sm:py-4 text-xs sm:text-sm text-[#0f172a] placeholder-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition shadow-lg shadow-[#0f172a]/5'
+            }
           />
 
           <button
             type="submit"
-            className="absolute right-1.5 sm:right-2.5 top-1.5 sm:top-2.5 bg-[#2b00d9] hover:bg-[#1f00a8] text-white font-bold px-3.5 sm:px-6 py-2 sm:py-2.5 rounded-xl text-xs transition shadow-md shadow-[#2b00d9]/25 flex items-center gap-1.5 shrink-0"
+            className={
+              isHeader
+                ? 'absolute right-1 top-1 bottom-1 bg-[#2b00d9] hover:bg-[#1f00a8] text-white font-bold px-2.5 rounded-lg text-xs transition flex items-center justify-center shrink-0'
+                : 'absolute right-1.5 sm:right-2.5 top-1.5 sm:top-2.5 bg-[#2b00d9] hover:bg-[#1f00a8] text-white font-bold px-3.5 sm:px-6 py-2 sm:py-2.5 rounded-xl text-xs transition shadow-md shadow-[#2b00d9]/25 flex items-center gap-1.5 shrink-0'
+            }
+            aria-label="Search"
           >
-            {loading && <span className="w-3 h-3 border-2 border-white/30 border-t-white rounded-full animate-spin" />}
-            Evaluate
+            {loading ? (
+              <span className="w-3 h-3 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+            ) : isHeader ? (
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            ) : (
+              'Evaluate'
+            )}
           </button>
         </div>
       </form>
@@ -146,5 +166,4 @@ export default function RealtimeSearchBox({
       )}
     </div>
   );
-
 }
