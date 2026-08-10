@@ -1,8 +1,9 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getComparePair } from '@/domain/catalog-service';
+import { getComparePair, getRelatedSoftwareByCategory } from '@/domain/catalog-service';
 import { evaluateSoftware } from '@/domain/decision-engine';
+import RelatedSoftwareByCategory from '@/components/software/RelatedSoftwareByCategory';
 
 export async function generateMetadata({
   params,
@@ -58,6 +59,13 @@ export default async function ComparePage({
   const { prodA, prodB } = pair;
   const scoresA = evaluateSoftware(prodA.assessment);
   const scoresB = evaluateSoftware(prodB.assessment);
+
+  const relatedCategorySoftware = getRelatedSoftwareByCategory(
+    prodA.categorySlug,
+    prodA.categoryName,
+    [prodA.slug, prodB.slug],
+    6
+  );
 
   // Structural AEO FAQ JSON-LD Schema
   const faqJsonLd = {
@@ -410,6 +418,17 @@ export default async function ComparePage({
           </details>
         </div>
       </section>
+
+      {/* Category Related Software Section */}
+      <RelatedSoftwareByCategory
+        categoryName={prodA.categoryName}
+        categorySlug={prodA.categorySlug}
+        relatedProducts={relatedCategorySoftware}
+        currentProductName={`${prodA.name} & ${prodB.name}`}
+        currentProductSlug={prodA.slug}
+        title={`Related Software in ${prodA.categoryName}`}
+        description={`Explore other top verified software alternatives and decision metrics in ${prodA.categoryName}.`}
+      />
     </div>
   );
 }

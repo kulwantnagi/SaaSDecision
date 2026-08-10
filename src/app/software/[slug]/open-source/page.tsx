@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getSoftwareBySlug } from '@/domain/catalog-service';
+import { getSoftwareBySlug, getRelatedSoftwareByCategory } from '@/domain/catalog-service';
+import RelatedSoftwareByCategory from '@/components/software/RelatedSoftwareByCategory';
 
 export async function generateMetadata({
   params,
@@ -52,6 +53,13 @@ export default async function OpenSourcePage({
   const { slug } = await params;
   const prod = getSoftwareBySlug(slug);
   if (!prod) notFound();
+
+  const relatedCategorySoftware = getRelatedSoftwareByCategory(
+    prod.categorySlug,
+    prod.categoryName,
+    [prod.slug],
+    6
+  );
 
   return (
     <div className="space-y-8 max-w-5xl mx-auto py-6">
@@ -241,6 +249,15 @@ export default async function OpenSourcePage({
           </div>
         </div>
       </section>
+
+      {/* Category Related Software Section */}
+      <RelatedSoftwareByCategory
+        categoryName={prod.categoryName}
+        categorySlug={prod.categorySlug}
+        relatedProducts={relatedCategorySoftware}
+        currentProductName={prod.name}
+        currentProductSlug={prod.slug}
+      />
     </div>
   );
 }

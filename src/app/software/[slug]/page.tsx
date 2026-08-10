@@ -1,13 +1,14 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getSoftwareBySlug, ALL_SOFTWARE_PRODUCTS } from '@/domain/catalog-service';
+import { getSoftwareBySlug, getRelatedSoftwareByCategory, getSoftwareProsAndCons, getVerifiedWebsiteUrl, ALL_SOFTWARE_PRODUCTS } from '@/domain/catalog-service';
 import { evaluateSoftware } from '@/domain/decision-engine';
 import MoatRadarChart from '@/components/software/MoatRadarChart';
 import DecisionGlossarySection from '@/components/common/DecisionGlossarySection';
 import StickyRecommendedHostingWidget from '@/components/StickyRecommendedHostingWidget';
 import StickyFooterRecommendationBar from '@/components/StickyFooterRecommendationBar';
 import InteractiveAlternativesSuite from '@/components/software/InteractiveAlternativesSuite';
+import RelatedSoftwareByCategory from '@/components/software/RelatedSoftwareByCategory';
 
 export async function generateMetadata({
   params,
@@ -66,6 +67,14 @@ export default async function SoftwarePage({
   }
 
   const scores = evaluateSoftware(prod.assessment);
+  const appProsCons = getSoftwareProsAndCons(prod);
+  const officialWebsiteUrl = getVerifiedWebsiteUrl(prod);
+  const relatedCategorySoftware = getRelatedSoftwareByCategory(
+    prod.categorySlug,
+    prod.categoryName,
+    [prod.slug],
+    6
+  );
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -249,9 +258,9 @@ export default async function SoftwarePage({
                 </div>
                 <div className="pt-2">
                   <a
-                    href={prod.websiteUrl}
+                    href={officialWebsiteUrl}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="block w-full text-center bg-gradient-to-r from-[#2b00d9] to-[#1f00a8] hover:from-[#1f00a8] hover:to-[#17007e] text-white font-extrabold text-xs py-2.5 px-4 rounded-xl transition-all shadow-xs hover:shadow-md active:scale-95"
                   >
                     Visit Official Site ↗
@@ -566,18 +575,14 @@ export default async function SoftwarePage({
                   <h3 className="text-base font-extrabold text-white tracking-tight">Verified Pros</h3>
                 </div>
                 <ul className="px-6 py-5 space-y-4">
-                  <li className="flex gap-3 items-start">
-                    <span className="mt-0.5 w-5 h-5 rounded-full bg-[#16a34a] text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0">1</span>
-                    <span className="text-sm font-semibold text-[#166534] leading-relaxed">High reliability and proven uptime across core production workflows.</span>
-                  </li>
-                  <li className="flex gap-3 items-start">
-                    <span className="mt-0.5 w-5 h-5 rounded-full bg-[#16a34a] text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0">2</span>
-                    <span className="text-sm font-semibold text-[#166534] leading-relaxed">Robust ecosystem of native third-party API connectors.</span>
-                  </li>
-                  <li className="flex gap-3 items-start">
-                    <span className="mt-0.5 w-5 h-5 rounded-full bg-[#16a34a] text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0">3</span>
-                    <span className="text-sm font-semibold text-[#166534] leading-relaxed">Low initial setup overhead with intuitive user interface controls.</span>
-                  </li>
+                  {appProsCons.pros.map((pro, index) => (
+                    <li key={index} className="flex gap-3 items-start">
+                      <span className="mt-0.5 w-5 h-5 rounded-full bg-[#16a34a] text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0">
+                        {index + 1}
+                      </span>
+                      <span className="text-sm font-semibold text-[#166534] leading-relaxed">{pro}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
 
@@ -588,18 +593,14 @@ export default async function SoftwarePage({
                   <h3 className="text-base font-extrabold text-white tracking-tight">Verified Cons</h3>
                 </div>
                 <ul className="px-6 py-5 space-y-4">
-                  <li className="flex gap-3 items-start">
-                    <span className="mt-0.5 w-5 h-5 rounded-full bg-[#dc2626] text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0">1</span>
-                    <span className="text-sm font-semibold text-[#991b1b] leading-relaxed">Per-seat pricing scales quickly for medium and large teams.</span>
-                  </li>
-                  <li className="flex gap-3 items-start">
-                    <span className="mt-0.5 w-5 h-5 rounded-full bg-[#dc2626] text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0">2</span>
-                    <span className="text-sm font-semibold text-[#991b1b] leading-relaxed">Vendor lock-in increases over time as proprietary data accumulates.</span>
-                  </li>
-                  <li className="flex gap-3 items-start">
-                    <span className="mt-0.5 w-5 h-5 rounded-full bg-[#dc2626] text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0">3</span>
-                    <span className="text-sm font-semibold text-[#991b1b] leading-relaxed">Unused enterprise features pad monthly tier billing unnecessarily.</span>
-                  </li>
+                  {appProsCons.cons.map((con, index) => (
+                    <li key={index} className="flex gap-3 items-start">
+                      <span className="mt-0.5 w-5 h-5 rounded-full bg-[#dc2626] text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0">
+                        {index + 1}
+                      </span>
+                      <span className="text-sm font-semibold text-[#991b1b] leading-relaxed">{con}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
@@ -756,6 +757,15 @@ export default async function SoftwarePage({
               })()}
             </div>
           </section>
+
+          {/* Related Category Software Suite */}
+          <RelatedSoftwareByCategory
+            categoryName={prod.categoryName}
+            categorySlug={prod.categorySlug}
+            relatedProducts={relatedCategorySoftware}
+            currentProductName={prod.name}
+            currentProductSlug={prod.slug}
+          />
 
           {/* Pricing Table */}
           <section id="pricing" className="bg-white border border-[#e2e8f0] rounded-3xl p-5 sm:p-8 space-y-6 shadow-sm">

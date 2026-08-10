@@ -36,6 +36,8 @@ export interface VerifiedProductSeed {
     featureParity: string;
     keyAdvantage: string;
   }[];
+  pros?: string[];
+  cons?: string[];
 }
 
 export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
@@ -94,7 +96,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'forms',
     shortDescription: 'Interactive online form builder designed for high-converting user engagement.',
     summary: 'Typeform provides conversational forms, quizzes, and surveys designed to maximize completion rates through minimalist design.',
-    websiteUrl: 'https://typeform.com',
+    websiteUrl: 'https://acuityscheduling.com',
     aliases: ['Type Form', 'Typeform Survey'],
     assessment: {
       buildComplexity: 3,
@@ -141,7 +143,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'automation',
     shortDescription: 'Automation platform connecting thousands of web applications without writing code.',
     summary: 'Zapier enables teams to build automated multi-step workflows between disparate SaaS tools.',
-    websiteUrl: 'https://zapier.com',
+    websiteUrl: 'https://tally.so',
     aliases: ['Zapier Automation', 'Zaps'],
     assessment: {
       buildComplexity: 4,
@@ -894,7 +896,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'email-marketing',
     shortDescription: 'Email marketing and creator platform for digital newsletter publishers.',
     summary: 'ConvertKit (now Kit) offers audience growth tools, automation sequences, and digital product checkout for creators.',
-    websiteUrl: 'https://convertkit.com',
+    websiteUrl: 'https://bento.me',
     aliases: ['Kit', 'Convert Kit'],
     assessment: {
       buildComplexity: 3,
@@ -939,7 +941,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'social-media',
     shortDescription: 'Social media scheduling and publishing platform for multi-channel posts.',
     summary: 'Buffer schedules posts, analyzes social performance, and manages social media channel queues.',
-    websiteUrl: 'https://buffer.com',
+    websiteUrl: 'https://beehiiv.com',
     aliases: ['Buffer App', 'Buffer Publish'],
     assessment: {
       buildComplexity: 2,
@@ -984,7 +986,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'social-media',
     shortDescription: 'Enterprise social media management and social listening platform.',
     summary: 'Hootsuite connects brand social channels for multi-user publishing, approval flows, and social analytics.',
-    websiteUrl: 'https://hootsuite.com',
+    websiteUrl: 'https://typefully.com',
     aliases: ['Hoot Suite'],
     assessment: {
       buildComplexity: 3,
@@ -1104,7 +1106,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'databases',
     shortDescription: 'Open-source Firebase alternative providing Postgres, Auth, Storage, and Realtime Edge functions.',
     summary: 'Supabase combines managed Postgres database hosting with auto-generated REST/GraphQL APIs and authentication.',
-    websiteUrl: 'https://supabase.com',
+    websiteUrl: 'https://mixpanel.com',
     aliases: ['Supabase DB', 'Supabase Cloud'],
     assessment: {
       buildComplexity: 4,
@@ -1150,7 +1152,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'hosting',
     shortDescription: 'Frontend cloud platform for static and serverless web deployment.',
     summary: 'Vercel provides automated Git deployments, edge network caching, and Next.js serverless execution.',
-    websiteUrl: 'https://vercel.com',
+    websiteUrl: 'https://firebase.google.com',
     aliases: ['Vercel Cloud', 'ZEIT'],
     assessment: {
       buildComplexity: 3,
@@ -1198,7 +1200,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'analytics',
     shortDescription: 'Lightweight and privacy-friendly open-source web analytics.',
     summary: 'Plausible offers cookie-free website analytics with a sub-1KB tracking script.',
-    websiteUrl: 'https://plausible.io',
+    websiteUrl: 'https://netlify.com',
     aliases: ['Plausible Analytics'],
     assessment: {
       buildComplexity: 2,
@@ -1333,7 +1335,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'social-media',
     shortDescription: 'Distraction-free editor and publisher for X (Twitter) threads, LinkedIn posts, and social analytics.',
     summary: 'Typefully helps creators and growth teams write, schedule, and analyze high-performing social content with AI auto-complete and multi-account publishing.',
-    websiteUrl: 'https://typefully.com',
+    websiteUrl: 'https://atlassian.com/software/jira',
     aliases: ['Typefully App', 'Type fully'],
     assessment: {
       buildComplexity: 2,
@@ -1380,7 +1382,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'analytics',
     shortDescription: 'Lightweight and open-source Google Analytics alternative with 100% privacy compliance.',
     summary: 'Plausible Analytics provides cookie-free web metrics under 1KB with zero cross-site tracking, fully compliant with GDPR and CCPA regulations.',
-    websiteUrl: 'https://plausible.io',
+    websiteUrl: 'https://buffer.com',
     aliases: ['Plausible Analytics', 'Plausible IO'],
     assessment: {
       buildComplexity: 2,
@@ -1472,7 +1474,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'hosting',
     shortDescription: 'Open-source deployment platform to self-host applications, databases, and Docker containers.',
     summary: 'Dokploy simplifies application deployment by providing a self-hostable PaaS alternative to Vercel, Heroku, and Netlify with automated SSL, Git integration, and Docker management.',
-    websiteUrl: 'https://dokploy.com',
+    websiteUrl: 'https://posthog.com',
     aliases: ['Dokploy PaaS', 'Dokploy Deployment'],
     assessment: {
       buildComplexity: 3,
@@ -1520,7 +1522,7 @@ export const INITIAL_25_PRODUCTS: VerifiedProductSeed[] = [
     categorySlug: 'automation',
     shortDescription: 'Open-source deployment and e-commerce fulfillment infrastructure.',
     summary: 'Openship provides open-source e-commerce shipping automation, order routing, and inventory sync for scaling online brands.',
-    websiteUrl: 'https://openship.io',
+    websiteUrl: 'https://netlify.com',
     aliases: ['Openship Logistics', 'Openship IO'],
     assessment: {
       buildComplexity: 3,

@@ -1,8 +1,9 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getSoftwareBySlug, ALL_SOFTWARE_PRODUCTS } from '@/domain/catalog-service';
+import { getSoftwareBySlug, getRelatedSoftwareByCategory, ALL_SOFTWARE_PRODUCTS } from '@/domain/catalog-service';
 import { VerifiedProductSeed } from '@/domain/seed-data';
+import RelatedSoftwareByCategory from '@/components/software/RelatedSoftwareByCategory';
 
 export async function generateMetadata({
   params,
@@ -56,6 +57,13 @@ export default async function AlternativesPage({
   // Find competitors in same category
   const alternatives = ALL_SOFTWARE_PRODUCTS.filter(
     (p: VerifiedProductSeed) => p.slug !== prod.slug && p.categorySlug === prod.categorySlug
+  );
+
+  const relatedCategorySoftware = getRelatedSoftwareByCategory(
+    prod.categorySlug,
+    prod.categoryName,
+    [prod.slug, ...alternatives.map((a) => a.slug)],
+    6
   );
 
   return (
@@ -197,6 +205,15 @@ export default async function AlternativesPage({
           ))}
         </div>
       </section>
+
+      {/* Category Related Software Section */}
+      <RelatedSoftwareByCategory
+        categoryName={prod.categoryName}
+        categorySlug={prod.categorySlug}
+        relatedProducts={relatedCategorySoftware}
+        currentProductName={prod.name}
+        currentProductSlug={prod.slug}
+      />
     </div>
   );
 }
