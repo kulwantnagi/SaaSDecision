@@ -107,22 +107,25 @@ export default function RelatedSoftwareByCategory({
 
                 {/* Score Indicators */}
                 {scores && (
-                  <div className="bg-white/80 border border-[#e2e8f0] p-3 rounded-2xl space-y-1.5 text-[11px]">
-                    <div className="flex justify-between items-center text-[#64748b] font-semibold">
-                      <span>Primary Recommendation</span>
-                      <span className="text-[#2b00d9] font-extrabold uppercase text-[10px] bg-[#eef2ff] px-2 py-0.5 rounded">
+                  <div className="bg-white/90 border border-[#e2e8f0] p-3 rounded-2xl space-y-2 text-[11px] shadow-xs">
+                    <div className="flex justify-between items-center text-[#64748b] font-semibold gap-2">
+                      <span className="text-[11px] font-medium text-[#64748b]">Primary Recommendation</span>
+                      <span className="text-[#2b00d9] font-extrabold uppercase text-[10px] bg-[#eef2ff] px-2.5 py-0.5 rounded-md border border-[#2b00d9]/20 shrink-0">
                         {scores.primaryDecision.replace('_', ' ')}
                       </span>
                     </div>
-                    <div className="grid grid-cols-3 gap-1 pt-1 text-center font-extrabold text-[10px]">
-                      <div className="bg-[#f0fdf4] text-[#166534] p-1 rounded-lg border border-[#bbf7d0]">
-                        KEEP: {scores.keepScore}
+                    <div className="grid grid-cols-3 gap-1.5 pt-1 text-center font-bold text-[10px] leading-tight">
+                      <div className="bg-[#f0fdf4] text-[#166534] py-1.5 px-1 rounded-xl border border-[#bbf7d0] flex flex-col justify-center items-center">
+                        <span className="text-[9px] font-semibold text-[#166534]/80">KEEP</span>
+                        <span className="font-extrabold text-[#166534]">{scores.keepScore}</span>
                       </div>
-                      <div className="bg-[#eef2ff] text-[#2b00d9] p-1 rounded-lg border border-[#c7d2fe]">
-                        SWITCH: {scores.switchScore}
+                      <div className="bg-[#eef2ff] text-[#2b00d9] py-1.5 px-1 rounded-xl border border-[#c7d2fe] flex flex-col justify-center items-center">
+                        <span className="text-[9px] font-semibold text-[#2b00d9]/80">SWITCH</span>
+                        <span className="font-extrabold text-[#2b00d9]">{scores.switchScore}</span>
                       </div>
-                      <div className="bg-[#f3e8ff] text-[#9333ea] p-1 rounded-lg border border-[#e9d5ff]">
-                        SELF-HOST: {scores.selfHostScore}
+                      <div className="bg-[#f3e8ff] text-[#9333ea] py-1.5 px-1 rounded-xl border border-[#e9d5ff] flex flex-col justify-center items-center">
+                        <span className="text-[9px] font-semibold text-[#9333ea]/80">SELF-HOST</span>
+                        <span className="font-extrabold text-[#9333ea]">{scores.selfHostScore}</span>
                       </div>
                     </div>
                   </div>

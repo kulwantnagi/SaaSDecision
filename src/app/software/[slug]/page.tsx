@@ -38,10 +38,10 @@ export async function generateMetadata({
       description: `Discover verified ${prod.name} alternatives and open source SaaS solutions. Primary recommendation: ${scores.primaryDecision.replace('_', ' ')} (${scores.confidence}% confidence).`,
       images: [
         {
-          url: '/saas-decision.webp',
+          url: `/api/og?slug=${prod.slug}`,
           width: 1200,
           height: 630,
-          alt: `${prod.name} Alternatives - SaaS Decision`,
+          alt: `${prod.name} Decision Intelligence & Alternatives`,
         },
       ],
     },
@@ -611,6 +611,7 @@ export default async function SoftwarePage({
           {/* Interactive Alternatives & Cost Savings Suite (Features 2, 3 & 4) */}
           <InteractiveAlternativesSuite
             productName={prod.name}
+            productSlug={prod.slug}
             pricing={prod.pricing}
             sources={prod.sources || []}
             openSourceAlternatives={prod.openSourceAlternatives || []}

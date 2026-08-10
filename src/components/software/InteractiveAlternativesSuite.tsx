@@ -7,6 +7,7 @@ import SmartAlternativeFilterWizard, { FilterConstraint } from './SmartAlternati
 
 interface InteractiveAlternativesSuiteProps {
   productName: string;
+  productSlug: string;
   pricing?: {
     name: string;
     billingInterval: string;
@@ -37,6 +38,7 @@ interface InteractiveAlternativesSuiteProps {
 
 export default function InteractiveAlternativesSuite({
   productName,
+  productSlug,
   pricing = [],
   sources = [],
   openSourceAlternatives = [],
@@ -113,16 +115,16 @@ export default function InteractiveAlternativesSuite({
                   </div>
                 </div>
 
-                <div className="pt-5 mt-4 border-t border-[#f1f5f9] flex justify-between items-center">
+                <div className="pt-4 mt-4 border-t border-[#f1f5f9] flex flex-wrap items-center justify-between gap-3">
                   <Link
                     href={`/software/${alt.slug}`}
-                    className="text-xs font-bold text-[#2b00d9] hover:underline flex items-center gap-1"
+                    className="text-xs font-bold text-[#2b00d9] hover:underline flex items-center gap-1 shrink-0"
                   >
-                    View Evaluation ↗
+                    View Evaluation <span className="text-[10px]">↗</span>
                   </Link>
                   <Link
-                    href={`/compare/${alt.slug}-vs-calendly`}
-                    className="text-[11px] font-semibold text-[#64748b] hover:text-[#0f172a]"
+                    href={`/compare/${alt.slug}-vs-${productSlug}`}
+                    className="text-[11px] font-semibold text-[#64748b] hover:text-[#2b00d9] transition-colors leading-tight text-right hover:underline"
                   >
                     Compare vs {productName}
                   </Link>
