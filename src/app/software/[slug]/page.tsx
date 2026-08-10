@@ -211,15 +211,28 @@ export default async function SoftwarePage({
 
               <div className="relative overflow-hidden bg-gradient-to-br from-[#eff6ff] via-[#eef2ff] to-[#f3e8ff] border border-[#c7d2fe] p-4 sm:p-6 rounded-2xl text-center w-full lg:w-80 lg:shrink-0 min-w-0 max-w-full space-y-2.5 shadow-md shadow-[#2b00d9]/5">
                 <div className="absolute -top-12 -right-12 w-32 h-32 bg-[#2b00d9]/10 rounded-full blur-2xl pointer-events-none" />
-                <span className="text-[11px] text-[#2b00d9] uppercase font-extrabold tracking-wider block bg-white/70 backdrop-blur-xs py-1 px-3 rounded-full border border-[#a5b4fc]/40 w-fit mx-auto shadow-2xs">
+                <a
+                  href="#decision-framework"
+                  className="text-[11px] text-[#2b00d9] uppercase font-extrabold tracking-wider block bg-white/70 hover:bg-white backdrop-blur-xs py-1 px-3 rounded-full border border-[#a5b4fc]/40 hover:border-[#2b00d9]/40 w-fit mx-auto shadow-2xs transition-all cursor-pointer"
+                  title="Understanding the 5 SaaS Decision Paths"
+                >
                   ★ Primary Recommendation
-                </span>
+                </a>
                 <span className="text-3xl font-black text-[#2b00d9] block tracking-tight pt-1 break-words">
                   {scores.primaryDecision.replace('_', ' ')}
                 </span>
-                <span className="text-xs text-[#16a34a] font-extrabold bg-[#f0fdf4] text-[#15803d] px-3 py-1 rounded-full inline-block border border-[#bbf7d0]">
-                  ✓ {scores.confidence}% Confidence Match
-                </span>
+                <a
+                  href="#decision-framework"
+                  className="inline-flex items-center gap-1 text-xs font-extrabold text-[#dc2626] hover:text-[#b91c1c] hover:underline py-0.5"
+                >
+                  <span>See why (5 Decision Paths)</span>
+                  <span>→</span>
+                </a>
+                <div>
+                  <span className="text-xs text-[#16a34a] font-extrabold bg-[#f0fdf4] text-[#15803d] px-3 py-1 rounded-full inline-block border border-[#bbf7d0]">
+                    ✓ {scores.confidence}% Confidence Match
+                  </span>
+                </div>
                 <div className="pt-3 border-t border-[#c7d2fe]/60 text-center text-xs font-medium text-[#334155] space-y-1 relative z-10">
                   <span className="font-extrabold text-[#0f172a] block">Why {scores.primaryDecision.replace('_', ' ')}?</span>
                   <p className="leading-relaxed break-words">

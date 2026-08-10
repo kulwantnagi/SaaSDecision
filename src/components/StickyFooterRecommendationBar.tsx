@@ -66,8 +66,16 @@ export default function StickyFooterRecommendationBar({
           </div>
         </div>
 
-        {/* Right Actions: Customize + View Analysis + Close */}
+        {/* Right Actions: See Why + Customize + View Analysis + Close */}
         <div className="flex items-center gap-2 shrink-0">
+          <a
+            href="#decision-framework"
+            className="flex items-center gap-1.5 bg-[#f1f5f9] hover:bg-[#e2e8f0] text-[#2b00d9] border border-[#c7d2fe] font-bold text-xs py-2 px-3 sm:px-3.5 rounded-xl transition shadow-2xs active:scale-95 whitespace-nowrap"
+          >
+            <span>💡</span>
+            <span>See Why</span>
+          </a>
+
           <Link
             href={`/software/${productSlug}/personalize`}
             className="flex items-center gap-1.5 bg-[#f8fafc] hover:bg-[#e2e8f0] text-[#334155] border border-[#cbd5e1] font-bold text-xs py-2 px-3 sm:px-3.5 rounded-xl transition shadow-2xs active:scale-95 whitespace-nowrap"
