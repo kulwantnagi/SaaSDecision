@@ -26,6 +26,20 @@ export async function generateMetadata({
     openGraph: {
       title: `Best ${prod.name} Alternatives and Open Source SaaS Solutions`,
       description: `Compare verified alternatives and self-hosted open source SaaS replacements for ${prod.name}.`,
+      images: [
+        {
+          url: '/saas-decision.webp',
+          width: 1200,
+          height: 630,
+          alt: `Best ${prod.name} Alternatives - SaaS Decision`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `Best ${prod.name} Alternatives and Open Source SaaS Solutions`,
+      description: `Compare verified alternatives and self-hosted open source SaaS replacements for ${prod.name}.`,
+      images: ['/saas-decision.webp'],
     },
   };
 }

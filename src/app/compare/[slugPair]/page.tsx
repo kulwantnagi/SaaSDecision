@@ -28,6 +28,20 @@ export async function generateMetadata({
     openGraph: {
       title: `${prodA.name} vs ${prodB.name}: Alternatives and Open Source SaaS Solutions`,
       description: `Evaluate feature parity, pricing models, and open-source alternatives for ${prodA.name} and ${prodB.name}.`,
+      images: [
+        {
+          url: '/saas-decision.webp',
+          width: 1200,
+          height: 630,
+          alt: `${prodA.name} vs ${prodB.name} - SaaS Decision`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${prodA.name} vs ${prodB.name}: Alternatives and Open Source SaaS Solutions`,
+      description: `Compare ${prodA.name} vs ${prodB.name} pricing, feature parity, and open source SaaS alternatives.`,
+      images: ['/saas-decision.webp'],
     },
   };
 }
