@@ -17,6 +17,22 @@ for (const prod of INITIAL_25_PRODUCTS) {
 
 export const ALL_SOFTWARE_PRODUCTS: VerifiedProductSeed[] = Array.from(productMap.values());
 
+// Pre-indexed Map by category slug for O(1) lookups
+const categoryMap = new Map<string, VerifiedProductSeed[]>();
+for (const prod of ALL_SOFTWARE_PRODUCTS) {
+  const catSlug = (prod.categorySlug || '').toLowerCase().trim();
+  const catNameSlug = (prod.categoryName || '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  
+  if (catSlug) {
+    if (!categoryMap.has(catSlug)) categoryMap.set(catSlug, []);
+    categoryMap.get(catSlug)!.push(prod);
+  }
+  if (catNameSlug && catNameSlug !== catSlug) {
+    if (!categoryMap.has(catNameSlug)) categoryMap.set(catNameSlug, []);
+    categoryMap.get(catNameSlug)!.push(prod);
+  }
+}
+
 /**
  * Retrieves all software products in the catalog
  */
@@ -32,13 +48,11 @@ export function getSoftwareBySlug(slug: string): VerifiedProductSeed | undefined
 }
 
 /**
- * Retrieves software products belonging to a given category slug
+ * Retrieves software products belonging to a given category slug in O(1) time
  */
 export function getSoftwareByCategory(categorySlug: string): VerifiedProductSeed[] {
   const targetCat = categorySlug.toLowerCase().trim();
-  return ALL_SOFTWARE_PRODUCTS.filter(
-    (p) => p.categorySlug.toLowerCase() === targetCat || p.categoryName.toLowerCase().replace(/[^a-z0-9]+/g, '-') === targetCat
-  );
+  return categoryMap.get(targetCat) || [];
 }
 
 /**

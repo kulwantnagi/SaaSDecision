@@ -1,7 +1,17 @@
 import { NextResponse } from 'next/server';
-import catalogJson from '../../../../public/catalog.json';
+import searchIndex from '../../../../public/search-index.json';
 
 export const runtime = 'edge';
+
+interface SearchIndexItem {
+  name: string;
+  slug: string;
+  categoryName: string;
+  categorySlug: string;
+  shortDescription: string;
+  aliases: string[];
+  openSourceCount: number;
+}
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -9,29 +19,28 @@ export async function GET(request: Request) {
   const limit = parseInt(searchParams.get('limit') || '8', 10);
 
   if (!q) {
-    return NextResponse.json([]);
+    return NextResponse.json([], {
+      headers: {
+        'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800',
+      },
+    });
   }
 
-  const rawList = (catalogJson as any[]) || [];
-  
-  const results = rawList.filter((p) => {
-    if (!p) return false;
-    const nameMatch = p.name && String(p.name).toLowerCase().includes(q);
-    const slugMatch = p.slug && String(p.slug).toLowerCase().includes(q);
-    const catMatch = p.categoryName && String(p.categoryName).toLowerCase().includes(q);
-    const descMatch = p.shortDescription && String(p.shortDescription).toLowerCase().includes(q);
-    const summaryMatch = p.summary && String(p.summary).toLowerCase().includes(q);
-    const aliasMatch = Array.isArray(p.aliases) && p.aliases.some((a: any) => typeof a === 'string' && a.toLowerCase().includes(q));
-    return nameMatch || slugMatch || catMatch || descMatch || summaryMatch || aliasMatch;
+  const rawList = (searchIndex as SearchIndexItem[]) || [];
+
+  const results = rawList.filter((item) => {
+    if (!item) return false;
+    const nameMatch = item.name && item.name.toLowerCase().includes(q);
+    const slugMatch = item.slug && item.slug.toLowerCase().includes(q);
+    const catMatch = item.categoryName && item.categoryName.toLowerCase().includes(q);
+    const descMatch = item.shortDescription && item.shortDescription.toLowerCase().includes(q);
+    const aliasMatch = Array.isArray(item.aliases) && item.aliases.some((a) => a.toLowerCase().includes(q));
+    return nameMatch || slugMatch || catMatch || descMatch || aliasMatch;
   }).slice(0, limit);
 
-  return NextResponse.json(
-    results.map((p) => ({
-      name: p.name,
-      slug: p.slug,
-      categoryName: p.categoryName || 'General',
-      shortDescription: p.shortDescription || p.summary || '',
-      openSourceCount: Array.isArray(p.openSourceAlternatives) ? p.openSourceAlternatives.length : 0,
-    }))
-  );
+  return NextResponse.json(results, {
+    headers: {
+      'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800',
+    },
+  });
 }

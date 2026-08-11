@@ -1,0 +1,110 @@
+{
+  "name": "LegalZoom",
+  "slug": "legalzoom",
+  "categoryName": "Legal & Compliance",
+  "categorySlug": "security-auth",
+  "shortDescription": "LegalZoom provides online legal services, business formation (LLC, Corporation), trademark filing, and legal document templates.",
+  "summary": "LegalZoom simplifies legal services for small business owners and individuals by offering automated business registration, registered agent services, and lawyer-backed legal document creation.",
+  "websiteUrl": "https://legalzoom.com",
+  "aliases": [
+    "LegalZoom App",
+    "LegalZoom LLC",
+    "LegalZoom Legal Services"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 3,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "LLC Formation (Basic)",
+      "billingInterval": "one-time",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "LLC Pro",
+      "billingInterval": "one-time",
+      "basePrice": 249,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "LLC Premium",
+      "billingInterval": "one-time",
+      "basePrice": 299,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Registered Agent Service",
+      "billingInterval": "yearly",
+      "basePrice": 299,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "LegalZoom Official Website",
+      "url": "https://legalzoom.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for legally binding document workflows.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "OpenContract",
+      "githubUrl": "https://github.com/GSA/opencontracts",
+      "description": "Open-source legal document parsing, contract review, and agreement management software.",
+      "stars": "2.4k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Rocket Lawyer",
+      "slug": "rocket-lawyer",
+      "startingPrice": "$39.99/mo",
+      "freeTier": false,
+      "featureParity": "95%",
+      "keyAdvantage": "Subscription model with unlimited legal document creation and attorney consultations."
+    },
+    {
+      "name": "ZenBusiness",
+      "slug": "zenbusiness",
+      "startingPrice": "$0 + state fees",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Fast business registration, automated worry-free compliance, and registered agent service."
+    }
+  ],
+  "tags": [
+    "e-signature",
+    "legal-tech",
+    "business-formation",
+    "compliance"
+  ]
+}
