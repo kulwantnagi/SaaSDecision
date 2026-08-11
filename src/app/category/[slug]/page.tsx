@@ -13,6 +13,7 @@ export async function generateMetadata({
   if (products.length === 0) return {};
 
   const categoryName = products[0].categoryName;
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://saas-decision.com';
 
   return {
     title: `${categoryName} Alternatives and Open Source SaaS Solutions`,
@@ -40,7 +41,10 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: `${categoryName} Alternatives and Open Source SaaS Solutions`,
       description: `Explore top verified open source alternatives and decision scores for ${categoryName} software tools.`,
-      images: ['/saas-decision.webp'],
+      images: [
+        `${baseUrl}/api/og?title=${encodeURIComponent(categoryName)}+Software+Index`,
+        `${baseUrl}/saas-decision.webp`,
+      ],
     },
   };
 }

@@ -13,6 +13,8 @@ export async function generateMetadata({
   const prod = getSoftwareBySlug(slug);
   if (!prod) return {};
 
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://saas-decision.com';
+
   return {
     title: `Top Open Source ${prod.name} Alternatives and SaaS Solutions`,
     description: `Discover verified open source alternatives to ${prod.name}. Self-host free open-source software solutions on Hostinger or DigitalOcean with zero monthly subscription fees.`,
@@ -40,7 +42,10 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: `Top Open Source ${prod.name} Alternatives and SaaS Solutions`,
       description: `Verified self-hostable open-source alternatives to ${prod.name} offering 100% data sovereignty and zero seat fees.`,
-      images: ['/saas-decision.webp'],
+      images: [
+        `${baseUrl}/api/og?slug=${prod.slug}&title=Open+Source+${encodeURIComponent(prod.name)}+Alternatives`,
+        `${baseUrl}/saas-decision.webp`,
+      ],
     },
   };
 }

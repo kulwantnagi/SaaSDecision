@@ -1,4 +1,5 @@
 import { INITIAL_25_PRODUCTS, VerifiedProductSeed } from './seed-data';
+export type { VerifiedProductSeed };
 import { CATALOG_PRODUCTS } from './catalog-data';
 
 // Merge initial high-touch seeds with the complete 980-tool dataset
@@ -233,6 +234,78 @@ export function getSoftwareProsAndCons(prod: VerifiedProductSeed): AppProsCons {
   return {
     pros: pros.slice(0, 3),
     cons: cons.slice(0, 3),
+  };
+}
+
+export interface DecisionTriggers {
+  keepTriggers: string[];
+  switchTriggers: string[];
+}
+
+/**
+ * Generates deterministic "When to Keep" vs. "When to Switch" decision triggers
+ */
+export function getDecisionTriggers(prod: VerifiedProductSeed): DecisionTriggers {
+  const name = prod.name || 'Software';
+  const a = prod.assessment || {};
+  const pricing = prod.pricing || [];
+  const starter = pricing[0];
+  const hasFreeTier = pricing.some((p) => p.freeTier || p.basePrice === 0);
+  const basePrice = starter ? (starter.freeTier ? 0 : starter.basePrice) : 0;
+  const perSeatPrice = starter?.pricePerSeat ?? 0;
+  const topOSS = prod.openSourceAlternatives?.[0]?.name;
+  const topComm = prod.verifiedCommercialAlternatives?.[0]?.name;
+
+  const keepTriggers: string[] = [];
+  const switchTriggers: string[] = [];
+
+  // --- KEEP TRIGGERS ---
+  if (a.integrationDependency && a.integrationDependency >= 4) {
+    keepTriggers.push(`Deep Integration Mesh: Your operational workflows rely heavily on ${name}'s webhooks, APIs, or native ecosystem.`);
+  } else {
+    keepTriggers.push(`Core Workflow Reliance: Your team's day-to-day productivity depends on ${name}'s specific UI or proprietary features.`);
+  }
+
+  if (a.realtimeCollaboration && a.realtimeCollaboration >= 4) {
+    keepTriggers.push(`Real-time Multi-User Sync: Multiple team members collaborate simultaneously with minimal latency in ${name}.`);
+  } else if (hasFreeTier) {
+    keepTriggers.push(`Zero Overhead: You are operating within ${name}'s permanent free tier with no immediate need for premium add-ons.`);
+  } else {
+    keepTriggers.push(`Managed SLA & Support: You prefer dedicated cloud availability and vendor compliance support over self-managed servers.`);
+  }
+
+  if (a.migrationComplexity && a.migrationComplexity >= 4) {
+    keepTriggers.push(`High Migration Friction: Extracting historical data, permissions, and custom settings would cause significant business downtime.`);
+  } else {
+    keepTriggers.push(`Minimal Admin Burden: Your engineering team lacks dedicated DevOps bandwidth to maintain and patch self-hosted infrastructure.`);
+  }
+
+  // --- SWITCH TRIGGERS ---
+  if (perSeatPrice > 0 || basePrice >= 50) {
+    switchTriggers.push(`Escalating Subscription Costs: Per-seat billing (${perSeatPrice > 0 ? `$${perSeatPrice}/user/mo` : `$${basePrice}/mo`}) is inflating annual spend beyond budget limits.`);
+  } else if (topComm) {
+    switchTriggers.push(`Superior Feature Parity Elsewhere: Alternative commercial platforms like ${topComm} offer better value or higher seat limits.`);
+  } else {
+    switchTriggers.push(`Underutilized Tier Limits: You are paying for top-tier features while only utilizing basic core capabilities.`);
+  }
+
+  if (topOSS) {
+    switchTriggers.push(`Open-Source Self-Host Viability: Mature self-hosted replacements like ${topOSS} can eliminate recurring vendor fees entirely.`);
+  } else if (a.dataPortability && a.dataPortability >= 4) {
+    switchTriggers.push(`High Data Portability: ${name} supports clean data exports (JSON/CSV), making migration to lower-cost platforms fast and risk-free.`);
+  } else {
+    switchTriggers.push(`Data Sovereignty Needs: Strict GDPR, HIPAA, or local data privacy compliance requires hosting data on private cloud infrastructure.`);
+  }
+
+  if (a.vendorLockIn && a.vendorLockIn >= 4) {
+    switchTriggers.push(`Vendor Lock-In Avoidance: You want to prevent long-term lock-in before your proprietary configuration becomes too complex to extract.`);
+  } else {
+    switchTriggers.push(`Limited Public API: Restricted API access is blocking automated cross-platform workflows and custom integrations.`);
+  }
+
+  return {
+    keepTriggers: keepTriggers.slice(0, 3),
+    switchTriggers: switchTriggers.slice(0, 3),
   };
 }
 

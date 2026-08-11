@@ -81,7 +81,7 @@ export default function RealtimeSearchBox({
   const isHeader = variant === 'header';
 
   return (
-    <div ref={wrapperRef} className={isHeader ? 'relative w-full max-w-sm' : 'relative max-w-2xl mx-auto pt-2'}>
+    <div ref={wrapperRef} className={isHeader ? 'relative w-full max-w-sm sm:max-w-md' : 'relative max-w-2xl mx-auto pt-2'}>
       <form onSubmit={handleSubmit} className="relative">
         <div className="relative flex items-center">
           <input
@@ -89,11 +89,11 @@ export default function RealtimeSearchBox({
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onFocus={() => query.trim() && results.length > 0 && setIsOpen(true)}
-            placeholder={isHeader ? 'Search tools...' : `Search across ${totalCount} software tools...`}
+            placeholder={isHeader ? 'Search software & alternatives...' : `Search across ${totalCount} software tools...`}
             className={
               isHeader
-                ? 'w-full bg-[#f8fafc] border border-[#e2e8f0] rounded-xl pl-3.5 pr-10 py-1.5 text-xs text-[#0f172a] placeholder-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2b00d9] focus:bg-white transition'
-                : 'w-full bg-white border border-[#e2e8f0] rounded-2xl pl-4 sm:pl-6 pr-24 sm:pr-32 py-3.5 sm:py-4 text-xs sm:text-sm text-[#0f172a] placeholder-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition shadow-lg shadow-[#0f172a]/5'
+                ? 'w-full bg-[#f8fafc] border border-[#cbd5e1] rounded-xl pl-3.5 pr-10 py-1.5 text-xs text-[#0f172a] placeholder-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2b00d9] focus:bg-white transition shadow-sm'
+                : 'w-full bg-white border border-[#cbd5e1] rounded-2xl pl-4 sm:pl-6 pr-24 sm:pr-32 py-3.5 sm:py-4 text-xs sm:text-sm text-[#0f172a] placeholder-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2b00d9] transition shadow-lg shadow-[#0f172a]/5'
             }
           />
 
@@ -121,34 +121,40 @@ export default function RealtimeSearchBox({
 
       {/* Live Dropdown Results */}
       {isOpen && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-white border border-[#e2e8f0] rounded-2xl shadow-xl z-50 overflow-hidden divide-y divide-[#f1f5f9] animate-in fade-in slide-in-from-top-2 duration-150">
-          <div className="px-3 sm:px-4 py-2 bg-[#f8fafc] flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-[#64748b]">
-            <span>Live Results ({results.length})</span>
-            <span className="hidden sm:inline">Press Enter for full list</span>
+        <div className={
+          isHeader
+            ? "absolute top-full right-0 sm:left-0 w-[340px] sm:w-[380px] mt-2 bg-white border border-[#cbd5e1] rounded-2xl shadow-2xl z-50 overflow-hidden divide-y divide-[#f1f5f9] animate-in fade-in slide-in-from-top-2 duration-150"
+            : "absolute top-full left-0 right-0 mt-2 bg-white border border-[#cbd5e1] rounded-2xl shadow-2xl z-50 overflow-hidden divide-y divide-[#f1f5f9] animate-in fade-in slide-in-from-top-2 duration-150"
+        }>
+          <div className="px-3.5 py-2.5 bg-[#f8fafc] flex items-center justify-between text-[11px] font-bold tracking-wide text-[#475569]">
+            <span className="uppercase text-[10px] tracking-wider text-[#64748b]">Live Results ({results.length})</span>
+            <span className="hidden sm:inline text-[#64748b] font-normal text-[10px]">Press Enter to view all</span>
           </div>
 
-          <div className="max-h-[380px] overflow-y-auto divide-y divide-[#f1f5f9]">
+          <div className="max-h-[360px] overflow-y-auto divide-y divide-[#f1f5f9]">
             {results.map((item) => (
               <Link
                 key={item.slug}
                 href={`/software/${item.slug}`}
                 onClick={() => setIsOpen(false)}
-                className="flex items-center justify-between p-3 sm:p-4 hover:bg-[#eef2ff]/50 transition group gap-2"
+                className="flex items-center justify-between p-3.5 hover:bg-[#f4f6fb] transition group gap-3"
               >
-                <div className="space-y-0.5 max-w-[70%] sm:max-w-[75%]">
-                  <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
-                    <span className="font-extrabold text-xs sm:text-sm text-[#0f172a] group-hover:text-[#2b00d9] transition">
+                <div className="min-w-0 flex-1 space-y-1">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="font-bold text-xs sm:text-sm text-[#0f172a] group-hover:text-[#2b00d9] transition truncate">
                       {item.name}
                     </span>
-                    <span className="text-[9px] sm:text-[10px] font-semibold text-[#64748b] bg-[#f1f5f9] px-2 py-0.5 rounded-md">
+                    <span className="text-[10px] font-medium text-[#475569] bg-[#e2e8f0]/60 px-2 py-0.5 rounded-md whitespace-nowrap">
                       {item.categoryName}
                     </span>
                   </div>
-                  <p className="text-[11px] sm:text-xs text-[#64748b] line-clamp-1 font-medium">{item.shortDescription}</p>
+                  <p className="text-[11px] text-[#64748b] truncate leading-normal">
+                    {item.shortDescription}
+                  </p>
                 </div>
 
                 <div className="text-right shrink-0">
-                  <span className="text-[10px] sm:text-[11px] font-bold text-[#16a34a] bg-[#f0fdf4] px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full border border-[#86efac] inline-flex items-center gap-1">
+                  <span className="text-[11px] font-bold text-[#16a34a] bg-[#f0fdf4] hover:bg-[#dcfce7] px-2.5 py-1 rounded-lg border border-[#bbf7d0] inline-flex items-center gap-1 transition">
                     Evaluate &rarr;
                   </span>
                 </div>
@@ -158,9 +164,12 @@ export default function RealtimeSearchBox({
 
           <button
             onClick={handleSubmit}
-            className="w-full py-2.5 sm:py-3 bg-[#f8fafc] hover:bg-[#eef2ff] text-center text-xs font-bold text-[#2b00d9] transition"
+            className="w-full py-3 bg-[#f8fafc] hover:bg-[#eef2ff] text-center text-xs font-bold text-[#2b00d9] transition flex items-center justify-center gap-1.5"
           >
-            View all results for "{query}" &rarr;
+            <span>View all results for &quot;{query}&quot;</span>
+            <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
           </button>
         </div>
       )}

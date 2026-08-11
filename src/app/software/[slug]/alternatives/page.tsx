@@ -14,6 +14,8 @@ export async function generateMetadata({
   const prod = getSoftwareBySlug(slug);
   if (!prod) return {};
 
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://saas-decision.com';
+
   return {
     title: `Best ${prod.name} Alternatives and Open Source SaaS Solutions`,
     description: `Explore top commercial competitors and free open source SaaS alternatives to ${prod.name}. Compare feature parity, self-hosting options, pricing tiers, and migration complexity.`,
@@ -40,7 +42,10 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: `Best ${prod.name} Alternatives and Open Source SaaS Solutions`,
       description: `Compare verified alternatives and self-hosted open source SaaS replacements for ${prod.name}.`,
-      images: ['/saas-decision.webp'],
+      images: [
+        `${baseUrl}/api/og?slug=${prod.slug}&title=Best+${encodeURIComponent(prod.name)}+Alternatives`,
+        `${baseUrl}/saas-decision.webp`,
+      ],
     },
   };
 }

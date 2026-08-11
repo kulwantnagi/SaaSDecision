@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og';
-import { INITIAL_25_PRODUCTS } from '@/domain/seed-data';
+import { getSoftwareBySlug } from '@/domain/catalog-service';
 import { evaluateSoftware } from '@/domain/decision-engine';
 
 export const runtime = 'edge';
@@ -14,7 +14,7 @@ export async function GET(request: Request) {
   let scores = { keep: 85, switch: 42, selfHost: 20, automate: 60, build: 35 };
 
   if (slug) {
-    const product = INITIAL_25_PRODUCTS.find((p) => p.slug === slug);
+    const product = getSoftwareBySlug(slug);
     if (product) {
       title = `${product.name} Decision Intelligence`;
       subtitle = `${product.categoryName} • Deterministic Evaluation & TCO Analysis`;

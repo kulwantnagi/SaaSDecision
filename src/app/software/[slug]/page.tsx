@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getSoftwareBySlug, getRelatedSoftwareByCategory, getSoftwareProsAndCons, getVerifiedWebsiteUrl, ALL_SOFTWARE_PRODUCTS } from '@/domain/catalog-service';
+import { getSoftwareBySlug, getRelatedSoftwareByCategory, getSoftwareProsAndCons, getDecisionTriggers, getVerifiedWebsiteUrl, ALL_SOFTWARE_PRODUCTS } from '@/domain/catalog-service';
 import { evaluateSoftware } from '@/domain/decision-engine';
 import MoatRadarChart from '@/components/software/MoatRadarChart';
 import DecisionGlossarySection from '@/components/common/DecisionGlossarySection';
@@ -54,8 +54,11 @@ export async function generateMetadata({
     twitter: {
       card: 'summary_large_image',
       title: `${prod.name} Alternatives and Open Source SaaS Solutions`,
-      description: `Discover verified ${prod.name} alternatives and open source SaaS solutions.`,
-      images: ['/saas-decision.webp'],
+      description: `Discover verified ${prod.name} alternatives and open source SaaS solutions. Primary verdict: ${scores.primaryDecision.replace('_', ' ')} (${scores.confidence}% confidence).`,
+      images: [
+        `${baseUrl}/api/og?slug=${prod.slug}`,
+        `${baseUrl}/saas-decision.webp`,
+      ],
     },
   };
 }
@@ -74,6 +77,7 @@ export default async function SoftwarePage({
 
   const scores = evaluateSoftware(prod.assessment);
   const appProsCons = getSoftwareProsAndCons(prod);
+  const decisionTriggers = getDecisionTriggers(prod);
   const officialWebsiteUrl = getVerifiedWebsiteUrl(prod);
   const relatedCategorySoftware = getRelatedSoftwareByCategory(
     prod.categorySlug,
@@ -396,11 +400,11 @@ export default async function SoftwarePage({
               </p>
             </div>
 
-            {/* AEO / AI Search Direct Answer Executive Summary Box */}
+            {/* Executive Summary Box */}
             <div className="bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-5 space-y-2">
               <div className="flex items-center gap-2">
                 <span className="text-[10px] uppercase font-extrabold bg-[#2b00d9] text-white px-2 py-0.5 rounded">
-                  AEO Direct Answer Summary
+                  Executive Summary
                 </span>
                 <span className="text-xs text-[#64748b] font-medium">Updated for 2026 Procurement</span>
               </div>
@@ -478,6 +482,66 @@ export default async function SoftwarePage({
                   <span className="text-xs font-black text-[#2b00d9] bg-[#eef2ff] px-2.5 py-1 rounded-lg border border-[#c7d2fe] shrink-0">
                     High Fit
                   </span>
+                </div>
+              </div>
+
+              {/* "When to Keep" vs. "When to Switch" Decision Triggers Grid */}
+              <div id="decision-triggers" className="pt-6 border-t border-[#f1f5f9] space-y-4">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#2b00d9] bg-[#eef2ff] px-2.5 py-1 rounded-md border border-[#c7d2fe]">
+                      Procurement Playbook
+                    </span>
+                    <h3 className="text-base sm:text-lg font-bold text-[#0f172a] mt-1.5">
+                      &quot;When to Keep&quot; vs. &quot;When to Switch&quot; Decision Triggers
+                    </h3>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                  {/* WHEN TO KEEP BOX */}
+                  <div className="bg-gradient-to-br from-[#f0fdf4] to-white border-2 border-[#bbf7d0] rounded-2xl p-5 shadow-sm space-y-3">
+                    <div className="flex items-center gap-2.5 border-b border-[#bbf7d0]/60 pb-3">
+                      <div className="w-8 h-8 rounded-xl bg-[#16a34a] text-white flex items-center justify-center font-black text-sm shadow-xs">
+                        ✓
+                      </div>
+                      <div>
+                        <h4 className="font-extrabold text-sm text-[#14532d]">Keep {prod.name} If:</h4>
+                        <span className="text-[11px] font-medium text-[#15803d]">High-retention operational conditions</span>
+                      </div>
+                    </div>
+
+                    <ul className="space-y-2.5 text-xs text-[#334155] font-medium">
+                      {decisionTriggers.keepTriggers.map((trigger, idx) => (
+                        <li key={idx} className="flex items-start gap-2.5 bg-white/80 p-2.5 rounded-xl border border-[#dcfce7]">
+                          <span className="text-[#16a34a] font-bold text-sm shrink-0 mt-0.5">&bull;</span>
+                          <span className="leading-relaxed">{trigger}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {/* WHEN TO SWITCH BOX */}
+                  <div className="bg-gradient-to-br from-[#fef2f2] to-white border-2 border-[#fecaca] rounded-2xl p-5 shadow-sm space-y-3">
+                    <div className="flex items-center gap-2.5 border-b border-[#fecaca]/60 pb-3">
+                      <div className="w-8 h-8 rounded-xl bg-[#dc2626] text-white flex items-center justify-center font-black text-sm shadow-xs">
+                        🔄
+                      </div>
+                      <div>
+                        <h4 className="font-extrabold text-sm text-[#7f1d1d]">Switch / Self-Host If:</h4>
+                        <span className="text-[11px] font-medium text-[#b91c1c]">Cost &amp; lock-in optimization triggers</span>
+                      </div>
+                    </div>
+
+                    <ul className="space-y-2.5 text-xs text-[#334155] font-medium">
+                      {decisionTriggers.switchTriggers.map((trigger, idx) => (
+                        <li key={idx} className="flex items-start gap-2.5 bg-white/80 p-2.5 rounded-xl border border-[#fee2e2]">
+                          <span className="text-[#dc2626] font-bold text-sm shrink-0 mt-0.5">&bull;</span>
+                          <span className="leading-relaxed">{trigger}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

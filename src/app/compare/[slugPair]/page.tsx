@@ -15,6 +15,7 @@ export async function generateMetadata({
   if (!pair) return {};
 
   const { prodA, prodB } = pair;
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://saas-decision.com';
 
   return {
     title: `${prodA.name} vs ${prodB.name}: Alternatives and Open Source SaaS Solutions`,
@@ -42,7 +43,10 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: `${prodA.name} vs ${prodB.name}: Alternatives and Open Source SaaS Solutions`,
       description: `Compare ${prodA.name} vs ${prodB.name} pricing, feature parity, and open source SaaS alternatives.`,
-      images: ['/saas-decision.webp'],
+      images: [
+        `${baseUrl}/api/og?title=${encodeURIComponent(prodA.name)}+vs+${encodeURIComponent(prodB.name)}`,
+        `${baseUrl}/saas-decision.webp`,
+      ],
     },
   };
 }

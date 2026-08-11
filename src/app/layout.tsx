@@ -71,7 +71,10 @@ export const metadata: Metadata = {
     title: 'Open Source SaaS Alternatives & Solutions - SaaS Decision',
     description: 'Discover verified open source alternatives and self-hosted SaaS solutions to 985+ software tools. Deterministic KEEP, SWITCH & SELF-HOST scores.',
     creator: '@SaaSDecision',
-    images: ['/saas-decision.webp'],
+    images: [
+      `${BASE_URL}/api/og`,
+      `${BASE_URL}/saas-decision.webp`,
+    ],
   },
 };
 
