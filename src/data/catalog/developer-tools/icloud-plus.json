@@ -1,0 +1,92 @@
+{
+  "name": "iCloud Plus",
+  "slug": "icloud-plus",
+  "categoryName": "Storage & Backup",
+  "categorySlug": "developer-tools",
+  "shortDescription": "iCloud Plus provides specialized capabilities in developer tools & cloud, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "iCloud Plus provides specialized capabilities in developer tools & cloud, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://icloud-plus.com",
+  "aliases": [
+    "iCloud Plus App",
+    "iCloud Plus Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "iCloud Plus Official Website",
+      "url": "https://icloud-plus.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Nextcloud",
+      "githubUrl": "https://github.com/nextcloud/server",
+      "description": "Open-source self-hosted productivity platform.",
+      "stars": "26k★"
+    },
+    {
+      "name": "MinIO",
+      "githubUrl": "https://github.com/minio/minio",
+      "description": "High-performance S3 compatible object storage.",
+      "stars": "48k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Vercel",
+      "slug": "vercel",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Zero-config global edge deployment for Next.js."
+    },
+    {
+      "name": "Supabase",
+      "slug": "supabase",
+      "startingPrice": "$25/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Open source Firebase alternative with PostgreSQL."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

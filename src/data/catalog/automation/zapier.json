@@ -1,0 +1,106 @@
+{
+  "name": "Zapier",
+  "slug": "zapier",
+  "categoryName": "AI & Automation",
+  "categorySlug": "automation",
+  "shortDescription": "Zapier enables teams to build automated multi-step workflows between disparate SaaS tools.",
+  "summary": "Zapier provides specialized capabilities in developer tools & cloud, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://zapier.com/",
+  "aliases": [
+    "Zapier App",
+    "Zapier Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 19.99,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 69,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Advanced",
+      "billingInterval": "monthly",
+      "basePrice": 800,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Zapier Official Website",
+      "url": "https://zapier.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "n8n",
+      "githubUrl": "https://github.com/n8n-io/n8n",
+      "description": "Open-source workflow automation platform with AI capabilities.",
+      "stars": "55k★"
+    },
+    {
+      "name": "Ollama",
+      "githubUrl": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
+      "stars": "105k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Vercel",
+      "slug": "vercel",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Zero-config global edge deployment for Next.js."
+    },
+    {
+      "name": "Supabase",
+      "slug": "supabase",
+      "startingPrice": "$25/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Open source Firebase alternative with PostgreSQL."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

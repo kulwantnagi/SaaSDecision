@@ -1,0 +1,84 @@
+{
+  "name": "Canva",
+  "slug": "canva",
+  "categoryName": "Design & Media",
+  "categorySlug": "design-media",
+  "shortDescription": "Canva democratizes graphic design with thousands of templates and drag-and-drop visual tools.",
+  "summary": "Canva provides specialized capabilities in design & media, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://canva.com",
+  "aliases": [
+    "Canva App",
+    "Canva Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 3,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 5,
+    "maintenanceBurden": 3,
+    "businessCriticality": 3,
+    "migrationComplexity": 3,
+    "apiAvailability": 3,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Canva Official Website",
+      "url": "https://canva.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Figma",
+      "slug": "figma",
+      "startingPrice": "$15/mo",
+      "freeTier": true,
+      "featureParity": "98%",
+      "keyAdvantage": "Real-time collaborative UI design and component systems."
+    }
+  ],
+  "tags": [
+    "e-signature"
+  ]
+}

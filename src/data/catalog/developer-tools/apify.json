@@ -1,0 +1,99 @@
+{
+  "name": "Apify",
+  "slug": "apify",
+  "categoryName": "Storage & Backup",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Thousands of tools to automate your business. Get real-time web data, track competitors, generate leads, and integrate your apps and AI agents.",
+  "summary": "Apify provides specialized capabilities in developer tools & cloud, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://apify.com/",
+  "aliases": [
+    "Apify App",
+    "Apify Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Starter",
+      "billingInterval": "monthly",
+      "basePrice": 29,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Scale",
+      "billingInterval": "monthly",
+      "basePrice": 199,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Apify Official Website",
+      "url": "https://apify.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Chatwoot",
+      "githubUrl": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source customer engagement suite, alternative to Intercom & Zendesk.",
+      "stars": "19.5k★"
+    },
+    {
+      "name": "Botpress",
+      "githubUrl": "https://github.com/botpress/botpress",
+      "description": "The open-source conversational AI platform.",
+      "stars": "11k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Vercel",
+      "slug": "vercel",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Zero-config global edge deployment for Next.js."
+    },
+    {
+      "name": "Supabase",
+      "slug": "supabase",
+      "startingPrice": "$25/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Open source Firebase alternative with PostgreSQL."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

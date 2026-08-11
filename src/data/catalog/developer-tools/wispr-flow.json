@@ -1,0 +1,119 @@
+{
+  "name": "Wispr Flow",
+  "slug": "wispr-flow",
+  "categoryName": "Automation",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Flow makes writing quick and clear with seamless voice dictation. It is the fastest, smartest way to type with your voice.",
+  "summary": "Wispr Flow provides specialized capabilities in automation & integration, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://wisprflow.ai",
+  "aliases": [
+    "Wispr Flow App",
+    "Wispr Flow Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 5,
+    "dataMoat": 4,
+    "networkEffects": 4,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 5,
+    "workflowAutomatable": 5,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Individual",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 15,
+      "freeTier": false
+    },
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 12,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Wispr Flow Official Website",
+      "url": "https://wisprflow.ai"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "OpenWhispr",
+      "githubUrl": "https://github.com/openwhispr/openwhispr",
+      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
+      "stars": "4.2k★"
+    },
+    {
+      "name": "Handy",
+      "githubUrl": "https://github.com/carlrobertoh/handy",
+      "description": "Free open-source speech-to-text dictation application.",
+      "stars": "3.8k★"
+    },
+    {
+      "name": "Buzz",
+      "githubUrl": "https://github.com/charlieroberts/buzz",
+      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
+      "stars": "11.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Zapier",
+      "slug": "zapier",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Massive connector catalog spanning 6,000+ SaaS tools."
+    },
+    {
+      "name": "Make",
+      "slug": "make",
+      "startingPrice": "$9/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Visual node-based workflow editor with complex branching."
+    }
+  ],
+  "tags": [
+    "voice-dictation"
+  ]
+}

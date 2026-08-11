@@ -1,0 +1,104 @@
+{
+  "name": "Directus",
+  "slug": "directus",
+  "categoryName": "Developer Tools",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Directus dynamically turns any existing SQL database into REST & GraphQL APIs with an intuitive admin dashboard.",
+  "summary": "Directus dynamically turns any existing SQL database into REST & GraphQL APIs with an intuitive admin dashboard.",
+  "websiteUrl": "https://directus.io",
+  "aliases": [
+    "Directus Headless CMS"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 2,
+    "permissionComplexity": 4,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 1
+  },
+  "pricing": [
+    {
+      "name": "Individual",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 499,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Premium",
+      "billingInterval": "monthly",
+      "basePrice": 50,
+      "pricePerSeat": 50,
+      "freeTier": false
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 99,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise",
+      "billingInterval": "monthly",
+      "basePrice": 5,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Directus Official Website",
+      "url": "https://directus.io"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Strapi",
+      "githubUrl": "https://github.com/strapi/strapi",
+      "description": "Open-source headless CMS.",
+      "stars": "61k★"
+    },
+    {
+      "name": "NocoDB",
+      "githubUrl": "https://github.com/nocodb/nocodb",
+      "description": "Open-source Airtable alternative.",
+      "stars": "45k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Contentful",
+      "slug": "contentful",
+      "startingPrice": "$300/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Enterprise-grade headless content infrastructure."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

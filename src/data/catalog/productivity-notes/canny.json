@@ -1,0 +1,92 @@
+{
+  "name": "Canny",
+  "slug": "canny",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "Canny is an AI-powered customer feedback management platform that captures, analyzes, and prioritizes feedback to help teams decide what to build.",
+  "summary": "Canny provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://canny.io/",
+  "aliases": [
+    "Canny App",
+    "Canny Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Canny Official Website",
+      "url": "https://canny.io/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Open-source experience management and survey builder.",
+      "stars": "9.3k★"
+    },
+    {
+      "name": "OhMyForm",
+      "githubUrl": "https://github.com/ohmyform/ohmyform",
+      "description": "Open-source web form builder for creating forms, surveys, and polls.",
+      "stars": "3.6k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "form-builder"
+  ]
+}

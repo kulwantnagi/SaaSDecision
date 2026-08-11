@@ -1,0 +1,104 @@
+{
+  "name": "QuickBooks Online",
+  "slug": "quickbooks-online",
+  "categoryName": "Automation",
+  "categorySlug": "finance-accounting",
+  "shortDescription": "SUMMER SAVINGS  ☆ 90% off for 3 months* ☆ Ends 8/27 Join 7 million businesses using QuickBooks to manage their accounting, get invoices paid & much more.",
+  "summary": "QuickBooks Online provides specialized capabilities in finance & accounting, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://quickbooks.intuit.com/",
+  "aliases": [
+    "QuickBooks Online App",
+    "QuickBooks Online Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 1,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 38,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Essential",
+      "billingInterval": "monthly",
+      "basePrice": 85,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Personal",
+      "billingInterval": "monthly",
+      "basePrice": 140,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "QuickBooks Online Official Website",
+      "url": "https://quickbooks.intuit.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "OpenWhispr",
+      "githubUrl": "https://github.com/openwhispr/openwhispr",
+      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
+      "stars": "4.2k★"
+    },
+    {
+      "name": "Handy",
+      "githubUrl": "https://github.com/carlrobertoh/handy",
+      "description": "Free open-source speech-to-text dictation application.",
+      "stars": "3.8k★"
+    },
+    {
+      "name": "Buzz",
+      "githubUrl": "https://github.com/charlieroberts/buzz",
+      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
+      "stars": "11.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Xero",
+      "slug": "xero",
+      "startingPrice": "$15/mo",
+      "freeTier": false,
+      "featureParity": "92%",
+      "keyAdvantage": "Unlimited users on core accounting packages."
+    }
+  ],
+  "tags": [
+    "voice-dictation"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Factorial",
+  "slug": "factorial",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "Factorial is the all-in-one business software that connects everything you need to manage your team and grow your business.",
+  "summary": "Factorial provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://factorialhr.com/",
+  "aliases": [
+    "Factorial App",
+    "Factorial Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free plan available",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Factorial Official Website",
+      "url": "https://factorialhr.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "ERPNext HR",
+      "githubUrl": "https://github.com/frappe/hrms",
+      "description": "Open-source HR and Payroll management system.",
+      "stars": "1.5k★"
+    },
+    {
+      "name": "Odoo HR",
+      "githubUrl": "https://github.com/odoo/odoo",
+      "description": "Open-source employee management and payroll suite.",
+      "stars": "36k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Sanity.io",
+  "slug": "sanity",
+  "categoryName": "Developer Tools",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Sanity Studio provides real-time collaboration, a flexible schema API, and structured content management for modern web applications.",
+  "summary": "Sanity Studio provides real-time collaboration, a flexible schema API, and structured content management for modern web applications.",
+  "websiteUrl": "https://www.sanity.io",
+  "aliases": [
+    "Sanity CMS",
+    "Sanity Studio"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 299,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Growth",
+      "billingInterval": "monthly",
+      "basePrice": 799,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Sanity Official Website",
+      "url": "https://www.sanity.io"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Payload CMS",
+      "githubUrl": "https://github.com/payloadcms/payload",
+      "description": "Next.js native open-source headless CMS.",
+      "stars": "24k★"
+    },
+    {
+      "name": "Strapi",
+      "githubUrl": "https://github.com/strapi/strapi",
+      "description": "Open-source headless CMS.",
+      "stars": "61k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Contentful",
+      "slug": "contentful",
+      "startingPrice": "$300/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Enterprise headless content platform with global CDN delivery."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

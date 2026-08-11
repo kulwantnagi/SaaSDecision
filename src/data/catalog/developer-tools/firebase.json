@@ -1,0 +1,105 @@
+{
+  "name": "Firebase",
+  "slug": "firebase",
+  "categoryName": "Developer Tools",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Firebase accelerates web and mobile development with managed real-time databases, authentication, storage, and serverless functions.",
+  "summary": "Firebase accelerates web and mobile development with managed real-time databases, authentication, storage, and serverless functions.",
+  "websiteUrl": "https://firebase.google.com",
+  "aliases": [
+    "Google Firebase",
+    "Firestore"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 5,
+    "dataMoat": 5,
+    "networkEffects": 3,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 5,
+    "migrationComplexity": 5,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 5,
+    "permissionComplexity": 4,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 5
+  },
+  "pricing": [
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 0.2,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise",
+      "billingInterval": "monthly",
+      "basePrice": 0.4,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Premium",
+      "billingInterval": "monthly",
+      "basePrice": 0.9,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Individual",
+      "billingInterval": "monthly",
+      "basePrice": 300,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free plan available",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Firebase Official Website",
+      "url": "https://firebase.google.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Supabase",
+      "githubUrl": "https://github.com/supabase/supabase",
+      "description": "Open-source Firebase alternative.",
+      "stars": "70k★"
+    },
+    {
+      "name": "Appwrite",
+      "githubUrl": "https://github.com/appwrite/appwrite",
+      "description": "Open-source backend server.",
+      "stars": "45k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "AWS Amplify",
+      "slug": "aws-amplify",
+      "startingPrice": "$0",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Deep integration with AWS cloud ecosystem and serverless backend."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

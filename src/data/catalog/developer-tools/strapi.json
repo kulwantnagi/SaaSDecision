@@ -1,0 +1,104 @@
+{
+  "name": "Strapi",
+  "slug": "strapi",
+  "categoryName": "Developer Tools",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Strapi enables developers to quickly build customizable REST and GraphQL APIs for managing digital content.",
+  "summary": "Strapi enables developers to quickly build customizable REST and GraphQL APIs for managing digital content.",
+  "websiteUrl": "https://strapi.io",
+  "aliases": [
+    "Strapi Headless CMS"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 2,
+    "permissionComplexity": 4,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 1
+  },
+  "pricing": [
+    {
+      "name": "Growth",
+      "billingInterval": "monthly",
+      "basePrice": 45,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Plus",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Basic",
+      "billingInterval": "monthly",
+      "basePrice": 150,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free plan available",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Strapi Official Website",
+      "url": "https://strapi.io"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Directus",
+      "githubUrl": "https://github.com/directus/directus",
+      "description": "Open-source data platform & CMS.",
+      "stars": "28k★"
+    },
+    {
+      "name": "Ghost",
+      "githubUrl": "https://github.com/TryGhost/Ghost",
+      "description": "Open-source publishing platform.",
+      "stars": "46k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Contentful",
+      "slug": "contentful",
+      "startingPrice": "$300/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Enterprise headless content platform with global CDN delivery."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

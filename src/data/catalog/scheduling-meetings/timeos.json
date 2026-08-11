@@ -1,0 +1,92 @@
+{
+  "name": "timeOS",
+  "slug": "timeos",
+  "categoryName": "Scheduling & Meetings",
+  "categorySlug": "scheduling-meetings",
+  "shortDescription": "timeOS provides specialized capabilities in scheduling & meetings, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "timeOS provides specialized capabilities in scheduling & meetings, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://timeos.com",
+  "aliases": [
+    "timeOS App",
+    "timeOS Software"
+  ],
+  "assessment": {
+    "buildComplexity": 2,
+    "integrationDependency": 4,
+    "dataMoat": 2,
+    "networkEffects": 3,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 1,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "timeOS Official Website",
+      "url": "https://timeos.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Meetily",
+      "githubUrl": "https://github.com/meetily/meetily",
+      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
+      "stars": "2.9k★"
+    },
+    {
+      "name": "Quill Meetings",
+      "githubUrl": "https://github.com/quill/quill-meetings",
+      "description": "Self-hosted AI meeting summary and action-item generator.",
+      "stars": "1.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Calendly",
+      "slug": "calendly",
+      "startingPrice": "$12/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Intuitive appointment scheduling with 2-way calendar sync."
+    },
+    {
+      "name": "Acuity Scheduling",
+      "slug": "acuity-scheduling",
+      "startingPrice": "$16/mo",
+      "freeTier": false,
+      "featureParity": "92%",
+      "keyAdvantage": "Custom client intake forms & payment processing integration."
+    }
+  ],
+  "tags": [
+    "ai-meeting-notes"
+  ]
+}

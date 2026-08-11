@@ -1,0 +1,98 @@
+{
+  "name": "Vercel",
+  "slug": "vercel",
+  "categoryName": "Storage & Backup",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Vercel provides agentic infrastructure for building, deploying, and scaling apps and AI agents.",
+  "summary": "Vercel provides specialized capabilities in developer tools & cloud, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://vercel.com/",
+  "aliases": [
+    "Vercel App",
+    "Vercel Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Hobby",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 20,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Plus",
+      "billingInterval": "monthly",
+      "basePrice": 20,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Basic",
+      "billingInterval": "monthly",
+      "basePrice": 1,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Vercel Official Website",
+      "url": "https://vercel.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Chatwoot",
+      "githubUrl": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source customer engagement suite, alternative to Intercom & Zendesk.",
+      "stars": "19.5k★"
+    },
+    {
+      "name": "Botpress",
+      "githubUrl": "https://github.com/botpress/botpress",
+      "description": "The open-source conversational AI platform.",
+      "stars": "11k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Supabase",
+      "slug": "supabase",
+      "startingPrice": "$25/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Open source Firebase alternative with PostgreSQL."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

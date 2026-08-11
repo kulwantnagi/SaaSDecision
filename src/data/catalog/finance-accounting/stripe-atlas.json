@@ -1,0 +1,113 @@
+{
+  "name": "Stripe Atlas",
+  "slug": "stripe-atlas",
+  "categoryName": "Finance & Accounting",
+  "categorySlug": "finance-accounting",
+  "shortDescription": "Stripe Atlas provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Stripe Atlas provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://stripe-atlas.com",
+  "aliases": [
+    "Stripe Atlas App",
+    "Stripe Atlas Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Standard",
+      "billingInterval": "monthly",
+      "basePrice": 10,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Scale",
+      "billingInterval": "monthly",
+      "basePrice": 59,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0.1,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 620,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Stripe Atlas Official Website",
+      "url": "https://stripe-atlas.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Invoice Ninja",
+      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
+      "description": "Open-source invoicing, expenses, and time tracking app.",
+      "stars": "8k★"
+    },
+    {
+      "name": "ERPNext",
+      "githubUrl": "https://github.com/frappe/erpnext",
+      "description": "Open-source ERP and accounting platform for business management.",
+      "stars": "18k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

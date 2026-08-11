@@ -1,0 +1,101 @@
+{
+  "name": "Surfer SEO",
+  "slug": "surfer-seo",
+  "categoryName": "Marketing & Email",
+  "categorySlug": "marketing-email",
+  "shortDescription": "Surfer is an AI visibility and SEO platform for tracking and improving brand visibility across Google and AI search engines such as ChatGPT, Gemini, and Perplexity.",
+  "summary": "Surfer SEO provides specialized capabilities in seo & content, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://surferseo.com/",
+  "aliases": [
+    "Surfer SEO App",
+    "Surfer SEO Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 1,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Surfer SEO Official Website",
+      "url": "https://surferseo.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plausible Analytics",
+      "githubUrl": "https://github.com/plausible/analytics",
+      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "Umami",
+      "githubUrl": "https://github.com/umami-software/umami",
+      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
+      "stars": "24.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Semrush",
+      "slug": "semrush",
+      "startingPrice": "$129/mo",
+      "freeTier": false,
+      "featureParity": "98%",
+      "keyAdvantage": "Comprehensive keyword research, backlink audit, and SERP tracker."
+    },
+    {
+      "name": "Ahrefs",
+      "slug": "ahrefs",
+      "startingPrice": "$99/mo",
+      "freeTier": false,
+      "featureParity": "96%",
+      "keyAdvantage": "Industry-leading web crawler for backlink data and site audits."
+    }
+  ],
+  "tags": [
+    "analytics",
+    "form-builder",
+    "seo-tools",
+    "email"
+  ]
+}

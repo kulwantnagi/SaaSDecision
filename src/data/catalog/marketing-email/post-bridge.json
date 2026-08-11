@@ -1,0 +1,93 @@
+{
+  "name": "Post Bridge",
+  "slug": "post-bridge",
+  "categoryName": "Marketing & Email",
+  "categorySlug": "marketing-email",
+  "shortDescription": "Post Bridge serves an existing WordPress blog from a subfolder on a Shopify store domain, helping blog content build SEO on the same domain that sells products.",
+  "summary": "Post Bridge provides specialized capabilities in marketing & email, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://postbridge.app/",
+  "aliases": [
+    "Post Bridge App",
+    "Post Bridge Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 3,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 25,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 25,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Post Bridge Official Website",
+      "url": "https://postbridge.app/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "OpenSEO",
+      "githubUrl": "https://github.com/openseo/openseo",
+      "description": "Open-source website audit and keyword tracking tools.",
+      "stars": "1.2k★"
+    },
+    {
+      "name": "SERP-Scraper",
+      "githubUrl": "https://github.com/serp-scraper/serp-scraper",
+      "description": "Open-source Google SERP rank tracking and SEO analysis scraper.",
+      "stars": "2.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "beehiiv",
+      "slug": "beehiiv",
+      "startingPrice": "$49/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Built-in newsletter referral program & ad network."
+    },
+    {
+      "name": "Substack",
+      "slug": "substack",
+      "startingPrice": "Free",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Zero upfront monthly cost with reader subscription monetization."
+    }
+  ],
+  "tags": [
+    "seo-tools",
+    "email"
+  ]
+}

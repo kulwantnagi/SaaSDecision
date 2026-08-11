@@ -1,0 +1,92 @@
+{
+  "name": "ScreenFlow",
+  "slug": "screenflow",
+  "categoryName": "Design & Media",
+  "categorySlug": "design-media",
+  "shortDescription": "ScreenFlow provides specialized capabilities in design & media, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "ScreenFlow provides specialized capabilities in design & media, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://screenflow.com",
+  "aliases": [
+    "ScreenFlow App",
+    "ScreenFlow Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 3,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 5,
+    "maintenanceBurden": 3,
+    "businessCriticality": 3,
+    "migrationComplexity": 3,
+    "apiAvailability": 3,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "ScreenFlow Official Website",
+      "url": "https://screenflow.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Figma",
+      "slug": "figma",
+      "startingPrice": "$15/mo",
+      "freeTier": true,
+      "featureParity": "98%",
+      "keyAdvantage": "Real-time collaborative UI design and component systems."
+    },
+    {
+      "name": "Canva",
+      "slug": "canva",
+      "startingPrice": "$13/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Massive template library and AI magic design tools."
+    }
+  ],
+  "tags": [
+    "e-signature"
+  ]
+}

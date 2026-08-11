@@ -1,0 +1,92 @@
+{
+  "name": "ExpressVPN",
+  "slug": "expressvpn",
+  "categoryName": "Security & Authentication",
+  "categorySlug": "security-auth",
+  "shortDescription": "ExpressVPN provides specialized capabilities in security & auth, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "ExpressVPN provides specialized capabilities in security & auth, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://expressvpn.com",
+  "aliases": [
+    "ExpressVPN App",
+    "ExpressVPN Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 1,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 3,
+    "apiAvailability": 3,
+    "workflowAutomatable": 2,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 4,
+    "permissionComplexity": 4,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Basic",
+      "billingInterval": "monthly",
+      "basePrice": 2.99,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Advanced",
+      "billingInterval": "monthly",
+      "basePrice": 4.49,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "ExpressVPN Official Website",
+      "url": "https://expressvpn.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Bitwarden",
+      "githubUrl": "https://github.com/bitwarden/server",
+      "description": "Open-source password management solution.",
+      "stars": "15k★"
+    },
+    {
+      "name": "Authentik",
+      "githubUrl": "https://github.com/goauthentik/authentik",
+      "description": "Open-source Identity Provider focused on flexibility and security.",
+      "stars": "14k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "1Password",
+      "slug": "1password",
+      "startingPrice": "$3/mo",
+      "freeTier": false,
+      "featureParity": "96%",
+      "keyAdvantage": "Travel mode, Secret Key encryption, and SSH key management."
+    },
+    {
+      "name": "Dashlane",
+      "slug": "dashlane",
+      "startingPrice": "$5/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Built-in VPN and dark web credential monitoring."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

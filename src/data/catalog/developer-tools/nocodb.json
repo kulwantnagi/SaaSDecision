@@ -1,0 +1,104 @@
+{
+  "name": "NocoDB",
+  "slug": "nocodb",
+  "categoryName": "Developer Tools",
+  "categorySlug": "developer-tools",
+  "shortDescription": "NocoDB connects to existing databases like Postgres, MySQL, SQLite, and SQL Server to offer collaborative spreadsheet views and APIs.",
+  "summary": "NocoDB connects to existing databases like Postgres, MySQL, SQLite, and SQL Server to offer collaborative spreadsheet views and APIs.",
+  "websiteUrl": "https://nocodb.com",
+  "aliases": [
+    "NocoDB Airtable Alternative"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 5,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 1
+  },
+  "pricing": [
+    {
+      "name": "Personal",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 108,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 108,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 216,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Plus",
+      "billingInterval": "monthly",
+      "basePrice": 216,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "NocoDB Official Website",
+      "url": "https://nocodb.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Baserow",
+      "githubUrl": "https://github.com/basetool/basetool",
+      "description": "Open-source database and Airtable alternative.",
+      "stars": "18k★"
+    },
+    {
+      "name": "Gridsyntax",
+      "githubUrl": "https://github.com/nocodb/nocodb",
+      "description": "Open-source smart spreadsheet interface.",
+      "stars": "45k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Airtable",
+      "slug": "airtable",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "No-code relational database platform with rich app builder."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

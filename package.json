@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "NODE_OPTIONS='--max-old-space-size=4096' next dev --webpack",
-    "build": "prisma generate && NODE_OPTIONS='--max-old-space-size=4096' next build",
+    "build:catalog": "npx tsx scripts/compile-catalog.ts",
+    "build": "npm run build:catalog && prisma generate && NODE_OPTIONS='--max-old-space-size=4096' next build",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",

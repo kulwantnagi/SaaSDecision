@@ -1,0 +1,106 @@
+{
+  "name": "Visme",
+  "slug": "visme",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "Visme provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Visme provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://visme.com",
+  "aliases": [
+    "Visme App",
+    "Visme Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Basic",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Premium",
+      "billingInterval": "monthly",
+      "basePrice": 12.25,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 24.75,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Starter",
+      "billingInterval": "monthly",
+      "basePrice": 12.25,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Visme Official Website",
+      "url": "https://visme.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "AppFlowy",
+      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
+      "description": "Open-source Notion alternative for data privacy and security.",
+      "stars": "54.1k★"
+    },
+    {
+      "name": "Logseq",
+      "githubUrl": "https://github.com/logseq/logseq",
+      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
+      "stars": "32.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

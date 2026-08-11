@@ -1,0 +1,92 @@
+{
+  "name": "Drip",
+  "slug": "drip",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "Switch and save up to 40% on your email bill. Drip is an ecommerce email and automation built for lean teams: all the power, none of the bloat. Start free.",
+  "summary": "Drip provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://www.drip.com/",
+  "aliases": [
+    "Drip App",
+    "Drip Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 39,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free plan available",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Drip Official Website",
+      "url": "https://www.drip.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Thunderbird",
+      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
+      "description": "Open-source, privacy-focused email and calendar client.",
+      "stars": "3.5k★"
+    },
+    {
+      "name": "Mailspring",
+      "githubUrl": "https://github.com/Foundry376/Mailspring",
+      "description": "Extensible open-source email client with unified inbox and tracking.",
+      "stars": "14.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "email"
+  ]
+}

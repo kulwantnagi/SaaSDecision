@@ -1,0 +1,87 @@
+{
+  "name": "Supabase",
+  "slug": "supabase",
+  "categoryName": "Security & Authentication",
+  "categorySlug": "security-auth",
+  "shortDescription": "Supabase combines managed Postgres database hosting with auto-generated REST/GraphQL APIs and authentication.",
+  "summary": "Supabase is an open-source Firebase alternative offering a full Postgres database with realtime subscriptions, instant REST/GraphQL APIs, authentication, and file storage.",
+  "websiteUrl": "https://supabase.com/",
+  "aliases": [
+    "Supabase Cloud"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 4,
+    "networkEffects": 3,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 4,
+    "permissionComplexity": 4,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Scale",
+      "billingInterval": "monthly",
+      "basePrice": 25,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 10,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Plus",
+      "billingInterval": "monthly",
+      "basePrice": 0.00325,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Supabase Official Website",
+      "url": "https://supabase.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Coolify",
+      "githubUrl": "https://github.com/coollabsio/coolify",
+      "description": "Self-hostable open-source deployment platform alternative to Heroku & Vercel.",
+      "stars": "30k★"
+    },
+    {
+      "name": "Dokploy",
+      "githubUrl": "https://github.com/Dokploy/dokploy",
+      "description": "Open-source PaaS for deploying apps and databases effortlessly.",
+      "stars": "10.5k★"
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

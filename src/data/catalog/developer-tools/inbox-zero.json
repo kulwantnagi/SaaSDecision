@@ -1,0 +1,92 @@
+{
+  "name": "Inbox Zero",
+  "slug": "inbox-zero",
+  "categoryName": "Storage & Backup",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Inbox Zero provides specialized capabilities in storage & backup, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Inbox Zero provides specialized capabilities in storage & backup, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://inbox-zero.com",
+  "aliases": [
+    "Inbox Zero App",
+    "Inbox Zero Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 4,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Inbox Zero Official Website",
+      "url": "https://inbox-zero.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Thunderbird",
+      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
+      "description": "Open-source, privacy-focused email and calendar client.",
+      "stars": "3.5k★"
+    },
+    {
+      "name": "Mailspring",
+      "githubUrl": "https://github.com/Foundry376/Mailspring",
+      "description": "Extensible open-source email client with unified inbox and tracking.",
+      "stars": "14.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Dropbox",
+      "slug": "dropbox",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Fast block-level file sync and instant doc sharing."
+    },
+    {
+      "name": "Google One",
+      "slug": "google-one",
+      "startingPrice": "$2/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Native integration across Google Workspace & Android."
+    }
+  ],
+  "tags": [
+    "email"
+  ]
+}

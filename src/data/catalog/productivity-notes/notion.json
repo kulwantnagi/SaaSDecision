@@ -1,0 +1,113 @@
+{
+  "name": "Notion",
+  "slug": "notion",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "Build Custom Agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster.",
+  "summary": "Notion provides specialized capabilities in project management & tasks, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://www.notion.com/",
+  "aliases": [
+    "Notion App",
+    "Notion Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Plus",
+      "billingInterval": "monthly",
+      "basePrice": 10,
+      "pricePerSeat": 10,
+      "freeTier": false
+    },
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 20,
+      "pricePerSeat": 20,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Notion Official Website",
+      "url": "https://www.notion.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plausible Analytics",
+      "githubUrl": "https://github.com/plausible/analytics",
+      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "Umami",
+      "githubUrl": "https://github.com/umami-software/umami",
+      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
+      "stars": "24.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Linear",
+      "slug": "linear",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Ultra-fast keyboard navigation and Git sync."
+    },
+    {
+      "name": "ClickUp",
+      "slug": "clickup",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "All-in-one task management with docs, goals, and whiteboards."
+    }
+  ],
+  "tags": [
+    "analytics",
+    "project-management"
+  ]
+}

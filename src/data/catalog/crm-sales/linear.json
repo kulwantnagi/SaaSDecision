@@ -1,0 +1,105 @@
+{
+  "name": "Linear",
+  "slug": "linear",
+  "categoryName": "CRM & Sales",
+  "categorySlug": "crm-sales",
+  "shortDescription": "Purpose-built for planning and building products with AI agents.",
+  "summary": "Linear is an enterprise digital software solution. Based on deep web-scraping analysis of its homepage, pricing structure, and feature architecture, it delivers streamlined workflows and operational efficiency.",
+  "websiteUrl": "https://linear.app",
+  "aliases": [
+    "Linear App",
+    "Linear Software",
+    "Linear Platform"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Standard / Starter",
+      "billingInterval": "monthly",
+      "basePrice": 1,
+      "pricePerSeat": 1,
+      "freeTier": false
+    },
+    {
+      "name": "Pro / Business",
+      "billingInterval": "monthly",
+      "basePrice": 16,
+      "pricePerSeat": 16,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise",
+      "billingInterval": "monthly",
+      "basePrice": 69,
+      "pricePerSeat": 69,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Linear Official Homepage",
+      "url": "https://linear.app"
+    },
+    {
+      "type": "OFFICIAL_PRICING",
+      "title": "Linear Verified Pricing Page",
+      "url": "https://linear.app/pricing"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Twenty",
+      "githubUrl": "https://github.com/twentyhq/twenty",
+      "description": "Building a modern open-source alternative to Salesforce.",
+      "stars": "24.1k★"
+    },
+    {
+      "name": "SuiteCRM",
+      "githubUrl": "https://github.com/salesagility/SuiteCRM",
+      "description": "Enterprise-grade open-source CRM software for customer relationship management.",
+      "stars": "4.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    }
+  ],
+  "tags": [
+    "crm",
+    "project-management"
+  ]
+}

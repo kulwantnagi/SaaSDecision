@@ -1,0 +1,88 @@
+{
+  "name": "Cloudflare",
+  "slug": "cloudflare",
+  "categoryName": "Security & Authentication",
+  "categorySlug": "security-auth",
+  "shortDescription": "Cloudflare is a global cloud platform that delivers security, performance, and reliability for applications and websites around the world.",
+  "summary": "Cloudflare is a global cloud platform that delivers security, performance, and reliability for applications and websites around the world.",
+  "websiteUrl": "https://cloudflare.com",
+  "aliases": [
+    "Cloudflare CDN",
+    "Cloudflare Workers"
+  ],
+  "assessment": {
+    "buildComplexity": 5,
+    "integrationDependency": 5,
+    "dataMoat": 4,
+    "networkEffects": 5,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 5,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 4,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 5,
+    "workflowAutomatable": 5,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 3,
+    "mobileDependency": 2,
+    "permissionComplexity": 4,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 4
+  },
+  "pricing": [
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise",
+      "billingInterval": "monthly",
+      "basePrice": 7,
+      "pricePerSeat": 7,
+      "freeTier": false
+    },
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0.3,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Cloudflare Official Website",
+      "url": "https://cloudflare.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Open-source experience management and survey builder.",
+      "stars": "9.3k★"
+    },
+    {
+      "name": "OhMyForm",
+      "githubUrl": "https://github.com/ohmyform/ohmyform",
+      "description": "Open-source web form builder for creating forms, surveys, and polls.",
+      "stars": "3.6k★"
+    }
+  ],
+  "tags": [
+    "form-builder"
+  ]
+}

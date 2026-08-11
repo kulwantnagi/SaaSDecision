@@ -1,0 +1,94 @@
+{
+  "name": "Synamate",
+  "slug": "synamate",
+  "categoryName": "Marketing & Sales",
+  "categorySlug": "marketing-email",
+  "shortDescription": "Supercharge your business growth with Synamate, the AI-powered Marketing Automation and Lead Management platform. Take control of your tech stack and fuel your business with AI. Sign up for a free trial now.",
+  "summary": "Synamate is an AI-powered Marketing Automation and Lead Management platform designed to streamline digital marketing, sales funnels, and customer lead routines.",
+  "websiteUrl": "https://synamate.com",
+  "aliases": [
+    "Synamate App",
+    "Synamate Software",
+    "Synamate Platform"
+  ],
+  "tags": [
+    "e-signature",
+    "crm",
+    "form-builder",
+    "email"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "14-Day Free Trial",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Synamate Official Homepage",
+      "url": "https://synamate.com"
+    },
+    {
+      "type": "OFFICIAL_PRICING",
+      "title": "Synamate Verified Pricing Page",
+      "url": "https://synamate.com/pricing"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "HubSpot CRM",
+      "slug": "hubspot",
+      "startingPrice": "/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "All-in-one CRM, email marketing, landing page builder, and lead automation."
+    },
+    {
+      "name": "ActiveCampaign",
+      "slug": "activecampaign",
+      "startingPrice": "/mo",
+      "freeTier": false,
+      "featureParity": "93%",
+      "keyAdvantage": "Advanced multi-channel marketing automation, CRM pipelines, and page builder."
+    }
+  ]
+}

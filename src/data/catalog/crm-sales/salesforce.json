@@ -1,0 +1,88 @@
+{
+  "name": "Salesforce",
+  "slug": "salesforce",
+  "categoryName": "CRM & Sales",
+  "categorySlug": "crm-sales",
+  "shortDescription": "Salesforce is the global leader in CRM, empowering companies to connect with customers in a whole new way through cloud-based enterprise software.",
+  "summary": "Salesforce is the global leader in CRM, empowering companies to connect with customers in a whole new way through cloud-based enterprise software.",
+  "websiteUrl": "https://www.salesforce.com",
+  "aliases": [
+    "Salesforce Sales Cloud",
+    "SFDC"
+  ],
+  "assessment": {
+    "buildComplexity": 5,
+    "integrationDependency": 5,
+    "dataMoat": 5,
+    "networkEffects": 4,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 5,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 5,
+    "businessCriticality": 5,
+    "migrationComplexity": 5,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 2,
+    "mobileDependency": 4,
+    "permissionComplexity": 5,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 5
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Scale",
+      "billingInterval": "monthly",
+      "basePrice": 500,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 150,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Salesforce Official Website",
+      "url": "https://www.salesforce.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Twenty",
+      "githubUrl": "https://github.com/twentyhq/twenty",
+      "description": "Building a modern open-source alternative to Salesforce.",
+      "stars": "24.1k★"
+    },
+    {
+      "name": "SuiteCRM",
+      "githubUrl": "https://github.com/salesagility/SuiteCRM",
+      "description": "Enterprise-grade open-source CRM software for customer relationship management.",
+      "stars": "4.8k★"
+    }
+  ],
+  "tags": [
+    "crm"
+  ]
+}

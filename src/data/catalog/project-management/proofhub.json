@@ -1,0 +1,113 @@
+{
+  "name": "ProofHub",
+  "slug": "proofhub",
+  "categoryName": "Project Management & Team Collaboration",
+  "categorySlug": "project-management",
+  "shortDescription": "ProofHub provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "ProofHub provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://proofhub.com",
+  "aliases": [
+    "ProofHub App",
+    "ProofHub Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 89,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Essential",
+      "billingInterval": "monthly",
+      "basePrice": 45,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 89,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Ultimate",
+      "billingInterval": "monthly",
+      "basePrice": 89,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "ProofHub Official Website",
+      "url": "https://proofhub.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plausible Analytics",
+      "githubUrl": "https://github.com/plausible/analytics",
+      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "Umami",
+      "githubUrl": "https://github.com/umami-software/umami",
+      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
+      "stars": "24.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Monday.com",
+      "slug": "monday",
+      "startingPrice": "/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Flexible visual workboards, status automations, and team workload views."
+    },
+    {
+      "name": "Asana",
+      "slug": "asana",
+      "startingPrice": ".99/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Comprehensive task tracking, Gantt charts, and team project timelines."
+    }
+  ],
+  "tags": [
+    "analytics",
+    "project-management"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Readwise",
+  "slug": "readwise",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "Grow wiser and retain books better: Readwise sends you a daily email resurfacing your best highlights from Kindle, Instapaper, iBooks, and more.",
+  "summary": "Readwise provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://readwise.io/",
+  "aliases": [
+    "Readwise App",
+    "Readwise Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 5.59,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Readwise Official Website",
+      "url": "https://readwise.io/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Thunderbird",
+      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
+      "description": "Open-source, privacy-focused email and calendar client.",
+      "stars": "3.5k★"
+    },
+    {
+      "name": "Mailspring",
+      "githubUrl": "https://github.com/Foundry376/Mailspring",
+      "description": "Extensible open-source email client with unified inbox and tracking.",
+      "stars": "14.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "email"
+  ]
+}

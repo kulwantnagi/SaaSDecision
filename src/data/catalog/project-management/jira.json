@@ -1,0 +1,88 @@
+{
+  "name": "Jira",
+  "slug": "jira",
+  "categoryName": "Project Management",
+  "categorySlug": "project-management",
+  "shortDescription": "Jira is the #1 software development tool used by agile teams to plan, track, and release software.",
+  "summary": "Jira is the #1 software development tool used by agile teams to plan, track, and release software.",
+  "websiteUrl": "https://www.atlassian.com/software/jira",
+  "aliases": [
+    "Jira Software",
+    "Atlassian Jira"
+  ],
+  "assessment": {
+    "buildComplexity": 5,
+    "integrationDependency": 5,
+    "dataMoat": 5,
+    "networkEffects": 4,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 5,
+    "businessCriticality": 5,
+    "migrationComplexity": 5,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 5,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 5
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Standard",
+      "billingInterval": "monthly",
+      "basePrice": 7.75,
+      "pricePerSeat": 7.75,
+      "freeTier": false
+    },
+    {
+      "name": "Premium",
+      "billingInterval": "monthly",
+      "basePrice": 15.25,
+      "pricePerSeat": 15.25,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Jira Official Website",
+      "url": "https://www.atlassian.com/software/jira"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plausible Analytics",
+      "githubUrl": "https://github.com/plausible/analytics",
+      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "Umami",
+      "githubUrl": "https://github.com/umami-software/umami",
+      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
+      "stars": "24.5k★"
+    }
+  ],
+  "tags": [
+    "analytics",
+    "project-management"
+  ]
+}

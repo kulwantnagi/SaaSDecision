@@ -1,0 +1,113 @@
+{
+  "name": "Leadpages",
+  "slug": "leadpages",
+  "categoryName": "CRM & Sales",
+  "categorySlug": "crm-sales",
+  "shortDescription": "Leadpages provides specialized capabilities in crm & sales, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Leadpages provides specialized capabilities in crm & sales, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://leadpages.com",
+  "aliases": [
+    "Leadpages App",
+    "Leadpages Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 4,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 10,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Creator",
+      "billingInterval": "monthly",
+      "basePrice": 29,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 49,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Plus",
+      "billingInterval": "monthly",
+      "basePrice": 149,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 10,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Leadpages Official Website",
+      "url": "https://leadpages.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Twenty",
+      "githubUrl": "https://github.com/twentyhq/twenty",
+      "description": "Building a modern open-source alternative to Salesforce.",
+      "stars": "24.1k★"
+    },
+    {
+      "name": "SuiteCRM",
+      "githubUrl": "https://github.com/salesagility/SuiteCRM",
+      "description": "Enterprise-grade open-source CRM software for customer relationship management.",
+      "stars": "4.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "HubSpot",
+      "slug": "hubspot",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Unified marketing, sales, and customer support CRM platform."
+    },
+    {
+      "name": "Pipedrive",
+      "slug": "pipedrive",
+      "startingPrice": "$14/mo",
+      "freeTier": false,
+      "featureParity": "90%",
+      "keyAdvantage": "Sales-pipeline focused CRM with visual deal tracking."
+    }
+  ],
+  "tags": [
+    "crm"
+  ]
+}

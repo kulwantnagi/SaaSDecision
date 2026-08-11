@@ -1,0 +1,92 @@
+{
+  "name": "Flighty Pro",
+  "slug": "flighty-pro",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "Flighty Pro provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Flighty Pro provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://flighty-pro.com",
+  "aliases": [
+    "Flighty Pro App",
+    "Flighty Pro Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Flighty Pro Official Website",
+      "url": "https://flighty-pro.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "AppFlowy",
+      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
+      "description": "Open-source Notion alternative for data privacy and security.",
+      "stars": "54.1k★"
+    },
+    {
+      "name": "Logseq",
+      "githubUrl": "https://github.com/logseq/logseq",
+      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
+      "stars": "32.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

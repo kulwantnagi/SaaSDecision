@@ -1,0 +1,117 @@
+{
+  "name": "Mangools",
+  "slug": "mangools",
+  "categoryName": "SEO & Content",
+  "categorySlug": "marketing-email",
+  "shortDescription": "Mangools is an all-in-one SEO software suite offering keyword research (KWFinder), SERP analysis, rank tracking, backlink analysis, and site profiling.",
+  "summary": "Mangools provides a simple and affordable SEO toolset featuring KWFinder for low-difficulty keywords, SERPChecker for SERP analysis, SERPWatcher for rank tracking, LinkMiner for backlink discovery, SiteProfiler for domain insights, and AI search tracking.",
+  "websiteUrl": "https://mangools.com",
+  "aliases": [
+    "Mangools App",
+    "Mangools SEO",
+    "KWFinder",
+    "Mangools Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 1,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Basic Plan",
+      "billingInterval": "monthly",
+      "basePrice": 29,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Premium Plan",
+      "billingInterval": "monthly",
+      "basePrice": 44,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Agency Plan",
+      "billingInterval": "monthly",
+      "basePrice": 89,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Mangools Official Website",
+      "url": "https://mangools.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plausible Analytics",
+      "githubUrl": "https://github.com/plausible/analytics",
+      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "Umami",
+      "githubUrl": "https://github.com/umami-software/umami",
+      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
+      "stars": "24.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Ahrefs",
+      "slug": "ahrefs",
+      "startingPrice": "$99/mo",
+      "freeTier": false,
+      "featureParity": "95%",
+      "keyAdvantage": "Industry-leading backlink database and web crawler."
+    },
+    {
+      "name": "Semrush",
+      "slug": "semrush",
+      "startingPrice": "$129/mo",
+      "freeTier": false,
+      "featureParity": "98%",
+      "keyAdvantage": "Comprehensive keyword research, backlink audit, and competitive intelligence."
+    },
+    {
+      "name": "SE Ranking",
+      "slug": "se-ranking",
+      "startingPrice": "$55/mo",
+      "freeTier": false,
+      "featureParity": "92%",
+      "keyAdvantage": "Affordable rank tracking, keyword research, and white-label agency reporting."
+    }
+  ],
+  "tags": [
+    "analytics",
+    "seo-tools",
+    "email"
+  ]
+}

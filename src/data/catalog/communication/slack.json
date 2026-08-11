@@ -1,0 +1,89 @@
+{
+  "name": "Slack",
+  "slug": "slack",
+  "categoryName": "Communication & Messaging",
+  "categorySlug": "communication",
+  "shortDescription": "Slack is the industry-standard productivity platform that connects teams with the people, apps, and data they need to get work done.",
+  "summary": "Slack is the industry-standard productivity platform that connects teams with the people, apps, and data they need to get work done.",
+  "websiteUrl": "https://slack.com",
+  "aliases": [
+    "Slack Technologies",
+    "Slack Messaging"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 5,
+    "dataMoat": 4,
+    "networkEffects": 5,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 5,
+    "maintenanceBurden": 4,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 5,
+    "permissionComplexity": 4,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 4
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 8.75,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Scale",
+      "billingInterval": "monthly",
+      "basePrice": 18,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Slack Official Website",
+      "url": "https://slack.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Open-source experience management and survey builder.",
+      "stars": "9.3k★"
+    },
+    {
+      "name": "OhMyForm",
+      "githubUrl": "https://github.com/ohmyform/ohmyform",
+      "description": "Open-source web form builder for creating forms, surveys, and polls.",
+      "stars": "3.6k★"
+    }
+  ],
+  "tags": [
+    "form-builder",
+    "email"
+  ]
+}

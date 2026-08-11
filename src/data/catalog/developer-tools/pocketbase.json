@@ -1,0 +1,76 @@
+{
+  "name": "PocketBase",
+  "slug": "pocketbase",
+  "categoryName": "Developer Tools",
+  "categorySlug": "developer-tools",
+  "shortDescription": "PocketBase provides a real-time REST/Realtime API and simple admin dashboard in a lightweight single executable file.",
+  "summary": "PocketBase provides a real-time REST/Realtime API and simple admin dashboard in a lightweight single executable file.",
+  "websiteUrl": "https://pocketbase.io",
+  "aliases": [
+    "PocketBase Go"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 1
+  },
+  "pricing": [
+    {
+      "name": "Open Source",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "PocketBase Official Website",
+      "url": "https://pocketbase.io"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Supabase",
+      "githubUrl": "https://github.com/supabase/supabase",
+      "description": "Open-source Firebase alternative.",
+      "stars": "70k★"
+    },
+    {
+      "name": "Appwrite",
+      "githubUrl": "https://github.com/appwrite/appwrite",
+      "description": "Open-source backend server.",
+      "stars": "45k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Firebase",
+      "slug": "firebase",
+      "startingPrice": "$0",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Managed backend infrastructure with serverless scaling."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "name": "ClickFunnels",
+  "slug": "clickfunnels",
+  "categoryName": "Marketing & Sales",
+  "categorySlug": "marketing-email",
+  "shortDescription": "ClickFunnels gives you everything you need to market, sell, and deliver your products and services online! Without having to hire or rely on a tech team!",
+  "summary": "Clickfunnels (ClickFunnels™ - Marketing Funnels Made Easy) is an online platform designed for marketing, sales funnels, and business automation. Based on deep web analysis of its homepage and official pricing structure, it enables digital businesses to scale without relying on tech teams.",
+  "websiteUrl": "https://www.clickfunnels.com",
+  "aliases": [
+    "Clickfunnels App",
+    "Clickfunnels Software",
+    "Clickfunnels Platform"
+  ],
+  "tags": [
+    "e-signature",
+    "crm",
+    "form-builder",
+    "email"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "14-Day Free Trial",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "$81/mo Plan",
+      "billingInterval": "monthly",
+      "basePrice": 81,
+      "pricePerSeat": 81,
+      "freeTier": false
+    },
+    {
+      "name": "Basic Plan ($97/mo)",
+      "billingInterval": "monthly",
+      "basePrice": 97,
+      "pricePerSeat": 97,
+      "freeTier": false
+    },
+    {
+      "name": "$164/mo Plan",
+      "billingInterval": "monthly",
+      "basePrice": 164,
+      "pricePerSeat": 164,
+      "freeTier": false
+    },
+    {
+      "name": "Pro Plan ($197/mo)",
+      "billingInterval": "monthly",
+      "basePrice": 197,
+      "pricePerSeat": 197,
+      "freeTier": false
+    },
+    {
+      "name": "$248/mo Plan",
+      "billingInterval": "monthly",
+      "basePrice": 248,
+      "pricePerSeat": 248,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Clickfunnels Official Homepage",
+      "url": "https://www.clickfunnels.com"
+    },
+    {
+      "type": "OFFICIAL_PRICING",
+      "title": "Clickfunnels Verified Pricing Page",
+      "url": "https://www.clickfunnels.com/pricing"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Shopify",
+      "slug": "shopify",
+      "startingPrice": "$29/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Industry standard e-commerce platform with massive plugin ecosystem."
+    }
+  ]
+}

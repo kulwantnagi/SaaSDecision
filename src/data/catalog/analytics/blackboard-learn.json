@@ -1,0 +1,86 @@
+{
+  "name": "Blackboard Learn",
+  "slug": "blackboard-learn",
+  "categoryName": "Analytics",
+  "categorySlug": "analytics",
+  "shortDescription": "Blackboard Learn provides interactive virtual classrooms, assignment tracking, and learning analytics for academic institutions.",
+  "summary": "Blackboard Learn provides interactive virtual classrooms, assignment tracking, and learning analytics for academic institutions.",
+  "websiteUrl": "https://www.anthology.com/products/teaching-and-learning/learning-management/blackboard-learn",
+  "aliases": [
+    "Blackboard",
+    "Anthology Blackboard"
+  ],
+  "assessment": {
+    "buildComplexity": 5,
+    "integrationDependency": 5,
+    "dataMoat": 4,
+    "networkEffects": 3,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 5,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 5,
+    "businessCriticality": 5,
+    "migrationComplexity": 5,
+    "apiAvailability": 3,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 2,
+    "mobileDependency": 4,
+    "permissionComplexity": 5,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 5
+  },
+  "pricing": [
+    {
+      "name": "Enterprise Custom",
+      "billingInterval": "monthly",
+      "basePrice": 99,
+      "pricePerSeat": 15,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Blackboard Website",
+      "url": "https://www.anthology.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Koursely",
+      "slug": "koursely",
+      "startingPrice": "$29/mo",
+      "freeTier": true,
+      "featureParity": "98%",
+      "keyAdvantage": "All-in-one AI course creation, zero-transaction-fee LMS, membership community & custom domain builder."
+    },
+    {
+      "name": "Canvas LMS",
+      "slug": "canvas-lms",
+      "startingPrice": "$49/mo",
+      "freeTier": false,
+      "featureParity": "92%",
+      "keyAdvantage": "Modern UI and cloud scalability."
+    }
+  ],
+  "tags": [
+    "e-signature",
+    "analytics"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "posterly",
+  "slug": "posterly",
+  "categoryName": "Marketing & Email",
+  "categorySlug": "marketing-email",
+  "shortDescription": "posterly provides specialized capabilities in marketing & email, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "posterly provides specialized capabilities in marketing & email, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://posterly.com",
+  "aliases": [
+    "posterly App",
+    "posterly Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 3,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "posterly Official Website",
+      "url": "https://posterly.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Thunderbird",
+      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
+      "description": "Open-source, privacy-focused email and calendar client.",
+      "stars": "3.5k★"
+    },
+    {
+      "name": "Mailspring",
+      "githubUrl": "https://github.com/Foundry376/Mailspring",
+      "description": "Extensible open-source email client with unified inbox and tracking.",
+      "stars": "14.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "beehiiv",
+      "slug": "beehiiv",
+      "startingPrice": "$49/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Built-in newsletter referral program & ad network."
+    },
+    {
+      "name": "Substack",
+      "slug": "substack",
+      "startingPrice": "Free",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Zero upfront monthly cost with reader subscription monetization."
+    }
+  ],
+  "tags": [
+    "email"
+  ]
+}

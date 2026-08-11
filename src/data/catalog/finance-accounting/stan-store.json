@@ -1,0 +1,92 @@
+{
+  "name": "Stan Store",
+  "slug": "stan-store",
+  "categoryName": "Automation",
+  "categorySlug": "finance-accounting",
+  "shortDescription": "Stan Store provides specialized capabilities in e-commerce & billing, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Stan Store provides specialized capabilities in e-commerce & billing, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://stan-store.com",
+  "aliases": [
+    "Stan Store App",
+    "Stan Store Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 3,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 4
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Stan Store Official Website",
+      "url": "https://stan-store.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Invoice Ninja",
+      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
+      "description": "Open-source invoicing, expenses, and time tracking app.",
+      "stars": "8k★"
+    },
+    {
+      "name": "ERPNext",
+      "githubUrl": "https://github.com/frappe/erpnext",
+      "description": "Open-source ERP and accounting platform for business management.",
+      "stars": "18k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Shopify",
+      "slug": "shopify",
+      "startingPrice": "$39/mo",
+      "freeTier": false,
+      "featureParity": "98%",
+      "keyAdvantage": "Complete e-commerce ecosystem with 6,000+ app marketplace integrations."
+    },
+    {
+      "name": "Gumroad",
+      "slug": "gumroad",
+      "startingPrice": "10% fee",
+      "freeTier": true,
+      "featureParity": "88%",
+      "keyAdvantage": "Zero monthly fee digital product checkout page builder."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "HEY",
+  "slug": "hey",
+  "categoryName": "Communication & Email",
+  "categorySlug": "marketing-email",
+  "shortDescription": "HEY is an innovative email service by 37signals featuring The Imbox, Screener, custom workflow rules, and built-in privacy protection.",
+  "summary": "HEY re-imagines email from the ground up with built-in screening, thread merging, spy tracker blocking, and dedicated workflow views for personal and business email.",
+  "websiteUrl": "https://www.hey.com/",
+  "aliases": [
+    "HEY App",
+    "HEY Email",
+    "HEY Software",
+    "37signals HEY"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 3,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Personal HEY Email",
+      "billingInterval": "yearly",
+      "basePrice": 99,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "HEY for Work",
+      "billingInterval": "monthly",
+      "basePrice": 12,
+      "pricePerSeat": 12,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "HEY Official Website",
+      "url": "https://www.hey.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Fastmail",
+      "slug": "fastmail",
+      "startingPrice": "$5/mo",
+      "freeTier": false,
+      "featureParity": "94%",
+      "keyAdvantage": "Independent, privacy-first email hosting with custom domains and calendar."
+    },
+    {
+      "name": "Superhuman",
+      "slug": "superhuman",
+      "startingPrice": "$30/mo",
+      "freeTier": false,
+      "featureParity": "90%",
+      "keyAdvantage": "Ultra-fast keyboard-driven AI email experience for power users."
+    }
+  ],
+  "tags": [
+    "e-signature",
+    "email"
+  ]
+}

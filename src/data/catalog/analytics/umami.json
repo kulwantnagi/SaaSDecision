@@ -1,0 +1,89 @@
+{
+  "name": "Umami",
+  "slug": "umami",
+  "categoryName": "Analytics",
+  "categorySlug": "analytics",
+  "shortDescription": "Umami collects essential metrics without violating user privacy, requiring cookie consent banners, or selling personal data.",
+  "summary": "Umami collects essential metrics without violating user privacy, requiring cookie consent banners, or selling personal data.",
+  "websiteUrl": "https://umami.is",
+  "aliases": [
+    "Umami Analytics"
+  ],
+  "assessment": {
+    "buildComplexity": 2,
+    "integrationDependency": 2,
+    "dataMoat": 3,
+    "networkEffects": 1,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 1,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 5,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 5,
+    "mobileDependency": 1,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 1
+  },
+  "pricing": [
+    {
+      "name": "Self-Hosted",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Umami Cloud",
+      "billingInterval": "monthly",
+      "basePrice": 9,
+      "pricePerSeat": 9,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Umami Official Website",
+      "url": "https://umami.is"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plausible Analytics",
+      "githubUrl": "https://github.com/plausible/analytics",
+      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "Umami",
+      "githubUrl": "https://github.com/umami-software/umami",
+      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
+      "stars": "24.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Google Analytics",
+      "slug": "google-analytics",
+      "startingPrice": "$0",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Universal web traffic analytics with search console integration."
+    }
+  ],
+  "tags": [
+    "analytics"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Zoho Bookings",
+  "slug": "zoho-bookings",
+  "categoryName": "Automation",
+  "categorySlug": "finance-accounting",
+  "shortDescription": "Zoho Bookings provides specialized capabilities in finance & accounting, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Zoho Bookings provides specialized capabilities in finance & accounting, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://zoho-bookings.com",
+  "aliases": [
+    "Zoho Bookings App",
+    "Zoho Bookings Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 1,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Zoho Bookings Official Website",
+      "url": "https://zoho-bookings.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Cal.com",
+      "githubUrl": "https://github.com/calcom/cal.com",
+      "description": "Open-source scheduling infrastructure and Calendly alternative.",
+      "stars": "33.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "QuickBooks Online",
+      "slug": "quickbooks-online",
+      "startingPrice": "$30/mo",
+      "freeTier": false,
+      "featureParity": "98%",
+      "keyAdvantage": "CPA standard tax compliance and automated bank feeds."
+    },
+    {
+      "name": "Xero",
+      "slug": "xero",
+      "startingPrice": "$15/mo",
+      "freeTier": false,
+      "featureParity": "92%",
+      "keyAdvantage": "Unlimited users on core accounting packages."
+    }
+  ],
+  "tags": [
+    "scheduling"
+  ]
+}

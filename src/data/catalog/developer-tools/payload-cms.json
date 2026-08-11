@@ -1,0 +1,89 @@
+{
+  "name": "Payload CMS",
+  "slug": "payload-cms",
+  "categoryName": "Developer Tools",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Payload CMS integrates directly into Next.js projects to generate TypeScript types, admin UI, and database schemas automatically.",
+  "summary": "Payload CMS integrates directly into Next.js projects to generate TypeScript types, admin UI, and database schemas automatically.",
+  "websiteUrl": "https://payloadcms.com",
+  "aliases": [
+    "Payload Headless CMS"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 5,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 1
+  },
+  "pricing": [
+    {
+      "name": "Open Source",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Cloud Enterprise",
+      "billingInterval": "monthly",
+      "basePrice": 35,
+      "pricePerSeat": 35,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Payload CMS Official Website",
+      "url": "https://payloadcms.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plane",
+      "githubUrl": "https://github.com/makeplane/plane",
+      "description": "Open-source project management tool to track issues, epics, and product roadmaps.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "OpenProject",
+      "githubUrl": "https://github.com/opf/openproject",
+      "description": "Open-source project management software for classic and agile projects.",
+      "stars": "8.4k★"
+    },
+    {
+      "name": "Taiga",
+      "githubUrl": "https://github.com/taigaio/taiga-back",
+      "description": "Agile project management platform for startups and cross-functional teams.",
+      "stars": "7.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Sanity.io",
+      "slug": "sanity",
+      "startingPrice": "$0",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Real-time structured content platform for Next.js apps."
+    }
+  ],
+  "tags": [
+    "project-management"
+  ]
+}

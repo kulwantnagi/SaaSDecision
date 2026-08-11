@@ -1,0 +1,85 @@
+{
+  "name": "Canvas LMS",
+  "slug": "canvas-lms",
+  "categoryName": "Design & Media",
+  "categorySlug": "education-lms",
+  "shortDescription": "Canvas LMS is an open web-based learning management system used by schools and universities to manage online course materials and grade students.",
+  "summary": "Canvas LMS is an open web-based learning management system used by schools and universities to manage online course materials and grade students.",
+  "websiteUrl": "https://www.instructure.com/canvas",
+  "aliases": [
+    "Canvas Instructure",
+    "Canvas Learning System"
+  ],
+  "assessment": {
+    "buildComplexity": 5,
+    "integrationDependency": 4,
+    "dataMoat": 4,
+    "networkEffects": 4,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 4,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 4,
+    "permissionComplexity": 5,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 4
+  },
+  "pricing": [
+    {
+      "name": "Institution Pricing",
+      "billingInterval": "monthly",
+      "basePrice": 49,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Canvas Official Website",
+      "url": "https://www.instructure.com/canvas"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Koursely",
+      "slug": "koursely",
+      "startingPrice": "$29/mo",
+      "freeTier": true,
+      "featureParity": "98%",
+      "keyAdvantage": "All-in-one AI course creation, zero-transaction-fee LMS, membership community & custom domain builder."
+    },
+    {
+      "name": "Moodle",
+      "slug": "moodle",
+      "startingPrice": "Free (Self-hosted)",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Open source community flexibility."
+    }
+  ],
+  "tags": [
+    "e-signature"
+  ]
+}

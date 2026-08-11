@@ -1,0 +1,100 @@
+{
+  "name": "Attio",
+  "slug": "attio",
+  "categoryName": "CRM & Sales",
+  "categorySlug": "crm-sales",
+  "shortDescription": "The system for revenue teams to build pipeline, accelerate deals, and grow accounts around the clock.",
+  "summary": "Attio provides real-time collaborative CRM capabilities, customizable data models, automatic enrichment, and flexible pipeline management.",
+  "websiteUrl": "https://attio.com/",
+  "aliases": [
+    "Attio CRM",
+    "Attio App",
+    "Attio Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Plus",
+      "billingInterval": "monthly",
+      "basePrice": 44,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 99,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Attio Official Website",
+      "url": "https://attio.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Twenty",
+      "githubUrl": "https://github.com/twentyhq/twenty",
+      "description": "Building a modern open-source alternative to Salesforce.",
+      "stars": "24.1k★"
+    },
+    {
+      "name": "SuiteCRM",
+      "githubUrl": "https://github.com/salesagility/SuiteCRM",
+      "description": "Enterprise-grade open-source CRM software for customer relationship management.",
+      "stars": "4.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "HubSpot",
+      "slug": "hubspot",
+      "startingPrice": "$15/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Unified marketing, sales, and customer support CRM platform."
+    },
+    {
+      "name": "Salesforce",
+      "slug": "salesforce",
+      "startingPrice": "$25/mo",
+      "freeTier": false,
+      "featureParity": "90%",
+      "keyAdvantage": "Industry standard enterprise CRM with extensive ecosystem and customization."
+    }
+  ],
+  "tags": [
+    "crm"
+  ]
+}

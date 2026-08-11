@@ -1,0 +1,99 @@
+{
+  "name": "Heroku",
+  "slug": "heroku",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "Heroku provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Heroku provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://heroku.com",
+  "aliases": [
+    "Heroku App",
+    "Heroku Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Basic",
+      "billingInterval": "monthly",
+      "basePrice": 7,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Standard",
+      "billingInterval": "monthly",
+      "basePrice": 25,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 250,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Heroku Official Website",
+      "url": "https://heroku.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Coolify",
+      "githubUrl": "https://github.com/coollabsio/coolify",
+      "description": "Self-hostable open-source deployment platform alternative to Heroku & Vercel.",
+      "stars": "30k★"
+    },
+    {
+      "name": "Dokploy",
+      "githubUrl": "https://github.com/Dokploy/dokploy",
+      "description": "Open-source PaaS for deploying apps and databases effortlessly.",
+      "stars": "10.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

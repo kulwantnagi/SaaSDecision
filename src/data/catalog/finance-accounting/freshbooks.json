@@ -1,0 +1,112 @@
+{
+  "name": "FreshBooks",
+  "slug": "freshbooks",
+  "categoryName": "Automation",
+  "categorySlug": "finance-accounting",
+  "shortDescription": "The best cloud based small business accounting software. Send invoices, track time, manage receipts, expenses, and accept credit cards. Free 30-day trial.",
+  "summary": "FreshBooks provides specialized capabilities in finance & accounting, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://www.freshbooks.com/",
+  "aliases": [
+    "FreshBooks App",
+    "FreshBooks Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 1,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 2,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 11,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Advanced",
+      "billingInterval": "monthly",
+      "basePrice": 20,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Plus",
+      "billingInterval": "monthly",
+      "basePrice": 6,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "FreshBooks Official Website",
+      "url": "https://www.freshbooks.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "OpenWhispr",
+      "githubUrl": "https://github.com/openwhispr/openwhispr",
+      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
+      "stars": "4.2k★"
+    },
+    {
+      "name": "Handy",
+      "githubUrl": "https://github.com/carlrobertoh/handy",
+      "description": "Free open-source speech-to-text dictation application.",
+      "stars": "3.8k★"
+    },
+    {
+      "name": "Buzz",
+      "githubUrl": "https://github.com/charlieroberts/buzz",
+      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
+      "stars": "11.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "QuickBooks Online",
+      "slug": "quickbooks-online",
+      "startingPrice": "$30/mo",
+      "freeTier": false,
+      "featureParity": "98%",
+      "keyAdvantage": "CPA standard tax compliance and automated bank feeds."
+    },
+    {
+      "name": "Xero",
+      "slug": "xero",
+      "startingPrice": "$15/mo",
+      "freeTier": false,
+      "featureParity": "92%",
+      "keyAdvantage": "Unlimited users on core accounting packages."
+    }
+  ],
+  "tags": [
+    "voice-dictation"
+  ]
+}

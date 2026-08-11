@@ -1,0 +1,114 @@
+{
+  "name": "MaintenEase",
+  "slug": "maintenease",
+  "categoryName": "AI & Automation",
+  "categorySlug": "automation",
+  "shortDescription": "MaintenEase provides specialized capabilities in ai & llms, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "MaintenEase provides specialized capabilities in ai & llms, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://maintenease.com",
+  "aliases": [
+    "MaintenEase App",
+    "MaintenEase Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 3,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Starter",
+      "billingInterval": "monthly",
+      "basePrice": 49,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 129,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 299,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free plan available",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "MaintenEase Official Website",
+      "url": "https://maintenease.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "n8n",
+      "githubUrl": "https://github.com/n8n-io/n8n",
+      "description": "Open-source workflow automation platform with AI capabilities.",
+      "stars": "55k★"
+    },
+    {
+      "name": "Ollama",
+      "githubUrl": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
+      "stars": "105k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "ChatGPT",
+      "slug": "chatgpt",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Industry standard multimodal reasoning and GPT Store ecosystem."
+    },
+    {
+      "name": "Claude",
+      "slug": "claude",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "200k context window and superior long-document writing."
+    },
+    {
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Real-time web search integration with live citations."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "HubSpot",
+  "slug": "hubspot",
+  "categoryName": "CRM & Sales",
+  "categorySlug": "crm-sales",
+  "shortDescription": "HubSpot delivers an enterprise CRM platform combining sales pipelines, marketing automation, and support.",
+  "summary": "HubSpot offers a complete CRM platform with all the software, integrations, and resources you need to connect marketing, sales, and service.",
+  "websiteUrl": "https://hubspot.com",
+  "aliases": [
+    "HubSpot CRM",
+    "HubSpot Sales Hub"
+  ],
+  "assessment": {
+    "buildComplexity": 5,
+    "integrationDependency": 5,
+    "dataMoat": 5,
+    "networkEffects": 3,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 4,
+    "businessCriticality": 5,
+    "migrationComplexity": 5,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 4,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 5
+  },
+  "pricing": [
+    {
+      "name": "Free Tools",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Starter",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 15,
+      "freeTier": false
+    },
+    {
+      "name": "Professional",
+      "billingInterval": "monthly",
+      "basePrice": 800,
+      "pricePerSeat": 90,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "HubSpot Official Website",
+      "url": "https://hubspot.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Chatwoot",
+      "githubUrl": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source customer engagement suite and live chat platform.",
+      "stars": "21.5k★"
+    },
+    {
+      "name": "Botpress",
+      "githubUrl": "https://github.com/botpress/botpress",
+      "description": "Open-source conversational AI platform to build automated customer support bots.",
+      "stars": "12.4k★"
+    }
+  ],
+  "tags": [
+    "ai-customer-service",
+    "crm",
+    "form-builder"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "name": "MacWhisper",
+  "slug": "macwhisper",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "MacWhisper provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "MacWhisper provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://macwhisper.com",
+  "aliases": [
+    "MacWhisper App",
+    "MacWhisper Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 64,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "MacWhisper Official Website",
+      "url": "https://macwhisper.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "OpenWhispr",
+      "githubUrl": "https://github.com/openwhispr/openwhispr",
+      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
+      "stars": "4.2k★"
+    },
+    {
+      "name": "Handy",
+      "githubUrl": "https://github.com/carlrobertoh/handy",
+      "description": "Free open-source speech-to-text dictation application.",
+      "stars": "3.8k★"
+    },
+    {
+      "name": "Buzz",
+      "githubUrl": "https://github.com/charlieroberts/buzz",
+      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
+      "stars": "11.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "voice-dictation"
+  ]
+}

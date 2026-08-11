@@ -1,0 +1,113 @@
+{
+  "name": "Typeform",
+  "slug": "typeform",
+  "categoryName": "Forms & Surveys",
+  "categorySlug": "forms",
+  "shortDescription": "Typeform provides conversational forms, quizzes, and surveys designed to maximize completion rates through minimalist design.",
+  "summary": "Typeform provides specialized capabilities in forms & surveys, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://www.typeform.com/",
+  "aliases": [
+    "Typeform App",
+    "Typeform Software"
+  ],
+  "assessment": {
+    "buildComplexity": 2,
+    "integrationDependency": 3,
+    "dataMoat": 2,
+    "networkEffects": 1,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 1,
+    "apiAvailability": 4,
+    "workflowAutomatable": 5,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Basic",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Plus",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Growth",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free plan available",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Typeform Official Website",
+      "url": "https://www.typeform.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Tally.so",
+      "slug": "tally",
+      "startingPrice": "$29/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Free unlimited forms with Notion-like editor."
+    }
+  ],
+  "tags": [
+    "e-signature",
+    "form-builder"
+  ]
+}

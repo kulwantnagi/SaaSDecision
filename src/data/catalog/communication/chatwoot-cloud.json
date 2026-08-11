@@ -1,0 +1,92 @@
+{
+  "name": "Chatwoot Cloud",
+  "slug": "chatwoot-cloud",
+  "categoryName": "Automation",
+  "categorySlug": "communication",
+  "shortDescription": "Chatwoot Cloud provides specialized capabilities in developer tools & cloud, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Chatwoot Cloud provides specialized capabilities in developer tools & cloud, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://chatwoot-cloud.com",
+  "aliases": [
+    "Chatwoot Cloud App",
+    "Chatwoot Cloud Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Chatwoot Cloud Official Website",
+      "url": "https://chatwoot-cloud.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Mattermost",
+      "githubUrl": "https://github.com/mattermost/mattermost",
+      "description": "Open-source Slack alternative for developer teams.",
+      "stars": "31k★"
+    },
+    {
+      "name": "Rocket.Chat",
+      "githubUrl": "https://github.com/RocketChat/Rocket.Chat",
+      "description": "Open-source communication platform.",
+      "stars": "41k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Vercel",
+      "slug": "vercel",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Zero-config global edge deployment for Next.js."
+    },
+    {
+      "name": "Supabase",
+      "slug": "supabase",
+      "startingPrice": "$25/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Open source Firebase alternative with PostgreSQL."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

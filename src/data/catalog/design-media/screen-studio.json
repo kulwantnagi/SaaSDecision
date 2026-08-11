@@ -1,0 +1,86 @@
+{
+  "name": "Screen Studio",
+  "slug": "screen-studio",
+  "categoryName": "Design & Media",
+  "categorySlug": "design-media",
+  "shortDescription": "Screen recorder for macOS. Create engaging product demos, courses, tutorial and social media videos. Add automatic zoom on mouse actions, smooth mouse movement, and other powerful effects and animations. Designed for macOS.",
+  "summary": "Screen Studio provides specialized capabilities in design & media, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://screen.studio/",
+  "aliases": [
+    "Screen Studio App",
+    "Screen Studio Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 3,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 5,
+    "maintenanceBurden": 3,
+    "businessCriticality": 3,
+    "migrationComplexity": 3,
+    "apiAvailability": 3,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Screen Studio Official Website",
+      "url": "https://screen.studio/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Figma",
+      "slug": "figma",
+      "startingPrice": "$15/mo",
+      "freeTier": true,
+      "featureParity": "98%",
+      "keyAdvantage": "Real-time collaborative UI design and component systems."
+    },
+    {
+      "name": "Canva",
+      "slug": "canva",
+      "startingPrice": "$13/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Massive template library and AI magic design tools."
+    }
+  ],
+  "tags": [
+    "e-signature",
+    "video-recording"
+  ]
+}

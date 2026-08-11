@@ -1,0 +1,67 @@
+{
+  "name": "Zoom",
+  "slug": "zoom",
+  "categoryName": "Video Conferencing",
+  "categorySlug": "video-conferencing",
+  "shortDescription": "Zoom provides video telephony and online chat services through a cloud-based peer-to-peer software platform.",
+  "summary": "Zoom provides video telephony and online chat services through a cloud-based peer-to-peer software platform.",
+  "websiteUrl": "https://zoom.us",
+  "aliases": [
+    "Zoom Meetings",
+    "Zoom Workplace"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 5,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 5,
+    "realtimeCollaboration": 5,
+    "maintenanceBurden": 3,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 5,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Public pricing page found; exact plan prices could not be extracted reliably. Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Zoom Official Website",
+      "url": "https://zoom.us"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Open-source experience management and survey builder.",
+      "stars": "9.3k★"
+    },
+    {
+      "name": "OhMyForm",
+      "githubUrl": "https://github.com/ohmyform/ohmyform",
+      "description": "Open-source web form builder for creating forms, surveys, and polls.",
+      "stars": "3.6k★"
+    }
+  ],
+  "tags": [
+    "form-builder"
+  ]
+}

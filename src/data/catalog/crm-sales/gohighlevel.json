@@ -1,0 +1,93 @@
+{
+  "name": "Gohighlevel",
+  "slug": "gohighlevel",
+  "categoryName": "CRM & Sales",
+  "categorySlug": "crm-sales",
+  "shortDescription": "HighLevel is the all-in-one sales & marketing platform that agencies can white-label and resell to their clients!",
+  "summary": "Gohighlevel is a software platform designed to streamline digital workflows and enhance operational productivity.",
+  "websiteUrl": "https://www.gohighlevel.com",
+  "aliases": [
+    "Gohighlevel App",
+    "Gohighlevel Software"
+  ],
+  "tags": [
+    "e-signature",
+    "crm",
+    "form-builder"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 5,
+      "pricePerSeat": 5,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise / Advanced",
+      "billingInterval": "monthly",
+      "basePrice": 497,
+      "pricePerSeat": 497,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Gohighlevel Official Website",
+      "url": "https://www.gohighlevel.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    }
+  ]
+}

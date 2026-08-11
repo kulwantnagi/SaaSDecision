@@ -1,0 +1,108 @@
+{
+  "name": "Testimonial.to",
+  "slug": "testimonial-to",
+  "categoryName": "Forms & Surveys",
+  "categorySlug": "forms",
+  "shortDescription": "The all-in-one platform to capture, measure, and showcase customer love — testimonials, case studies, NPS, and brand monitoring in one place.",
+  "summary": "Testimonial.to provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://testimonial.to",
+  "aliases": [
+    "Testimonial.to App",
+    "Testimonial.to Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Starter",
+      "billingInterval": "monthly",
+      "basePrice": 25,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Ultimate",
+      "billingInterval": "monthly",
+      "basePrice": 50,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Testimonial.to Official Website",
+      "url": "https://testimonial.to"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "OpenTestimonial",
+      "githubUrl": "https://github.com/opentestimonial/opentestimonial",
+      "description": "Open-source social proof & video testimonial collection tool.",
+      "stars": "1.4k★"
+    },
+    {
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Open-source user feedback and testimonial survey platform.",
+      "stars": "9.3k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "testimonials",
+    "uptime-monitoring",
+    "form-builder"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Moodle",
+  "slug": "moodle",
+  "categoryName": "Developer Tools",
+  "categorySlug": "education-lms",
+  "shortDescription": "Moodle is a free, open-source learning management system written in PHP used worldwide for blended learning and distance education.",
+  "summary": "Moodle is a free, open-source learning management system written in PHP used worldwide for blended learning and distance education.",
+  "websiteUrl": "https://moodle.org",
+  "aliases": [
+    "Moodle LMS",
+    "Moodle Cloud"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 4,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 4,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 4,
+    "permissionComplexity": 4,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 1
+  },
+  "pricing": [
+    {
+      "name": "Open Source Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "MoodleCloud Starter",
+      "billingInterval": "monthly",
+      "basePrice": 120,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Moodle Official Site",
+      "url": "https://moodle.org"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Moodle",
+      "githubUrl": "https://github.com/moodle/moodle",
+      "description": "Open-source learning management platform.",
+      "stars": "3.5k★"
+    },
+    {
+      "name": "Open edX",
+      "githubUrl": "https://github.com/openedx/edx-platform",
+      "description": "Open-source online learning platform.",
+      "stars": "4k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Koursely",
+      "slug": "koursely",
+      "startingPrice": "$29/mo",
+      "freeTier": true,
+      "featureParity": "98%",
+      "keyAdvantage": "All-in-one AI course creation, zero-transaction-fee LMS, membership community & custom domain builder."
+    },
+    {
+      "name": "Canvas LMS",
+      "slug": "canvas-lms",
+      "startingPrice": "$49/mo",
+      "freeTier": false,
+      "featureParity": "88%",
+      "keyAdvantage": "Hosted solution without self-maintenance."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

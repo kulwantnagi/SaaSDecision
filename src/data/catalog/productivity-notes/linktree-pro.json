@@ -1,0 +1,92 @@
+{
+  "name": "Linktree Pro",
+  "slug": "linktree-pro",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "Join 70M+ creators and sell, share & curate everything you do online. One bio link—your Linktree—brings it all together for your audience.",
+  "summary": "Linktree Pro provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://linktr.ee",
+  "aliases": [
+    "Linktree Pro App",
+    "Linktree Pro Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 8,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Linktree Pro Official Website",
+      "url": "https://linktr.ee"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "LittleLink",
+      "githubUrl": "https://github.com/sethcottle/littlelink",
+      "description": "Lightweight, open-source Linktree alternative with privacy focus.",
+      "stars": "6.5k★"
+    },
+    {
+      "name": "BioDrop",
+      "githubUrl": "https://github.com/EddieHubCommunity/BioDrop",
+      "description": "Open-source link-in-bio platform to connect your audience to all your content.",
+      "stars": "4.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "link-in-bio"
+  ]
+}

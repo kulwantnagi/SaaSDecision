@@ -1,0 +1,98 @@
+{
+  "name": "Supabase Pro",
+  "slug": "supabase-pro",
+  "categoryName": "Storage & Backup",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Supabase Pro is a paid Supabase plan for production and scaling projects, combining included usage quotas with pay-as-you-go pricing beyond those allowances.",
+  "summary": "Supabase Pro provides specialized capabilities in developer tools & cloud, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://supabase.com/pricing",
+  "aliases": [
+    "Supabase Pro App",
+    "Supabase Pro Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Supabase Pro Official Website",
+      "url": "https://supabase.com/pricing"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plane",
+      "githubUrl": "https://github.com/makeplane/plane",
+      "description": "Open-source project management tool to track issues, epics, and product roadmaps.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "OpenProject",
+      "githubUrl": "https://github.com/opf/openproject",
+      "description": "Open-source project management software for classic and agile projects.",
+      "stars": "8.4k★"
+    },
+    {
+      "name": "Taiga",
+      "githubUrl": "https://github.com/taigaio/taiga-back",
+      "description": "Agile project management platform for startups and cross-functional teams.",
+      "stars": "7.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Vercel",
+      "slug": "vercel",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Zero-config global edge deployment for Next.js."
+    },
+    {
+      "name": "Supabase",
+      "slug": "supabase",
+      "startingPrice": "$25/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Open source Firebase alternative with PostgreSQL."
+    }
+  ],
+  "tags": [
+    "project-management"
+  ]
+}

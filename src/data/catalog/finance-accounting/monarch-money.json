@@ -1,0 +1,92 @@
+{
+  "name": "Monarch Money",
+  "slug": "monarch-money",
+  "categoryName": "Automation",
+  "categorySlug": "finance-accounting",
+  "shortDescription": "Monarch Money provides specialized capabilities in finance & accounting, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Monarch Money provides specialized capabilities in finance & accounting, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://monarch-money.com",
+  "aliases": [
+    "Monarch Money App",
+    "Monarch Money Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 1,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 99,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free plan available",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Monarch Money Official Website",
+      "url": "https://monarch-money.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Invoice Ninja",
+      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
+      "description": "Open-source invoicing, expenses, and time tracking app.",
+      "stars": "8k★"
+    },
+    {
+      "name": "ERPNext",
+      "githubUrl": "https://github.com/frappe/erpnext",
+      "description": "Open-source ERP and accounting platform for business management.",
+      "stars": "18k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "QuickBooks Online",
+      "slug": "quickbooks-online",
+      "startingPrice": "$30/mo",
+      "freeTier": false,
+      "featureParity": "98%",
+      "keyAdvantage": "CPA standard tax compliance and automated bank feeds."
+    },
+    {
+      "name": "Xero",
+      "slug": "xero",
+      "startingPrice": "$15/mo",
+      "freeTier": false,
+      "featureParity": "92%",
+      "keyAdvantage": "Unlimited users on core accounting packages."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

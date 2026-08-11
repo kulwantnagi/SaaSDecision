@@ -1,0 +1,97 @@
+{
+  "name": "Dropbox",
+  "slug": "dropbox",
+  "categoryName": "Storage & Backup",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Dropbox enables seamless file sharing, automated backups, and cloud document collaboration across desktop and mobile devices.",
+  "summary": "Dropbox enables seamless file sharing, automated backups, and cloud document collaboration across desktop and mobile devices.",
+  "websiteUrl": "https://www.dropbox.com",
+  "aliases": [
+    "Dropbox Cloud Storage"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 4,
+    "networkEffects": 3,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 4,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Standard",
+      "billingInterval": "monthly",
+      "basePrice": 9.99,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Advanced",
+      "billingInterval": "monthly",
+      "basePrice": 9.99,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free plan available",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Dropbox Official Website",
+      "url": "https://www.dropbox.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Nextcloud",
+      "githubUrl": "https://github.com/nextcloud/server",
+      "description": "Self-hosted open-source productivity platform.",
+      "stars": "26k★"
+    },
+    {
+      "name": "OwnCloud",
+      "githubUrl": "https://github.com/owncloud/core",
+      "description": "Open-source file hosting.",
+      "stars": "8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Google Drive",
+      "slug": "google-drive",
+      "startingPrice": "$0",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Native integration with Google Docs, Sheets, and Workspace."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

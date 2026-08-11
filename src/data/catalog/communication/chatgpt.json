@@ -1,0 +1,92 @@
+{
+  "name": "ChatGPT",
+  "slug": "chatgpt",
+  "categoryName": "Automation",
+  "categorySlug": "communication",
+  "shortDescription": "Use ChatGPT to answer questions, write, create images, complete work, and code in one place.",
+  "summary": "ChatGPT provides specialized capabilities in ai & llms, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://chatgpt.com/",
+  "aliases": [
+    "ChatGPT App",
+    "ChatGPT Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 3,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "ChatGPT Official Website",
+      "url": "https://chatgpt.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Mattermost",
+      "githubUrl": "https://github.com/mattermost/mattermost",
+      "description": "Open-source Slack alternative for developer teams.",
+      "stars": "31k★"
+    },
+    {
+      "name": "Rocket.Chat",
+      "githubUrl": "https://github.com/RocketChat/Rocket.Chat",
+      "description": "Open-source communication platform.",
+      "stars": "41k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Claude",
+      "slug": "claude",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "200k context window and superior long-document writing."
+    },
+    {
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Real-time web search integration with live citations."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

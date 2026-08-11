@@ -1,0 +1,84 @@
+{
+  "name": "Koursely",
+  "slug": "koursely",
+  "categoryName": "Design & Media",
+  "categorySlug": "education-lms",
+  "shortDescription": "Koursely empowers creators to build, market, and sell digital courses with automated video hosting and student tracking.",
+  "summary": "Koursely empowers creators to build, market, and sell digital courses with automated video hosting and student tracking.",
+  "websiteUrl": "https://koursely.com",
+  "aliases": [
+    "Koursely LMS"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free plan available",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Koursely Official Website",
+      "url": "https://koursely.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Teachable",
+      "slug": "teachable",
+      "startingPrice": "$39/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "All-in-one course creator platform with payment processing."
+    }
+  ],
+  "tags": [
+    "e-signature",
+    "analytics"
+  ]
+}

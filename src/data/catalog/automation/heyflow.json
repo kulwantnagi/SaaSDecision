@@ -1,0 +1,92 @@
+{
+  "name": "Heyflow",
+  "slug": "heyflow",
+  "categoryName": "AI & Automation",
+  "categorySlug": "automation",
+  "shortDescription": "Heyflow provides specialized capabilities in automation & integration, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Heyflow provides specialized capabilities in automation & integration, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://heyflow.com",
+  "aliases": [
+    "Heyflow App",
+    "Heyflow Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 5,
+    "dataMoat": 4,
+    "networkEffects": 4,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 5,
+    "workflowAutomatable": 5,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Heyflow Official Website",
+      "url": "https://heyflow.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Thunderbird",
+      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
+      "description": "Open-source, privacy-focused email and calendar client.",
+      "stars": "3.5k★"
+    },
+    {
+      "name": "Mailspring",
+      "githubUrl": "https://github.com/Foundry376/Mailspring",
+      "description": "Extensible open-source email client with unified inbox and tracking.",
+      "stars": "14.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Zapier",
+      "slug": "zapier",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Massive connector catalog spanning 6,000+ SaaS tools."
+    },
+    {
+      "name": "Make",
+      "slug": "make",
+      "startingPrice": "$9/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Visual node-based workflow editor with complex branching."
+    }
+  ],
+  "tags": [
+    "email"
+  ]
+}

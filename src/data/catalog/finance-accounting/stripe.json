@@ -1,0 +1,67 @@
+{
+  "name": "Stripe",
+  "slug": "stripe",
+  "categoryName": "Finance & Accounting",
+  "categorySlug": "finance-accounting",
+  "shortDescription": "Stripe offers suite of payment APIs powering commerce for online businesses of all sizes.",
+  "summary": "Stripe offers suite of payment APIs powering commerce for online businesses of all sizes.",
+  "websiteUrl": "https://stripe.com",
+  "aliases": [
+    "Stripe Payments",
+    "Stripe Connect"
+  ],
+  "assessment": {
+    "buildComplexity": 5,
+    "integrationDependency": 5,
+    "dataMoat": 5,
+    "networkEffects": 4,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 5,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 5,
+    "businessCriticality": 5,
+    "migrationComplexity": 5,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 2,
+    "mobileDependency": 3,
+    "permissionComplexity": 5,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 5
+  },
+  "pricing": [
+    {
+      "name": "Usage-based / transaction-based pricing; rates vary by Stripe product. See official pricing page.",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Stripe Official Website",
+      "url": "https://stripe.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Invoice Ninja",
+      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
+      "description": "Open-source invoicing, expenses, and time tracking app.",
+      "stars": "8k★"
+    },
+    {
+      "name": "ERPNext",
+      "githubUrl": "https://github.com/frappe/erpnext",
+      "description": "Open-source ERP and accounting platform for business management.",
+      "stars": "18k★"
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

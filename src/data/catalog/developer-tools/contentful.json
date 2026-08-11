@@ -1,0 +1,83 @@
+{
+  "name": "Contentful",
+  "slug": "contentful",
+  "categoryName": "Developer Tools",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Contentful offers API-first content management, enabling teams to unify, structure, and deliver content across mobile apps and websites.",
+  "summary": "Contentful offers API-first content management, enabling teams to unify, structure, and deliver content across mobile apps and websites.",
+  "websiteUrl": "https://www.contentful.com",
+  "aliases": [
+    "Contentful CMS"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 4,
+    "migrationComplexity": 4,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 2,
+    "permissionComplexity": 4,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Basic",
+      "billingInterval": "monthly",
+      "basePrice": 300,
+      "pricePerSeat": 300,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Contentful Official Website",
+      "url": "https://www.contentful.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Strapi",
+      "githubUrl": "https://github.com/strapi/strapi",
+      "description": "Open-source headless CMS.",
+      "stars": "61k★"
+    },
+    {
+      "name": "Directus",
+      "githubUrl": "https://github.com/directus/directus",
+      "description": "Open-source data platform & CMS.",
+      "stars": "28k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Sanity.io",
+      "slug": "sanity",
+      "startingPrice": "$0",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Real-time collaborative structured content platform."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

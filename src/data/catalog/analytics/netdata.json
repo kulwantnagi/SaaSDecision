@@ -1,0 +1,96 @@
+{
+  "name": "Netdata",
+  "slug": "netdata",
+  "categoryName": "Analytics",
+  "categorySlug": "analytics",
+  "shortDescription": "Netdata provides high-fidelity real-time metrics and anomaly detection with zero configuration for servers and containers.",
+  "summary": "Netdata provides high-fidelity real-time metrics and anomaly detection with zero configuration for servers and containers.",
+  "websiteUrl": "https://netdata.cloud",
+  "aliases": [
+    "Netdata Monitoring"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 1
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 4.5,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Business",
+      "billingInterval": "yearly",
+      "basePrice": 540,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Netdata Official Website",
+      "url": "https://netdata.cloud"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plausible Analytics",
+      "githubUrl": "https://github.com/plausible/analytics",
+      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "Umami",
+      "githubUrl": "https://github.com/umami-software/umami",
+      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
+      "stars": "24.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Datadog",
+      "slug": "datadog",
+      "startingPrice": "$15/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Unified cloud monitoring, APM, and log management platform."
+    }
+  ],
+  "tags": [
+    "analytics"
+  ]
+}

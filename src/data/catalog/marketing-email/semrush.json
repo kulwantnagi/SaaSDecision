@@ -1,0 +1,107 @@
+{
+  "name": "Semrush",
+  "slug": "semrush",
+  "categoryName": "SEO & Content",
+  "categorySlug": "marketing-email",
+  "shortDescription": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
+  "summary": "Semrush provides specialized capabilities in seo & content, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://www.semrush.com/",
+  "aliases": [
+    "Semrush App",
+    "Semrush Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 1,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 117,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 165,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Advanced",
+      "billingInterval": "monthly",
+      "basePrice": 455,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 45,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Semrush Official Website",
+      "url": "https://www.semrush.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Open-source experience management and survey builder.",
+      "stars": "9.3k★"
+    },
+    {
+      "name": "OhMyForm",
+      "githubUrl": "https://github.com/ohmyform/ohmyform",
+      "description": "Open-source web form builder for creating forms, surveys, and polls.",
+      "stars": "3.6k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Ahrefs",
+      "slug": "ahrefs",
+      "startingPrice": "$99/mo",
+      "freeTier": false,
+      "featureParity": "96%",
+      "keyAdvantage": "Industry-leading web crawler for backlink data and site audits."
+    }
+  ],
+  "tags": [
+    "form-builder",
+    "seo-tools",
+    "email"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Google Drive",
+  "slug": "google-drive",
+  "categoryName": "Storage & Backup",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Google Drive offers cloud file storage, real-time collaboration with Google Docs, Sheets, and Slides, and automated backups.",
+  "summary": "Google Drive offers cloud file storage, real-time collaboration with Google Docs, Sheets, and Slides, and automated backups.",
+  "websiteUrl": "https://drive.google.com",
+  "aliases": [
+    "Google Docs",
+    "Google Workspace Drive"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 5,
+    "networkEffects": 4,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 5,
+    "maintenanceBurden": 2,
+    "businessCriticality": 5,
+    "migrationComplexity": 3,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 4,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 4
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Google One 100GB",
+      "billingInterval": "monthly",
+      "basePrice": 1.99,
+      "pricePerSeat": 1.99,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Google Drive Official Website",
+      "url": "https://drive.google.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "The open-source digital signature alternative for signing documents securely.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "Anvil",
+      "githubUrl": "https://github.com/anvilco/anvil-pdf",
+      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "stars": "3.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Dropbox",
+      "slug": "dropbox",
+      "startingPrice": "$11.99/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Cross-platform desktop folder syncing and fast file sharing."
+    }
+  ],
+  "tags": [
+    "e-signature"
+  ]
+}

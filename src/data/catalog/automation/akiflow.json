@@ -1,0 +1,92 @@
+{
+  "name": "Akiflow",
+  "slug": "akiflow",
+  "categoryName": "AI & Automation",
+  "categorySlug": "automation",
+  "shortDescription": "Akiflow provides specialized capabilities in automation & integration, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Akiflow provides specialized capabilities in automation & integration, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://akiflow.com",
+  "aliases": [
+    "Akiflow App",
+    "Akiflow Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 5,
+    "dataMoat": 4,
+    "networkEffects": 4,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 5,
+    "workflowAutomatable": 5,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 34,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 20,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Akiflow Official Website",
+      "url": "https://akiflow.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "n8n",
+      "githubUrl": "https://github.com/n8n-io/n8n",
+      "description": "Open-source workflow automation platform with AI capabilities.",
+      "stars": "55k★"
+    },
+    {
+      "name": "Ollama",
+      "githubUrl": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
+      "stars": "105k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Zapier",
+      "slug": "zapier",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Massive connector catalog spanning 6,000+ SaaS tools."
+    },
+    {
+      "name": "Make",
+      "slug": "make",
+      "startingPrice": "$9/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Visual node-based workflow editor with complex branching."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Ahrefs",
+  "slug": "ahrefs",
+  "categoryName": "SEO & Content",
+  "categorySlug": "marketing-email",
+  "shortDescription": "Ahrefs provides specialized capabilities in seo & content, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Ahrefs provides specialized capabilities in seo & content, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://ahrefs.com",
+  "aliases": [
+    "Ahrefs App",
+    "Ahrefs Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 1,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 129,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 40,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Starter",
+      "billingInterval": "monthly",
+      "basePrice": 29,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Ahrefs Official Website",
+      "url": "https://ahrefs.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "OpenSEO",
+      "githubUrl": "https://github.com/openseo/openseo",
+      "description": "Open-source website audit and keyword tracking tools.",
+      "stars": "1.2k★"
+    },
+    {
+      "name": "SERP-Scraper",
+      "githubUrl": "https://github.com/serp-scraper/serp-scraper",
+      "description": "Open-source Google SERP rank tracking and SEO analysis scraper.",
+      "stars": "2.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Semrush",
+      "slug": "semrush",
+      "startingPrice": "$129/mo",
+      "freeTier": false,
+      "featureParity": "98%",
+      "keyAdvantage": "Comprehensive keyword research, backlink audit, and SERP tracker."
+    }
+  ],
+  "tags": [
+    "seo-tools",
+    "email"
+  ]
+}

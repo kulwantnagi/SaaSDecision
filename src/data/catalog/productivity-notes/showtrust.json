@@ -1,0 +1,92 @@
+{
+  "name": "ShowTrust",
+  "slug": "showtrust",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "ShowTrust.com is a verified premium domain available for purchase. Buy now or pay in installments. Free transaction support, no extra fees.",
+  "summary": "ShowTrust provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://domains.atom.com/lpd/name/showtrust.com",
+  "aliases": [
+    "ShowTrust App",
+    "ShowTrust Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "ShowTrust Official Website",
+      "url": "https://domains.atom.com/lpd/name/showtrust.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Chatwoot",
+      "githubUrl": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source customer engagement suite and live chat platform.",
+      "stars": "21.5k★"
+    },
+    {
+      "name": "Botpress",
+      "githubUrl": "https://github.com/botpress/botpress",
+      "description": "Open-source conversational AI platform to build automated customer support bots.",
+      "stars": "12.4k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "ai-customer-service"
+  ]
+}

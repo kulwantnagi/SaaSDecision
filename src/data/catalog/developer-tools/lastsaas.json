@@ -1,0 +1,104 @@
+{
+  "name": "LastSaaS",
+  "slug": "lastsaas",
+  "categoryName": "Developer Tools",
+  "categorySlug": "developer-tools",
+  "shortDescription": "LastSaaS provides a modern boilerplate for building AI-first SaaS products with Go, React, TypeScript, and MongoDB.",
+  "summary": "LastSaaS provides a modern boilerplate for building AI-first SaaS products with Go, React, TypeScript, and MongoDB.",
+  "websiteUrl": "https://github.com/jonradoff/lastsaas",
+  "aliases": [
+    "LastSaaS Boilerplate"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 2,
+    "networkEffects": 1,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 3,
+    "dataPortability": 5,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 1
+  },
+  "pricing": [
+    {
+      "name": "Individual",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Enterprise",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Advanced",
+      "billingInterval": "monthly",
+      "basePrice": 0.18,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Enterprise/Custom",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "LastSaaS GitHub Repository",
+      "url": "https://github.com/jonradoff/lastsaas"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Supabase",
+      "githubUrl": "https://github.com/supabase/supabase",
+      "description": "Open-source Firebase alternative.",
+      "stars": "70k★"
+    },
+    {
+      "name": "Coolify",
+      "githubUrl": "https://github.com/coollabsio/coolify",
+      "description": "Self-hostable deployment platform.",
+      "stars": "37k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Vercel",
+      "slug": "vercel",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Turnkey platform deployment and serverless hosting."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

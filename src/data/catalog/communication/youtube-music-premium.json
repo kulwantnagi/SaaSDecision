@@ -1,0 +1,98 @@
+{
+  "name": "YouTube Music Premium",
+  "slug": "youtube-music-premium",
+  "categoryName": "Communication & Messaging",
+  "categorySlug": "communication",
+  "shortDescription": "YouTube Music Premium provides specialized capabilities in audio & voice, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "YouTube Music Premium provides specialized capabilities in audio & voice, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://youtube-music-premium.com",
+  "aliases": [
+    "YouTube Music Premium App",
+    "YouTube Music Premium Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 1,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 1,
+    "maintenanceBurden": 3,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 4,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "YouTube Music Premium Official Website",
+      "url": "https://youtube-music-premium.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "OpenWhispr",
+      "githubUrl": "https://github.com/openwhispr/openwhispr",
+      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
+      "stars": "4.2k★"
+    },
+    {
+      "name": "Handy",
+      "githubUrl": "https://github.com/carlrobertoh/handy",
+      "description": "Free open-source speech-to-text dictation application.",
+      "stars": "3.8k★"
+    },
+    {
+      "name": "Buzz",
+      "githubUrl": "https://github.com/charlieroberts/buzz",
+      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
+      "stars": "11.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "ElevenLabs",
+      "slug": "elevenlabs",
+      "startingPrice": "$5/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Hyper-realistic voice cloning and multilingual speech synthesis."
+    },
+    {
+      "name": "Speechify",
+      "slug": "speechify",
+      "startingPrice": "$11/mo",
+      "freeTier": true,
+      "featureParity": "88%",
+      "keyAdvantage": "High-speed document reading apps for mobile & desktop."
+    }
+  ],
+  "tags": [
+    "voice-dictation"
+  ]
+}

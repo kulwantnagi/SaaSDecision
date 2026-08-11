@@ -1,0 +1,94 @@
+{
+  "name": "ActiveCampaign",
+  "slug": "activecampaign",
+  "categoryName": "Marketing & Email",
+  "categorySlug": "marketing-email",
+  "shortDescription": "ActiveCampaign automates visual customer lifecycle journeys with email triggers and CRM pipelines.",
+  "summary": "ActiveCampaign provides specialized capabilities in ai & llms, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://activecampaign.com",
+  "aliases": [
+    "ActiveCampaign App",
+    "ActiveCampaign Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 3,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free plan available",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "ActiveCampaign Official Website",
+      "url": "https://activecampaign.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Twenty",
+      "githubUrl": "https://github.com/twentyhq/twenty",
+      "description": "Building a modern open-source alternative to Salesforce.",
+      "stars": "24.1k★"
+    },
+    {
+      "name": "SuiteCRM",
+      "githubUrl": "https://github.com/salesagility/SuiteCRM",
+      "description": "Enterprise-grade open-source CRM software for customer relationship management.",
+      "stars": "4.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "ChatGPT",
+      "slug": "chatgpt",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Industry standard multimodal reasoning and GPT Store ecosystem."
+    },
+    {
+      "name": "Claude",
+      "slug": "claude",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "200k context window and superior long-document writing."
+    },
+    {
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Real-time web search integration with live citations."
+    }
+  ],
+  "tags": [
+    "crm",
+    "email"
+  ]
+}

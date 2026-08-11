@@ -1,0 +1,91 @@
+{
+  "name": "Appwrite",
+  "slug": "appwrite",
+  "categoryName": "Developer Tools",
+  "categorySlug": "developer-tools",
+  "shortDescription": "Appwrite provides developers with core microservices including auth, database, cloud functions, and storage.",
+  "summary": "Appwrite provides developers with core microservices including auth, database, cloud functions, and storage.",
+  "websiteUrl": "https://appwrite.io",
+  "aliases": [
+    "Appwrite Backend",
+    "Appwrite Cloud"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 3,
+    "maintenanceBurden": 3,
+    "businessCriticality": 4,
+    "migrationComplexity": 4,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 4,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 25,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Appwrite Official Website",
+      "url": "https://appwrite.io"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Supabase",
+      "githubUrl": "https://github.com/supabase/supabase",
+      "description": "Open-source Firebase alternative.",
+      "stars": "70k★"
+    },
+    {
+      "name": "PocketBase",
+      "githubUrl": "https://github.com/pocketbase/pocketbase",
+      "description": "Open-source Go backend in a single file.",
+      "stars": "40k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Firebase",
+      "slug": "firebase",
+      "startingPrice": "$0",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Google integrated backend for app development."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

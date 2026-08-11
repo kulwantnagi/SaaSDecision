@@ -1,0 +1,90 @@
+{
+  "name": "Google Analytics",
+  "slug": "google-analytics",
+  "categoryName": "Analytics",
+  "categorySlug": "analytics",
+  "shortDescription": "Google Analytics provides comprehensive user acquisition, behavioral insights, and integration with Google Ads ecosystem.",
+  "summary": "Google Analytics provides comprehensive user acquisition, behavioral insights, and integration with Google Ads ecosystem.",
+  "websiteUrl": "https://analytics.google.com",
+  "aliases": [
+    "GA4",
+    "Google Analytics 4"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 5,
+    "networkEffects": 3,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 4
+  },
+  "pricing": [
+    {
+      "name": "Standard",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Analytics 360",
+      "billingInterval": "monthly",
+      "basePrice": 12500,
+      "pricePerSeat": 12500,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Google Analytics Official Website",
+      "url": "https://analytics.google.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plausible Analytics",
+      "githubUrl": "https://github.com/plausible/analytics",
+      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "Umami",
+      "githubUrl": "https://github.com/umami-software/umami",
+      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
+      "stars": "24.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Mixpanel",
+      "slug": "mixpanel",
+      "startingPrice": "$28/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Self-serve product analytics for conversion and funnel retention."
+    }
+  ],
+  "tags": [
+    "analytics"
+  ]
+}

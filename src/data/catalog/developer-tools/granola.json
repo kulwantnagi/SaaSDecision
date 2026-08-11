@@ -1,0 +1,99 @@
+{
+  "name": "Granola",
+  "slug": "granola",
+  "categoryName": "Automation",
+  "categorySlug": "developer-tools",
+  "shortDescription": "The AI notepad for back-to-back meetings. Notes, actions and memory. Without a meeting bot.",
+  "summary": "Granola provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://www.granola.ai/",
+  "aliases": [
+    "Granola App",
+    "Granola Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 14,
+      "pricePerSeat": 14,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise",
+      "billingInterval": "monthly",
+      "basePrice": 35,
+      "pricePerSeat": 35,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Granola Official Website",
+      "url": "https://www.granola.ai/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Meetily",
+      "githubUrl": "https://github.com/meetily/meetily",
+      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
+      "stars": "2.9k★"
+    },
+    {
+      "name": "Quill Meetings",
+      "githubUrl": "https://github.com/quill/quill-meetings",
+      "description": "Self-hosted AI meeting summary and action-item generator.",
+      "stars": "1.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "ai-meeting-notes"
+  ]
+}

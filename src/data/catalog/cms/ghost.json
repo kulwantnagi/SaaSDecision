@@ -1,0 +1,98 @@
+{
+  "name": "Ghost",
+  "slug": "ghost",
+  "categoryName": "CMS & Publishing",
+  "categorySlug": "cms",
+  "shortDescription": "Ghost provides independent creators and media organizations with publishing, membership management, and email newsletter delivery.",
+  "summary": "Ghost provides independent creators and media organizations with publishing, membership management, and email newsletter delivery.",
+  "websiteUrl": "https://ghost.org",
+  "aliases": [
+    "Ghost CMS",
+    "Ghost Publishing"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 3,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 2,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 1
+  },
+  "pricing": [
+    {
+      "name": "Starter",
+      "billingInterval": "monthly",
+      "basePrice": 18,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 50,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 50,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 50,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Ghost Official Website",
+      "url": "https://ghost.org"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Thunderbird",
+      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
+      "description": "Open-source, privacy-focused email and calendar client.",
+      "stars": "3.5k★"
+    },
+    {
+      "name": "Mailspring",
+      "githubUrl": "https://github.com/Foundry376/Mailspring",
+      "description": "Extensible open-source email client with unified inbox and tracking.",
+      "stars": "14.8k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Substack",
+      "slug": "substack",
+      "startingPrice": "$0",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Zero-subscription fee newsletter publishing platform."
+    }
+  ],
+  "tags": [
+    "email"
+  ]
+}

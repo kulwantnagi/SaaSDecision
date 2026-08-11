@@ -1,0 +1,122 @@
+{
+  "name": "Invoice Ninja",
+  "slug": "invoice-ninja",
+  "categoryName": "Finance & Accounting",
+  "categorySlug": "finance-accounting",
+  "shortDescription": "Invoice Ninja is free invoicing software for small businesses, with tools for professional invoices, online payments, recurring billing, time tracking, projects, expenses, client portals, quotes, and integrations.",
+  "summary": "Invoice Ninja provides specialized capabilities in ai & llms, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://invoiceninja.com/",
+  "aliases": [
+    "Invoice Ninja App",
+    "Invoice Ninja Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 4,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 3,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 5,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 14,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Enterprise",
+      "billingInterval": "monthly",
+      "basePrice": 18,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Business",
+      "billingInterval": "yearly",
+      "basePrice": 280,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Invoice Ninja Official Website",
+      "url": "https://invoiceninja.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "OpenWhispr",
+      "githubUrl": "https://github.com/openwhispr/openwhispr",
+      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
+      "stars": "4.2k★"
+    },
+    {
+      "name": "Handy",
+      "githubUrl": "https://github.com/carlrobertoh/handy",
+      "description": "Free open-source speech-to-text dictation application.",
+      "stars": "3.8k★"
+    },
+    {
+      "name": "Buzz",
+      "githubUrl": "https://github.com/charlieroberts/buzz",
+      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
+      "stars": "11.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "ChatGPT",
+      "slug": "chatgpt",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "95%",
+      "keyAdvantage": "Industry standard multimodal reasoning and GPT Store ecosystem."
+    },
+    {
+      "name": "Claude",
+      "slug": "claude",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "200k context window and superior long-document writing."
+    },
+    {
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "startingPrice": "$20/mo",
+      "freeTier": true,
+      "featureParity": "92%",
+      "keyAdvantage": "Real-time web search integration with live citations."
+    }
+  ],
+  "tags": [
+    "voice-dictation",
+    "analytics",
+    "project-management"
+  ]
+}

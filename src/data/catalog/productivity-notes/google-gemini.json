@@ -1,0 +1,98 @@
+{
+  "name": "Google Gemini",
+  "slug": "google-gemini",
+  "categoryName": "Productivity & Notes",
+  "categorySlug": "productivity-notes",
+  "shortDescription": "Gemini is Google's AI assistant for writing, planning, brainstorming, research, and other creative and productivity tasks.",
+  "summary": "Google Gemini provides specialized capabilities in productivity & notes, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://gemini.google.com/",
+  "aliases": [
+    "Google Gemini App",
+    "Google Gemini Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 4,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 5,
+    "mobileDependency": 3,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Google Gemini Official Website",
+      "url": "https://gemini.google.com/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plane",
+      "githubUrl": "https://github.com/makeplane/plane",
+      "description": "Open-source project management tool to track issues, epics, and product roadmaps.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "OpenProject",
+      "githubUrl": "https://github.com/opf/openproject",
+      "description": "Open-source project management software for classic and agile projects.",
+      "stars": "8.4k★"
+    },
+    {
+      "name": "Taiga",
+      "githubUrl": "https://github.com/taigaio/taiga-back",
+      "description": "Agile project management platform for startups and cross-functional teams.",
+      "stars": "7.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "startingPrice": "$10/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Flexible workspace combining docs, databases, and wikis."
+    },
+    {
+      "name": "Obsidian Sync",
+      "slug": "obsidian-sync",
+      "startingPrice": "$4/mo",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Local Markdown file storage with endless plugin customization."
+    }
+  ],
+  "tags": [
+    "project-management"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Keyword Chef",
+  "slug": "keyword-chef",
+  "categoryName": "SEO & Content",
+  "categorySlug": "marketing-email",
+  "shortDescription": "Keyword Chef provides specialized capabilities in seo & content, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Keyword Chef provides specialized capabilities in seo & content, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://keyword-chef.com",
+  "aliases": [
+    "Keyword Chef App",
+    "Keyword Chef Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 2,
+    "complianceRequirement": 2,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 1,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Free Tier",
+      "billingInterval": "monthly",
+      "basePrice": 0,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Pro Plan",
+      "billingInterval": "monthly",
+      "basePrice": 15,
+      "pricePerSeat": 10,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Keyword Chef Official Website",
+      "url": "https://keyword-chef.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "OpenSEO",
+      "githubUrl": "https://github.com/openseo/openseo",
+      "description": "Open-source website audit and keyword tracking tools.",
+      "stars": "1.2k★"
+    },
+    {
+      "name": "SERP-Scraper",
+      "githubUrl": "https://github.com/serp-scraper/serp-scraper",
+      "description": "Open-source Google SERP rank tracking and SEO analysis scraper.",
+      "stars": "2.1k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Semrush",
+      "slug": "semrush",
+      "startingPrice": "$129/mo",
+      "freeTier": false,
+      "featureParity": "98%",
+      "keyAdvantage": "Comprehensive keyword research, backlink audit, and SERP tracker."
+    },
+    {
+      "name": "Ahrefs",
+      "slug": "ahrefs",
+      "startingPrice": "$99/mo",
+      "freeTier": false,
+      "featureParity": "96%",
+      "keyAdvantage": "Industry-leading web crawler for backlink data and site audits."
+    }
+  ],
+  "tags": [
+    "seo-tools",
+    "email"
+  ]
+}

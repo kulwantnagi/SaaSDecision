@@ -1,0 +1,85 @@
+{
+  "name": "BigCommerce",
+  "slug": "bigcommerce",
+  "categoryName": "Automation",
+  "categorySlug": "finance-accounting",
+  "shortDescription": "BigCommerce provides specialized capabilities in e-commerce & billing, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "BigCommerce provides specialized capabilities in e-commerce & billing, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://bigcommerce.com",
+  "aliases": [
+    "BigCommerce App",
+    "BigCommerce Software"
+  ],
+  "assessment": {
+    "buildComplexity": 4,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 3,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 3,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 4
+  },
+  "pricing": [
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 33,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "BigCommerce Official Website",
+      "url": "https://bigcommerce.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Invoice Ninja",
+      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
+      "description": "Open-source invoicing, expenses, and time tracking app.",
+      "stars": "8k★"
+    },
+    {
+      "name": "ERPNext",
+      "githubUrl": "https://github.com/frappe/erpnext",
+      "description": "Open-source ERP and accounting platform for business management.",
+      "stars": "18k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Shopify",
+      "slug": "shopify",
+      "startingPrice": "$39/mo",
+      "freeTier": false,
+      "featureParity": "98%",
+      "keyAdvantage": "Complete e-commerce ecosystem with 6,000+ app marketplace integrations."
+    },
+    {
+      "name": "Gumroad",
+      "slug": "gumroad",
+      "startingPrice": "10% fee",
+      "freeTier": true,
+      "featureParity": "88%",
+      "keyAdvantage": "Zero monthly fee digital product checkout page builder."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Baremetrics",
+  "slug": "baremetrics",
+  "categoryName": "Analytics",
+  "categorySlug": "analytics",
+  "shortDescription": "Baremetrics provides specialized capabilities in analytics & data, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Baremetrics provides specialized capabilities in analytics & data, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://baremetrics.com",
+  "aliases": [
+    "Baremetrics App",
+    "Baremetrics Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 4,
+    "networkEffects": 1,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 3,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 1,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 49,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Advanced",
+      "billingInterval": "monthly",
+      "basePrice": 1152,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 129,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Baremetrics Official Website",
+      "url": "https://baremetrics.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Plausible Analytics",
+      "githubUrl": "https://github.com/plausible/analytics",
+      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
+      "stars": "31.2k★"
+    },
+    {
+      "name": "Umami",
+      "githubUrl": "https://github.com/umami-software/umami",
+      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
+      "stars": "24.5k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Fathom Analytics",
+      "slug": "fathom-analytics",
+      "startingPrice": "$15/mo",
+      "freeTier": false,
+      "featureParity": "94%",
+      "keyAdvantage": "Cookie-free web analytics bypassing ad blockers."
+    },
+    {
+      "name": "Simple Analytics",
+      "slug": "simple-analytics",
+      "startingPrice": "$9/mo",
+      "freeTier": false,
+      "featureParity": "90%",
+      "keyAdvantage": "100% GDPR compliant privacy analytics."
+    }
+  ],
+  "tags": [
+    "analytics"
+  ]
+}

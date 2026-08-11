@@ -1,0 +1,84 @@
+{
+  "name": "Xero",
+  "slug": "xero",
+  "categoryName": "Automation",
+  "categorySlug": "finance-accounting",
+  "shortDescription": "Xero online accounting software for your business connects you to your bank, accountant, bookkeeper, and other business apps. Start a free trial today.",
+  "summary": "Xero provides specialized capabilities in finance & accounting, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://www.xero.com/us/",
+  "aliases": [
+    "Xero App",
+    "Xero Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 4,
+    "dataMoat": 3,
+    "networkEffects": 1,
+    "complianceRequirement": 5,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 5,
+    "migrationComplexity": 4,
+    "apiAvailability": 4,
+    "workflowAutomatable": 3,
+    "openSourceMaturity": 4,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 3,
+    "mobileDependency": 3,
+    "permissionComplexity": 3,
+    "reliabilityRequirement": 5,
+    "vendorLockIn": 3
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "billingInterval": "monthly",
+      "basePrice": 9,
+      "pricePerSeat": 0,
+      "freeTier": true
+    },
+    {
+      "name": "Plus",
+      "billingInterval": "monthly",
+      "basePrice": 55,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Xero Official Website",
+      "url": "https://www.xero.com/us/"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Invoice Ninja",
+      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
+      "description": "Open-source invoicing, expenses, and time tracking app.",
+      "stars": "8k★"
+    },
+    {
+      "name": "ERPNext",
+      "githubUrl": "https://github.com/frappe/erpnext",
+      "description": "Open-source ERP and accounting platform for business management.",
+      "stars": "18k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "QuickBooks Online",
+      "slug": "quickbooks-online",
+      "startingPrice": "$30/mo",
+      "freeTier": false,
+      "featureParity": "98%",
+      "keyAdvantage": "CPA standard tax compliance and automated bank feeds."
+    }
+  ],
+  "tags": [
+    "productivity-notes"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Postiz",
+  "slug": "postiz",
+  "categoryName": "Marketing & Email",
+  "categorySlug": "marketing-email",
+  "shortDescription": "Streamline your social media with Postiz. Schedule posts, analyze performance, and manage all accounts in one place.",
+  "summary": "Postiz provides specialized capabilities in marketing & email, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://postiz.com",
+  "aliases": [
+    "Postiz App",
+    "Postiz Software"
+  ],
+  "assessment": {
+    "buildComplexity": 3,
+    "integrationDependency": 3,
+    "dataMoat": 3,
+    "networkEffects": 3,
+    "complianceRequirement": 4,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 4,
+    "migrationComplexity": 2,
+    "apiAvailability": 4,
+    "workflowAutomatable": 4,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Standard",
+      "billingInterval": "monthly",
+      "basePrice": 29,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Team",
+      "billingInterval": "monthly",
+      "basePrice": 39,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "monthly",
+      "basePrice": 49,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Ultimate",
+      "billingInterval": "monthly",
+      "basePrice": 99,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Postiz Official Website",
+      "url": "https://postiz.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Open-source experience management and survey builder.",
+      "stars": "9.3k★"
+    },
+    {
+      "name": "OhMyForm",
+      "githubUrl": "https://github.com/ohmyform/ohmyform",
+      "description": "Open-source web form builder for creating forms, surveys, and polls.",
+      "stars": "3.6k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "beehiiv",
+      "slug": "beehiiv",
+      "startingPrice": "$49/mo",
+      "freeTier": true,
+      "featureParity": "94%",
+      "keyAdvantage": "Built-in newsletter referral program & ad network."
+    },
+    {
+      "name": "Substack",
+      "slug": "substack",
+      "startingPrice": "Free",
+      "freeTier": true,
+      "featureParity": "90%",
+      "keyAdvantage": "Zero upfront monthly cost with reader subscription monetization."
+    }
+  ],
+  "tags": [
+    "form-builder",
+    "scheduling",
+    "email"
+  ]
+}

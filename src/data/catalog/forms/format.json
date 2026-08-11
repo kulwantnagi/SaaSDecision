@@ -1,0 +1,99 @@
+{
+  "name": "Format",
+  "slug": "format",
+  "categoryName": "Forms & Surveys",
+  "categorySlug": "forms",
+  "shortDescription": "Format provides specialized capabilities in forms & surveys, delivering intuitive features, flexible integration options, and team reliability.",
+  "summary": "Format provides specialized capabilities in forms & surveys, delivering intuitive features, flexible integration options, and team reliability.",
+  "websiteUrl": "https://format.com",
+  "aliases": [
+    "Format App",
+    "Format Software"
+  ],
+  "assessment": {
+    "buildComplexity": 2,
+    "integrationDependency": 3,
+    "dataMoat": 2,
+    "networkEffects": 1,
+    "complianceRequirement": 3,
+    "infrastructureComplexity": 2,
+    "realtimeCollaboration": 2,
+    "maintenanceBurden": 2,
+    "businessCriticality": 3,
+    "migrationComplexity": 1,
+    "apiAvailability": 4,
+    "workflowAutomatable": 5,
+    "openSourceMaturity": 5,
+    "alternativeMarketStrength": 5,
+    "dataPortability": 4,
+    "mobileDependency": 2,
+    "permissionComplexity": 2,
+    "reliabilityRequirement": 4,
+    "vendorLockIn": 2
+  },
+  "pricing": [
+    {
+      "name": "Basic",
+      "billingInterval": "monthly",
+      "basePrice": 10,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Pro",
+      "billingInterval": "yearly",
+      "basePrice": 100,
+      "pricePerSeat": 0,
+      "freeTier": false
+    },
+    {
+      "name": "Business",
+      "billingInterval": "monthly",
+      "basePrice": 12,
+      "pricePerSeat": 0,
+      "freeTier": false
+    }
+  ],
+  "sources": [
+    {
+      "type": "OFFICIAL_WEBSITE",
+      "title": "Format Official Website",
+      "url": "https://format.com"
+    }
+  ],
+  "openSourceAlternatives": [
+    {
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Open-source experience management and survey builder.",
+      "stars": "9.3k★"
+    },
+    {
+      "name": "OhMyForm",
+      "githubUrl": "https://github.com/ohmyform/ohmyform",
+      "description": "Open-source web form builder for creating forms, surveys, and polls.",
+      "stars": "3.6k★"
+    }
+  ],
+  "verifiedCommercialAlternatives": [
+    {
+      "name": "Tally.so",
+      "slug": "tally",
+      "startingPrice": "$29/mo",
+      "freeTier": true,
+      "featureParity": "96%",
+      "keyAdvantage": "Free unlimited forms with Notion-like editor."
+    },
+    {
+      "name": "Typeform",
+      "slug": "typeform",
+      "startingPrice": "$29/mo",
+      "freeTier": false,
+      "featureParity": "92%",
+      "keyAdvantage": "Conversational UI designed for high conversions."
+    }
+  ],
+  "tags": [
+    "form-builder"
+  ]
+}
