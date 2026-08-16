@@ -1,8 +1,12 @@
 import { ImageResponse } from 'next/og';
-import { getSoftwareBySlug } from '@/domain/catalog-service';
-import { evaluateSoftware } from '@/domain/decision-engine';
+// Precomputed at build time by scripts/compile-catalog.ts — keeps this edge function
+// tiny instead of bundling the full 2.9MB catalog (Vercel edge limit is 1MB).
+import ogScores from '@/data/og-scores.json';
 
 export const runtime = 'edge';
+
+// slug -> [name, categoryName, keep, switch, selfHost, automate, build]
+type OgEntry = [string, string, number, number, number, number, number];
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -14,18 +18,12 @@ export async function GET(request: Request) {
   let scores = { keep: 85, switch: 42, selfHost: 20, automate: 60, build: 35 };
 
   if (slug) {
-    const product = getSoftwareBySlug(slug);
-    if (product) {
-      title = `${product.name} Decision Intelligence`;
-      subtitle = `${product.categoryName} • Deterministic Evaluation & TCO Analysis`;
-      const computed = evaluateSoftware(product.assessment as any);
-      scores = {
-        keep: computed.keepScore,
-        switch: computed.switchScore,
-        selfHost: computed.selfHostScore,
-        automate: computed.automateScore,
-        build: computed.buildScore,
-      };
+    const entry = (ogScores as unknown as Record<string, OgEntry>)[slug];
+    if (entry) {
+      const [name, categoryName, keep, switchScore, selfHost, automate, build] = entry;
+      title = `${name} Decision Intelligence`;
+      subtitle = `${categoryName} • Deterministic Evaluation & TCO Analysis`;
+      scores = { keep, switch: switchScore, selfHost, automate, build };
     }
   }
 

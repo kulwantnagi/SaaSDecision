@@ -25,6 +25,7 @@ interface SearchIndexItem {
 
 const PUBLIC_CATALOG_PATH = path.join(process.cwd(), 'public', 'catalog.json');
 const PUBLIC_SEARCH_INDEX_PATH = path.join(process.cwd(), 'public', 'search-index.json');
+const OG_SCORES_PATH = path.join(process.cwd(), 'src', 'data', 'og-scores.json');
 const SRC_CATALOG_DIR = path.join(process.cwd(), 'src', 'data', 'catalog');
 
 function compileCatalog() {
@@ -80,6 +81,31 @@ function compileCatalog() {
   // Write out minified public/search-index.json
   fs.writeFileSync(PUBLIC_SEARCH_INDEX_PATH, JSON.stringify(searchIndex), 'utf-8');
   console.log(`Successfully generated lightweight search index in ${PUBLIC_SEARCH_INDEX_PATH}`);
+
+  // Precompute OG image scores so the edge function (api/og) doesn't bundle the 2.9MB catalog.
+  // Mirrors catalog-service.ts: hand-tuned seed products override catalog entries.
+  const { evaluateSoftware } = require('../src/domain/decision-engine');
+  const { INITIAL_25_PRODUCTS } = require('../src/domain/seed-data');
+  const merged = new Map<string, Product>();
+  for (const prod of allProducts) merged.set(prod.slug, prod);
+  for (const prod of INITIAL_25_PRODUCTS as Product[]) merged.set(prod.slug, prod);
+
+  const ogScores: Record<string, [string, string, number, number, number, number, number]> = {};
+  let ogSkipped = 0;
+  for (const prod of merged.values()) {
+    try {
+      const r = evaluateSoftware(prod.assessment);
+      ogScores[prod.slug] = [
+        prod.name,
+        prod.categoryName || 'General',
+        r.keepScore, r.switchScore, r.selfHostScore, r.automateScore, r.buildScore,
+      ];
+    } catch {
+      ogSkipped++;
+    }
+  }
+  fs.writeFileSync(OG_SCORES_PATH, JSON.stringify(ogScores), 'utf-8');
+  console.log(`Successfully precomputed OG scores for ${Object.keys(ogScores).length} tools into ${OG_SCORES_PATH}${ogSkipped ? ` (${ogSkipped} skipped: no valid assessment)` : ''}`);
 }
 
 compileCatalog();
