@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Navidrome",
+      "githubUrl": "https://github.com/navidrome/navidrome",
+      "description": "Self-hosted music server and streamer — your personal Spotify.",
+      "stars": "22.9k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Jellyfin",
+      "githubUrl": "https://github.com/jellyfin/jellyfin",
+      "description": "Free software media system for streaming your own movies, shows, and music.",
+      "stars": "55.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "music-streaming",
     "productivity-notes"
   ]
 }

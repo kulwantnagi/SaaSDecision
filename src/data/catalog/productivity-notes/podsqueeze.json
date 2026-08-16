@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Whisper",
+      "githubUrl": "https://github.com/openai/whisper",
+      "description": "Robust open-source speech recognition from OpenAI.",
+      "stars": "107.4k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Buzz",
+      "githubUrl": "https://github.com/chidiwilliams/buzz",
+      "description": "Transcribe and translate audio offline on your computer, powered by Whisper.",
+      "stars": "21.0k★"
+    },
+    {
+      "name": "WhisperX",
+      "githubUrl": "https://github.com/m-bain/whisperX",
+      "description": "Fast Whisper transcription with word-level timestamps and diarization.",
+      "stars": "23.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
+    "transcription",
     "productivity-notes"
   ]
 }

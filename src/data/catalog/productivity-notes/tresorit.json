@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Cryptomator",
+      "githubUrl": "https://github.com/cryptomator/cryptomator",
+      "description": "Client-side encryption for your cloud storage files.",
+      "stars": "15.9k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Nextcloud",
+      "githubUrl": "https://github.com/nextcloud/server",
+      "description": "Self-hosted files, calendar, contacts, and collaboration platform.",
+      "stars": "36.4k★"
+    },
+    {
+      "name": "Seafile",
+      "githubUrl": "https://github.com/haiwen/seafile",
+      "description": "High-performance open-source file sync and share.",
+      "stars": "15.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "encrypted-storage",
     "productivity-notes"
   ]
 }

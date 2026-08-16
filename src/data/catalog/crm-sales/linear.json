@@ -76,16 +76,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Twenty",
-      "githubUrl": "https://github.com/twentyhq/twenty",
-      "description": "Building a modern open-source alternative to Salesforce.",
-      "stars": "24.1k★"
+      "name": "Plane",
+      "githubUrl": "https://github.com/makeplane/plane",
+      "description": "Open-source project and issue tracking — a Jira/Linear alternative.",
+      "stars": "56.0k★"
     },
     {
-      "name": "SuiteCRM",
-      "githubUrl": "https://github.com/salesagility/SuiteCRM",
-      "description": "Enterprise-grade open-source CRM software for customer relationship management.",
-      "stars": "4.8k★"
+      "name": "Huly",
+      "githubUrl": "https://github.com/hcengineering/platform",
+      "description": "All-in-one platform replacing Linear, Jira, Slack, and Notion.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "OpenProject",
+      "githubUrl": "https://github.com/opf/openproject",
+      "description": "Full-featured open-source project management with Gantt, agile boards, and time tracking.",
+      "stars": "15.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -99,7 +105,7 @@
     }
   ],
   "tags": [
-    "crm",
-    "project-management"
+    "issue-tracking",
+    "crm-sales"
   ]
 }

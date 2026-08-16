@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Chatwoot",
-      "githubUrl": "https://github.com/chatwoot/chatwoot",
-      "description": "Open-source customer engagement suite, alternative to Intercom & Zendesk.",
-      "stars": "19.5k★"
+      "name": "Coolify",
+      "githubUrl": "https://github.com/coollabsio/coolify",
+      "description": "Self-hostable Heroku/Netlify/Vercel alternative.",
+      "stars": "60.6k★"
     },
     {
-      "name": "Botpress",
-      "githubUrl": "https://github.com/botpress/botpress",
-      "description": "The open-source conversational AI platform.",
-      "stars": "11k★"
+      "name": "Dokploy",
+      "githubUrl": "https://github.com/Dokploy/dokploy",
+      "description": "Self-hosted PaaS for deploying apps and databases on your own servers.",
+      "stars": "36.6k★"
+    },
+    {
+      "name": "CapRover",
+      "githubUrl": "https://github.com/caprover/caprover",
+      "description": "One-click self-hosted PaaS for apps and databases.",
+      "stars": "15.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,6 +99,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "paas-hosting",
+    "developer-tools"
   ]
 }

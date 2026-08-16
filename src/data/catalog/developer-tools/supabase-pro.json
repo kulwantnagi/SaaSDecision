@@ -56,22 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plane",
-      "githubUrl": "https://github.com/makeplane/plane",
-      "description": "Open-source project management tool to track issues, epics, and product roadmaps.",
-      "stars": "31.2k★"
+      "name": "Supabase",
+      "githubUrl": "https://github.com/supabase/supabase",
+      "description": "Open-source Firebase alternative built on Postgres.",
+      "stars": "108.0k★"
     },
     {
-      "name": "OpenProject",
-      "githubUrl": "https://github.com/opf/openproject",
-      "description": "Open-source project management software for classic and agile projects.",
-      "stars": "8.4k★"
+      "name": "Appwrite",
+      "githubUrl": "https://github.com/appwrite/appwrite",
+      "description": "Open-source backend-as-a-service with auth, databases, functions, and storage.",
+      "stars": "57.0k★"
     },
     {
-      "name": "Taiga",
-      "githubUrl": "https://github.com/taigaio/taiga-back",
-      "description": "Agile project management platform for startups and cross-functional teams.",
-      "stars": "7.1k★"
+      "name": "PocketBase",
+      "githubUrl": "https://github.com/pocketbase/pocketbase",
+      "description": "Open-source backend in a single file — database, auth, and realtime.",
+      "stars": "60.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,6 +93,7 @@
     }
   ],
   "tags": [
-    "project-management"
+    "baas",
+    "developer-tools"
   ]
 }

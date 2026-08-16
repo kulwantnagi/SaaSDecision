@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
+      "name": "Jitsi Meet",
+      "githubUrl": "https://github.com/jitsi/jitsi-meet",
+      "description": "Secure, fully-featured open-source video conferencing.",
+      "stars": "29.7k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "BigBlueButton",
+      "githubUrl": "https://github.com/bigbluebutton/bigbluebutton",
+      "description": "Open-source virtual classroom and webinar system.",
+      "stars": "9.2k★"
+    },
+    {
+      "name": "LiveKit",
+      "githubUrl": "https://github.com/livekit/livekit",
+      "description": "Open-source realtime audio/video infrastructure (WebRTC).",
+      "stars": "20.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,6 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes"
+    "video-conferencing"
   ]
 }

@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Nextcloud",
-      "githubUrl": "https://github.com/nextcloud/server",
-      "description": "Open-source self-hosted productivity platform.",
-      "stars": "26k★"
+      "name": "Webstudio",
+      "githubUrl": "https://github.com/webstudio-is/webstudio",
+      "description": "Open-source visual website builder with the power of code.",
+      "stars": "8.8k★"
     },
     {
-      "name": "MinIO",
-      "githubUrl": "https://github.com/minio/minio",
-      "description": "High-performance S3 compatible object storage.",
-      "stars": "48k★"
+      "name": "GrapesJS",
+      "githubUrl": "https://github.com/GrapesJS/grapesjs",
+      "description": "Free drag-and-drop web page builder framework.",
+      "stars": "26.1k★"
+    },
+    {
+      "name": "Silex",
+      "githubUrl": "https://github.com/silexlabs/Silex",
+      "description": "Free open-source website builder for designers.",
+      "stars": "2.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "website-builder",
+    "developer-tools"
   ]
 }

@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Thunderbird",
-      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
-      "description": "Open-source, privacy-focused email and calendar client.",
-      "stars": "3.5k★"
+      "name": "Mautic",
+      "githubUrl": "https://github.com/mautic/mautic",
+      "description": "Open-source marketing automation — campaigns, segments, and email nurture.",
+      "stars": "10.3k★"
     },
     {
-      "name": "Mailspring",
-      "githubUrl": "https://github.com/Foundry376/Mailspring",
-      "description": "Extensible open-source email client with unified inbox and tracking.",
-      "stars": "14.8k★"
+      "name": "Listmonk",
+      "githubUrl": "https://github.com/knadh/listmonk",
+      "description": "High-performance self-hosted newsletter and mailing list manager.",
+      "stars": "22.9k★"
+    },
+    {
+      "name": "Keila",
+      "githubUrl": "https://github.com/pentacent/keila",
+      "description": "Open-source newsletter tool — an alternative to Mailchimp.",
+      "stars": "2.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "email"
+    "email-marketing",
+    "productivity-notes"
   ]
 }

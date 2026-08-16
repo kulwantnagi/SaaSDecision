@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Webstudio",
+      "githubUrl": "https://github.com/webstudio-is/webstudio",
+      "description": "Open-source visual website builder with the power of code.",
+      "stars": "8.8k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "GrapesJS",
+      "githubUrl": "https://github.com/GrapesJS/grapesjs",
+      "description": "Free drag-and-drop web page builder framework.",
+      "stars": "26.1k★"
+    },
+    {
+      "name": "Silex",
+      "githubUrl": "https://github.com/silexlabs/Silex",
+      "description": "Free open-source website builder for designers.",
+      "stars": "2.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "website-builder",
+    "forms"
   ]
 }

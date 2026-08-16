@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Fider",
+      "githubUrl": "https://github.com/getfider/fider",
+      "description": "Open platform to collect and prioritize customer feedback.",
+      "stars": "4.5k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Privacy-first open-source surveys and experience management.",
+      "stars": "12.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "feedback",
+    "productivity-notes"
   ]
 }

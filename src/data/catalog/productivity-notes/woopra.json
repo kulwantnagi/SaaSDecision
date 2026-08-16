@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Umami",
+      "githubUrl": "https://github.com/umami-software/umami",
+      "description": "Simple, privacy-focused web analytics — a Google Analytics alternative.",
+      "stars": "38.2k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Plausible Analytics",
+      "githubUrl": "https://github.com/plausible/analytics",
+      "description": "Lightweight, privacy-friendly web analytics without cookies.",
+      "stars": "28.6k★"
+    },
+    {
+      "name": "Matomo",
+      "githubUrl": "https://github.com/matomo-org/matomo",
+      "description": "Google Analytics alternative that protects your data and visitors' privacy.",
+      "stars": "21.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
+    "web-analytics",
     "productivity-notes"
   ]
 }

@@ -56,22 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
-    },
-    {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
+      "name": "Whisper",
+      "githubUrl": "https://github.com/openai/whisper",
+      "description": "Robust open-source speech recognition from OpenAI.",
+      "stars": "107.4k★"
     },
     {
       "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "githubUrl": "https://github.com/chidiwilliams/buzz",
+      "description": "Transcribe and translate audio offline on your computer, powered by Whisper.",
+      "stars": "21.0k★"
+    },
+    {
+      "name": "WhisperX",
+      "githubUrl": "https://github.com/m-bain/whisperX",
+      "description": "Fast Whisper transcription with word-level timestamps and diarization.",
+      "stars": "23.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,6 +93,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "transcription",
+    "communication"
   ]
 }

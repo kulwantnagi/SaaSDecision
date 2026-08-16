@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Darktable",
+      "githubUrl": "https://github.com/darktable-org/darktable",
+      "description": "Open-source photography workflow and raw developer — a Lightroom alternative.",
+      "stars": "12.9k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "GIMP",
+      "githubUrl": "https://github.com/GNOME/gimp",
+      "description": "The GNU Image Manipulation Program — free Photoshop alternative.",
+      "stars": "6.4k★"
+    },
+    {
+      "name": "RawTherapee",
+      "githubUrl": "https://github.com/Beep6581/RawTherapee",
+      "description": "Powerful open-source raw photo processing.",
+      "stars": "4.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "photo-editing",
+    "automation"
   ]
 }

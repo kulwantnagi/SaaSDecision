@@ -63,16 +63,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Postiz",
+      "githubUrl": "https://github.com/gitroomhq/postiz-app",
+      "description": "Open-source social media scheduling — a Buffer/Hootsuite alternative.",
+      "stars": "34.7k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "Mixpost",
+      "githubUrl": "https://github.com/inovector/mixpost",
+      "description": "Self-hosted social media management and scheduling.",
+      "stars": "3.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -102,6 +102,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "social-media",
+    "automation"
   ]
 }

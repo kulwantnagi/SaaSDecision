@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Cap",
-      "githubUrl": "https://github.com/capway/cap",
-      "description": "Open-source Loom alternative for effortless instant video screen sharing.",
-      "stars": "6.7k★"
+      "name": "Reactive Resume",
+      "githubUrl": "https://github.com/AmruthPillai/Reactive-Resume",
+      "description": "Free open-source resume builder that respects your privacy.",
+      "stars": "40.5k★"
     },
     {
-      "name": "OBS Studio",
-      "githubUrl": "https://github.com/obsproject/obs-studio",
-      "description": "Free and open source software for video recording and live streaming.",
-      "stars": "58.2k★"
+      "name": "OpenResume",
+      "githubUrl": "https://github.com/xitanggg/open-resume",
+      "description": "Open-source resume builder and ATS-compatibility checker.",
+      "stars": "8.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
-    "video-recording"
+    "resume",
+    "productivity-notes"
   ]
 }

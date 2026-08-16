@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "LibreTranslate",
+      "githubUrl": "https://github.com/LibreTranslate/LibreTranslate",
+      "description": "Free self-hosted machine translation API — a DeepL alternative.",
+      "stars": "16.0k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Argos Translate",
+      "githubUrl": "https://github.com/argosopentech/argos-translate",
+      "description": "Open-source offline neural machine translation library.",
+      "stars": "6.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "translation",
     "productivity-notes"
   ]
 }

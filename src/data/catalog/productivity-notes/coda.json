@@ -58,14 +58,20 @@
     {
       "name": "AppFlowy",
       "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "description": "Open-source Notion alternative — docs, wikis, and projects with local-first data.",
+      "stars": "75.5k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "AFFiNE",
+      "githubUrl": "https://github.com/toeverything/AFFiNE",
+      "description": "Open-source workspace combining docs, whiteboards, and databases.",
+      "stars": "71.6k★"
+    },
+    {
+      "name": "Outline",
+      "githubUrl": "https://github.com/outline/outline",
+      "description": "Fast, collaborative team wiki and knowledge base.",
+      "stars": "40.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "team-docs",
     "productivity-notes"
   ]
 }

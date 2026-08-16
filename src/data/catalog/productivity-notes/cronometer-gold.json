@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "wger",
+      "githubUrl": "https://github.com/wger-project/wger",
+      "description": "Self-hosted fitness, workout, and nutrition manager.",
+      "stars": "6.7k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "OpenNutriTracker",
+      "githubUrl": "https://github.com/simonoppowa/OpenNutriTracker",
+      "description": "Privacy-first open-source calorie and nutrition tracker.",
+      "stars": "2.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "nutrition",
     "productivity-notes"
   ]
 }

@@ -56,21 +56,21 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "BigBlueButton",
+      "githubUrl": "https://github.com/bigbluebutton/bigbluebutton",
+      "description": "Open-source virtual classroom and webinar system.",
+      "stars": "9.2k★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
+      "name": "Jitsi Meet",
+      "githubUrl": "https://github.com/jitsi/jitsi-meet",
+      "description": "Secure, fully-featured open-source video conferencing.",
+      "stars": "29.7k★"
     },
     {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
+      "name": "Owncast",
+      "githubUrl": "https://github.com/owncast/owncast",
+      "description": "Self-hosted live streaming and chat server.",
       "stars": "11.5k★"
     }
   ],
@@ -93,6 +93,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "webinar",
+    "communication"
   ]
 }

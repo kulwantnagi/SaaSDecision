@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "AdventureLog",
+      "githubUrl": "https://github.com/seanmorley15/AdventureLog",
+      "description": "Self-hosted travel tracker and trip planner.",
+      "stars": "3.5k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Organic Maps",
+      "githubUrl": "https://github.com/organicmaps/organicmaps",
+      "description": "Privacy-focused offline maps for travelers, hikers, and cyclists.",
+      "stars": "15.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "travel",
     "productivity-notes"
   ]
 }

@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Excalidraw",
+      "githubUrl": "https://github.com/excalidraw/excalidraw",
+      "description": "Virtual whiteboard for sketching hand-drawn-style diagrams.",
+      "stars": "129.8k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "tldraw",
+      "githubUrl": "https://github.com/tldraw/tldraw",
+      "description": "Infinite-canvas whiteboard SDK and app.",
+      "stars": "49.8k★"
+    },
+    {
+      "name": "AFFiNE",
+      "githubUrl": "https://github.com/toeverything/AFFiNE",
+      "description": "Open-source workspace combining docs, whiteboards, and databases.",
+      "stars": "71.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "whiteboard",
+    "productivity-notes"
   ]
 }

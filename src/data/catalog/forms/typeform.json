@@ -84,16 +84,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Privacy-first open-source surveys and experience management.",
+      "stars": "12.8k★"
+    },
+    {
+      "name": "HeyForm",
+      "githubUrl": "https://github.com/heyform/heyform",
+      "description": "Open-source form builder for conversational forms and surveys.",
       "stars": "8.9k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "LimeSurvey",
+      "githubUrl": "https://github.com/LimeSurvey/LimeSurvey",
+      "description": "The most popular open-source survey software.",
+      "stars": "3.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -107,7 +113,6 @@
     }
   ],
   "tags": [
-    "e-signature",
-    "form-builder"
+    "forms"
   ]
 }

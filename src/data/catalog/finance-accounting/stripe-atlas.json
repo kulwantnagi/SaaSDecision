@@ -77,16 +77,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Invoice Ninja",
-      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
-      "description": "Open-source invoicing, expenses, and time tracking app.",
-      "stars": "8k★"
+      "name": "Docassemble",
+      "githubUrl": "https://github.com/jhpyle/docassemble",
+      "description": "Open-source guided interviews and legal document automation.",
+      "stars": "977★"
     },
     {
-      "name": "ERPNext",
-      "githubUrl": "https://github.com/frappe/erpnext",
-      "description": "Open-source ERP and accounting platform for business management.",
-      "stars": "18k★"
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "Open-source document signing — a DocuSign alternative.",
+      "stars": "14.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -108,6 +108,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "legal-docs",
+    "finance-accounting"
   ]
 }

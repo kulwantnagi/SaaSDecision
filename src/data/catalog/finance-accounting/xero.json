@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Invoice Ninja",
-      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
-      "description": "Open-source invoicing, expenses, and time tracking app.",
-      "stars": "8k★"
+      "name": "Akaunting",
+      "githubUrl": "https://github.com/akaunting/akaunting",
+      "description": "Free online accounting software for small businesses.",
+      "stars": "10.1k★"
     },
     {
       "name": "ERPNext",
       "githubUrl": "https://github.com/frappe/erpnext",
-      "description": "Open-source ERP and accounting platform for business management.",
-      "stars": "18k★"
+      "description": "Free and open-source ERP covering accounting, inventory, HR, and more.",
+      "stars": "38.2k★"
+    },
+    {
+      "name": "GnuCash",
+      "githubUrl": "https://github.com/Gnucash/gnucash",
+      "description": "Mature double-entry accounting software for personal and small-business finance.",
+      "stars": "4.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -79,6 +85,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "accounting",
+    "finance-accounting"
   ]
 }

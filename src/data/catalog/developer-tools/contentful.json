@@ -55,16 +55,22 @@
   ],
   "openSourceAlternatives": [
     {
+      "name": "Payload CMS",
+      "githubUrl": "https://github.com/payloadcms/payload",
+      "description": "Open-source Next.js-native headless CMS and application framework.",
+      "stars": "44.2k★"
+    },
+    {
       "name": "Strapi",
       "githubUrl": "https://github.com/strapi/strapi",
-      "description": "Open-source headless CMS.",
-      "stars": "61k★"
+      "description": "The leading open-source headless CMS, fully customizable.",
+      "stars": "72.9k★"
     },
     {
       "name": "Directus",
       "githubUrl": "https://github.com/directus/directus",
-      "description": "Open-source data platform & CMS.",
-      "stars": "28k★"
+      "description": "Instant realtime API and no-code data collaboration app for any SQL database.",
+      "stars": "37.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -78,6 +84,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "headless-cms",
+    "developer-tools"
   ]
 }

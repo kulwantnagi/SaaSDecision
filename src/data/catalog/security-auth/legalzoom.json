@@ -71,16 +71,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for legally binding document workflows.",
-      "stars": "8.9k★"
+      "name": "Docassemble",
+      "githubUrl": "https://github.com/jhpyle/docassemble",
+      "description": "Open-source guided interviews and legal document automation.",
+      "stars": "977★"
     },
     {
-      "name": "OpenContract",
-      "githubUrl": "https://github.com/GSA/opencontracts",
-      "description": "Open-source legal document parsing, contract review, and agreement management software.",
-      "stars": "2.4k★"
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "Open-source document signing — a DocuSign alternative.",
+      "stars": "14.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -102,9 +102,7 @@
     }
   ],
   "tags": [
-    "e-signature",
-    "legal-tech",
-    "business-formation",
-    "compliance"
+    "legal-docs",
+    "security-auth"
   ]
 }

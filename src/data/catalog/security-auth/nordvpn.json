@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Bitwarden",
-      "githubUrl": "https://github.com/bitwarden/server",
-      "description": "Open-source password management solution.",
-      "stars": "15k★"
+      "name": "Amnezia VPN",
+      "githubUrl": "https://github.com/amnezia-vpn/amnezia-client",
+      "description": "Open-source client for deploying a personal self-hosted VPN.",
+      "stars": "14.5k★"
     },
     {
-      "name": "Authentik",
-      "githubUrl": "https://github.com/goauthentik/authentik",
-      "description": "Open-source Identity Provider focused on flexibility and security.",
-      "stars": "14k★"
+      "name": "NetBird",
+      "githubUrl": "https://github.com/netbirdio/netbird",
+      "description": "WireGuard-based overlay network with SSO and access control.",
+      "stars": "28.4k★"
+    },
+    {
+      "name": "Headscale",
+      "githubUrl": "https://github.com/juanfont/headscale",
+      "description": "Self-hosted open-source implementation of the Tailscale control server.",
+      "stars": "42.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "vpn",
+    "security-auth"
   ]
 }

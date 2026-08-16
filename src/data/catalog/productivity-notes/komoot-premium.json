@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "OsmAnd",
+      "githubUrl": "https://github.com/osmandapp/OsmAnd",
+      "description": "Open-source offline maps and navigation based on OpenStreetMap.",
+      "stars": "5.9k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Organic Maps",
+      "githubUrl": "https://github.com/organicmaps/organicmaps",
+      "description": "Privacy-focused offline maps for travelers, hikers, and cyclists.",
+      "stars": "15.1k★"
+    },
+    {
+      "name": "FitTrackee",
+      "githubUrl": "https://github.com/SamR1/FitTrackee",
+      "description": "Self-hosted outdoor activity tracker — a Strava alternative.",
+      "stars": "1.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "outdoor-maps",
     "productivity-notes"
   ]
 }

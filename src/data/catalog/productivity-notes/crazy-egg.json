@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "OpenReplay",
+      "githubUrl": "https://github.com/openreplay/openreplay",
+      "description": "Self-hosted session replay and product analytics suite.",
+      "stars": "12.5k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics with session replay, feature flags, and A/B testing.",
+      "stars": "37.7k★"
+    },
+    {
+      "name": "Matomo",
+      "githubUrl": "https://github.com/matomo-org/matomo",
+      "description": "Google Analytics alternative that protects your data and visitors' privacy.",
+      "stars": "21.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "session-replay",
     "productivity-notes"
   ]
 }

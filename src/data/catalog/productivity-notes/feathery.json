@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Privacy-first open-source surveys and experience management.",
+      "stars": "12.8k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "HeyForm",
+      "githubUrl": "https://github.com/heyform/heyform",
+      "description": "Open-source form builder for conversational forms and surveys.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "LimeSurvey",
+      "githubUrl": "https://github.com/LimeSurvey/LimeSurvey",
+      "description": "The most popular open-source survey software.",
+      "stars": "3.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "forms",
     "productivity-notes"
   ]
 }

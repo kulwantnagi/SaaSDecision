@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Crawlee",
+      "githubUrl": "https://github.com/apify/crawlee",
+      "description": "Web scraping and browser automation library for building reliable crawlers.",
+      "stars": "25.4k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "Scrapy",
+      "githubUrl": "https://github.com/scrapy/scrapy",
+      "description": "Fast high-level web crawling and scraping framework for Python.",
+      "stars": "63.9k★"
+    },
+    {
+      "name": "Maxun",
+      "githubUrl": "https://github.com/getmaxun/maxun",
+      "description": "Open-source no-code web data extraction — train a robot in two minutes.",
+      "stars": "17.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -109,6 +115,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "web-scraping",
+    "automation"
   ]
 }

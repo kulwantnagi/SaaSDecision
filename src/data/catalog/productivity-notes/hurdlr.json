@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Actual Budget",
+      "githubUrl": "https://github.com/actualbudget/actual",
+      "description": "Local-first personal budgeting app — a YNAB alternative.",
+      "stars": "28.2k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Firefly III",
+      "githubUrl": "https://github.com/firefly-iii/firefly-iii",
+      "description": "Self-hosted personal finance manager with budgets, rules, and reports.",
+      "stars": "24.3k★"
+    },
+    {
+      "name": "Ghostfolio",
+      "githubUrl": "https://github.com/ghostfolio/ghostfolio",
+      "description": "Open-source wealth and investment portfolio tracker.",
+      "stars": "9.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "personal-finance",
     "productivity-notes"
   ]
 }

@@ -65,14 +65,20 @@
     {
       "name": "Coolify",
       "githubUrl": "https://github.com/coollabsio/coolify",
-      "description": "Self-hostable open-source deployment platform alternative to Heroku & Vercel.",
-      "stars": "30k★"
+      "description": "Self-hostable Heroku/Netlify/Vercel alternative.",
+      "stars": "60.6k★"
     },
     {
       "name": "Dokploy",
       "githubUrl": "https://github.com/Dokploy/dokploy",
-      "description": "Open-source PaaS for deploying apps and databases effortlessly.",
-      "stars": "10.5k★"
+      "description": "Self-hosted PaaS for deploying apps and databases on your own servers.",
+      "stars": "36.6k★"
+    },
+    {
+      "name": "CapRover",
+      "githubUrl": "https://github.com/caprover/caprover",
+      "description": "One-click self-hosted PaaS for apps and databases.",
+      "stars": "15.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
+    "paas-hosting",
     "productivity-notes"
   ]
 }

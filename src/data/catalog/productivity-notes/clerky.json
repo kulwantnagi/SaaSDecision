@@ -63,16 +63,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Docassemble",
+      "githubUrl": "https://github.com/jhpyle/docassemble",
+      "description": "Open-source guided interviews and legal document automation.",
+      "stars": "977★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Documenso",
+      "githubUrl": "https://github.com/documenso/documenso",
+      "description": "Open-source document signing — a DocuSign alternative.",
+      "stars": "14.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +94,7 @@
     }
   ],
   "tags": [
+    "legal-docs",
     "productivity-notes"
   ]
 }

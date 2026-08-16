@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "SadTalker",
+      "githubUrl": "https://github.com/OpenTalker/SadTalker",
+      "description": "Generate talking-head video from a single image and audio.",
+      "stars": "14.0k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "LivePortrait",
+      "githubUrl": "https://github.com/KwaiVGI/LivePortrait",
+      "description": "Efficient portrait animation with stitching and retargeting control.",
+      "stars": "18.9k★"
+    },
+    {
+      "name": "Wav2Lip",
+      "githubUrl": "https://github.com/Rudrabha/Wav2Lip",
+      "description": "Accurate lip-sync of video to any target speech.",
+      "stars": "13.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
+    "ai-avatar",
     "productivity-notes"
   ]
 }

@@ -49,16 +49,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "LimeSurvey",
+      "githubUrl": "https://github.com/LimeSurvey/LimeSurvey",
+      "description": "The most popular open-source survey software.",
+      "stars": "3.7k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Privacy-first open-source surveys and experience management.",
+      "stars": "12.8k★"
+    },
+    {
+      "name": "HeyForm",
+      "githubUrl": "https://github.com/heyform/heyform",
+      "description": "Open-source form builder for conversational forms and surveys.",
+      "stars": "8.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -80,6 +86,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "surveys",
+    "forms"
   ]
 }

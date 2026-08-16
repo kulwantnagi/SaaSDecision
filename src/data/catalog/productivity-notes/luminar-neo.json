@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Darktable",
+      "githubUrl": "https://github.com/darktable-org/darktable",
+      "description": "Open-source photography workflow and raw developer — a Lightroom alternative.",
+      "stars": "12.9k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "GIMP",
+      "githubUrl": "https://github.com/GNOME/gimp",
+      "description": "The GNU Image Manipulation Program — free Photoshop alternative.",
+      "stars": "6.4k★"
+    },
+    {
+      "name": "RawTherapee",
+      "githubUrl": "https://github.com/Beep6581/RawTherapee",
+      "description": "Powerful open-source raw photo processing.",
+      "stars": "4.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "photo-editing",
     "productivity-notes"
   ]
 }

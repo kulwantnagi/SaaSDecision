@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Moodle",
-      "githubUrl": "https://github.com/moodle/moodle",
-      "description": "Open-source learning management platform.",
-      "stars": "3.5k★"
-    },
-    {
       "name": "Open edX",
       "githubUrl": "https://github.com/openedx/edx-platform",
-      "description": "Open-source online learning platform.",
-      "stars": "4k★"
+      "description": "The massive-scale open-source LMS powering edX.",
+      "stars": "8.2k★"
+    },
+    {
+      "name": "Frappe LMS",
+      "githubUrl": "https://github.com/frappe/lms",
+      "description": "Easy-to-use open-source learning management system.",
+      "stars": "3.1k★"
+    },
+    {
+      "name": "Canvas LMS",
+      "githubUrl": "https://github.com/instructure/canvas-lms",
+      "description": "Open-source LMS by Instructure used across education.",
+      "stars": "6.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "lms",
+    "education-lms"
   ]
 }

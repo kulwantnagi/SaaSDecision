@@ -70,19 +70,26 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Traefik",
+      "githubUrl": "https://github.com/traefik/traefik",
+      "description": "Cloud-native reverse proxy and load balancer.",
+      "stars": "64.5k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "BunkerWeb",
+      "githubUrl": "https://github.com/bunkerity/bunkerweb",
+      "description": "Open-source next-generation web application firewall (WAF).",
+      "stars": "10.8k★"
+    },
+    {
+      "name": "Pangolin",
+      "githubUrl": "https://github.com/fosrl/pangolin",
+      "description": "Self-hosted tunneled reverse proxy — a Cloudflare Tunnel alternative.",
+      "stars": "22.3k★"
     }
   ],
   "tags": [
-    "form-builder"
+    "cdn-security",
+    "security-auth"
   ]
 }

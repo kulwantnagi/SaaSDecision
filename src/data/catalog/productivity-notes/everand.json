@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Audiobookshelf",
+      "githubUrl": "https://github.com/advplyr/audiobookshelf",
+      "description": "Self-hosted audiobook and podcast server — an Audible alternative.",
+      "stars": "14.0k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Calibre",
+      "githubUrl": "https://github.com/kovidgoyal/calibre",
+      "description": "The one-stop open-source e-book manager.",
+      "stars": "25.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "audiobooks",
     "productivity-notes"
   ]
 }

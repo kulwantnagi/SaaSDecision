@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenSEO",
-      "githubUrl": "https://github.com/openseo/openseo",
-      "description": "Open-source website audit and keyword tracking tools.",
-      "stars": "1.2k★"
+      "name": "SerpBear",
+      "githubUrl": "https://github.com/towfiqi/serpbear",
+      "description": "Self-hosted search-engine rank tracking for your keywords.",
+      "stars": "2.0k★"
     },
     {
-      "name": "SERP-Scraper",
-      "githubUrl": "https://github.com/serp-scraper/serp-scraper",
-      "description": "Open-source Google SERP rank tracking and SEO analysis scraper.",
-      "stars": "2.1k★"
+      "name": "SEOnaut",
+      "githubUrl": "https://github.com/StJudeWasHere/seonaut",
+      "description": "Open-source technical SEO crawler and site auditor.",
+      "stars": "762★"
+    },
+    {
+      "name": "Matomo",
+      "githubUrl": "https://github.com/matomo-org/matomo",
+      "description": "Google Analytics alternative that protects your data and visitors' privacy.",
+      "stars": "21.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -86,7 +92,7 @@
     }
   ],
   "tags": [
-    "seo-tools",
-    "email"
+    "seo",
+    "marketing-email"
   ]
 }

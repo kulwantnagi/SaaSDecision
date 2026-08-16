@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Freeplane",
+      "githubUrl": "https://github.com/freeplane/freeplane",
+      "description": "Free mind-mapping and knowledge-organization software.",
+      "stars": "4.3k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "draw.io",
+      "githubUrl": "https://github.com/jgraph/drawio",
+      "description": "Free configurable diagramming application — a Lucidchart alternative.",
+      "stars": "7.5k★"
+    },
+    {
+      "name": "Excalidraw",
+      "githubUrl": "https://github.com/excalidraw/excalidraw",
+      "description": "Virtual whiteboard for sketching hand-drawn-style diagrams.",
+      "stars": "129.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
+    "mind-mapping",
     "productivity-notes"
   ]
 }

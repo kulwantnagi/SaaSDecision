@@ -69,19 +69,20 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Coolify",
-      "githubUrl": "https://github.com/coollabsio/coolify",
-      "description": "Self-hostable open-source deployment platform alternative to Heroku & Vercel.",
-      "stars": "30k★"
+      "name": "Appwrite",
+      "githubUrl": "https://github.com/appwrite/appwrite",
+      "description": "Open-source backend-as-a-service with auth, databases, functions, and storage.",
+      "stars": "57.0k★"
     },
     {
-      "name": "Dokploy",
-      "githubUrl": "https://github.com/Dokploy/dokploy",
-      "description": "Open-source PaaS for deploying apps and databases effortlessly.",
-      "stars": "10.5k★"
+      "name": "PocketBase",
+      "githubUrl": "https://github.com/pocketbase/pocketbase",
+      "description": "Open-source backend in a single file — database, auth, and realtime.",
+      "stars": "60.7k★"
     }
   ],
   "tags": [
-    "productivity-notes"
+    "baas",
+    "security-auth"
   ]
 }

@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Thunderbird",
-      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
-      "description": "Open-source, privacy-focused email and calendar client.",
-      "stars": "3.5k★"
+      "name": "Mailcow",
+      "githubUrl": "https://github.com/mailcow/mailcow-dockerized",
+      "description": "Dockerized self-hosted email server suite with webmail and admin UI.",
+      "stars": "13.3k★"
     },
     {
-      "name": "Mailspring",
-      "githubUrl": "https://github.com/Foundry376/Mailspring",
-      "description": "Extensible open-source email client with unified inbox and tracking.",
-      "stars": "14.8k★"
+      "name": "Mail-in-a-Box",
+      "githubUrl": "https://github.com/mail-in-a-box/mailinabox",
+      "description": "One-command self-hosted mail server for taking back control of your email.",
+      "stars": "15.4k★"
+    },
+    {
+      "name": "Stalwart",
+      "githubUrl": "https://github.com/stalwartlabs/stalwart",
+      "description": "All-in-one Rust mail server with JMAP, IMAP, and SMTP.",
+      "stars": "14.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "email"
+    "email-service",
+    "marketing-email"
   ]
 }

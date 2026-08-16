@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Subtitle Edit",
+      "githubUrl": "https://github.com/SubtitleEdit/subtitleedit",
+      "description": "Full-featured editor for creating and syncing video subtitles.",
+      "stars": "13.8k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "WhisperX",
+      "githubUrl": "https://github.com/m-bain/whisperX",
+      "description": "Fast Whisper transcription with word-level timestamps and diarization.",
+      "stars": "23.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "subtitles",
     "productivity-notes"
   ]
 }

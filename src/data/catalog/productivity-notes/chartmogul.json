@@ -63,16 +63,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Lago",
+      "githubUrl": "https://github.com/getlago/lago",
+      "description": "Open-source metering and usage-based billing — a Stripe Billing/Chargebee alternative.",
+      "stars": "10.3k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics with session replay, feature flags, and A/B testing.",
+      "stars": "37.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +94,7 @@
     }
   ],
   "tags": [
+    "revenue-analytics",
     "productivity-notes"
   ]
 }

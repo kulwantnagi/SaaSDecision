@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "massCode",
+      "githubUrl": "https://github.com/massCodeIO/massCode",
+      "description": "Free open-source code snippets manager for developers.",
+      "stars": "7.0k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Continue",
+      "githubUrl": "https://github.com/continuedev/continue",
+      "description": "Open-source AI code assistant for VS Code and JetBrains.",
+      "stars": "35.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "snippets",
     "productivity-notes"
   ]
 }

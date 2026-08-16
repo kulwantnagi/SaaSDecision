@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Plane",
+      "githubUrl": "https://github.com/makeplane/plane",
+      "description": "Open-source project and issue tracking — a Jira/Linear alternative.",
+      "stars": "56.0k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Huly",
+      "githubUrl": "https://github.com/hcengineering/platform",
+      "description": "All-in-one platform replacing Linear, Jira, Slack, and Notion.",
+      "stars": "27.4k★"
+    },
+    {
+      "name": "OpenProject",
+      "githubUrl": "https://github.com/opf/openproject",
+      "description": "Full-featured open-source project management with Gantt, agile boards, and time tracking.",
+      "stars": "15.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "issue-tracking",
+    "design-media"
   ]
 }

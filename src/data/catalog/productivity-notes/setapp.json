@@ -49,16 +49,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Hammerspoon",
+      "githubUrl": "https://github.com/Hammerspoon/hammerspoon",
+      "description": "Powerful macOS automation bridging OS APIs and Lua scripting.",
+      "stars": "15.9k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Maccy",
+      "githubUrl": "https://github.com/p0deje/Maccy",
+      "description": "Lightweight clipboard manager for macOS.",
+      "stars": "21.2k★"
+    },
+    {
+      "name": "Espanso",
+      "githubUrl": "https://github.com/espanso/espanso",
+      "description": "Cross-platform text expander written in Rust — a TextExpander alternative.",
+      "stars": "14.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [

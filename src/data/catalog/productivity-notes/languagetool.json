@@ -56,16 +56,10 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "LanguageTool OS",
-      "githubUrl": "https://github.com/languagetool-org/languagetool",
-      "description": "Style and Grammar Checker for 30+ Languages.",
-      "stars": "11.5k★"
-    },
-    {
       "name": "Harper",
-      "githubUrl": "https://github.com/elijah-potter/harper",
-      "description": "The open-source grammar checker for developers.",
-      "stars": "2.4k★"
+      "githubUrl": "https://github.com/Automattic/harper",
+      "description": "Fast, private grammar checker that runs entirely on your device.",
+      "stars": "14.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +81,7 @@
     }
   ],
   "tags": [
+    "grammar",
     "productivity-notes"
   ]
 }

@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Twenty",
-      "githubUrl": "https://github.com/twentyhq/twenty",
-      "description": "Building a modern open-source alternative to Salesforce.",
-      "stars": "24.1k★"
+      "name": "Mautic",
+      "githubUrl": "https://github.com/mautic/mautic",
+      "description": "Open-source marketing automation — campaigns, segments, and email nurture.",
+      "stars": "10.3k★"
     },
     {
-      "name": "SuiteCRM",
-      "githubUrl": "https://github.com/salesagility/SuiteCRM",
-      "description": "Enterprise-grade open-source CRM software for customer relationship management.",
-      "stars": "4.8k★"
+      "name": "Listmonk",
+      "githubUrl": "https://github.com/knadh/listmonk",
+      "description": "High-performance self-hosted newsletter and mailing list manager.",
+      "stars": "22.9k★"
+    },
+    {
+      "name": "n8n",
+      "githubUrl": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation with native AI and 400+ integrations — a Zapier alternative.",
+      "stars": "200.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
-    "crm"
+    "cold-outreach",
+    "crm-sales"
   ]
 }

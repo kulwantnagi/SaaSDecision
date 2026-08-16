@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Crawlee",
+      "githubUrl": "https://github.com/apify/crawlee",
+      "description": "Web scraping and browser automation library for building reliable crawlers.",
+      "stars": "25.4k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Scrapy",
+      "githubUrl": "https://github.com/scrapy/scrapy",
+      "description": "Fast high-level web crawling and scraping framework for Python.",
+      "stars": "63.9k★"
+    },
+    {
+      "name": "Maxun",
+      "githubUrl": "https://github.com/getmaxun/maxun",
+      "description": "Open-source no-code web data extraction — train a robot in two minutes.",
+      "stars": "17.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
+    "web-scraping",
     "productivity-notes"
   ]
 }

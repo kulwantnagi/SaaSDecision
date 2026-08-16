@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Linkwarden",
+      "githubUrl": "https://github.com/linkwarden/linkwarden",
+      "description": "Collaborative bookmark manager to collect, organize, and archive webpages.",
+      "stars": "19.5k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "Karakeep",
+      "githubUrl": "https://github.com/karakeep-app/karakeep",
+      "description": "Self-hosted bookmark-everything app with AI-based tagging.",
+      "stars": "28.4k★"
+    },
+    {
+      "name": "Wallabag",
+      "githubUrl": "https://github.com/wallabag/wallabag",
+      "description": "Self-hosted read-it-later app — a Pocket/Instapaper alternative.",
+      "stars": "12.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "bookmarks",
+    "automation"
   ]
 }

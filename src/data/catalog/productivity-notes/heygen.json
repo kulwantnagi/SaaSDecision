@@ -77,16 +77,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Thunderbird",
-      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
-      "description": "Open-source, privacy-focused email and calendar client.",
-      "stars": "3.5k★"
+      "name": "SadTalker",
+      "githubUrl": "https://github.com/OpenTalker/SadTalker",
+      "description": "Generate talking-head video from a single image and audio.",
+      "stars": "14.0k★"
     },
     {
-      "name": "Mailspring",
-      "githubUrl": "https://github.com/Foundry376/Mailspring",
-      "description": "Extensible open-source email client with unified inbox and tracking.",
-      "stars": "14.8k★"
+      "name": "LivePortrait",
+      "githubUrl": "https://github.com/KwaiVGI/LivePortrait",
+      "description": "Efficient portrait animation with stitching and retargeting control.",
+      "stars": "18.9k★"
+    },
+    {
+      "name": "Wav2Lip",
+      "githubUrl": "https://github.com/Rudrabha/Wav2Lip",
+      "description": "Accurate lip-sync of video to any target speech.",
+      "stars": "13.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -108,6 +114,7 @@
     }
   ],
   "tags": [
-    "email"
+    "ai-avatar",
+    "productivity-notes"
   ]
 }

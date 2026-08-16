@@ -72,17 +72,24 @@
     {
       "name": "Twenty",
       "githubUrl": "https://github.com/twentyhq/twenty",
-      "description": "Building a modern open-source alternative to Salesforce.",
-      "stars": "24.1k★"
+      "description": "Modern open-source CRM — a Salesforce alternative.",
+      "stars": "55.0k★"
+    },
+    {
+      "name": "EspoCRM",
+      "githubUrl": "https://github.com/espocrm/espocrm",
+      "description": "Full-featured open-source CRM with sales automation and workflows.",
+      "stars": "3.2k★"
     },
     {
       "name": "SuiteCRM",
       "githubUrl": "https://github.com/salesagility/SuiteCRM",
-      "description": "Enterprise-grade open-source CRM software for customer relationship management.",
-      "stars": "4.8k★"
+      "description": "Enterprise-grade open-source CRM forked from SugarCRM.",
+      "stars": "5.7k★"
     }
   ],
   "tags": [
-    "crm"
+    "crm",
+    "crm-sales"
   ]
 }

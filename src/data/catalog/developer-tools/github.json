@@ -77,19 +77,26 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Gitea",
+      "githubUrl": "https://github.com/go-gitea/gitea",
+      "description": "Painless self-hosted Git service with CI, packages, and code review.",
+      "stars": "57.4k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "GitLab CE",
+      "githubUrl": "https://github.com/gitlabhq/gitlabhq",
+      "description": "Complete open-source DevOps platform with repos, CI/CD, and issues.",
+      "stars": "24.5k★"
+    },
+    {
+      "name": "OneDev",
+      "githubUrl": "https://github.com/theonedev/onedev",
+      "description": "Self-hosted Git server with CI/CD, kanban, and code search.",
+      "stars": "15.2k★"
     }
   ],
   "tags": [
-    "form-builder"
+    "code-hosting",
+    "developer-tools"
   ]
 }

@@ -77,16 +77,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Cap",
-      "githubUrl": "https://github.com/capway/cap",
-      "description": "Open-source Loom alternative for effortless instant video screen sharing.",
-      "stars": "6.7k★"
+      "name": "Healthchecks",
+      "githubUrl": "https://github.com/healthchecks/healthchecks",
+      "description": "Cron job and scheduled-task monitoring with alerts — a Cronitor alternative.",
+      "stars": "10.2k★"
     },
     {
-      "name": "OBS Studio",
-      "githubUrl": "https://github.com/obsproject/obs-studio",
-      "description": "Free and open source software for video recording and live streaming.",
-      "stars": "58.2k★"
+      "name": "Uptime Kuma",
+      "githubUrl": "https://github.com/louislam/uptime-kuma",
+      "description": "Fancy self-hosted uptime monitoring with status pages.",
+      "stars": "90.2k★"
+    },
+    {
+      "name": "Gatus",
+      "githubUrl": "https://github.com/TwiN/gatus",
+      "description": "Automated developer-oriented health dashboard and status page.",
+      "stars": "11.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -108,8 +114,7 @@
     }
   ],
   "tags": [
-    "video-recording",
-    "uptime-monitoring",
-    "form-builder"
+    "cron-monitoring",
+    "productivity-notes"
   ]
 }

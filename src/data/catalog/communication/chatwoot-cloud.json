@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Mattermost",
-      "githubUrl": "https://github.com/mattermost/mattermost",
-      "description": "Open-source Slack alternative for developer teams.",
-      "stars": "31k★"
+      "name": "Chatwoot",
+      "githubUrl": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source customer support platform — an Intercom/Zendesk alternative.",
+      "stars": "35.9k★"
     },
     {
-      "name": "Rocket.Chat",
-      "githubUrl": "https://github.com/RocketChat/Rocket.Chat",
-      "description": "Open-source communication platform.",
-      "stars": "41k★"
+      "name": "FreeScout",
+      "githubUrl": "https://github.com/freescout-helpdesk/freescout",
+      "description": "Lightweight self-hosted help desk and shared mailbox — a Help Scout alternative.",
+      "stars": "4.5k★"
+    },
+    {
+      "name": "Zammad",
+      "githubUrl": "https://github.com/zammad/zammad",
+      "description": "Web-based open-source helpdesk and customer support ticketing.",
+      "stars": "5.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "helpdesk",
+    "communication"
   ]
 }

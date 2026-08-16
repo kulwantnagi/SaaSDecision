@@ -49,16 +49,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Anki",
+      "githubUrl": "https://github.com/ankitects/anki",
+      "description": "Powerful spaced-repetition flashcards for long-term learning.",
+      "stars": "29.8k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Lute",
+      "githubUrl": "https://github.com/LuteOrg/lute-v3",
+      "description": "Learn foreign languages through reading — open-source LWT successor.",
+      "stars": "1.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -80,6 +80,7 @@
     }
   ],
   "tags": [
+    "language-learning",
     "productivity-notes"
   ]
 }

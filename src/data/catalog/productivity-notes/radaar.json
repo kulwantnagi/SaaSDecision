@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Postiz",
+      "githubUrl": "https://github.com/gitroomhq/postiz-app",
+      "description": "Open-source social media scheduling — a Buffer/Hootsuite alternative.",
+      "stars": "34.7k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Mixpost",
+      "githubUrl": "https://github.com/inovector/mixpost",
+      "description": "Self-hosted social media management and scheduling.",
+      "stars": "3.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "social-media",
+    "productivity-notes"
   ]
 }

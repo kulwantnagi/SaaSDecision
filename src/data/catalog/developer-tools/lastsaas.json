@@ -74,20 +74,7 @@
       "url": "https://github.com/jonradoff/lastsaas"
     }
   ],
-  "openSourceAlternatives": [
-    {
-      "name": "Supabase",
-      "githubUrl": "https://github.com/supabase/supabase",
-      "description": "Open-source Firebase alternative.",
-      "stars": "70k★"
-    },
-    {
-      "name": "Coolify",
-      "githubUrl": "https://github.com/coollabsio/coolify",
-      "description": "Self-hostable deployment platform.",
-      "stars": "37k★"
-    }
-  ],
+  "openSourceAlternatives": [],
   "verifiedCommercialAlternatives": [
     {
       "name": "Vercel",

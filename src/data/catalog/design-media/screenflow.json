@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Cap",
+      "githubUrl": "https://github.com/CapSoftware/Cap",
+      "description": "Open-source screen recorder and sharing — a Loom alternative.",
+      "stars": "20.8k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "OBS Studio",
+      "githubUrl": "https://github.com/obsproject/obs-studio",
+      "description": "Free software for video recording and live streaming.",
+      "stars": "75.1k★"
+    },
+    {
+      "name": "Kap",
+      "githubUrl": "https://github.com/wulkano/Kap",
+      "description": "Open-source screen recorder for macOS built on web tech.",
+      "stars": "19.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "screen-recording",
+    "design-media"
   ]
 }

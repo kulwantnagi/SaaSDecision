@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Nextcloud",
-      "githubUrl": "https://github.com/nextcloud/server",
-      "description": "Open-source self-hosted productivity platform.",
-      "stars": "26k★"
+      "name": "Zotero",
+      "githubUrl": "https://github.com/zotero/zotero",
+      "description": "Free tool to collect, organize, cite, and share research.",
+      "stars": "15.0k★"
     },
     {
-      "name": "MinIO",
-      "githubUrl": "https://github.com/minio/minio",
-      "description": "High-performance S3 compatible object storage.",
-      "stars": "48k★"
+      "name": "JabRef",
+      "githubUrl": "https://github.com/JabRef/jabref",
+      "description": "Open-source citation and reference manager.",
+      "stars": "4.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "reference-management",
+    "developer-tools"
   ]
 }

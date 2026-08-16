@@ -58,14 +58,14 @@
     {
       "name": "LittleLink",
       "githubUrl": "https://github.com/sethcottle/littlelink",
-      "description": "Lightweight, open-source Linktree alternative with privacy focus.",
-      "stars": "6.5k★"
+      "description": "Lightweight self-hosted link-in-bio page — a Linktree alternative.",
+      "stars": "3.1k★"
     },
     {
-      "name": "BioDrop",
-      "githubUrl": "https://github.com/EddieHubCommunity/BioDrop",
-      "description": "Open-source link-in-bio platform to connect your audience to all your content.",
-      "stars": "4.1k★"
+      "name": "LinkStack",
+      "githubUrl": "https://github.com/LinkStackOrg/LinkStack",
+      "description": "Self-hosted, highly customizable link-in-bio platform.",
+      "stars": "3.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
-    "link-in-bio"
+    "link-in-bio",
+    "productivity-notes"
   ]
 }

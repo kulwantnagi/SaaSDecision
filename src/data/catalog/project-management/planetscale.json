@@ -77,16 +77,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
+      "name": "Vitess",
+      "githubUrl": "https://github.com/vitessio/vitess",
+      "description": "Cloud-native MySQL scaling system that powered PlanetScale.",
+      "stars": "21.2k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "Neon",
+      "githubUrl": "https://github.com/neondatabase/neon",
+      "description": "Open-source serverless Postgres with branching — self-hostable.",
+      "stars": "22.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -108,8 +108,6 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes",
-    "analytics",
     "project-management"
   ]
 }

@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Super Productivity",
+      "githubUrl": "https://github.com/johannesjo/super-productivity",
+      "description": "To-do list and day planner with time tracking and Jira/GitHub integration.",
+      "stars": "21.4k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "Vikunja",
+      "githubUrl": "https://github.com/go-vikunja/vikunja",
+      "description": "Self-hosted to-do and task management app with lists, kanban, and Gantt.",
+      "stars": "5.1k★"
+    },
+    {
+      "name": "Focalboard",
+      "githubUrl": "https://github.com/mattermost-community/focalboard",
+      "description": "Self-hosted project and task management boards (Trello/Notion-style).",
+      "stars": "26.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "ai-planner",
+    "automation"
   ]
 }

@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Cap",
+      "githubUrl": "https://github.com/CapSoftware/Cap",
+      "description": "Open-source screen recorder and sharing — a Loom alternative.",
+      "stars": "20.8k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "OBS Studio",
+      "githubUrl": "https://github.com/obsproject/obs-studio",
+      "description": "Free software for video recording and live streaming.",
+      "stars": "75.1k★"
+    },
+    {
+      "name": "Kap",
+      "githubUrl": "https://github.com/wulkano/Kap",
+      "description": "Open-source screen recorder for macOS built on web tech.",
+      "stars": "19.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
+    "screen-recording",
     "productivity-notes"
   ]
 }

@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "n8n",
+      "githubUrl": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation with native AI and 400+ integrations — a Zapier alternative.",
+      "stars": "200.9k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Activepieces",
+      "githubUrl": "https://github.com/activepieces/activepieces",
+      "description": "Open-source no-code business automation — a Zapier alternative.",
+      "stars": "23.8k★"
+    },
+    {
+      "name": "Automatisch",
+      "githubUrl": "https://github.com/automatisch/automatisch",
+      "description": "Open-source Zapier alternative for workflow automation.",
+      "stars": "13.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -79,6 +85,6 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "automation"
   ]
 }

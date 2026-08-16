@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenTestimonial",
-      "githubUrl": "https://github.com/opentestimonial/opentestimonial",
-      "description": "Open-source social proof & video testimonial collection tool.",
-      "stars": "1.4k★"
-    },
-    {
       "name": "Formbricks",
       "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source user feedback and testimonial survey platform.",
-      "stars": "9.3k★"
+      "description": "Privacy-first open-source surveys and experience management.",
+      "stars": "12.8k★"
+    },
+    {
+      "name": "Fider",
+      "githubUrl": "https://github.com/getfider/fider",
+      "description": "Open platform to collect and prioritize customer feedback.",
+      "stars": "4.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
-    "testimonials"
+    "testimonials",
+    "productivity-notes"
   ]
 }

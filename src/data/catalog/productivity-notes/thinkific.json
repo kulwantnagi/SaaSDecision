@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Moodle",
+      "githubUrl": "https://github.com/moodle/moodle",
+      "description": "The world's most widely used open-source learning management system.",
+      "stars": "7.3k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Frappe LMS",
+      "githubUrl": "https://github.com/frappe/lms",
+      "description": "Easy-to-use open-source learning management system.",
+      "stars": "3.1k★"
+    },
+    {
+      "name": "Open edX",
+      "githubUrl": "https://github.com/openedx/edx-platform",
+      "description": "The massive-scale open-source LMS powering edX.",
+      "stars": "8.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "course-platform",
+    "productivity-notes"
   ]
 }

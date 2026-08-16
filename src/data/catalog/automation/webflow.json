@@ -77,16 +77,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Webstudio",
+      "githubUrl": "https://github.com/webstudio-is/webstudio",
+      "description": "Open-source visual website builder with the power of code.",
+      "stars": "8.8k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "GrapesJS",
+      "githubUrl": "https://github.com/GrapesJS/grapesjs",
+      "description": "Free drag-and-drop web page builder framework.",
+      "stars": "26.1k★"
+    },
+    {
+      "name": "Silex",
+      "githubUrl": "https://github.com/silexlabs/Silex",
+      "description": "Free open-source website builder for designers.",
+      "stars": "2.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -108,6 +114,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "website-builder",
+    "automation"
   ]
 }

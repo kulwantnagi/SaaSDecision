@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "NocoDB",
+      "githubUrl": "https://github.com/nocodb/nocodb",
+      "description": "Turns any database into a smart spreadsheet — open-source Airtable alternative.",
+      "stars": "64.6k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "Baserow",
+      "githubUrl": "https://github.com/bram2w/baserow",
+      "description": "Open-source no-code database and Airtable alternative.",
+      "stars": "5.6k★"
+    },
+    {
+      "name": "Grist",
+      "githubUrl": "https://github.com/gristlabs/grist-core",
+      "description": "Modern relational spreadsheet with Python formulas and granular access control.",
+      "stars": "11.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -109,6 +115,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "database-spreadsheet",
+    "automation"
   ]
 }

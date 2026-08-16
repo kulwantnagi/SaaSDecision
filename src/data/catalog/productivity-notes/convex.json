@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Twenty",
-      "githubUrl": "https://github.com/twentyhq/twenty",
-      "description": "Building a modern open-source alternative to Salesforce.",
-      "stars": "24.1k★"
+      "name": "Convex Backend",
+      "githubUrl": "https://github.com/get-convex/convex-backend",
+      "description": "The open-source reactive database powering Convex, self-hostable.",
+      "stars": "12.4k★"
     },
     {
-      "name": "SuiteCRM",
-      "githubUrl": "https://github.com/salesagility/SuiteCRM",
-      "description": "Enterprise-grade open-source CRM software for customer relationship management.",
-      "stars": "4.8k★"
+      "name": "Supabase",
+      "githubUrl": "https://github.com/supabase/supabase",
+      "description": "Open-source Firebase alternative built on Postgres.",
+      "stars": "108.0k★"
+    },
+    {
+      "name": "PocketBase",
+      "githubUrl": "https://github.com/pocketbase/pocketbase",
+      "description": "Open-source backend in a single file — database, auth, and realtime.",
+      "stars": "60.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,8 +93,7 @@
     }
   ],
   "tags": [
-    "crm",
-    "form-builder",
-    "email"
+    "baas",
+    "productivity-notes"
   ]
 }

@@ -63,22 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "Castopod",
+      "githubUrl": "https://github.com/ad-aures/castopod",
+      "description": "Self-hosted podcast hosting with built-in fediverse community.",
+      "stars": "863★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
+      "name": "Audiobookshelf",
+      "githubUrl": "https://github.com/advplyr/audiobookshelf",
+      "description": "Self-hosted audiobook and podcast server — an Audible alternative.",
+      "stars": "14.0k★"
     },
     {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "name": "AzuraCast",
+      "githubUrl": "https://github.com/AzuraCast/AzuraCast",
+      "description": "Self-hosted web radio management suite.",
+      "stars": "4.0k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -100,6 +100,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "podcast-hosting",
+    "communication"
   ]
 }

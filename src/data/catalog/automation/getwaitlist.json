@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Privacy-first open-source surveys and experience management.",
+      "stars": "12.8k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "HeyForm",
+      "githubUrl": "https://github.com/heyform/heyform",
+      "description": "Open-source form builder for conversational forms and surveys.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "LimeSurvey",
+      "githubUrl": "https://github.com/LimeSurvey/LimeSurvey",
+      "description": "The most popular open-source survey software.",
+      "stars": "3.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "forms",
+    "automation"
   ]
 }

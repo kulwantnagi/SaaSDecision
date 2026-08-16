@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Amnezia VPN",
+      "githubUrl": "https://github.com/amnezia-vpn/amnezia-client",
+      "description": "Open-source client for deploying a personal self-hosted VPN.",
+      "stars": "14.5k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "NetBird",
+      "githubUrl": "https://github.com/netbirdio/netbird",
+      "description": "WireGuard-based overlay network with SSO and access control.",
+      "stars": "28.4k★"
+    },
+    {
+      "name": "Headscale",
+      "githubUrl": "https://github.com/juanfont/headscale",
+      "description": "Self-hosted open-source implementation of the Tailscale control server.",
+      "stars": "42.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "vpn",
     "productivity-notes"
   ]
 }

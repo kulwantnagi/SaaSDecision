@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Slidev",
+      "githubUrl": "https://github.com/slidevjs/slidev",
+      "description": "Presentation slides for developers, written in markdown.",
+      "stars": "48.1k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Marp",
+      "githubUrl": "https://github.com/marp-team/marp",
+      "description": "Markdown presentation ecosystem.",
+      "stars": "12.4k★"
+    },
+    {
+      "name": "reveal.js",
+      "githubUrl": "https://github.com/hakimel/reveal.js",
+      "description": "Open-source HTML presentation framework.",
+      "stars": "72.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "presentations",
+    "productivity-notes"
   ]
 }

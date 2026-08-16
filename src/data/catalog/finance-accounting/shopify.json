@@ -84,16 +84,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Invoice Ninja",
-      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
-      "description": "Open-source invoicing, expenses, and time tracking app.",
-      "stars": "8k★"
+      "name": "Medusa",
+      "githubUrl": "https://github.com/medusajs/medusa",
+      "description": "Open-source commerce platform — a headless Shopify alternative.",
+      "stars": "35.9k★"
     },
     {
-      "name": "ERPNext",
-      "githubUrl": "https://github.com/frappe/erpnext",
-      "description": "Open-source ERP and accounting platform for business management.",
-      "stars": "18k★"
+      "name": "Saleor",
+      "githubUrl": "https://github.com/saleor/saleor",
+      "description": "High-performance, GraphQL-first open-source e-commerce platform.",
+      "stars": "23.2k★"
+    },
+    {
+      "name": "WooCommerce",
+      "githubUrl": "https://github.com/woocommerce/woocommerce",
+      "description": "Customizable open-source e-commerce built on WordPress.",
+      "stars": "10.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -107,6 +113,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "ecommerce",
+    "finance-accounting"
   ]
 }

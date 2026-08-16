@@ -58,16 +58,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Mailcow",
+      "githubUrl": "https://github.com/mailcow/mailcow-dockerized",
+      "description": "Dockerized self-hosted email server suite with webmail and admin UI.",
+      "stars": "13.3k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Mail-in-a-Box",
+      "githubUrl": "https://github.com/mail-in-a-box/mailinabox",
+      "description": "One-command self-hosted mail server for taking back control of your email.",
+      "stars": "15.4k★"
+    },
+    {
+      "name": "Stalwart",
+      "githubUrl": "https://github.com/stalwartlabs/stalwart",
+      "description": "All-in-one Rust mail server with JMAP, IMAP, and SMTP.",
+      "stars": "14.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -89,7 +95,7 @@
     }
   ],
   "tags": [
-    "e-signature",
-    "email"
+    "email-service",
+    "marketing-email"
   ]
 }

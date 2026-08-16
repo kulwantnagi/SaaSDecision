@@ -77,22 +77,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plausible Analytics",
-      "githubUrl": "https://github.com/plausible/analytics",
-      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
-      "stars": "31.2k★"
+      "name": "Planka",
+      "githubUrl": "https://github.com/plankanban/planka",
+      "description": "Elegant self-hosted kanban board — a Trello alternative.",
+      "stars": "12.4k★"
     },
     {
-      "name": "Umami",
-      "githubUrl": "https://github.com/umami-software/umami",
-      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
-      "stars": "27.4k★"
+      "name": "Focalboard",
+      "githubUrl": "https://github.com/mattermost-community/focalboard",
+      "description": "Self-hosted project and task management boards (Trello/Notion-style).",
+      "stars": "26.4k★"
     },
     {
-      "name": "PostHog",
-      "githubUrl": "https://github.com/PostHog/posthog",
-      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
-      "stars": "24.5k★"
+      "name": "WeKan",
+      "githubUrl": "https://github.com/wekan/wekan",
+      "description": "Open-source kanban board with swimlanes and rules automation.",
+      "stars": "21.0k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -114,8 +114,7 @@
     }
   ],
   "tags": [
-    "analytics",
-    "email",
+    "kanban",
     "project-management"
   ]
 }

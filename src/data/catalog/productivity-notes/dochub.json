@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Stirling PDF",
+      "githubUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "description": "Self-hosted web app for 50+ PDF operations — merge, split, convert, sign.",
+      "stars": "89.6k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "PDF Arranger",
+      "githubUrl": "https://github.com/pdfarranger/pdfarranger",
+      "description": "Merge, split, rotate, and rearrange PDF pages.",
+      "stars": "5.8k★"
+    },
+    {
+      "name": "Xournal++",
+      "githubUrl": "https://github.com/xournalpp/xournalpp",
+      "description": "Handwriting notetaking software with PDF annotation.",
+      "stars": "15.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "pdf-tools",
     "productivity-notes"
   ]
 }

@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "DeepFilterNet",
+      "githubUrl": "https://github.com/Rikorose/DeepFilterNet",
+      "description": "Real-time noise suppression using deep filtering.",
+      "stars": "4.6k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "NoiseTorch",
+      "githubUrl": "https://github.com/noisetorch/NoiseTorch",
+      "description": "Real-time microphone noise suppression on Linux.",
+      "stars": "10.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "noise-cancellation",
     "productivity-notes"
   ]
 }

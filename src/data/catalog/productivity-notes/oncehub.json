@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Cal.com",
+      "githubUrl": "https://github.com/calcom/cal.com",
+      "description": "Open-source scheduling infrastructure — a Calendly alternative.",
+      "stars": "47.7k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Easy!Appointments",
+      "githubUrl": "https://github.com/alextselegidis/easyappointments",
+      "description": "Self-hosted appointment scheduler that syncs with Google Calendar.",
+      "stars": "4.3k★"
+    },
+    {
+      "name": "Rallly",
+      "githubUrl": "https://github.com/lukevella/rallly",
+      "description": "Open-source group meeting polls — a Doodle alternative.",
+      "stars": "5.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
+    "scheduling",
     "productivity-notes"
   ]
 }

@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Ghost",
+      "githubUrl": "https://github.com/TryGhost/Ghost",
+      "description": "Independent publishing platform with newsletters and paid memberships.",
+      "stars": "54.8k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Liberapay",
+      "githubUrl": "https://github.com/liberapay/liberapay.com",
+      "description": "Open recurrent-donations platform — a Patreon alternative.",
+      "stars": "2.0k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "membership",
     "productivity-notes"
   ]
 }

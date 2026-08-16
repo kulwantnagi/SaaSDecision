@@ -57,15 +57,21 @@
   "openSourceAlternatives": [
     {
       "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
+      "githubUrl": "https://github.com/Zackriya-Solutions/meeting-minutes",
+      "description": "Privacy-first AI meeting assistant — records, transcribes, and summarizes locally.",
+      "stars": "29.2k★"
+    },
+    {
+      "name": "Amurex",
+      "githubUrl": "https://github.com/thepersonalaicompany/amurex",
+      "description": "Open-source AI meeting copilot with transcripts and action items.",
       "stars": "2.9k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "Vexa",
+      "githubUrl": "https://github.com/Vexa-ai/vexa",
+      "description": "Self-hosted API for real-time meeting transcription bots.",
+      "stars": "2.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes"
+    "ai-meeting-notes",
+    "video-conferencing"
   ]
 }

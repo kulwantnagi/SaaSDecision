@@ -49,16 +49,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Invoice Ninja",
+      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
+      "description": "Self-hosted invoicing, payments, expenses, and time tracking for freelancers and SMBs.",
+      "stars": "10.0k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Crater",
+      "githubUrl": "https://github.com/crater-invoice/crater",
+      "description": "Open-source invoicing app for freelancers and small businesses.",
+      "stars": "8.3k★"
+    },
+    {
+      "name": "Akaunting",
+      "githubUrl": "https://github.com/akaunting/akaunting",
+      "description": "Free online accounting software for small businesses.",
+      "stars": "10.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -80,6 +86,7 @@
     }
   ],
   "tags": [
+    "invoicing",
     "productivity-notes"
   ]
 }

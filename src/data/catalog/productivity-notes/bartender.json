@@ -56,16 +56,10 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
-    },
-    {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Ice",
+      "githubUrl": "https://github.com/jordanbaird/Ice",
+      "description": "Powerful open-source menu bar manager for macOS — a Bartender alternative.",
+      "stars": "29.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +81,7 @@
     }
   ],
   "tags": [
+    "menu-bar",
     "productivity-notes"
   ]
 }

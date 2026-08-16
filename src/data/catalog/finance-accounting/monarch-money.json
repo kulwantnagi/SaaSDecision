@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Invoice Ninja",
-      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
-      "description": "Open-source invoicing, expenses, and time tracking app.",
-      "stars": "8k★"
+      "name": "Actual Budget",
+      "githubUrl": "https://github.com/actualbudget/actual",
+      "description": "Local-first personal budgeting app — a YNAB alternative.",
+      "stars": "28.2k★"
     },
     {
-      "name": "ERPNext",
-      "githubUrl": "https://github.com/frappe/erpnext",
-      "description": "Open-source ERP and accounting platform for business management.",
-      "stars": "18k★"
+      "name": "Firefly III",
+      "githubUrl": "https://github.com/firefly-iii/firefly-iii",
+      "description": "Self-hosted personal finance manager with budgets, rules, and reports.",
+      "stars": "24.3k★"
+    },
+    {
+      "name": "Ghostfolio",
+      "githubUrl": "https://github.com/ghostfolio/ghostfolio",
+      "description": "Open-source wealth and investment portfolio tracker.",
+      "stars": "9.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "personal-finance",
+    "finance-accounting"
   ]
 }

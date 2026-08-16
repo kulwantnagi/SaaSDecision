@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "LanguageTool",
+      "githubUrl": "https://github.com/languagetool-org/languagetool",
+      "description": "Open-source grammar, style, and spell checker for 25+ languages.",
+      "stars": "14.8k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Harper",
+      "githubUrl": "https://github.com/Automattic/harper",
+      "description": "Fast, private grammar checker that runs entirely on your device.",
+      "stars": "14.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "grammar",
     "productivity-notes"
   ]
 }

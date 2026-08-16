@@ -56,22 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "Vicinae",
+      "githubUrl": "https://github.com/vicinaehq/vicinae",
+      "description": "Native, Raycast-compatible open-source launcher.",
+      "stars": "8.9k★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
+      "name": "Ueli",
+      "githubUrl": "https://github.com/oliverschwendener/ueli",
+      "description": "Cross-platform keystroke launcher — an Alfred alternative.",
+      "stars": "4.6k★"
     },
     {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "name": "Sol",
+      "githubUrl": "https://github.com/ospfranco/sol",
+      "description": "Open-source macOS launcher — a Spotlight/Raycast alternative.",
+      "stars": "3.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,6 +93,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "launcher",
+    "communication"
   ]
 }

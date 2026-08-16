@@ -77,22 +77,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "Kdenlive",
+      "githubUrl": "https://github.com/KDE/kdenlive",
+      "description": "Free and open-source professional video editor.",
+      "stars": "5.5k★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
+      "name": "Shotcut",
+      "githubUrl": "https://github.com/mltframework/shotcut",
+      "description": "Cross-platform open-source video editor.",
+      "stars": "14.9k★"
     },
     {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "name": "OpenShot",
+      "githubUrl": "https://github.com/OpenShot/openshot-qt",
+      "description": "Award-winning free and easy-to-use video editor.",
+      "stars": "6.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -114,6 +114,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "video-editing",
+    "developer-tools"
   ]
 }

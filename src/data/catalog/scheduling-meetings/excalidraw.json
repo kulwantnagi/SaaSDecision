@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
+      "name": "tldraw",
+      "githubUrl": "https://github.com/tldraw/tldraw",
+      "description": "Infinite-canvas whiteboard SDK and app.",
+      "stars": "49.8k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "AFFiNE",
+      "githubUrl": "https://github.com/toeverything/AFFiNE",
+      "description": "Open-source workspace combining docs, whiteboards, and databases.",
+      "stars": "71.6k★"
+    },
+    {
+      "name": "draw.io",
+      "githubUrl": "https://github.com/jgraph/drawio",
+      "description": "Free configurable diagramming application — a Lucidchart alternative.",
+      "stars": "7.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes"
+    "whiteboard",
+    "scheduling-meetings"
   ]
 }

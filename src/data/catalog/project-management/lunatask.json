@@ -56,22 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plausible Analytics",
-      "githubUrl": "https://github.com/plausible/analytics",
-      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
-      "stars": "31.2k★"
+      "name": "Vikunja",
+      "githubUrl": "https://github.com/go-vikunja/vikunja",
+      "description": "Self-hosted to-do and task management app with lists, kanban, and Gantt.",
+      "stars": "5.1k★"
     },
     {
-      "name": "Umami",
-      "githubUrl": "https://github.com/umami-software/umami",
-      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
-      "stars": "27.4k★"
+      "name": "Super Productivity",
+      "githubUrl": "https://github.com/johannesjo/super-productivity",
+      "description": "To-do list and day planner with time tracking and Jira/GitHub integration.",
+      "stars": "21.4k★"
     },
     {
-      "name": "PostHog",
-      "githubUrl": "https://github.com/PostHog/posthog",
-      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
-      "stars": "24.5k★"
+      "name": "Focalboard",
+      "githubUrl": "https://github.com/mattermost-community/focalboard",
+      "description": "Self-hosted project and task management boards (Trello/Notion-style).",
+      "stars": "26.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,7 +93,7 @@
     }
   ],
   "tags": [
-    "analytics",
+    "todo-tasks",
     "project-management"
   ]
 }

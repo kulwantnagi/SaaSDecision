@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenSEO",
-      "githubUrl": "https://github.com/openseo/openseo",
-      "description": "Open-source website audit and keyword tracking tools.",
-      "stars": "1.2k★"
+      "name": "Vicinae",
+      "githubUrl": "https://github.com/vicinaehq/vicinae",
+      "description": "Native, Raycast-compatible open-source launcher.",
+      "stars": "8.9k★"
     },
     {
-      "name": "SERP-Scraper",
-      "githubUrl": "https://github.com/serp-scraper/serp-scraper",
-      "description": "Open-source Google SERP rank tracking and SEO analysis scraper.",
-      "stars": "2.1k★"
+      "name": "Ueli",
+      "githubUrl": "https://github.com/oliverschwendener/ueli",
+      "description": "Cross-platform keystroke launcher — an Alfred alternative.",
+      "stars": "4.6k★"
+    },
+    {
+      "name": "Sol",
+      "githubUrl": "https://github.com/ospfranco/sol",
+      "description": "Open-source macOS launcher — a Spotlight/Raycast alternative.",
+      "stars": "3.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,7 +93,7 @@
     }
   ],
   "tags": [
-    "seo-tools",
-    "project-management"
+    "launcher",
+    "productivity-notes"
   ]
 }

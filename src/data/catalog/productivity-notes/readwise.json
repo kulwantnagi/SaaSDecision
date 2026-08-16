@@ -49,16 +49,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Thunderbird",
-      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
-      "description": "Open-source, privacy-focused email and calendar client.",
-      "stars": "3.5k★"
+      "name": "Wallabag",
+      "githubUrl": "https://github.com/wallabag/wallabag",
+      "description": "Self-hosted read-it-later app — a Pocket/Instapaper alternative.",
+      "stars": "12.9k★"
     },
     {
-      "name": "Mailspring",
-      "githubUrl": "https://github.com/Foundry376/Mailspring",
-      "description": "Extensible open-source email client with unified inbox and tracking.",
-      "stars": "14.8k★"
+      "name": "Karakeep",
+      "githubUrl": "https://github.com/karakeep-app/karakeep",
+      "description": "Self-hosted bookmark-everything app with AI-based tagging.",
+      "stars": "28.4k★"
+    },
+    {
+      "name": "Linkwarden",
+      "githubUrl": "https://github.com/linkwarden/linkwarden",
+      "description": "Collaborative bookmark manager to collect, organize, and archive webpages.",
+      "stars": "19.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -80,6 +86,7 @@
     }
   ],
   "tags": [
-    "email"
+    "read-later",
+    "productivity-notes"
   ]
 }

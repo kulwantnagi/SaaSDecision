@@ -70,16 +70,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Upscayl",
+      "githubUrl": "https://github.com/upscayl/upscayl",
+      "description": "Free AI image upscaler for desktop — a Magnific/Topaz alternative.",
+      "stars": "48.3k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Real-ESRGAN",
+      "githubUrl": "https://github.com/xinntao/Real-ESRGAN",
+      "description": "Practical AI algorithms for image and video restoration and upscaling.",
+      "stars": "36.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -109,7 +109,7 @@
     }
   ],
   "tags": [
-    "form-builder",
-    "email"
+    "ai-upscaling",
+    "automation"
   ]
 }

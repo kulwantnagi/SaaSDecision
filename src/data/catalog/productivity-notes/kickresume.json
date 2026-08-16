@@ -70,16 +70,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Reactive Resume",
+      "githubUrl": "https://github.com/AmruthPillai/Reactive-Resume",
+      "description": "Free open-source resume builder that respects your privacy.",
+      "stars": "40.5k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "OpenResume",
+      "githubUrl": "https://github.com/xitanggg/open-resume",
+      "description": "Open-source resume builder and ATS-compatibility checker.",
+      "stars": "8.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +101,7 @@
     }
   ],
   "tags": [
+    "resume",
     "productivity-notes"
   ]
 }

@@ -58,14 +58,20 @@
     {
       "name": "Uptime Kuma",
       "githubUrl": "https://github.com/louislam/uptime-kuma",
-      "description": "A fancy self-hosted monitoring tool for HTTP, Ping, TCP ports, and status pages.",
-      "stars": "58.4k★"
+      "description": "Fancy self-hosted uptime monitoring with status pages.",
+      "stars": "90.2k★"
     },
     {
-      "name": "Statping",
-      "githubUrl": "https://github.com/statping/statping",
-      "description": "Open-source status page and monitoring for web applications.",
-      "stars": "7.2k★"
+      "name": "Gatus",
+      "githubUrl": "https://github.com/TwiN/gatus",
+      "description": "Automated developer-oriented health dashboard and status page.",
+      "stars": "11.8k★"
+    },
+    {
+      "name": "Healthchecks",
+      "githubUrl": "https://github.com/healthchecks/healthchecks",
+      "description": "Cron job and scheduled-task monitoring with alerts — a Cronitor alternative.",
+      "stars": "10.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "uptime-monitoring"
+    "uptime-monitoring",
+    "automation"
   ]
 }

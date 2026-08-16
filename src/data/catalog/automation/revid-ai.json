@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "ComfyUI",
+      "githubUrl": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "Node-based engine for Stable Diffusion and generative image/video pipelines.",
+      "stars": "127.9k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Open-Sora",
+      "githubUrl": "https://github.com/hpcaitech/Open-Sora",
+      "description": "Open-source text-to-video generation model and pipeline.",
+      "stars": "29.3k★"
+    },
+    {
+      "name": "Wan2.1",
+      "githubUrl": "https://github.com/Wan-Video/Wan2.1",
+      "description": "Open large-scale video generation model.",
+      "stars": "16.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -102,6 +108,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "ai-video",
+    "automation"
   ]
 }

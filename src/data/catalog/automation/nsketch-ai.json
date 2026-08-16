@@ -63,22 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "Stable Diffusion WebUI",
+      "githubUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "The most popular web UI for Stable Diffusion image generation.",
+      "stars": "164.5k★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
+      "name": "ComfyUI",
+      "githubUrl": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "Node-based engine for Stable Diffusion and generative image/video pipelines.",
+      "stars": "127.9k★"
     },
     {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "name": "InvokeAI",
+      "githubUrl": "https://github.com/invoke-ai/InvokeAI",
+      "description": "Professional creative engine for Stable Diffusion models.",
+      "stars": "27.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -108,6 +108,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "ai-image",
+    "automation"
   ]
 }

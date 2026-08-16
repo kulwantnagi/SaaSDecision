@@ -63,16 +63,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Postiz",
+      "githubUrl": "https://github.com/gitroomhq/postiz-app",
+      "description": "Open-source social media scheduling — a Buffer/Hootsuite alternative.",
+      "stars": "34.7k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Mixpost",
+      "githubUrl": "https://github.com/inovector/mixpost",
+      "description": "Self-hosted social media management and scheduling.",
+      "stars": "3.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +94,7 @@
     }
   ],
   "tags": [
+    "social-media",
     "productivity-notes"
   ]
 }

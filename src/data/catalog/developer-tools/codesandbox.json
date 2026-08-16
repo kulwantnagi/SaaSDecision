@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "code-server",
+      "githubUrl": "https://github.com/coder/code-server",
+      "description": "VS Code in the browser, running on your own server.",
+      "stars": "78.9k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Gitpod",
+      "githubUrl": "https://github.com/gitpod-io/gitpod",
+      "description": "Automated, ready-to-code cloud development environments.",
+      "stars": "13.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,7 +87,7 @@
     }
   ],
   "tags": [
-    "form-builder",
-    "project-management"
+    "cloud-ide",
+    "developer-tools"
   ]
 }

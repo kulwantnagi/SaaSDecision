@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Joplin",
+      "githubUrl": "https://github.com/laurent22/joplin",
+      "description": "Open-source note-taking app with sync, markdown, and end-to-end encryption.",
+      "stars": "56.0k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Logseq",
+      "githubUrl": "https://github.com/logseq/logseq",
+      "description": "Privacy-first, local-first knowledge base with outlining and backlinks.",
+      "stars": "44.5k★"
+    },
+    {
+      "name": "AppFlowy",
+      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
+      "description": "Open-source Notion alternative — docs, wikis, and projects with local-first data.",
+      "stars": "75.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "note-taking",
+    "productivity-notes"
   ]
 }

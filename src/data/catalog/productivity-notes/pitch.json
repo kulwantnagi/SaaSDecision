@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Slidev",
+      "githubUrl": "https://github.com/slidevjs/slidev",
+      "description": "Presentation slides for developers, written in markdown.",
+      "stars": "48.1k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Marp",
+      "githubUrl": "https://github.com/marp-team/marp",
+      "description": "Markdown presentation ecosystem.",
+      "stars": "12.4k★"
+    },
+    {
+      "name": "reveal.js",
+      "githubUrl": "https://github.com/hakimel/reveal.js",
+      "description": "Open-source HTML presentation framework.",
+      "stars": "72.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
+    "presentations",
     "productivity-notes"
   ]
 }

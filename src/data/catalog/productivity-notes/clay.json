@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Thunderbird",
-      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
-      "description": "Open-source, privacy-focused email and calendar client.",
-      "stars": "3.5k★"
+      "name": "Twenty",
+      "githubUrl": "https://github.com/twentyhq/twenty",
+      "description": "Modern open-source CRM — a Salesforce alternative.",
+      "stars": "55.0k★"
     },
     {
-      "name": "Mailspring",
-      "githubUrl": "https://github.com/Foundry376/Mailspring",
-      "description": "Extensible open-source email client with unified inbox and tracking.",
-      "stars": "14.8k★"
+      "name": "EspoCRM",
+      "githubUrl": "https://github.com/espocrm/espocrm",
+      "description": "Full-featured open-source CRM with sales automation and workflows.",
+      "stars": "3.2k★"
+    },
+    {
+      "name": "SuiteCRM",
+      "githubUrl": "https://github.com/salesagility/SuiteCRM",
+      "description": "Enterprise-grade open-source CRM forked from SugarCRM.",
+      "stars": "5.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
-    "email"
+    "crm",
+    "productivity-notes"
   ]
 }

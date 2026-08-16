@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Stable Diffusion WebUI",
+      "githubUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "The most popular web UI for Stable Diffusion image generation.",
+      "stars": "164.5k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "ComfyUI",
+      "githubUrl": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "Node-based engine for Stable Diffusion and generative image/video pipelines.",
+      "stars": "127.9k★"
+    },
+    {
+      "name": "InvokeAI",
+      "githubUrl": "https://github.com/invoke-ai/InvokeAI",
+      "description": "Professional creative engine for Stable Diffusion models.",
+      "stars": "27.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "ai-image",
+    "design-media"
   ]
 }

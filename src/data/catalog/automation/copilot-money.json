@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Actual Budget",
+      "githubUrl": "https://github.com/actualbudget/actual",
+      "description": "Local-first personal budgeting app — a YNAB alternative.",
+      "stars": "28.2k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "Firefly III",
+      "githubUrl": "https://github.com/firefly-iii/firefly-iii",
+      "description": "Self-hosted personal finance manager with budgets, rules, and reports.",
+      "stars": "24.3k★"
+    },
+    {
+      "name": "Ghostfolio",
+      "githubUrl": "https://github.com/ghostfolio/ghostfolio",
+      "description": "Open-source wealth and investment portfolio tracker.",
+      "stars": "9.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "personal-finance",
+    "automation"
   ]
 }

@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "OpenReplay",
+      "githubUrl": "https://github.com/openreplay/openreplay",
+      "description": "Self-hosted session replay and product analytics suite.",
+      "stars": "12.5k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "PostHog",
+      "githubUrl": "https://github.com/PostHog/posthog",
+      "description": "Open-source product analytics with session replay, feature flags, and A/B testing.",
+      "stars": "37.7k★"
+    },
+    {
+      "name": "Matomo",
+      "githubUrl": "https://github.com/matomo-org/matomo",
+      "description": "Google Analytics alternative that protects your data and visitors' privacy.",
+      "stars": "21.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "session-replay",
+    "automation"
   ]
 }

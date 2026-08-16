@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Bitwarden",
-      "githubUrl": "https://github.com/bitwarden/server",
-      "description": "Open-source password management solution.",
-      "stars": "15k★"
+      "name": "Cryptomator",
+      "githubUrl": "https://github.com/cryptomator/cryptomator",
+      "description": "Client-side encryption for your cloud storage files.",
+      "stars": "15.9k★"
     },
     {
-      "name": "Authentik",
-      "githubUrl": "https://github.com/goauthentik/authentik",
-      "description": "Open-source Identity Provider focused on flexibility and security.",
-      "stars": "14k★"
+      "name": "Nextcloud",
+      "githubUrl": "https://github.com/nextcloud/server",
+      "description": "Self-hosted files, calendar, contacts, and collaboration platform.",
+      "stars": "36.4k★"
+    },
+    {
+      "name": "Seafile",
+      "githubUrl": "https://github.com/haiwen/seafile",
+      "description": "High-performance open-source file sync and share.",
+      "stars": "15.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "encrypted-storage",
+    "security-auth"
   ]
 }

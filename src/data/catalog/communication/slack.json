@@ -70,20 +70,26 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Mattermost",
+      "githubUrl": "https://github.com/mattermost/mattermost",
+      "description": "Secure open-source team collaboration — a Slack alternative.",
+      "stars": "38.8k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Rocket.Chat",
+      "githubUrl": "https://github.com/RocketChat/Rocket.Chat",
+      "description": "Fully customizable open-source team communications platform.",
+      "stars": "46.0k★"
+    },
+    {
+      "name": "Zulip",
+      "githubUrl": "https://github.com/zulip/zulip",
+      "description": "Open-source team chat with unique topic-based threading.",
+      "stars": "25.7k★"
     }
   ],
   "tags": [
-    "form-builder",
-    "email"
+    "team-chat",
+    "communication"
   ]
 }

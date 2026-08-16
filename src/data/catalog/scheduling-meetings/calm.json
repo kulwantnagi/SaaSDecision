@@ -49,16 +49,10 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
-    },
-    {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "Medito",
+      "githubUrl": "https://github.com/meditohq/medito-app",
+      "description": "Free open-source meditation app — a Headspace/Calm alternative.",
+      "stars": "1.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -80,6 +74,7 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes"
+    "meditation",
+    "scheduling-meetings"
   ]
 }

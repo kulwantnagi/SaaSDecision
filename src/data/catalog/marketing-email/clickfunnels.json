@@ -12,10 +12,8 @@
     "Clickfunnels Platform"
   ],
   "tags": [
-    "e-signature",
-    "crm",
-    "form-builder",
-    "email"
+    "landing-pages",
+    "marketing-email"
   ],
   "assessment": {
     "buildComplexity": 3,
@@ -96,16 +94,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "GrapesJS",
+      "githubUrl": "https://github.com/GrapesJS/grapesjs",
+      "description": "Free drag-and-drop web page builder framework.",
+      "stars": "26.1k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Webstudio",
+      "githubUrl": "https://github.com/webstudio-is/webstudio",
+      "description": "Open-source visual website builder with the power of code.",
+      "stars": "8.8k★"
+    },
+    {
+      "name": "Mautic",
+      "githubUrl": "https://github.com/mautic/mautic",
+      "description": "Open-source marketing automation — campaigns, segments, and email nurture.",
+      "stars": "10.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [

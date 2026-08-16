@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Coqui TTS",
+      "githubUrl": "https://github.com/coqui-ai/TTS",
+      "description": "Deep-learning toolkit for text-to-speech with voice cloning.",
+      "stars": "45.9k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Piper",
+      "githubUrl": "https://github.com/OHF-Voice/piper1-gpl",
+      "description": "Fast local neural text-to-speech system.",
+      "stars": "5.1k★"
+    },
+    {
+      "name": "Kokoro",
+      "githubUrl": "https://github.com/hexgrad/kokoro",
+      "description": "Lightweight open-weight TTS model with high-quality voices.",
+      "stars": "8.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "tts",
     "productivity-notes"
   ]
 }

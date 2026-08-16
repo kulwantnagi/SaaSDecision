@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "ComfyUI",
+      "githubUrl": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "Node-based engine for Stable Diffusion and generative image/video pipelines.",
+      "stars": "127.9k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Open-Sora",
+      "githubUrl": "https://github.com/hpcaitech/Open-Sora",
+      "description": "Open-source text-to-video generation model and pipeline.",
+      "stars": "29.3k★"
+    },
+    {
+      "name": "Wan2.1",
+      "githubUrl": "https://github.com/Wan-Video/Wan2.1",
+      "description": "Open large-scale video generation model.",
+      "stars": "16.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "ai-video",
+    "design-media"
   ]
 }

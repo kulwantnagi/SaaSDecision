@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Rembg",
+      "githubUrl": "https://github.com/danielgatis/rembg",
+      "description": "Open-source tool to remove image backgrounds automatically.",
+      "stars": "24.3k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "BackgroundRemover",
+      "githubUrl": "https://github.com/nadermx/backgroundremover",
+      "description": "Command-line background removal for images and video.",
+      "stars": "8.0k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "background-removal",
+    "design-media"
   ]
 }

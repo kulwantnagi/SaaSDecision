@@ -56,22 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plane",
-      "githubUrl": "https://github.com/makeplane/plane",
-      "description": "Open-source project management tool to track issues, epics, and product roadmaps.",
-      "stars": "31.2k★"
+      "name": "Open WebUI",
+      "githubUrl": "https://github.com/open-webui/open-webui",
+      "description": "Feature-rich self-hosted AI chat interface for local and cloud LLMs.",
+      "stars": "148.9k★"
     },
     {
-      "name": "OpenProject",
-      "githubUrl": "https://github.com/opf/openproject",
-      "description": "Open-source project management software for classic and agile projects.",
-      "stars": "8.4k★"
+      "name": "LibreChat",
+      "githubUrl": "https://github.com/danny-avila/LibreChat",
+      "description": "Open-source ChatGPT-style app supporting every major AI provider.",
+      "stars": "42.1k★"
     },
     {
-      "name": "Taiga",
-      "githubUrl": "https://github.com/taigaio/taiga-back",
-      "description": "Agile project management platform for startups and cross-functional teams.",
-      "stars": "7.1k★"
+      "name": "LobeChat",
+      "githubUrl": "https://github.com/lobehub/lobe-chat",
+      "description": "Open-source AI chat framework with agents, plugins, and multi-provider support.",
+      "stars": "81.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,6 +93,7 @@
     }
   ],
   "tags": [
-    "project-management"
+    "llm-chat",
+    "productivity-notes"
   ]
 }

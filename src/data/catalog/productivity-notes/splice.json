@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "LMMS",
+      "githubUrl": "https://github.com/LMMS/lmms",
+      "description": "Free cross-platform music production software.",
+      "stars": "10.3k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Ardour",
+      "githubUrl": "https://github.com/Ardour/ardour",
+      "description": "Professional cross-platform digital audio workstation.",
+      "stars": "5.2k★"
+    },
+    {
+      "name": "Audacity",
+      "githubUrl": "https://github.com/audacity/audacity",
+      "description": "Free multi-track audio editor and recorder.",
+      "stars": "17.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
+    "music-production",
     "productivity-notes"
   ]
 }

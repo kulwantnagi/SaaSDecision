@@ -79,14 +79,20 @@
     {
       "name": "Supabase",
       "githubUrl": "https://github.com/supabase/supabase",
-      "description": "Open-source Firebase alternative.",
-      "stars": "70k★"
+      "description": "Open-source Firebase alternative built on Postgres.",
+      "stars": "108.0k★"
     },
     {
       "name": "Appwrite",
       "githubUrl": "https://github.com/appwrite/appwrite",
-      "description": "Open-source backend server.",
-      "stars": "45k★"
+      "description": "Open-source backend-as-a-service with auth, databases, functions, and storage.",
+      "stars": "57.0k★"
+    },
+    {
+      "name": "PocketBase",
+      "githubUrl": "https://github.com/pocketbase/pocketbase",
+      "description": "Open-source backend in a single file — database, auth, and realtime.",
+      "stars": "60.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -100,6 +106,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "baas",
+    "developer-tools"
   ]
 }

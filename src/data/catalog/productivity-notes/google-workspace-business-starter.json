@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Thunderbird",
-      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
-      "description": "Open-source, privacy-focused email and calendar client.",
-      "stars": "3.5k★"
+      "name": "LibreOffice",
+      "githubUrl": "https://github.com/LibreOffice/core",
+      "description": "Free and powerful office suite — a Microsoft 365 alternative.",
+      "stars": "4.2k★"
     },
     {
-      "name": "Mailspring",
-      "githubUrl": "https://github.com/Foundry376/Mailspring",
-      "description": "Extensible open-source email client with unified inbox and tracking.",
-      "stars": "14.8k★"
+      "name": "OnlyOffice",
+      "githubUrl": "https://github.com/ONLYOFFICE/DocumentServer",
+      "description": "Self-hosted office suite with collaborative document editing.",
+      "stars": "6.8k★"
+    },
+    {
+      "name": "Nextcloud",
+      "githubUrl": "https://github.com/nextcloud/server",
+      "description": "Self-hosted files, calendar, contacts, and collaboration platform.",
+      "stars": "36.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "email"
+    "office-suite",
+    "productivity-notes"
   ]
 }

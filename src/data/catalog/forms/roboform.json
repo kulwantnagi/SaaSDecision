@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Bitwarden",
+      "githubUrl": "https://github.com/bitwarden/server",
+      "description": "Open-source password manager trusted by millions.",
+      "stars": "19.9k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "KeePassXC",
+      "githubUrl": "https://github.com/keepassxreboot/keepassxc",
+      "description": "Cross-platform community-driven offline password manager.",
+      "stars": "28.4k★"
+    },
+    {
+      "name": "Vaultwarden",
+      "githubUrl": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Lightweight self-hosted Bitwarden-compatible server.",
+      "stars": "65.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "password-manager",
+    "forms"
   ]
 }

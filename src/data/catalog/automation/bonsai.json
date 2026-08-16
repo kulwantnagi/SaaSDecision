@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Invoice Ninja",
+      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
+      "description": "Self-hosted invoicing, payments, expenses, and time tracking for freelancers and SMBs.",
+      "stars": "10.0k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "Crater",
+      "githubUrl": "https://github.com/crater-invoice/crater",
+      "description": "Open-source invoicing app for freelancers and small businesses.",
+      "stars": "8.3k★"
+    },
+    {
+      "name": "Akaunting",
+      "githubUrl": "https://github.com/akaunting/akaunting",
+      "description": "Free online accounting software for small businesses.",
+      "stars": "10.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "invoicing",
+    "automation"
   ]
 }

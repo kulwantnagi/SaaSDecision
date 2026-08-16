@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "OpenHands",
+      "githubUrl": "https://github.com/All-Hands-AI/OpenHands",
+      "description": "Open-source autonomous AI software engineer — a Devin alternative.",
+      "stars": "84.2k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Aider",
+      "githubUrl": "https://github.com/Aider-AI/aider",
+      "description": "AI pair programming in your terminal with any LLM.",
+      "stars": "48.3k★"
+    },
+    {
+      "name": "Cline",
+      "githubUrl": "https://github.com/cline/cline",
+      "description": "Autonomous AI coding agent right in your IDE.",
+      "stars": "66.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
+    "autonomous-dev",
     "productivity-notes"
   ]
 }

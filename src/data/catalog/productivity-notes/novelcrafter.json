@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "novelWriter",
+      "githubUrl": "https://github.com/vkbo/novelwriter",
+      "description": "Plain-text editor designed for writing novels.",
+      "stars": "3.1k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Manuskript",
+      "githubUrl": "https://github.com/olivierkes/manuskript",
+      "description": "Open-source tool for writers — outline, plan, and write your story.",
+      "stars": "2.4k★"
+    },
+    {
+      "name": "Zettlr",
+      "githubUrl": "https://github.com/Zettlr/Zettlr",
+      "description": "Markdown editor for writing and publishing academic and long-form texts.",
+      "stars": "13.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
+    "long-form-writing",
     "productivity-notes"
   ]
 }

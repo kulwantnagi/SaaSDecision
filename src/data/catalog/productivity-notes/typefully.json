@@ -49,22 +49,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plausible Analytics",
-      "githubUrl": "https://github.com/plausible/analytics",
-      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
-      "stars": "31.2k★"
+      "name": "Postiz",
+      "githubUrl": "https://github.com/gitroomhq/postiz-app",
+      "description": "Open-source social media scheduling — a Buffer/Hootsuite alternative.",
+      "stars": "34.7k★"
     },
     {
-      "name": "Umami",
-      "githubUrl": "https://github.com/umami-software/umami",
-      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
-      "stars": "27.4k★"
-    },
-    {
-      "name": "PostHog",
-      "githubUrl": "https://github.com/PostHog/posthog",
-      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
-      "stars": "24.5k★"
+      "name": "Mixpost",
+      "githubUrl": "https://github.com/inovector/mixpost",
+      "description": "Self-hosted social media management and scheduling.",
+      "stars": "3.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -86,7 +80,7 @@
     }
   ],
   "tags": [
-    "analytics",
-    "scheduling"
+    "social-media",
+    "productivity-notes"
   ]
 }

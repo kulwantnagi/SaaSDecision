@@ -35,14 +35,14 @@
     {
       "name": "Free",
       "billingInterval": "monthly",
-      "basePrice": 0.00005,
+      "basePrice": 5e-05,
       "pricePerSeat": 0,
       "freeTier": true
     },
     {
       "name": "Pro",
       "billingInterval": "monthly",
-      "basePrice": 0.00005,
+      "basePrice": 5e-05,
       "pricePerSeat": 0,
       "freeTier": true
     }
@@ -56,22 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plausible Analytics",
-      "githubUrl": "https://github.com/plausible/analytics",
-      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
-      "stars": "31.2k★"
+      "name": "Matomo",
+      "githubUrl": "https://github.com/matomo-org/matomo",
+      "description": "Google Analytics alternative that protects your data and visitors' privacy.",
+      "stars": "21.8k★"
+    },
+    {
+      "name": "OpenReplay",
+      "githubUrl": "https://github.com/openreplay/openreplay",
+      "description": "Self-hosted session replay and product analytics suite.",
+      "stars": "12.5k★"
     },
     {
       "name": "Umami",
       "githubUrl": "https://github.com/umami-software/umami",
-      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
-      "stars": "27.4k★"
-    },
-    {
-      "name": "PostHog",
-      "githubUrl": "https://github.com/PostHog/posthog",
-      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
-      "stars": "24.5k★"
+      "description": "Simple, privacy-focused web analytics — a Google Analytics alternative.",
+      "stars": "38.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,7 +93,7 @@
     }
   ],
   "tags": [
-    "analytics",
-    "email"
+    "product-analytics",
+    "marketing-email"
   ]
 }

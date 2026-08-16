@@ -76,16 +76,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Directus",
-      "githubUrl": "https://github.com/directus/directus",
-      "description": "Open-source data platform & CMS.",
-      "stars": "28k★"
+      "name": "Payload CMS",
+      "githubUrl": "https://github.com/payloadcms/payload",
+      "description": "Open-source Next.js-native headless CMS and application framework.",
+      "stars": "44.2k★"
     },
     {
-      "name": "Ghost",
-      "githubUrl": "https://github.com/TryGhost/Ghost",
-      "description": "Open-source publishing platform.",
-      "stars": "46k★"
+      "name": "Directus",
+      "githubUrl": "https://github.com/directus/directus",
+      "description": "Instant realtime API and no-code data collaboration app for any SQL database.",
+      "stars": "37.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -99,6 +99,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "headless-cms",
+    "developer-tools"
   ]
 }

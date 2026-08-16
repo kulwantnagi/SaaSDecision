@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Tesseract",
+      "githubUrl": "https://github.com/tesseract-ocr/tesseract",
+      "description": "The leading open-source OCR engine.",
+      "stars": "75.9k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Stirling PDF",
+      "githubUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "description": "Self-hosted web app for 50+ PDF operations — merge, split, convert, sign.",
+      "stars": "89.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "ocr",
     "productivity-notes"
   ]
 }

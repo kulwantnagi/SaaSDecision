@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
+      "name": "draw.io",
+      "githubUrl": "https://github.com/jgraph/drawio",
+      "description": "Free configurable diagramming application — a Lucidchart alternative.",
+      "stars": "7.5k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "Excalidraw",
+      "githubUrl": "https://github.com/excalidraw/excalidraw",
+      "description": "Virtual whiteboard for sketching hand-drawn-style diagrams.",
+      "stars": "129.8k★"
+    },
+    {
+      "name": "Mermaid",
+      "githubUrl": "https://github.com/mermaid-js/mermaid",
+      "description": "Generate diagrams and flowcharts from text, in markdown.",
+      "stars": "89.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes"
+    "diagramming",
+    "scheduling-meetings"
   ]
 }

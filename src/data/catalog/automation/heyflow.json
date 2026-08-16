@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Thunderbird",
-      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
-      "description": "Open-source, privacy-focused email and calendar client.",
-      "stars": "3.5k★"
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Privacy-first open-source surveys and experience management.",
+      "stars": "12.8k★"
     },
     {
-      "name": "Mailspring",
-      "githubUrl": "https://github.com/Foundry376/Mailspring",
-      "description": "Extensible open-source email client with unified inbox and tracking.",
-      "stars": "14.8k★"
+      "name": "HeyForm",
+      "githubUrl": "https://github.com/heyform/heyform",
+      "description": "Open-source form builder for conversational forms and surveys.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "LimeSurvey",
+      "githubUrl": "https://github.com/LimeSurvey/LimeSurvey",
+      "description": "The most popular open-source survey software.",
+      "stars": "3.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "email"
+    "forms",
+    "automation"
   ]
 }

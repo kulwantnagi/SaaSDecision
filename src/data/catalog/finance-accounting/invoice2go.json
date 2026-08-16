@@ -56,22 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "Invoice Ninja",
+      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
+      "description": "Self-hosted invoicing, payments, expenses, and time tracking for freelancers and SMBs.",
+      "stars": "10.0k★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
+      "name": "Crater",
+      "githubUrl": "https://github.com/crater-invoice/crater",
+      "description": "Open-source invoicing app for freelancers and small businesses.",
+      "stars": "8.3k★"
     },
     {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "name": "Akaunting",
+      "githubUrl": "https://github.com/akaunting/akaunting",
+      "description": "Free online accounting software for small businesses.",
+      "stars": "10.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +101,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "invoicing",
+    "finance-accounting"
   ]
 }

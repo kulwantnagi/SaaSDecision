@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Penpot",
+      "githubUrl": "https://github.com/penpot/penpot",
+      "description": "Open-source design and prototyping tool — a Figma alternative.",
+      "stars": "58.7k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "GIMP",
+      "githubUrl": "https://github.com/GNOME/gimp",
+      "description": "The GNU Image Manipulation Program — free Photoshop alternative.",
+      "stars": "6.4k★"
+    },
+    {
+      "name": "Inkscape",
+      "githubUrl": "https://github.com/inkscape/inkscape",
+      "description": "Professional open-source vector graphics editor.",
+      "stars": "3.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -86,6 +92,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "design",
+    "design-media"
   ]
 }

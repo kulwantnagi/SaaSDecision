@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
+      "name": "Cal.com",
+      "githubUrl": "https://github.com/calcom/cal.com",
+      "description": "Open-source scheduling infrastructure — a Calendly alternative.",
+      "stars": "47.7k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "Easy!Appointments",
+      "githubUrl": "https://github.com/alextselegidis/easyappointments",
+      "description": "Self-hosted appointment scheduler that syncs with Google Calendar.",
+      "stars": "4.3k★"
+    },
+    {
+      "name": "Rallly",
+      "githubUrl": "https://github.com/lukevella/rallly",
+      "description": "Open-source group meeting polls — a Doodle alternative.",
+      "stars": "5.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes"
+    "scheduling",
+    "scheduling-meetings"
   ]
 }

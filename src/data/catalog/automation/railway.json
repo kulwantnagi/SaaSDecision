@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Coolify",
+      "githubUrl": "https://github.com/coollabsio/coolify",
+      "description": "Self-hostable Heroku/Netlify/Vercel alternative.",
+      "stars": "60.6k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "Dokploy",
+      "githubUrl": "https://github.com/Dokploy/dokploy",
+      "description": "Self-hosted PaaS for deploying apps and databases on your own servers.",
+      "stars": "36.6k★"
+    },
+    {
+      "name": "CapRover",
+      "githubUrl": "https://github.com/caprover/caprover",
+      "description": "One-click self-hosted PaaS for apps and databases.",
+      "stars": "15.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -102,6 +108,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "paas-hosting",
+    "automation"
   ]
 }

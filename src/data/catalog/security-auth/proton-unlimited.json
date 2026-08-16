@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Bitwarden",
-      "githubUrl": "https://github.com/bitwarden/server",
-      "description": "Open-source password management solution.",
-      "stars": "15k★"
+      "name": "SimpleLogin",
+      "githubUrl": "https://github.com/simple-login/app",
+      "description": "Open-source email alias solution to protect your identity.",
+      "stars": "6.9k★"
     },
     {
-      "name": "Authentik",
-      "githubUrl": "https://github.com/goauthentik/authentik",
-      "description": "Open-source Identity Provider focused on flexibility and security.",
-      "stars": "14k★"
+      "name": "addy.io",
+      "githubUrl": "https://github.com/anonaddy/anonaddy",
+      "description": "Anonymous email forwarding — create unlimited email aliases.",
+      "stars": "4.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "privacy-protection",
+    "security-auth"
   ]
 }

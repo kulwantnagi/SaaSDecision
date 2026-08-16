@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Invoice Ninja",
-      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
-      "description": "Open-source invoicing, expenses, and time tracking app.",
-      "stars": "8k★"
+      "name": "Cal.com",
+      "githubUrl": "https://github.com/calcom/cal.com",
+      "description": "Open-source scheduling infrastructure — a Calendly alternative.",
+      "stars": "47.7k★"
     },
     {
-      "name": "ERPNext",
-      "githubUrl": "https://github.com/frappe/erpnext",
-      "description": "Open-source ERP and accounting platform for business management.",
-      "stars": "18k★"
+      "name": "Easy!Appointments",
+      "githubUrl": "https://github.com/alextselegidis/easyappointments",
+      "description": "Self-hosted appointment scheduler that syncs with Google Calendar.",
+      "stars": "4.3k★"
+    },
+    {
+      "name": "Rallly",
+      "githubUrl": "https://github.com/lukevella/rallly",
+      "description": "Open-source group meeting polls — a Doodle alternative.",
+      "stars": "5.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "scheduling",
+    "finance-accounting"
   ]
 }

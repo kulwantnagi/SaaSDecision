@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
+      "name": "Super Productivity",
+      "githubUrl": "https://github.com/johannesjo/super-productivity",
+      "description": "To-do list and day planner with time tracking and Jira/GitHub integration.",
+      "stars": "21.4k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "Vikunja",
+      "githubUrl": "https://github.com/go-vikunja/vikunja",
+      "description": "Self-hosted to-do and task management app with lists, kanban, and Gantt.",
+      "stars": "5.1k★"
+    },
+    {
+      "name": "Focalboard",
+      "githubUrl": "https://github.com/mattermost-community/focalboard",
+      "description": "Self-hosted project and task management boards (Trello/Notion-style).",
+      "stars": "26.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes"
+    "ai-planner",
+    "scheduling-meetings"
   ]
 }

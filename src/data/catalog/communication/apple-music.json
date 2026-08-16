@@ -56,22 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "Navidrome",
+      "githubUrl": "https://github.com/navidrome/navidrome",
+      "description": "Self-hosted music server and streamer — your personal Spotify.",
+      "stars": "22.9k★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
-    },
-    {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "name": "Jellyfin",
+      "githubUrl": "https://github.com/jellyfin/jellyfin",
+      "description": "Free software media system for streaming your own movies, shows, and music.",
+      "stars": "55.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,6 +87,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "music-streaming",
+    "communication"
   ]
 }

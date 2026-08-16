@@ -79,14 +79,14 @@
     {
       "name": "Documenso",
       "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "description": "Open-source document signing — a DocuSign alternative.",
+      "stars": "14.5k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "DocuSeal",
+      "githubUrl": "https://github.com/docusealco/docuseal",
+      "description": "Open-source document filling and signing platform.",
+      "stars": "18.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -109,6 +109,6 @@
   ],
   "tags": [
     "e-signature",
-    "form-builder"
+    "productivity-notes"
   ]
 }

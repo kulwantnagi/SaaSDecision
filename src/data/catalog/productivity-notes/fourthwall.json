@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Polar",
+      "githubUrl": "https://github.com/polarsource/polar",
+      "description": "Open-source billing and merchant-of-record for selling digital products — a Lemon Squeezy alternative.",
+      "stars": "10.2k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Gumroad",
+      "githubUrl": "https://github.com/antiwork/gumroad",
+      "description": "The Gumroad digital-products marketplace, now open source and self-hostable.",
+      "stars": "9.6k★"
+    },
+    {
+      "name": "Medusa",
+      "githubUrl": "https://github.com/medusajs/medusa",
+      "description": "Open-source commerce platform — a headless Shopify alternative.",
+      "stars": "35.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
+    "digital-commerce",
     "productivity-notes"
   ]
 }

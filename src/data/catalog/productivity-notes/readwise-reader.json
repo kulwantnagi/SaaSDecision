@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Wallabag",
+      "githubUrl": "https://github.com/wallabag/wallabag",
+      "description": "Self-hosted read-it-later app — a Pocket/Instapaper alternative.",
+      "stars": "12.9k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Karakeep",
+      "githubUrl": "https://github.com/karakeep-app/karakeep",
+      "description": "Self-hosted bookmark-everything app with AI-based tagging.",
+      "stars": "28.4k★"
+    },
+    {
+      "name": "Linkwarden",
+      "githubUrl": "https://github.com/linkwarden/linkwarden",
+      "description": "Collaborative bookmark manager to collect, organize, and archive webpages.",
+      "stars": "19.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "read-later",
     "productivity-notes"
   ]
 }

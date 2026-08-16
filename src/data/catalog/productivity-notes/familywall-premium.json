@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Grocy",
+      "githubUrl": "https://github.com/grocy/grocy",
+      "description": "Self-hosted groceries, chores, and household ERP.",
+      "stars": "9.4k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Donetick",
+      "githubUrl": "https://github.com/donetick/donetick",
+      "description": "Open-source app for managing household tasks and chores.",
+      "stars": "2.5k★"
+    },
+    {
+      "name": "Vikunja",
+      "githubUrl": "https://github.com/go-vikunja/vikunja",
+      "description": "Self-hosted to-do and task management app with lists, kanban, and Gantt.",
+      "stars": "5.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "household",
     "productivity-notes"
   ]
 }

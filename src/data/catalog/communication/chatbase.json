@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Typebot",
+      "githubUrl": "https://github.com/baptisteArno/typebot.io",
+      "description": "Open-source conversational forms and chatbot builder.",
+      "stars": "10.3k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Dify",
+      "githubUrl": "https://github.com/langgenius/dify",
+      "description": "Open-source platform for building LLM apps, agents, and RAG pipelines.",
+      "stars": "152.6k★"
+    },
+    {
+      "name": "Onyx",
+      "githubUrl": "https://github.com/onyx-dot-app/onyx",
+      "description": "Open-source AI chat and enterprise search connected to your docs.",
+      "stars": "31.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "ai-chatbot",
+    "communication"
   ]
 }

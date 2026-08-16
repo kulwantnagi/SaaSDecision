@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Ollama",
+      "githubUrl": "https://github.com/ollama/ollama",
+      "description": "Run large language models locally with one command.",
+      "stars": "178.7k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Open WebUI",
+      "githubUrl": "https://github.com/open-webui/open-webui",
+      "description": "Feature-rich self-hosted AI chat interface for local and cloud LLMs.",
+      "stars": "148.9k★"
+    },
+    {
+      "name": "LibreChat",
+      "githubUrl": "https://github.com/danny-avila/LibreChat",
+      "description": "Open-source ChatGPT-style app supporting every major AI provider.",
+      "stars": "42.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "ai-writing",
     "productivity-notes"
   ]
 }

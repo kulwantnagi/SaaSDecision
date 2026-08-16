@@ -77,16 +77,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
+      "name": "Kimai",
+      "githubUrl": "https://github.com/kimai/kimai",
+      "description": "Professional self-hosted time tracking with invoicing and team reports.",
+      "stars": "4.9k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "Solidtime",
+      "githubUrl": "https://github.com/solidtime-io/solidtime",
+      "description": "Modern open-source time tracker for freelancers and agencies.",
+      "stars": "8.9k★"
+    },
+    {
+      "name": "ActivityWatch",
+      "githubUrl": "https://github.com/ActivityWatch/activitywatch",
+      "description": "Automatic, privacy-first tracker of how you spend time on your devices.",
+      "stars": "18.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -108,6 +114,7 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes"
+    "time-tracking",
+    "scheduling-meetings"
   ]
 }

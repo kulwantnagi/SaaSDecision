@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Linkwarden",
+      "githubUrl": "https://github.com/linkwarden/linkwarden",
+      "description": "Collaborative bookmark manager to collect, organize, and archive webpages.",
+      "stars": "19.5k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Karakeep",
+      "githubUrl": "https://github.com/karakeep-app/karakeep",
+      "description": "Self-hosted bookmark-everything app with AI-based tagging.",
+      "stars": "28.4k★"
+    },
+    {
+      "name": "Wallabag",
+      "githubUrl": "https://github.com/wallabag/wallabag",
+      "description": "Self-hosted read-it-later app — a Pocket/Instapaper alternative.",
+      "stars": "12.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "bookmarks",
+    "productivity-notes"
   ]
 }

@@ -49,19 +49,25 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Jitsi Meet",
+      "githubUrl": "https://github.com/jitsi/jitsi-meet",
+      "description": "Secure, fully-featured open-source video conferencing.",
+      "stars": "29.7k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "BigBlueButton",
+      "githubUrl": "https://github.com/bigbluebutton/bigbluebutton",
+      "description": "Open-source virtual classroom and webinar system.",
+      "stars": "9.2k★"
+    },
+    {
+      "name": "LiveKit",
+      "githubUrl": "https://github.com/livekit/livekit",
+      "description": "Open-source realtime audio/video infrastructure (WebRTC).",
+      "stars": "20.4k★"
     }
   ],
   "tags": [
-    "form-builder"
+    "video-conferencing"
   ]
 }

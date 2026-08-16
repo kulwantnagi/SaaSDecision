@@ -77,16 +77,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Bitwarden",
-      "githubUrl": "https://github.com/bitwarden/server",
-      "description": "Open-source password management solution.",
-      "stars": "15k★"
+      "name": "Vaultwarden",
+      "githubUrl": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Lightweight self-hosted Bitwarden-compatible server.",
+      "stars": "65.5k★"
     },
     {
-      "name": "Authentik",
-      "githubUrl": "https://github.com/goauthentik/authentik",
-      "description": "Open-source Identity Provider focused on flexibility and security.",
-      "stars": "14k★"
+      "name": "KeePassXC",
+      "githubUrl": "https://github.com/keepassxreboot/keepassxc",
+      "description": "Cross-platform community-driven offline password manager.",
+      "stars": "28.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -108,6 +108,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "password-manager",
+    "security-auth"
   ]
 }

@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Rembg",
+      "githubUrl": "https://github.com/danielgatis/rembg",
+      "description": "Open-source tool to remove image backgrounds automatically.",
+      "stars": "24.3k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "BackgroundRemover",
+      "githubUrl": "https://github.com/nadermx/backgroundremover",
+      "description": "Command-line background removal for images and video.",
+      "stars": "8.0k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "background-removal",
     "productivity-notes"
   ]
 }

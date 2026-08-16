@@ -71,15 +71,21 @@
   "openSourceAlternatives": [
     {
       "name": "Cap",
-      "githubUrl": "https://github.com/capway/cap",
-      "description": "Open-source Loom alternative for effortless instant video screen sharing.",
-      "stars": "6.7k★"
+      "githubUrl": "https://github.com/CapSoftware/Cap",
+      "description": "Open-source screen recorder and sharing — a Loom alternative.",
+      "stars": "20.8k★"
     },
     {
       "name": "OBS Studio",
       "githubUrl": "https://github.com/obsproject/obs-studio",
-      "description": "Free and open source software for video recording and live streaming.",
-      "stars": "58.2k★"
+      "description": "Free software for video recording and live streaming.",
+      "stars": "75.1k★"
+    },
+    {
+      "name": "Kap",
+      "githubUrl": "https://github.com/wulkano/Kap",
+      "description": "Open-source screen recorder for macOS built on web tech.",
+      "stars": "19.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
-    "video-recording"
+    "screen-recording",
+    "productivity-notes"
   ]
 }

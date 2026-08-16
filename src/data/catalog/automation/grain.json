@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Meetily",
+      "githubUrl": "https://github.com/Zackriya-Solutions/meeting-minutes",
+      "description": "Privacy-first AI meeting assistant — records, transcribes, and summarizes locally.",
+      "stars": "29.2k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "Amurex",
+      "githubUrl": "https://github.com/thepersonalaicompany/amurex",
+      "description": "Open-source AI meeting copilot with transcripts and action items.",
+      "stars": "2.9k★"
+    },
+    {
+      "name": "Vexa",
+      "githubUrl": "https://github.com/Vexa-ai/vexa",
+      "description": "Self-hosted API for real-time meeting transcription bots.",
+      "stars": "2.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "ai-meeting-notes",
+    "automation"
   ]
 }

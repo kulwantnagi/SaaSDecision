@@ -71,14 +71,20 @@
     {
       "name": "Nextcloud",
       "githubUrl": "https://github.com/nextcloud/server",
-      "description": "Self-hosted open-source productivity platform.",
-      "stars": "26k★"
+      "description": "Self-hosted files, calendar, contacts, and collaboration platform.",
+      "stars": "36.4k★"
     },
     {
-      "name": "OwnCloud",
-      "githubUrl": "https://github.com/owncloud/core",
-      "description": "Open-source file hosting.",
-      "stars": "8k★"
+      "name": "Seafile",
+      "githubUrl": "https://github.com/haiwen/seafile",
+      "description": "High-performance open-source file sync and share.",
+      "stars": "15.1k★"
+    },
+    {
+      "name": "Syncthing",
+      "githubUrl": "https://github.com/syncthing/syncthing",
+      "description": "Continuous decentralized file synchronization between devices.",
+      "stars": "87.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -92,6 +98,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "file-sync",
+    "developer-tools"
   ]
 }

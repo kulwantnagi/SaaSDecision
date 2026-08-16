@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Whisper",
+      "githubUrl": "https://github.com/openai/whisper",
+      "description": "Robust open-source speech recognition from OpenAI.",
+      "stars": "107.4k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Buzz",
+      "githubUrl": "https://github.com/chidiwilliams/buzz",
+      "description": "Transcribe and translate audio offline on your computer, powered by Whisper.",
+      "stars": "21.0k★"
+    },
+    {
+      "name": "WhisperX",
+      "githubUrl": "https://github.com/m-bain/whisperX",
+      "description": "Fast Whisper transcription with word-level timestamps and diarization.",
+      "stars": "23.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "transcription",
+    "design-media"
   ]
 }

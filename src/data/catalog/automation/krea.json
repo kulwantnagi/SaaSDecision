@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Stable Diffusion WebUI",
+      "githubUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "The most popular web UI for Stable Diffusion image generation.",
+      "stars": "164.5k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "ComfyUI",
+      "githubUrl": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "Node-based engine for Stable Diffusion and generative image/video pipelines.",
+      "stars": "127.9k★"
+    },
+    {
+      "name": "InvokeAI",
+      "githubUrl": "https://github.com/invoke-ai/InvokeAI",
+      "description": "Professional creative engine for Stable Diffusion models.",
+      "stars": "27.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "ai-image",
+    "automation"
   ]
 }

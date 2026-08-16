@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Flameshot",
+      "githubUrl": "https://github.com/flameshot-org/flameshot",
+      "description": "Powerful open-source screenshot tool with annotation.",
+      "stars": "30.6k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "ksnip",
+      "githubUrl": "https://github.com/ksnip/ksnip",
+      "description": "Cross-platform screenshot tool with annotation features.",
+      "stars": "3.3k★"
+    },
+    {
+      "name": "Kap",
+      "githubUrl": "https://github.com/wulkano/Kap",
+      "description": "Open-source screen recorder for macOS built on web tech.",
+      "stars": "19.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "screenshots",
+    "design-media"
   ]
 }

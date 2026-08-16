@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "Coqui TTS",
+      "githubUrl": "https://github.com/coqui-ai/TTS",
+      "description": "Deep-learning toolkit for text-to-speech with voice cloning.",
+      "stars": "45.9k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "OpenVoice",
+      "githubUrl": "https://github.com/myshell-ai/OpenVoice",
+      "description": "Instant voice cloning with flexible style control.",
+      "stars": "37.1k★"
+    },
+    {
+      "name": "Kokoro",
+      "githubUrl": "https://github.com/hexgrad/kokoro",
+      "description": "Lightweight open-weight TTS model with high-quality voices.",
+      "stars": "8.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "voice-cloning",
+    "automation"
   ]
 }

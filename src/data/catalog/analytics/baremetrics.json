@@ -63,22 +63,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plausible Analytics",
-      "githubUrl": "https://github.com/plausible/analytics",
-      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
-      "stars": "31.2k★"
-    },
-    {
-      "name": "Umami",
-      "githubUrl": "https://github.com/umami-software/umami",
-      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
-      "stars": "27.4k★"
+      "name": "Lago",
+      "githubUrl": "https://github.com/getlago/lago",
+      "description": "Open-source metering and usage-based billing — a Stripe Billing/Chargebee alternative.",
+      "stars": "10.3k★"
     },
     {
       "name": "PostHog",
       "githubUrl": "https://github.com/PostHog/posthog",
-      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
-      "stars": "24.5k★"
+      "description": "Open-source product analytics with session replay, feature flags, and A/B testing.",
+      "stars": "37.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -100,6 +94,7 @@
     }
   ],
   "tags": [
+    "revenue-analytics",
     "analytics"
   ]
 }

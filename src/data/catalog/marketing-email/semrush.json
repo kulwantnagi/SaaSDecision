@@ -77,16 +77,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "SerpBear",
+      "githubUrl": "https://github.com/towfiqi/serpbear",
+      "description": "Self-hosted search-engine rank tracking for your keywords.",
+      "stars": "2.0k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "SEOnaut",
+      "githubUrl": "https://github.com/StJudeWasHere/seonaut",
+      "description": "Open-source technical SEO crawler and site auditor.",
+      "stars": "762★"
+    },
+    {
+      "name": "Matomo",
+      "githubUrl": "https://github.com/matomo-org/matomo",
+      "description": "Google Analytics alternative that protects your data and visitors' privacy.",
+      "stars": "21.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -100,8 +106,7 @@
     }
   ],
   "tags": [
-    "form-builder",
-    "seo-tools",
-    "email"
+    "seo",
+    "marketing-email"
   ]
 }

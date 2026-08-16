@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Memos",
+      "githubUrl": "https://github.com/usememos/memos",
+      "description": "Self-hosted, privacy-first note and journal hub.",
+      "stars": "62.3k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "jrnl",
+      "githubUrl": "https://github.com/jrnl-org/jrnl",
+      "description": "Simple encrypted journal in your command line.",
+      "stars": "7.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "journaling",
     "productivity-notes"
   ]
 }

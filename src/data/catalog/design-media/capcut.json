@@ -49,16 +49,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Kdenlive",
+      "githubUrl": "https://github.com/KDE/kdenlive",
+      "description": "Free and open-source professional video editor.",
+      "stars": "5.5k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Shotcut",
+      "githubUrl": "https://github.com/mltframework/shotcut",
+      "description": "Cross-platform open-source video editor.",
+      "stars": "14.9k★"
+    },
+    {
+      "name": "OpenShot",
+      "githubUrl": "https://github.com/OpenShot/openshot-qt",
+      "description": "Award-winning free and easy-to-use video editor.",
+      "stars": "6.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -80,6 +86,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "video-editing",
+    "design-media"
   ]
 }

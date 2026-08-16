@@ -56,22 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plausible Analytics",
-      "githubUrl": "https://github.com/plausible/analytics",
-      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
-      "stars": "31.2k★"
+      "name": "OpenProject",
+      "githubUrl": "https://github.com/opf/openproject",
+      "description": "Full-featured open-source project management with Gantt, agile boards, and time tracking.",
+      "stars": "15.9k★"
     },
     {
-      "name": "Umami",
-      "githubUrl": "https://github.com/umami-software/umami",
-      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
-      "stars": "27.4k★"
+      "name": "Plane",
+      "githubUrl": "https://github.com/makeplane/plane",
+      "description": "Open-source project and issue tracking — a Jira/Linear alternative.",
+      "stars": "56.0k★"
     },
     {
-      "name": "PostHog",
-      "githubUrl": "https://github.com/PostHog/posthog",
-      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
-      "stars": "24.5k★"
+      "name": "Leantime",
+      "githubUrl": "https://github.com/Leantime/leantime",
+      "description": "Goal-oriented project management suite for small teams.",
+      "stars": "11.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,7 +93,6 @@
     }
   ],
   "tags": [
-    "analytics",
     "project-management"
   ]
 }

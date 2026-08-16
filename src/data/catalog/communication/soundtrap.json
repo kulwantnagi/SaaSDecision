@@ -56,22 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "LMMS",
+      "githubUrl": "https://github.com/LMMS/lmms",
+      "description": "Free cross-platform music production software.",
+      "stars": "10.3k★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
+      "name": "Ardour",
+      "githubUrl": "https://github.com/Ardour/ardour",
+      "description": "Professional cross-platform digital audio workstation.",
+      "stars": "5.2k★"
     },
     {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "name": "Audacity",
+      "githubUrl": "https://github.com/audacity/audacity",
+      "description": "Free multi-track audio editor and recorder.",
+      "stars": "17.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,6 +93,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "music-production",
+    "communication"
   ]
 }

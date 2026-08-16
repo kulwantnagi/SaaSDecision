@@ -56,22 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plausible Analytics",
-      "githubUrl": "https://github.com/plausible/analytics",
-      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
-      "stars": "31.2k★"
+      "name": "Meetily",
+      "githubUrl": "https://github.com/Zackriya-Solutions/meeting-minutes",
+      "description": "Privacy-first AI meeting assistant — records, transcribes, and summarizes locally.",
+      "stars": "29.2k★"
     },
     {
-      "name": "Umami",
-      "githubUrl": "https://github.com/umami-software/umami",
-      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
-      "stars": "27.4k★"
+      "name": "Amurex",
+      "githubUrl": "https://github.com/thepersonalaicompany/amurex",
+      "description": "Open-source AI meeting copilot with transcripts and action items.",
+      "stars": "2.9k★"
     },
     {
-      "name": "PostHog",
-      "githubUrl": "https://github.com/PostHog/posthog",
-      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
-      "stars": "24.5k★"
+      "name": "Vexa",
+      "githubUrl": "https://github.com/Vexa-ai/vexa",
+      "description": "Self-hosted API for real-time meeting transcription bots.",
+      "stars": "2.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,6 +93,7 @@
     }
   ],
   "tags": [
+    "ai-meeting-notes",
     "analytics"
   ]
 }

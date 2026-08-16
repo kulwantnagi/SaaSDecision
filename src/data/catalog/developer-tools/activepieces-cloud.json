@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Nextcloud",
-      "githubUrl": "https://github.com/nextcloud/server",
-      "description": "Open-source self-hosted productivity platform.",
-      "stars": "26k★"
+      "name": "n8n",
+      "githubUrl": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation with native AI and 400+ integrations — a Zapier alternative.",
+      "stars": "200.9k★"
     },
     {
-      "name": "MinIO",
-      "githubUrl": "https://github.com/minio/minio",
-      "description": "High-performance S3 compatible object storage.",
-      "stars": "48k★"
+      "name": "Activepieces",
+      "githubUrl": "https://github.com/activepieces/activepieces",
+      "description": "Open-source no-code business automation — a Zapier alternative.",
+      "stars": "23.8k★"
+    },
+    {
+      "name": "Automatisch",
+      "githubUrl": "https://github.com/automatisch/automatisch",
+      "description": "Open-source Zapier alternative for workflow automation.",
+      "stars": "13.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "automation",
+    "developer-tools"
   ]
 }

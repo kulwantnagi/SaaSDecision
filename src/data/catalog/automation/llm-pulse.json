@@ -56,22 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plausible Analytics",
-      "githubUrl": "https://github.com/plausible/analytics",
-      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
-      "stars": "31.2k★"
+      "name": "Langfuse",
+      "githubUrl": "https://github.com/langfuse/langfuse",
+      "description": "Open-source LLM engineering platform — tracing, evals, and prompt management.",
+      "stars": "33.2k★"
     },
     {
-      "name": "Umami",
-      "githubUrl": "https://github.com/umami-software/umami",
-      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
-      "stars": "27.4k★"
-    },
-    {
-      "name": "PostHog",
-      "githubUrl": "https://github.com/PostHog/posthog",
-      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
-      "stars": "24.5k★"
+      "name": "promptfoo",
+      "githubUrl": "https://github.com/promptfoo/promptfoo",
+      "description": "Test and evaluate LLM prompts, agents, and RAG pipelines.",
+      "stars": "24.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,7 +95,7 @@
     }
   ],
   "tags": [
-    "analytics",
-    "form-builder"
+    "llm-ops",
+    "automation"
   ]
 }

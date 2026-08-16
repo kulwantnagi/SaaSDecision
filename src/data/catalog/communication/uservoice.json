@@ -49,22 +49,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "Fider",
+      "githubUrl": "https://github.com/getfider/fider",
+      "description": "Open platform to collect and prioritize customer feedback.",
+      "stars": "4.5k★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
-    },
-    {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Privacy-first open-source surveys and experience management.",
+      "stars": "12.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +88,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "feedback",
+    "communication"
   ]
 }

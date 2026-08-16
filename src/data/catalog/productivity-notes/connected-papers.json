@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Zotero",
+      "githubUrl": "https://github.com/zotero/zotero",
+      "description": "Free tool to collect, organize, cite, and share research.",
+      "stars": "15.0k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "JabRef",
+      "githubUrl": "https://github.com/JabRef/jabref",
+      "description": "Open-source citation and reference manager.",
+      "stars": "4.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "research-discovery",
     "productivity-notes"
   ]
 }

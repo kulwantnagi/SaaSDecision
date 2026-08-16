@@ -49,19 +49,26 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Invoice Ninja",
-      "githubUrl": "https://github.com/invoiceninja/invoiceninja",
-      "description": "Open-source invoicing, expenses, and time tracking app.",
-      "stars": "8k★"
+      "name": "Hyperswitch",
+      "githubUrl": "https://github.com/juspay/hyperswitch",
+      "description": "Open-source payments switch to route and manage multiple payment providers.",
+      "stars": "43.5k★"
     },
     {
-      "name": "ERPNext",
-      "githubUrl": "https://github.com/frappe/erpnext",
-      "description": "Open-source ERP and accounting platform for business management.",
-      "stars": "18k★"
+      "name": "Kill Bill",
+      "githubUrl": "https://github.com/killbill/killbill",
+      "description": "Open-source subscription billing and payments platform.",
+      "stars": "5.7k★"
+    },
+    {
+      "name": "BTCPay Server",
+      "githubUrl": "https://github.com/btcpayserver/btcpayserver",
+      "description": "Self-hosted payment processor with no fees or middlemen.",
+      "stars": "7.7k★"
     }
   ],
   "tags": [
-    "productivity-notes"
+    "payments",
+    "finance-accounting"
   ]
 }

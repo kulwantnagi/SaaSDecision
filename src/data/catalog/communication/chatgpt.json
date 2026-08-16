@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Mattermost",
-      "githubUrl": "https://github.com/mattermost/mattermost",
-      "description": "Open-source Slack alternative for developer teams.",
-      "stars": "31k★"
+      "name": "Open WebUI",
+      "githubUrl": "https://github.com/open-webui/open-webui",
+      "description": "Feature-rich self-hosted AI chat interface for local and cloud LLMs.",
+      "stars": "148.9k★"
     },
     {
-      "name": "Rocket.Chat",
-      "githubUrl": "https://github.com/RocketChat/Rocket.Chat",
-      "description": "Open-source communication platform.",
-      "stars": "41k★"
+      "name": "LibreChat",
+      "githubUrl": "https://github.com/danny-avila/LibreChat",
+      "description": "Open-source ChatGPT-style app supporting every major AI provider.",
+      "stars": "42.1k★"
+    },
+    {
+      "name": "LobeChat",
+      "githubUrl": "https://github.com/lobehub/lobe-chat",
+      "description": "Open-source AI chat framework with agents, plugins, and multi-provider support.",
+      "stars": "81.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "llm-chat",
+    "communication"
   ]
 }

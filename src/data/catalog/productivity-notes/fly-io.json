@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Coolify",
+      "githubUrl": "https://github.com/coollabsio/coolify",
+      "description": "Self-hostable Heroku/Netlify/Vercel alternative.",
+      "stars": "60.6k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Dokploy",
+      "githubUrl": "https://github.com/Dokploy/dokploy",
+      "description": "Self-hosted PaaS for deploying apps and databases on your own servers.",
+      "stars": "36.6k★"
+    },
+    {
+      "name": "CapRover",
+      "githubUrl": "https://github.com/caprover/caprover",
+      "description": "One-click self-hosted PaaS for apps and databases.",
+      "stars": "15.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "paas-hosting",
     "productivity-notes"
   ]
 }

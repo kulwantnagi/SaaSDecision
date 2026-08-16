@@ -55,22 +55,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plane",
-      "githubUrl": "https://github.com/makeplane/plane",
-      "description": "Open-source project management tool to track issues, epics, and product roadmaps.",
-      "stars": "31.2k★"
+      "name": "Strapi",
+      "githubUrl": "https://github.com/strapi/strapi",
+      "description": "The leading open-source headless CMS, fully customizable.",
+      "stars": "72.9k★"
     },
     {
-      "name": "OpenProject",
-      "githubUrl": "https://github.com/opf/openproject",
-      "description": "Open-source project management software for classic and agile projects.",
-      "stars": "8.4k★"
-    },
-    {
-      "name": "Taiga",
-      "githubUrl": "https://github.com/taigaio/taiga-back",
-      "description": "Agile project management platform for startups and cross-functional teams.",
-      "stars": "7.1k★"
+      "name": "Directus",
+      "githubUrl": "https://github.com/directus/directus",
+      "description": "Instant realtime API and no-code data collaboration app for any SQL database.",
+      "stars": "37.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -84,6 +78,7 @@
     }
   ],
   "tags": [
-    "project-management"
+    "headless-cms",
+    "developer-tools"
   ]
 }

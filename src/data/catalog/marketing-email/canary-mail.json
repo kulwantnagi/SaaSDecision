@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Thunderbird",
-      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
-      "description": "Open-source, privacy-focused email and calendar client.",
-      "stars": "3.5k★"
-    },
-    {
       "name": "Mailspring",
       "githubUrl": "https://github.com/Foundry376/Mailspring",
-      "description": "Extensible open-source email client with unified inbox and tracking.",
-      "stars": "14.8k★"
+      "description": "Beautiful, fast open-source desktop email client for Mac, Linux, and Windows.",
+      "stars": "17.7k★"
+    },
+    {
+      "name": "Tuta Mail",
+      "githubUrl": "https://github.com/tutao/tutanota",
+      "description": "End-to-end encrypted email service with open-source clients.",
+      "stars": "7.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +95,7 @@
     }
   ],
   "tags": [
-    "email"
+    "email-client",
+    "marketing-email"
   ]
 }

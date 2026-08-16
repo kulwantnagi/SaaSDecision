@@ -55,15 +55,21 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Moodle",
+      "githubUrl": "https://github.com/moodle/moodle",
+      "description": "The world's most widely used open-source learning management system.",
+      "stars": "7.3k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
+      "name": "Open edX",
+      "githubUrl": "https://github.com/openedx/edx-platform",
+      "description": "The massive-scale open-source LMS powering edX.",
+      "stars": "8.2k★"
+    },
+    {
+      "name": "Frappe LMS",
+      "githubUrl": "https://github.com/frappe/lms",
+      "description": "Easy-to-use open-source learning management system.",
       "stars": "3.1k★"
     }
   ],
@@ -78,7 +84,7 @@
     }
   ],
   "tags": [
-    "e-signature",
-    "analytics"
+    "lms",
+    "education-lms"
   ]
 }

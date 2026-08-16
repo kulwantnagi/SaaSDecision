@@ -77,15 +77,21 @@
   "openSourceAlternatives": [
     {
       "name": "Baserow",
-      "githubUrl": "https://github.com/basetool/basetool",
-      "description": "Open-source database and Airtable alternative.",
-      "stars": "18k★"
+      "githubUrl": "https://github.com/bram2w/baserow",
+      "description": "Open-source no-code database and Airtable alternative.",
+      "stars": "5.6k★"
     },
     {
-      "name": "Gridsyntax",
-      "githubUrl": "https://github.com/nocodb/nocodb",
-      "description": "Open-source smart spreadsheet interface.",
-      "stars": "45k★"
+      "name": "Teable",
+      "githubUrl": "https://github.com/teableio/teable",
+      "description": "Postgres-powered no-code database with a spreadsheet interface.",
+      "stars": "21.7k★"
+    },
+    {
+      "name": "Grist",
+      "githubUrl": "https://github.com/gristlabs/grist-core",
+      "description": "Modern relational spreadsheet with Python formulas and granular access control.",
+      "stars": "11.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -99,6 +105,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "database-spreadsheet",
+    "developer-tools"
   ]
 }

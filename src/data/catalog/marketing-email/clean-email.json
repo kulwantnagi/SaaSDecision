@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Thunderbird",
-      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
-      "description": "Open-source, privacy-focused email and calendar client.",
-      "stars": "3.5k★"
+      "name": "Inbox Zero",
+      "githubUrl": "https://github.com/elie222/inbox-zero",
+      "description": "Open-source AI email assistant that cleans and organizes your inbox.",
+      "stars": "12.0k★"
     },
     {
       "name": "Mailspring",
       "githubUrl": "https://github.com/Foundry376/Mailspring",
-      "description": "Extensible open-source email client with unified inbox and tracking.",
-      "stars": "14.8k★"
+      "description": "Beautiful, fast open-source desktop email client for Mac, Linux, and Windows.",
+      "stars": "17.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +95,7 @@
     }
   ],
   "tags": [
-    "email"
+    "email-management",
+    "marketing-email"
   ]
 }

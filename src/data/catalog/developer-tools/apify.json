@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Chatwoot",
-      "githubUrl": "https://github.com/chatwoot/chatwoot",
-      "description": "Open-source customer engagement suite, alternative to Intercom & Zendesk.",
-      "stars": "19.5k★"
+      "name": "Crawlee",
+      "githubUrl": "https://github.com/apify/crawlee",
+      "description": "Web scraping and browser automation library for building reliable crawlers.",
+      "stars": "25.4k★"
     },
     {
-      "name": "Botpress",
-      "githubUrl": "https://github.com/botpress/botpress",
-      "description": "The open-source conversational AI platform.",
-      "stars": "11k★"
+      "name": "Scrapy",
+      "githubUrl": "https://github.com/scrapy/scrapy",
+      "description": "Fast high-level web crawling and scraping framework for Python.",
+      "stars": "63.9k★"
+    },
+    {
+      "name": "Maxun",
+      "githubUrl": "https://github.com/getmaxun/maxun",
+      "description": "Open-source no-code web data extraction — train a robot in two minutes.",
+      "stars": "17.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "web-scraping",
+    "developer-tools"
   ]
 }

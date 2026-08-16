@@ -72,14 +72,20 @@
     {
       "name": "Chatwoot",
       "githubUrl": "https://github.com/chatwoot/chatwoot",
-      "description": "Open-source customer engagement suite and live chat platform.",
-      "stars": "21.5k★"
+      "description": "Open-source customer support platform — an Intercom/Zendesk alternative.",
+      "stars": "35.9k★"
     },
     {
-      "name": "Botpress",
-      "githubUrl": "https://github.com/botpress/botpress",
-      "description": "Open-source conversational AI platform to build automated customer support bots.",
-      "stars": "12.4k★"
+      "name": "FreeScout",
+      "githubUrl": "https://github.com/freescout-helpdesk/freescout",
+      "description": "Lightweight self-hosted help desk and shared mailbox — a Help Scout alternative.",
+      "stars": "4.5k★"
+    },
+    {
+      "name": "Zammad",
+      "githubUrl": "https://github.com/zammad/zammad",
+      "description": "Web-based open-source helpdesk and customer support ticketing.",
+      "stars": "5.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
-    "ai-customer-service"
+    "helpdesk",
+    "productivity-notes"
   ]
 }

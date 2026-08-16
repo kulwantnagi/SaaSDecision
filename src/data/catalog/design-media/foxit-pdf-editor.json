@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Stirling PDF",
+      "githubUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "description": "Self-hosted web app for 50+ PDF operations — merge, split, convert, sign.",
+      "stars": "89.6k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "PDF Arranger",
+      "githubUrl": "https://github.com/pdfarranger/pdfarranger",
+      "description": "Merge, split, rotate, and rearrange PDF pages.",
+      "stars": "5.8k★"
+    },
+    {
+      "name": "Xournal++",
+      "githubUrl": "https://github.com/xournalpp/xournalpp",
+      "description": "Handwriting notetaking software with PDF annotation.",
+      "stars": "15.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "pdf-tools",
+    "design-media"
   ]
 }

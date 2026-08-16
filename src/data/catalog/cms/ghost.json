@@ -70,16 +70,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Thunderbird",
-      "githubUrl": "https://github.com/thundernest/thunderbird-notes",
-      "description": "Open-source, privacy-focused email and calendar client.",
-      "stars": "3.5k★"
+      "name": "WordPress",
+      "githubUrl": "https://github.com/WordPress/WordPress",
+      "description": "The world's most popular open-source publishing platform.",
+      "stars": "21.3k★"
     },
     {
-      "name": "Mailspring",
-      "githubUrl": "https://github.com/Foundry376/Mailspring",
-      "description": "Extensible open-source email client with unified inbox and tracking.",
-      "stars": "14.8k★"
+      "name": "WriteFreely",
+      "githubUrl": "https://github.com/writefreely/writefreely",
+      "description": "Clean, minimalist open-source publishing and blogging platform.",
+      "stars": "5.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -93,6 +93,7 @@
     }
   ],
   "tags": [
-    "email"
+    "blogging",
+    "cms"
   ]
 }

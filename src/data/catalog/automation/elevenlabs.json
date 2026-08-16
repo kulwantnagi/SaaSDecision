@@ -84,22 +84,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "Coqui TTS",
+      "githubUrl": "https://github.com/coqui-ai/TTS",
+      "description": "Deep-learning toolkit for text-to-speech with voice cloning.",
+      "stars": "45.9k★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
+      "name": "OpenVoice",
+      "githubUrl": "https://github.com/myshell-ai/OpenVoice",
+      "description": "Instant voice cloning with flexible style control.",
+      "stars": "37.1k★"
     },
     {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "name": "Kokoro",
+      "githubUrl": "https://github.com/hexgrad/kokoro",
+      "description": "Lightweight open-weight TTS model with high-quality voices.",
+      "stars": "8.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -129,7 +129,7 @@
     }
   ],
   "tags": [
-    "voice-dictation",
-    "form-builder"
+    "voice-cloning",
+    "automation"
   ]
 }

@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "NocoDB",
+      "githubUrl": "https://github.com/nocodb/nocodb",
+      "description": "Turns any database into a smart spreadsheet — open-source Airtable alternative.",
+      "stars": "64.6k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Baserow",
+      "githubUrl": "https://github.com/bram2w/baserow",
+      "description": "Open-source no-code database and Airtable alternative.",
+      "stars": "5.6k★"
+    },
+    {
+      "name": "Grist",
+      "githubUrl": "https://github.com/gristlabs/grist-core",
+      "description": "Modern relational spreadsheet with Python formulas and granular access control.",
+      "stars": "11.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
+    "database-spreadsheet",
     "productivity-notes"
   ]
 }

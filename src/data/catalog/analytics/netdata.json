@@ -62,22 +62,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Plausible Analytics",
-      "githubUrl": "https://github.com/plausible/analytics",
-      "description": "Simple, open-source, lightweight and privacy-friendly web analytics.",
-      "stars": "31.2k★"
+      "name": "Grafana",
+      "githubUrl": "https://github.com/grafana/grafana",
+      "description": "Open observability platform for dashboards, metrics, logs, and alerts.",
+      "stars": "76.3k★"
     },
     {
-      "name": "Umami",
-      "githubUrl": "https://github.com/umami-software/umami",
-      "description": "Simple, fast, privacy-focused, open-source analytics solution.",
-      "stars": "27.4k★"
-    },
-    {
-      "name": "PostHog",
-      "githubUrl": "https://github.com/PostHog/posthog",
-      "description": "Open-source product analytics, feature flags, session recording, and A/B testing.",
-      "stars": "24.5k★"
+      "name": "SigNoz",
+      "githubUrl": "https://github.com/SigNoz/signoz",
+      "description": "Open-source APM and observability — a Datadog/New Relic alternative.",
+      "stars": "31.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -91,6 +85,7 @@
     }
   ],
   "tags": [
+    "observability",
     "analytics"
   ]
 }

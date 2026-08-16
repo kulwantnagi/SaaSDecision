@@ -11,9 +11,8 @@
     "Gohighlevel Software"
   ],
   "tags": [
-    "e-signature",
-    "crm",
-    "form-builder"
+    "marketing-crm",
+    "crm-sales"
   ],
   "assessment": {
     "buildComplexity": 3,
@@ -68,16 +67,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Mautic",
+      "githubUrl": "https://github.com/mautic/mautic",
+      "description": "Open-source marketing automation — campaigns, segments, and email nurture.",
+      "stars": "10.3k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Twenty",
+      "githubUrl": "https://github.com/twentyhq/twenty",
+      "description": "Modern open-source CRM — a Salesforce alternative.",
+      "stars": "55.0k★"
+    },
+    {
+      "name": "EspoCRM",
+      "githubUrl": "https://github.com/espocrm/espocrm",
+      "description": "Full-featured open-source CRM with sales automation and workflows.",
+      "stars": "3.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [

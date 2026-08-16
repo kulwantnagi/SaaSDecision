@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Dify",
+      "githubUrl": "https://github.com/langgenius/dify",
+      "description": "Open-source platform for building LLM apps, agents, and RAG pipelines.",
+      "stars": "152.6k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Langflow",
+      "githubUrl": "https://github.com/langflow-ai/langflow",
+      "description": "Visual builder for AI agents and LLM workflows.",
+      "stars": "153.3k★"
+    },
+    {
+      "name": "n8n",
+      "githubUrl": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation with native AI and 400+ integrations — a Zapier alternative.",
+      "stars": "200.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "ai-agents",
     "productivity-notes"
   ]
 }

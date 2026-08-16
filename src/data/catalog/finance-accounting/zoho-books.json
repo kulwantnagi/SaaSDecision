@@ -58,14 +58,20 @@
     {
       "name": "Invoice Ninja",
       "githubUrl": "https://github.com/invoiceninja/invoiceninja",
-      "description": "Open-source invoicing, expenses, and time tracking app.",
-      "stars": "8k★"
+      "description": "Self-hosted invoicing, payments, expenses, and time tracking for freelancers and SMBs.",
+      "stars": "10.0k★"
     },
     {
-      "name": "ERPNext",
-      "githubUrl": "https://github.com/frappe/erpnext",
-      "description": "Open-source ERP and accounting platform for business management.",
-      "stars": "18k★"
+      "name": "Crater",
+      "githubUrl": "https://github.com/crater-invoice/crater",
+      "description": "Open-source invoicing app for freelancers and small businesses.",
+      "stars": "8.3k★"
+    },
+    {
+      "name": "Akaunting",
+      "githubUrl": "https://github.com/akaunting/akaunting",
+      "description": "Free online accounting software for small businesses.",
+      "stars": "10.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "invoicing",
+    "finance-accounting"
   ]
 }

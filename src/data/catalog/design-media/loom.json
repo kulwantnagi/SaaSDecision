@@ -77,16 +77,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
+      "name": "Cap",
+      "githubUrl": "https://github.com/CapSoftware/Cap",
+      "description": "Open-source screen recorder and sharing — a Loom alternative.",
+      "stars": "20.8k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "OBS Studio",
+      "githubUrl": "https://github.com/obsproject/obs-studio",
+      "description": "Free software for video recording and live streaming.",
+      "stars": "75.1k★"
+    },
+    {
+      "name": "Kap",
+      "githubUrl": "https://github.com/wulkano/Kap",
+      "description": "Open-source screen recorder for macOS built on web tech.",
+      "stars": "19.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -108,8 +114,7 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes",
-    "e-signature",
-    "video-recording"
+    "screen-recording",
+    "design-media"
   ]
 }

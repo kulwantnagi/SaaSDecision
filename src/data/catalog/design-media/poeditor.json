@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Weblate",
+      "githubUrl": "https://github.com/WeblateOrg/weblate",
+      "description": "Web-based continuous localization used by 2,500+ open-source projects.",
+      "stars": "6.0k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Tolgee",
+      "githubUrl": "https://github.com/tolgee/tolgee-platform",
+      "description": "Developer-friendly open-source localization platform.",
+      "stars": "4.1k★"
+    },
+    {
+      "name": "Traduora",
+      "githubUrl": "https://github.com/ever-co/ever-traduora",
+      "description": "Open translation management platform for teams.",
+      "stars": "2.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "localization",
+    "design-media"
   ]
 }

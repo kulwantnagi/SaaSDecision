@@ -70,22 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "OpenWhispr",
-      "githubUrl": "https://github.com/openwhispr/openwhispr",
-      "description": "Open-source Whisper-powered voice dictation app for macOS & Linux.",
-      "stars": "4.2k★"
+      "name": "Akaunting",
+      "githubUrl": "https://github.com/akaunting/akaunting",
+      "description": "Free online accounting software for small businesses.",
+      "stars": "10.1k★"
     },
     {
-      "name": "Handy",
-      "githubUrl": "https://github.com/carlrobertoh/handy",
-      "description": "Free open-source speech-to-text dictation application.",
-      "stars": "3.8k★"
+      "name": "ERPNext",
+      "githubUrl": "https://github.com/frappe/erpnext",
+      "description": "Free and open-source ERP covering accounting, inventory, HR, and more.",
+      "stars": "38.2k★"
     },
     {
-      "name": "Buzz",
-      "githubUrl": "https://github.com/charlieroberts/buzz",
-      "description": "Transcribe and translate audio offline using OpenAI Whisper.",
-      "stars": "11.5k★"
+      "name": "GnuCash",
+      "githubUrl": "https://github.com/Gnucash/gnucash",
+      "description": "Mature double-entry accounting software for personal and small-business finance.",
+      "stars": "4.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -99,6 +99,7 @@
     }
   ],
   "tags": [
-    "voice-dictation"
+    "accounting",
+    "finance-accounting"
   ]
 }

@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "n8n",
-      "githubUrl": "https://github.com/n8n-io/n8n",
-      "description": "Open-source workflow automation platform with AI capabilities.",
-      "stars": "55k★"
+      "name": "OsmAnd",
+      "githubUrl": "https://github.com/osmandapp/OsmAnd",
+      "description": "Open-source offline maps and navigation based on OpenStreetMap.",
+      "stars": "5.9k★"
     },
     {
-      "name": "Ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Llama 3, Mistral, and other LLMs locally.",
-      "stars": "105k★"
+      "name": "Organic Maps",
+      "githubUrl": "https://github.com/organicmaps/organicmaps",
+      "description": "Privacy-focused offline maps for travelers, hikers, and cyclists.",
+      "stars": "15.1k★"
+    },
+    {
+      "name": "FitTrackee",
+      "githubUrl": "https://github.com/SamR1/FitTrackee",
+      "description": "Self-hosted outdoor activity tracker — a Strava alternative.",
+      "stars": "1.2k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -95,6 +101,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "outdoor-maps",
+    "automation"
   ]
 }

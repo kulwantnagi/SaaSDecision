@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
+      "name": "Mautic",
+      "githubUrl": "https://github.com/mautic/mautic",
+      "description": "Open-source marketing automation — campaigns, segments, and email nurture.",
+      "stars": "10.3k★"
     },
     {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
+      "name": "Listmonk",
+      "githubUrl": "https://github.com/knadh/listmonk",
+      "description": "High-performance self-hosted newsletter and mailing list manager.",
+      "stars": "22.9k★"
+    },
+    {
+      "name": "n8n",
+      "githubUrl": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation with native AI and 400+ integrations — a Zapier alternative.",
+      "stars": "200.9k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "form-builder"
+    "cold-outreach",
+    "productivity-notes"
   ]
 }

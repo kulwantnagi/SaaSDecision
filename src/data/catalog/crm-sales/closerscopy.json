@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Twenty",
-      "githubUrl": "https://github.com/twentyhq/twenty",
-      "description": "Building a modern open-source alternative to Salesforce.",
-      "stars": "24.1k★"
+      "name": "Ollama",
+      "githubUrl": "https://github.com/ollama/ollama",
+      "description": "Run large language models locally with one command.",
+      "stars": "178.7k★"
     },
     {
-      "name": "SuiteCRM",
-      "githubUrl": "https://github.com/salesagility/SuiteCRM",
-      "description": "Enterprise-grade open-source CRM software for customer relationship management.",
-      "stars": "4.8k★"
+      "name": "Open WebUI",
+      "githubUrl": "https://github.com/open-webui/open-webui",
+      "description": "Feature-rich self-hosted AI chat interface for local and cloud LLMs.",
+      "stars": "148.9k★"
+    },
+    {
+      "name": "LibreChat",
+      "githubUrl": "https://github.com/danny-avila/LibreChat",
+      "description": "Open-source ChatGPT-style app supporting every major AI provider.",
+      "stars": "42.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
-    "crm"
+    "ai-writing",
+    "crm-sales"
   ]
 }

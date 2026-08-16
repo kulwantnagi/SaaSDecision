@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Mattermost",
+      "githubUrl": "https://github.com/mattermost/mattermost",
+      "description": "Secure open-source team collaboration — a Slack alternative.",
+      "stars": "38.8k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Rocket.Chat",
+      "githubUrl": "https://github.com/RocketChat/Rocket.Chat",
+      "description": "Fully customizable open-source team communications platform.",
+      "stars": "46.0k★"
+    },
+    {
+      "name": "Zulip",
+      "githubUrl": "https://github.com/zulip/zulip",
+      "description": "Open-source team chat with unique topic-based threading.",
+      "stars": "25.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
+    "team-chat",
     "productivity-notes"
   ]
 }

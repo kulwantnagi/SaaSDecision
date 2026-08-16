@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Chatwoot",
-      "githubUrl": "https://github.com/chatwoot/chatwoot",
-      "description": "Open-source customer engagement suite and live chat platform.",
-      "stars": "21.5k★"
+      "name": "Formbricks",
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "description": "Privacy-first open-source surveys and experience management.",
+      "stars": "12.8k★"
     },
     {
-      "name": "Botpress",
-      "githubUrl": "https://github.com/botpress/botpress",
-      "description": "Open-source conversational AI platform to build automated customer support bots.",
-      "stars": "12.4k★"
+      "name": "Fider",
+      "githubUrl": "https://github.com/getfider/fider",
+      "description": "Open platform to collect and prioritize customer feedback.",
+      "stars": "4.5k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
-    "ai-customer-service"
+    "testimonials",
+    "productivity-notes"
   ]
 }

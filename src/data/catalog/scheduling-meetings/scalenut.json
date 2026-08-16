@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
+      "name": "SerpBear",
+      "githubUrl": "https://github.com/towfiqi/serpbear",
+      "description": "Self-hosted search-engine rank tracking for your keywords.",
+      "stars": "2.0k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "SEOnaut",
+      "githubUrl": "https://github.com/StJudeWasHere/seonaut",
+      "description": "Open-source technical SEO crawler and site auditor.",
+      "stars": "762★"
+    },
+    {
+      "name": "Matomo",
+      "githubUrl": "https://github.com/matomo-org/matomo",
+      "description": "Google Analytics alternative that protects your data and visitors' privacy.",
+      "stars": "21.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes"
+    "seo",
+    "scheduling-meetings"
   ]
 }

@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Jitsi Meet",
+      "githubUrl": "https://github.com/jitsi/jitsi-meet",
+      "description": "Secure, fully-featured open-source video conferencing.",
+      "stars": "29.7k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "BigBlueButton",
+      "githubUrl": "https://github.com/bigbluebutton/bigbluebutton",
+      "description": "Open-source virtual classroom and webinar system.",
+      "stars": "9.2k★"
+    },
+    {
+      "name": "LiveKit",
+      "githubUrl": "https://github.com/livekit/livekit",
+      "description": "Open-source realtime audio/video infrastructure (WebRTC).",
+      "stars": "20.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
+    "video-conferencing",
     "productivity-notes"
   ]
 }

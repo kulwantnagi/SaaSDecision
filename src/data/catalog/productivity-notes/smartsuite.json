@@ -70,16 +70,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "OpenProject",
+      "githubUrl": "https://github.com/opf/openproject",
+      "description": "Full-featured open-source project management with Gantt, agile boards, and time tracking.",
+      "stars": "15.9k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Plane",
+      "githubUrl": "https://github.com/makeplane/plane",
+      "description": "Open-source project and issue tracking — a Jira/Linear alternative.",
+      "stars": "56.0k★"
+    },
+    {
+      "name": "Leantime",
+      "githubUrl": "https://github.com/Leantime/leantime",
+      "description": "Goal-oriented project management suite for small teams.",
+      "stars": "11.4k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -101,6 +107,7 @@
     }
   ],
   "tags": [
+    "project-management",
     "productivity-notes"
   ]
 }

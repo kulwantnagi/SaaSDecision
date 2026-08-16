@@ -63,16 +63,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Meetily",
-      "githubUrl": "https://github.com/meetily/meetily",
-      "description": "Open-source AI meeting assistant that records, transcribes, and summarizes meetings locally.",
-      "stars": "2.9k★"
+      "name": "Piwigo",
+      "githubUrl": "https://github.com/Piwigo/Piwigo",
+      "description": "Open-source photo gallery software for the web.",
+      "stars": "3.8k★"
     },
     {
-      "name": "Quill Meetings",
-      "githubUrl": "https://github.com/quill/quill-meetings",
-      "description": "Self-hosted AI meeting summary and action-item generator.",
-      "stars": "1.8k★"
+      "name": "Immich",
+      "githubUrl": "https://github.com/immich-app/immich",
+      "description": "High-performance self-hosted photo and video management — a Google Photos alternative.",
+      "stars": "110.7k★"
+    },
+    {
+      "name": "PhotoPrism",
+      "githubUrl": "https://github.com/photoprism/photoprism",
+      "description": "AI-powered self-hosted photos app for the decentralized web.",
+      "stars": "40.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -94,6 +100,7 @@
     }
   ],
   "tags": [
-    "ai-meeting-notes"
+    "photo-gallery",
+    "scheduling-meetings"
   ]
 }

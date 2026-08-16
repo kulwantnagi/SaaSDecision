@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "LMMS",
+      "githubUrl": "https://github.com/LMMS/lmms",
+      "description": "Free cross-platform music production software.",
+      "stars": "10.3k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Ardour",
+      "githubUrl": "https://github.com/Ardour/ardour",
+      "description": "Professional cross-platform digital audio workstation.",
+      "stars": "5.2k★"
+    },
+    {
+      "name": "Audacity",
+      "githubUrl": "https://github.com/audacity/audacity",
+      "description": "Free multi-track audio editor and recorder.",
+      "stars": "17.6k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "music-production",
+    "design-media"
   ]
 }

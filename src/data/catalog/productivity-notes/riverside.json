@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Cap",
-      "githubUrl": "https://github.com/capway/cap",
-      "description": "Open-source Loom alternative for effortless instant video screen sharing.",
-      "stars": "6.7k★"
+      "name": "Audacity",
+      "githubUrl": "https://github.com/audacity/audacity",
+      "description": "Free multi-track audio editor and recorder.",
+      "stars": "17.6k★"
     },
     {
       "name": "OBS Studio",
       "githubUrl": "https://github.com/obsproject/obs-studio",
-      "description": "Free and open source software for video recording and live streaming.",
-      "stars": "58.2k★"
+      "description": "Free software for video recording and live streaming.",
+      "stars": "75.1k★"
+    },
+    {
+      "name": "Castopod",
+      "githubUrl": "https://github.com/ad-aures/castopod",
+      "description": "Self-hosted podcast hosting with built-in fediverse community.",
+      "stars": "863★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +93,7 @@
     }
   ],
   "tags": [
-    "video-recording"
+    "podcast-production",
+    "productivity-notes"
   ]
 }

@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Element",
+      "githubUrl": "https://github.com/element-hq/element-web",
+      "description": "Secure decentralized messenger built on the Matrix protocol.",
+      "stars": "13.4k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Revolt",
+      "githubUrl": "https://github.com/revoltchat/revolt",
+      "description": "Open-source user-first chat platform — a Discord alternative.",
+      "stars": "2.3k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
-    "productivity-notes"
+    "messaging",
+    "communication"
   ]
 }

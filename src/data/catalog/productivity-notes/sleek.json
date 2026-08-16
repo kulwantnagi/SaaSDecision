@@ -54,20 +54,7 @@
       "url": "https://sleek.com"
     }
   ],
-  "openSourceAlternatives": [
-    {
-      "name": "Formbricks",
-      "githubUrl": "https://github.com/formbricks/formbricks",
-      "description": "Open-source experience management and survey builder.",
-      "stars": "9.3k★"
-    },
-    {
-      "name": "OhMyForm",
-      "githubUrl": "https://github.com/ohmyform/ohmyform",
-      "description": "Open-source web form builder for creating forms, surveys, and polls.",
-      "stars": "3.6k★"
-    }
-  ],
+  "openSourceAlternatives": [],
   "verifiedCommercialAlternatives": [
     {
       "name": "Notion",

@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "SimpleLogin",
+      "githubUrl": "https://github.com/simple-login/app",
+      "description": "Open-source email alias solution to protect your identity.",
+      "stars": "6.9k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "addy.io",
+      "githubUrl": "https://github.com/anonaddy/anonaddy",
+      "description": "Anonymous email forwarding — create unlimited email aliases.",
+      "stars": "4.8k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "privacy-protection",
     "productivity-notes"
   ]
 }

@@ -56,16 +56,22 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "Documenso",
-      "githubUrl": "https://github.com/documenso/documenso",
-      "description": "The open-source digital signature alternative for signing documents securely.",
-      "stars": "8.9k★"
+      "name": "Nextcloud",
+      "githubUrl": "https://github.com/nextcloud/server",
+      "description": "Self-hosted files, calendar, contacts, and collaboration platform.",
+      "stars": "36.4k★"
     },
     {
-      "name": "Anvil",
-      "githubUrl": "https://github.com/anvilco/anvil-pdf",
-      "description": "Open-source PDF generation and e-signature document workflow engine.",
-      "stars": "3.1k★"
+      "name": "Seafile",
+      "githubUrl": "https://github.com/haiwen/seafile",
+      "description": "High-performance open-source file sync and share.",
+      "stars": "15.1k★"
+    },
+    {
+      "name": "Syncthing",
+      "githubUrl": "https://github.com/syncthing/syncthing",
+      "description": "Continuous decentralized file synchronization between devices.",
+      "stars": "87.7k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -79,6 +85,7 @@
     }
   ],
   "tags": [
-    "e-signature"
+    "file-sync",
+    "developer-tools"
   ]
 }

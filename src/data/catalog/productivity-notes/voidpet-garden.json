@@ -56,16 +56,16 @@
   ],
   "openSourceAlternatives": [
     {
-      "name": "AppFlowy",
-      "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "description": "Open-source Notion alternative for data privacy and security.",
-      "stars": "54.1k★"
+      "name": "Habitica",
+      "githubUrl": "https://github.com/HabitRPG/habitica",
+      "description": "Gamified habit and productivity app — level up your life.",
+      "stars": "14.1k★"
     },
     {
-      "name": "Logseq",
-      "githubUrl": "https://github.com/logseq/logseq",
-      "description": "Privacy-first, open-source knowledge base for outline note-taking.",
-      "stars": "32.5k★"
+      "name": "Loop Habit Tracker",
+      "githubUrl": "https://github.com/iSoron/uhabits",
+      "description": "Simple Android app for creating and maintaining good habits.",
+      "stars": "10.1k★"
     }
   ],
   "verifiedCommercialAlternatives": [
@@ -87,6 +87,7 @@
     }
   ],
   "tags": [
+    "habits",
     "productivity-notes"
   ]
 }
