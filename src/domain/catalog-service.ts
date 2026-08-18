@@ -55,6 +55,181 @@ export function getSoftwareByCategory(categorySlug: string): VerifiedProductSeed
   return categoryMap.get(targetCat) || [];
 }
 
+export interface UniqueOpenSourceTool {
+  slug: string;
+  name: string;
+  githubUrl: string;
+  categorySlug: string;
+  categoryName: string;
+  tags: string[];
+  replacedProducts: { slug: string; name: string; categoryName: string; shortDescription: string }[];
+  dockerImage?: string;
+  license?: string;
+  description?: string;
+}
+
+// Pre-cached OSS directory
+let cachedOssTools: UniqueOpenSourceTool[] | null = null;
+const ossMapBySlug = new Map<string, UniqueOpenSourceTool>();
+
+function initOssDirectory(): UniqueOpenSourceTool[] {
+  if (cachedOssTools) return cachedOssTools;
+
+  const map = new Map<string, UniqueOpenSourceTool>();
+
+  for (const prod of ALL_SOFTWARE_PRODUCTS) {
+    if (Array.isArray(prod.openSourceAlternatives)) {
+      for (const os of prod.openSourceAlternatives) {
+        if (!os.name) continue;
+        const slug = os.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+        if (!slug) continue;
+
+        if (!map.has(slug)) {
+          const dockerName = slug.includes('/') ? slug : `${slug}/${slug}`;
+          map.set(slug, {
+            slug,
+            name: os.name,
+            githubUrl: os.githubUrl || `https://github.com/search?q=${encodeURIComponent(os.name)}`,
+            categorySlug: prod.categorySlug || 'developer-tools',
+            categoryName: prod.categoryName || 'Open Source Software',
+            tags: Array.isArray(prod.tags) ? [...prod.tags] : [],
+            replacedProducts: [],
+            dockerImage: `${slug}:latest`,
+            license: 'Open Source (AGPLv3 / Apache 2.0 / MIT)',
+            description: `${os.name} is a high-performance open-source, self-hostable alternative to commercial SaaS platforms. It provides 100% data ownership, zero vendor lock-in, and full deployment freedom via Docker and Kubernetes.`,
+          });
+        }
+
+        const item = map.get(slug)!;
+        if (!item.replacedProducts.some((p) => p.slug === prod.slug)) {
+          item.replacedProducts.push({
+            slug: prod.slug,
+            name: prod.name,
+            categoryName: prod.categoryName,
+            shortDescription: prod.shortDescription,
+          });
+        }
+      }
+    }
+  }
+
+  cachedOssTools = Array.from(map.values()).sort((a, b) => b.replacedProducts.length - a.replacedProducts.length);
+  for (const tool of cachedOssTools) {
+    ossMapBySlug.set(tool.slug, tool);
+  }
+
+  return cachedOssTools;
+}
+
+/**
+ * Retrieves all unique verified open-source software tools indexed in the catalog
+ */
+export function getAllUniqueOpenSourceTools(): UniqueOpenSourceTool[] {
+  return initOssDirectory();
+}
+
+/**
+ * Retrieves a single unique open-source software tool by its slug
+ */
+export function getOpenSourceToolBySlug(slug: string): UniqueOpenSourceTool | undefined {
+  initOssDirectory();
+  return ossMapBySlug.get(slug.toLowerCase().trim());
+}
+
+export interface ComparisonPairMeta {
+  slugPair: string;
+  slugA: string;
+  slugB: string;
+  nameA: string;
+  nameB: string;
+  categorySlug: string;
+  categoryName: string;
+}
+
+// Pre-computed top comparison pairs cache
+let cachedComparisonPairs: ComparisonPairMeta[] | null = null;
+
+/**
+ * Retrieves top head-to-head comparison pairs across the entire catalog
+ */
+export function getTopComparisonPairs(limitPerProduct = 3): ComparisonPairMeta[] {
+  if (cachedComparisonPairs) return cachedComparisonPairs;
+
+  const pairMap = new Map<string, ComparisonPairMeta>();
+
+  for (const prod of ALL_SOFTWARE_PRODUCTS) {
+    const peers = getComparisonPartnersForProduct(prod.slug, limitPerProduct);
+    for (const peer of peers) {
+      const [first, second] = [prod, peer].sort((a, b) => a.slug.localeCompare(b.slug));
+      const key = `${first.slug}-vs-${second.slug}`;
+      if (!pairMap.has(key)) {
+        pairMap.set(key, {
+          slugPair: key,
+          slugA: first.slug,
+          slugB: second.slug,
+          nameA: first.name,
+          nameB: second.name,
+          categorySlug: first.categorySlug || second.categorySlug,
+          categoryName: first.categoryName || second.categoryName,
+        });
+      }
+    }
+  }
+
+  cachedComparisonPairs = Array.from(pairMap.values());
+  return cachedComparisonPairs;
+}
+
+/**
+ * Finds the most relevant comparison partners for a given software product
+ */
+export function getComparisonPartnersForProduct(productSlug: string, limit = 5): VerifiedProductSeed[] {
+  const prod = getSoftwareBySlug(productSlug);
+  if (!prod) return [];
+
+  const partners: VerifiedProductSeed[] = [];
+  const addedSlugs = new Set<string>([prod.slug]);
+
+  // 1. Explicit verified commercial alternatives
+  if (Array.isArray(prod.verifiedCommercialAlternatives)) {
+    for (const alt of prod.verifiedCommercialAlternatives) {
+      const altSlug = alt.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      const match = getSoftwareBySlug(altSlug) || ALL_SOFTWARE_PRODUCTS.find((p) => p.name.toLowerCase() === alt.name.toLowerCase());
+      if (match && !addedSlugs.has(match.slug)) {
+        partners.push(match);
+        addedSlugs.add(match.slug);
+      }
+    }
+  }
+
+  // 2. Shared functional tags match
+  if (partners.length < limit && Array.isArray(prod.tags) && prod.tags.length > 0) {
+    const prodTags = new Set(prod.tags.map((t) => t.toLowerCase().trim()));
+    const tagMatches = ALL_SOFTWARE_PRODUCTS.filter((p) => {
+      if (addedSlugs.has(p.slug) || !Array.isArray(p.tags)) return false;
+      return p.tags.some((t) => prodTags.has(t.toLowerCase().trim()));
+    });
+
+    for (const match of tagMatches) {
+      if (partners.length >= limit) break;
+      partners.push(match);
+      addedSlugs.add(match.slug);
+    }
+  }
+
+  // 3. Same category match
+  if (partners.length < limit && prod.categorySlug) {
+    const categoryPeers = getSoftwareByCategory(prod.categorySlug).filter((p) => !addedSlugs.has(p.slug));
+    for (const peer of categoryPeers) {
+      if (partners.length >= limit) break;
+      partners.push(peer);
+      addedSlugs.add(peer.slug);
+    }
+  }
+
+  return partners.slice(0, limit);
+}
+
 /**
  * Resolves a comparison slug pair (e.g. "notion-vs-obsidian") into two verified products
  */

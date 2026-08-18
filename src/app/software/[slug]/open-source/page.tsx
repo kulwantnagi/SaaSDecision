@@ -66,8 +66,59 @@ export default async function OpenSourcePage({
     6
   );
 
+  const topOss = prod.openSourceAlternatives?.[0];
+  const dockerComposeSnippet = `version: '3.8'
+services:
+  ${topOss ? topOss.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') : 'app'}:
+    image: ${topOss ? `${topOss.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}:latest` : 'postgres:16-alpine'}
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://postgres:secret@db:5432/${prod.slug.replace(/[^a-z0-9]+/g, '_')}
+    depends_on:
+      - db
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=secret
+volumes:
+  pgdata:`;
+
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `Is ${prod.name} open source?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `No, ${prod.name} is proprietary commercial SaaS. However, verified open-source self-hostable alternatives exist including ${prod.openSourceAlternatives?.map((o) => o.name).join(', ') || 'community projects'}.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `How do I self-host an alternative to ${prod.name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `You can self-host ${topOss?.name || 'an open-source replacement'} on any VPS (such as Hostinger or DigitalOcean starting at $4-$5/month) using Docker Compose for 100% data sovereignty and zero monthly subscription fees.`,
+        },
+      },
+    ],
+  };
+
   return (
     <div className="space-y-8 max-w-5xl mx-auto py-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+
       {/* Breadcrumbs */}
       <nav className="text-xs text-[#64748b] flex items-center gap-2">
         <Link href="/" className="hover:text-[#2b00d9] transition">Home</Link>
@@ -114,34 +165,42 @@ export default async function OpenSourcePage({
         <h2 className="text-xl font-bold text-[#0f172a]">Verified Open-Source Repositories</h2>
         <div className="grid gap-5 sm:grid-cols-2">
           {prod.openSourceAlternatives && prod.openSourceAlternatives.length > 0 ? (
-            prod.openSourceAlternatives.map((os, idx) => (
-              <div key={idx} className="bg-white border border-[#e2e8f0] p-6 rounded-3xl space-y-4 shadow-sm flex flex-col justify-between">
-                <div className="space-y-2">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <span className="text-[10px] font-bold text-[#9333ea] uppercase">Verified Repository</span>
-                      <h3 className="text-xl font-extrabold text-[#0f172a] mt-0.5">{os.name}</h3>
+            prod.openSourceAlternatives.map((os, idx) => {
+              const osSlug = os.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+              return (
+                <div key={idx} className="bg-white border border-[#e2e8f0] p-6 rounded-3xl space-y-4 shadow-sm flex flex-col justify-between">
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-start">
+                      <div>
+                        <span className="text-[10px] font-bold text-[#9333ea] uppercase">Verified Repository</span>
+                        <h3 className="text-xl font-extrabold text-[#0f172a] mt-0.5">{os.name}</h3>
+                      </div>
+                      <span className="text-xs bg-[#f3e8ff] text-[#6b21a8] px-3 py-1 rounded-full font-bold">
+                        {os.stars}
+                      </span>
                     </div>
-                    <span className="text-xs bg-[#f3e8ff] text-[#6b21a8] px-3 py-1 rounded-full font-bold">
-                      {os.stars}
-                    </span>
+                    <p className="text-xs text-[#475569] leading-relaxed font-medium pt-1">{os.description}</p>
                   </div>
-                  <p className="text-xs text-[#475569] leading-relaxed font-medium pt-1">{os.description}</p>
-                </div>
 
-                <div className="pt-3 flex justify-between items-center border-t border-[#e2e8f0]">
-                  <span className="text-xs text-[#16a34a] font-bold">Zero License Fees</span>
-                  <a
-                    href={os.githubUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-[#9333ea] hover:bg-[#7e22ce] text-white font-bold text-xs px-4 py-2.5 rounded-xl transition shadow-sm"
-                  >
-                    View GitHub Repo ↗
-                  </a>
+                  <div className="pt-3 flex flex-wrap justify-between items-center gap-2 border-t border-[#e2e8f0]">
+                    <Link
+                      href={`/open-source/${osSlug}`}
+                      className="text-xs font-bold text-[#9333ea] hover:underline"
+                    >
+                      {os.name} Deep Dive →
+                    </Link>
+                    <a
+                      href={os.githubUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="bg-[#9333ea] hover:bg-[#7e22ce] text-white font-bold text-xs px-4 py-2 rounded-xl transition shadow-sm"
+                    >
+                      View GitHub ↗
+                    </a>
+                  </div>
                 </div>
-              </div>
-            ))
+              );
+            })
           ) : (
             <div className="bg-white border border-[#e2e8f0] p-6 rounded-3xl space-y-3 sm:col-span-2 shadow-sm">
               <h3 className="text-lg font-extrabold text-[#0f172a]">Open-{prod.name} Project</h3>
@@ -149,6 +208,25 @@ export default async function OpenSourcePage({
             </div>
           )}
         </div>
+      </section>
+
+      {/* Quickstart Docker Compose Template */}
+      <section className="bg-[#0f172a] text-white rounded-3xl p-6 sm:p-8 space-y-4 shadow-sm">
+        <div className="flex justify-between items-center border-b border-slate-800 pb-3">
+          <div className="space-y-1">
+            <span className="text-[10px] uppercase font-bold text-[#818cf8] tracking-wider">
+              Self-Host Quickstart
+            </span>
+            <h3 className="text-lg font-black">Docker Compose Template for {topOss?.name || 'Open-Source Alternative'}</h3>
+          </div>
+          <span className="text-xs font-mono text-slate-400 bg-slate-800 px-2.5 py-1 rounded">docker-compose.yml</span>
+        </div>
+        <pre className="text-xs font-mono bg-slate-900/90 p-4 rounded-2xl overflow-x-auto text-emerald-400 border border-slate-800 leading-relaxed">
+          <code>{dockerComposeSnippet}</code>
+        </pre>
+        <p className="text-xs text-slate-400">
+          Save this as <code className="text-indigo-300">docker-compose.yml</code> on your VPS and run <code className="text-indigo-300">docker compose up -d</code> to launch.
+        </p>
       </section>
 
       {/* Self-Hosting VPS Provider Recommendation Guide */}

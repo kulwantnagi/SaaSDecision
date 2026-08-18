@@ -151,14 +151,17 @@ export default function Header() {
             )}
           </div>
 
+          <Link href="/open-source" className="hover:text-[#2b00d9] transition-colors font-bold text-[#9333ea]">
+            Open Source
+          </Link>
+          <Link href="/compare" className="hover:text-[#2b00d9] transition-colors">
+            Compare
+          </Link>
           <Link href="/audit" className="hover:text-[#2b00d9] transition-colors">
             Stack Audit
           </Link>
           <Link href="/blueprint" className="hover:text-[#2b00d9] transition-colors">
-            AI Replacement Blueprint
-          </Link>
-          <Link href="/expert-audit" className="hover:text-[#2b00d9] transition-colors">
-            Expert Review
+            AI Blueprint
           </Link>
         </nav>
 
@@ -255,6 +258,20 @@ export default function Header() {
               )}
             </div>
 
+            <Link
+              href="/open-source"
+              onClick={() => setMobileMenuOpen(false)}
+              className="px-3 py-2 rounded-xl hover:bg-[#f3e8ff] hover:text-[#9333ea] text-[#9333ea] font-extrabold transition"
+            >
+              ⭐ Open Source Directory
+            </Link>
+            <Link
+              href="/compare"
+              onClick={() => setMobileMenuOpen(false)}
+              className="px-3 py-2 rounded-xl hover:bg-[#eef2ff] hover:text-[#2b00d9] transition"
+            >
+              Compare Tools
+            </Link>
             <Link
               href="/audit"
               onClick={() => setMobileMenuOpen(false)}

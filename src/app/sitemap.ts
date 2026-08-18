@@ -1,4 +1,4 @@
-import { ALL_SOFTWARE_PRODUCTS } from '@/domain/catalog-service';
+import { ALL_SOFTWARE_PRODUCTS, getAllUniqueOpenSourceTools, getTopComparisonPairs } from '@/domain/catalog-service';
 import { CATEGORY_TREE } from '@/domain/category-navigation';
 
 export default async function sitemap() {
@@ -12,7 +12,8 @@ export default async function sitemap() {
     { url: `${baseUrl}/audit`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${baseUrl}/blueprint`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${baseUrl}/expert-audit`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
-    { url: `${baseUrl}/compare`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/compare`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/open-source`, lastModified: now, changeFrequency: 'daily' as const, priority: 0.9 },
     { url: `${baseUrl}/lead`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
   ];
 
@@ -22,6 +23,15 @@ export default async function sitemap() {
     lastModified: now,
     changeFrequency: 'weekly' as const,
     priority: 0.9,
+  }));
+
+  // Dedicated Open-Source Tool Directory pages
+  const ossTools = getAllUniqueOpenSourceTools();
+  const ossUrls = ossTools.map((os) => ({
+    url: `${baseUrl}/open-source/${os.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.85,
   }));
 
   // Software detail, open-source, and alternatives sub-routes
@@ -46,5 +56,14 @@ export default async function sitemap() {
     },
   ]);
 
-  return [...staticPages, ...categoryUrls, ...softwareUrls];
+  // Top high-intent comparison pairs
+  const topPairs = getTopComparisonPairs(3);
+  const compareUrls = topPairs.map((pair) => ({
+    url: `${baseUrl}/compare/${pair.slugPair}`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...categoryUrls, ...ossUrls, ...softwareUrls, ...compareUrls];
 }

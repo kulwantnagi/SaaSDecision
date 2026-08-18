@@ -7,7 +7,7 @@ export async function GET() {
 
   const content = `# SaaS Decision — Open Source SaaS Alternatives
 
-> SaaS Decision is a deterministic software intelligence platform that helps businesses decide whether to KEEP, SWITCH, SELF-HOST, AUTOMATE, or BUILD any SaaS product. It indexes 985+ commercial software tools and maps each to verified open-source alternatives.
+> SaaS Decision is a deterministic software intelligence platform that helps businesses decide whether to KEEP, SWITCH, SELF-HOST, AUTOMATE, or BUILD any SaaS product. It indexes 1,011 commercial software tools and maps each to verified open-source alternatives.
 
 ## What This Site Does
 
@@ -21,10 +21,10 @@ SaaS Decision evaluates software tools using a pure rule-based scoring engine (n
 
 ## Data Coverage
 
-- 985 commercial SaaS tools indexed across 18 categories
-- Verified open-source alternatives for each tool (Plane, Twenty, n8n, Metabase, Mattermost, Chatwoot, etc.)
+- 1,011 commercial SaaS tools indexed across 22 categories
+- 325+ verified open-source alternatives for each tool (Plane, Twenty, n8n, Metabase, Mattermost, Chatwoot, Postiz, Listmonk, ComfyUI, etc.)
 - Pricing, moat analysis, and risk scores for every product
-- Categories: Automation, Project Management, CRM, Analytics, Communication, HR, Finance, DevOps, Security, Marketing, Design, Scheduling, Video Conferencing, E-Commerce, Database, Storage, Monitoring, Password Management
+- Categories: Automation, Project Management, CRM, Analytics, Communication, HR, Finance, DevOps, Security, Marketing, Design, Scheduling, Video Conferencing, Forms, Storage, CMS, and more.
 
 ## Key Pages
 
@@ -32,11 +32,15 @@ SaaS Decision evaluates software tools using a pure rule-based scoring engine (n
 - ${baseUrl}/software/[slug] — Individual tool analysis with KEEP/SWITCH/SELF-HOST/AUTOMATE/BUILD scores
 - ${baseUrl}/software/[slug]/open-source — Open-source alternatives for any tool
 - ${baseUrl}/software/[slug]/alternatives — Commercial alternatives comparison
+- ${baseUrl}/compare — Head-to-Head comparison hub
+- ${baseUrl}/compare/[slugA]-vs-[slugB] — Side-by-side deterministic VS matrix
+- ${baseUrl}/open-source — Verified Open Source SaaS Directory
+- ${baseUrl}/open-source/[osSlug] — Open-source project profile and self-hosting guide
 - ${baseUrl}/audit — SaaS stack audit tool
 - ${baseUrl}/blueprint — AI replacement blueprint generator
 - ${baseUrl}/category/[slug] — Browse by software category
 - ${baseUrl}/sitemap.xml — Full sitemap of all indexed tools
-- ${baseUrl}/llms-full.txt — Complete markdown dump of all 1,010 software products & open source alternatives for AI indexing
+- ${baseUrl}/llms-full.txt — Complete markdown dump of all 1,011 software products & open source alternatives for AI indexing
 
 ## How Scores Are Calculated
 
